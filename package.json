@@ -15,7 +15,7 @@
     "db:migrate:deploy": "prisma migrate deploy",
     "db:seed": "tsx prisma/seed.ts",
     "db:verify": "tsx scripts/verify-db.ts",
-    "db:gate": "pnpm db:generate && pnpm db:migrate:deploy && pnpm db:seed && pnpm db:verify"
+    "db:gate": "npm run db:generate && npm run db:migrate:deploy && npm run db:seed && npm run db:verify"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
@@ -44,6 +44,5 @@
     "tsx": "^4.20.6",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
-  },
-  "packageManager": "pnpm@11.19.0"
+  }
 }
