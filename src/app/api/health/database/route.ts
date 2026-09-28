@@ -8,28 +8,23 @@ export async function GET() {
       prisma.$queryRaw<Array<{ ok: number }>>`SELECT 1 AS ok`,
       prisma.user.count(),
     ]);
-
-    return Response.json(
-      {
-        ok: databaseResult[0]?.ok === 1,
-        database: "OK",
-        users: "OK",
-        userCount,
-        runtime: process.env.NEXT_RUNTIME ?? "nodejs",
-      },
-      { status: 200 },
-    );
+    return Response.json({ ok: databaseResult[0]?.ok === 1, database: "OK", users: "OK", userCount });
   } catch (error) {
     console.error("Database health check failed", error);
-    const e = error as { name?: string; code?: string };
-    return Response.json(
-      {
-        ok: false,
-        database: "ERROR",
-        errorType: e?.name ?? "UnknownError",
-        errorCode: e?.code ?? null,
-      },
-      { status: 500 },
-    );
+    const e = error as { name?: string; code?: string; message?: string };
+    const message = e?.message ?? "";
+    const safeHint =
+      message.includes("libssl") || message.includes("OpenSSL") ? "OPENSSL" :
+      message.includes("Query engine library") ? "QUERY_ENGINE" :
+      message.includes("DATABASE_URL") ? "DATABASE_URL" :
+      message.includes("Can't reach database server") ? "DB_UNREACHABLE" :
+      "OTHER";
+    return Response.json({
+      ok: false,
+      database: "ERROR",
+      errorType: e?.name ?? "UnknownError",
+      errorCode: e?.code ?? null,
+      hint: safeHint,
+    }, { status: 500 });
   }
 }
