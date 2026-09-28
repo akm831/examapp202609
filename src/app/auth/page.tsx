@@ -1,0 +1,1 @@
+import { AuthForm } from "@/components/auth-form";export default function AuthPage(){return <main className="shell"><div className="card"><p className="eyebrow">EXAMAPP 202609</p><h1>学習を始める</h1><p className="muted">同じアカウントでログインすると、PCとスマートフォンで進捗が同期されます。</p><AuthForm/></div></main>}

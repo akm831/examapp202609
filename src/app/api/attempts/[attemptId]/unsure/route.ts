@@ -1,0 +1,2 @@
+import { requireUser } from "@/server/auth";import { apiErrorResponse } from "@/server/errors";import { updateUnsure } from "@/server/study-service";import { unsureSchema } from "@/server/validation";
+export async function PATCH(r:Request,{params}:{params:Promise<{attemptId:string}>}){try{const u=await requireUser();const v=unsureSchema.parse(await r.json());return Response.json(await updateUnsure(u.id,(await params).attemptId,v.wasUnsure))}catch(e){return apiErrorResponse(e)}}

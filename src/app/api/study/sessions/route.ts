@@ -1,0 +1,2 @@
+import { requireUser } from "@/server/auth";import { apiErrorResponse } from "@/server/errors";import { createStudySession } from "@/server/study-service";import { createSessionSchema } from "@/server/validation";
+export async function POST(r:Request){try{const u=await requireUser();return Response.json(await createStudySession(u.id,createSessionSchema.parse(await r.json())),{status:201})}catch(e){return apiErrorResponse(e)}}

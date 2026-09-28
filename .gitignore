@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.pnpm-store/
+playwright-report/
+test-results/
+.env
+.env.local
+*.log
+*.tsbuildinfo
+__pycache__/
+*.pyc
+.local/
+sources/
+AGENTS.md

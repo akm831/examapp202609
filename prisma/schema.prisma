@@ -1,0 +1,178 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum VerificationStatus {
+  CONFIRMED
+  JUDGMENT_CONFIRMED_REASON_UNVERIFIED
+  PAST_EXAM_ONLY
+  SOURCE_UNCERTAIN
+}
+enum MasteryStatus {
+  NEW
+  LEARNING
+  REVIEW
+  MASTERED
+  RELEARNING
+}
+enum StudyMode {
+  TODAY
+  SUBJECT
+  WRONG
+  RANDOM
+}
+
+model Subject {
+  id String @id @default(uuid()) @db.Uuid
+  slug String @unique
+  name String
+  sortOrder Int
+  items StudyItem[]
+  sessions StudySession[]
+}
+
+model StudyItem {
+  id String @id @db.Uuid
+  subjectId String @db.Uuid
+  subject Subject @relation(fields: [subjectId], references: [id])
+  sourceItemKey String @unique
+  questionGroup String
+  sourceType String
+  itemType String
+  statementText String
+  correctJudgment Boolean
+  judgmentSource String
+  explanation String
+  explanationType String
+  sourceReference String
+  verificationStatus VerificationStatus
+  reviewEligible Boolean
+  judgmentAsOf DateTime? @db.Date
+  historicalJudgment Boolean?
+  historicalContext String?
+  timeSensitive Boolean @default(false)
+  caution String?
+  sourceDocument String
+  sourceQuestionNumber String
+  sourceItemNumber Int
+  sourceHeading String
+  sourceOrder Int
+  metadata Json
+  active Boolean @default(true)
+  attempts AnswerAttempt[]
+  progresses StudyItemProgress[]
+  sessionItems StudySessionItem[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  @@index([subjectId, active, reviewEligible])
+  @@index([verificationStatus])
+}
+
+model User {
+  id String @id @default(uuid()) @db.Uuid
+  email String @unique
+  passwordHash String
+  attempts AnswerAttempt[]
+  progresses StudyItemProgress[]
+  sessions StudySession[]
+  settings ReviewSettings?
+  loginSessions LoginSession[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model LoginSession {
+  id String @id @default(uuid()) @db.Uuid
+  tokenHash String @unique
+  userId String @db.Uuid
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  @@index([userId, expiresAt])
+}
+
+model AnswerAttempt {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  studyItemId String @db.Uuid
+  sessionId String? @db.Uuid
+  requestId String @db.Uuid
+  selectedJudgment Boolean
+  isCorrect Boolean
+  wasUnsure Boolean @default(false)
+  answeredAt DateTime @default(now())
+  responseMs Int?
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  studyItem StudyItem @relation(fields: [studyItemId], references: [id])
+  session StudySession? @relation(fields: [sessionId], references: [id])
+  @@unique([userId, requestId])
+  @@unique([sessionId, studyItemId])
+  @@index([userId, studyItemId, answeredAt])
+}
+
+model StudyItemProgress {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  studyItemId String @db.Uuid
+  attemptsCount Int @default(0)
+  correctCount Int @default(0)
+  incorrectCount Int @default(0)
+  consecutiveCorrect Int @default(0)
+  lastAnsweredAt DateTime?
+  lastResult Boolean?
+  lastWasUnsure Boolean?
+  masteryStatus MasteryStatus @default(NEW)
+  nextReviewAt DateTime?
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  studyItem StudyItem @relation(fields: [studyItemId], references: [id])
+  updatedAt DateTime @updatedAt
+  @@unique([userId, studyItemId])
+  @@index([userId, nextReviewAt])
+  @@index([userId, masteryStatus])
+}
+
+model StudySession {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @db.Uuid
+  mode StudyMode
+  subjectId String? @db.Uuid
+  requestedCount Int
+  localDate String?
+  startedAt DateTime @default(now())
+  endedAt DateTime?
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  subject Subject? @relation(fields: [subjectId], references: [id])
+  attempts AnswerAttempt[]
+  items StudySessionItem[]
+  @@index([userId, startedAt])
+  @@unique([userId, mode, localDate])
+}
+
+model StudySessionItem {
+  id String @id @default(uuid()) @db.Uuid
+  sessionId String @db.Uuid
+  studyItemId String @db.Uuid
+  position Int
+  session StudySession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  studyItem StudyItem @relation(fields: [studyItemId], references: [id])
+  @@unique([sessionId, studyItemId])
+  @@unique([sessionId, position])
+}
+
+model ReviewSettings {
+  id String @id @default(uuid()) @db.Uuid
+  userId String @unique @db.Uuid
+  newItemsPerDay Int @default(10)
+  dailyReviewLimit Int @default(50)
+  includeSourceUncertain Boolean @default(false)
+  timezone String @default("Asia/Tokyo")
+  examDate DateTime? @db.Date
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

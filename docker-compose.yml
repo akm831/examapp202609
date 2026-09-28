@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: examapp
+      POSTGRES_PASSWORD: examapp
+      POSTGRES_DB: examapp
+    ports: ["5432:5432"]
+    volumes: ["examapp-postgres:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U examapp"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+volumes:
+  examapp-postgres:
