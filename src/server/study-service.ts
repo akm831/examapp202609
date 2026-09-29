@@ -75,7 +75,7 @@ export async function getSessionItems(userId:string,id:string){
       items:{
         orderBy:{position:"asc"},
         select:{studyItem:{select:{
-          id:true,statementText:true,
+          id:true,statementText:true,correctJudgment:true,
           subject:{select:{slug:true,name:true}},
         }}},
       },
