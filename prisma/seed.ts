@@ -1,3 +1,4 @@
+import { PrismaPg } from "@prisma/adapter-pg";
 import { PrismaClient, VerificationStatus } from "@prisma/client";
 import payload from "../data/study_items.json";
 
