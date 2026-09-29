@@ -28,9 +28,9 @@ export async function createStudySession(userId:string,input:CreateSessionInput)
       const fresh=remaining?await tx.studyItem.findMany({where:{...base,progresses:{none:{userId}}},orderBy:{sourceOrder:"asc"},take:Math.min(settings.newItemsPerDay,remaining),select:{id:true}}):[];
       ids=[...due.map(x=>x.studyItemId),...fresh.map(x=>x.id)];
     }else if(input.mode==="WRONG"){
-      const rows=await tx.studyItemProgress.findMany({where:{userId,incorrectCount:{gt:0},studyItem:base},orderBy:{lastAnsweredAt:"asc"},take:input.requestedCount??20,select:{studyItemId:true}}); ids=rows.map(x=>x.studyItemId);
+      const rows=await tx.studyItemProgress.findMany({where:{userId,incorrectCount:{gt:0},studyItem:base},orderBy:{lastAnsweredAt:"asc"},...(input.requestedCount?{take:input.requestedCount}:{}),select:{studyItemId:true}}); ids=rows.map(x=>x.studyItemId);
     }else{
-      const rows=await tx.studyItem.findMany({where:{...base,...(subjectId?{subjectId}:{})},select:{id:true}}); ids=shuffle(rows.map(x=>x.id)).slice(0,input.requestedCount??20);
+      const rows=await tx.studyItem.findMany({where:{...base,...(subjectId?{subjectId}:{})},select:{id:true}}); ids=shuffle(rows.map(x=>x.id)); if(input.requestedCount)ids=ids.slice(0,input.requestedCount);
     }
     if(!ids.length)throw new ApiError("NO_STUDY_ITEMS","現在、対象の問題はありません。",409);
     const session=await tx.studySession.create({data:{userId,mode:input.mode,subjectId,requestedCount:ids.length,localDate:input.mode==="TODAY"?localDate:null,items:{create:ids.map((studyItemId,position)=>({studyItemId,position}))}}});
