@@ -44,10 +44,25 @@ export async function getSession(userId:string,id:string){
 }
 
 export async function getNextItem(userId:string,id:string){
-  const session=await prisma.studySession.findFirst({where:{id,userId},include:{attempts:{select:{studyItemId:true}},items:{orderBy:{position:"asc"},include:{studyItem:{include:{subject:true}}}}}}); if(!session)throw new ApiError("NOT_FOUND","セッションが見つかりません。",404);
-  const answered=new Set(session.attempts.map(a=>a.studyItemId)); const row=session.items.find(x=>!answered.has(x.studyItemId));
-  if(!row){if(!session.endedAt)await prisma.studySession.update({where:{id},data:{endedAt:new Date()}});return {sessionId:id,progress:{answered:answered.size,total:session.items.length},completed:true as const};}
-  return {sessionId:id,progress:{answered:answered.size,total:session.items.length},completed:false as const,item:{id:row.studyItem.id,subject:{slug:row.studyItem.subject.slug,name:row.studyItem.subject.name},statementText:row.studyItem.statementText}};
+  // Avoid loading every attempt and every StudyItem in the session on each "next" request.
+  // Sessions are ordered and each item can be answered at most once, so the attempt count
+  // is also the position of the next item.
+  const session=await prisma.studySession.findFirst({
+    where:{id,userId},
+    select:{endedAt:true,_count:{select:{attempts:true,items:true}}},
+  });
+  if(!session)throw new ApiError("NOT_FOUND","セッションが見つかりません。",404);
+  const answered=session._count.attempts, total=session._count.items;
+  if(answered>=total){
+    if(!session.endedAt)await prisma.studySession.update({where:{id},data:{endedAt:new Date()}});
+    return {sessionId:id,progress:{answered,total},completed:true as const};
+  }
+  const row=await prisma.studySessionItem.findUnique({
+    where:{sessionId_position:{sessionId:id,position:answered}},
+    select:{studyItem:{select:{id:true,statementText:true,subject:{select:{slug:true,name:true}}}}},
+  });
+  if(!row)throw new ApiError("NOT_FOUND","次の問題が見つかりません。",404);
+  return {sessionId:id,progress:{answered,total},completed:false as const,item:{id:row.studyItem.id,subject:row.studyItem.subject,statementText:row.studyItem.statementText}};
 }
 
 export async function submitAnswer(userId:string,input:{requestId:string;studyItemId:string;sessionId?:string;selectedJudgment:boolean;wasUnsure:boolean;responseMs?:number}){
