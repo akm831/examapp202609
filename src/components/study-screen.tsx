@@ -6,12 +6,12 @@ type Item={id:string;subject:{name:string;slug:string};statementText:string;corr
 type Pending={requestId:string;sessionId:string;studyItemId:string;selectedJudgment:boolean;wasUnsure:boolean;responseMs:number};
 type Page={items:Item[];total:number;answeredIds:string[];completed:boolean};
 const PAGE_SIZE=100;
-export function StudyScreen({sessionId}:{sessionId:string}){
+export function StudyScreen({sessionId,fast=false}:{sessionId:string;fast?:boolean}){
   const router=useRouter(),storageKey=`examapp-pending-${sessionId}`;
   const [items,setItems]=useState<Item[]>([]),[total,setTotal]=useState(0),[loaded,setLoaded]=useState(0),[index,setIndex]=useState(0),[ready,setReady]=useState(false);
   const [selected,setSelected]=useState<boolean|null>(null),[unsure,setUnsure]=useState(false),[pendingCount,setPendingCount]=useState(0),[syncing,setSyncing]=useState(false),[error,setError]=useState("");
-  const queue=useRef<Pending[]>([]),attemptIds=useRef(new Map<string,string>()),syncPromise=useRef<Promise<boolean>|null>(null),started=useRef(Date.now());
-  const persist=useCallback((entries:Pending[])=>{queue.current=entries;sessionStorage.setItem(storageKey,JSON.stringify(entries));setPendingCount(entries.length)},[storageKey]);
+  const queue=useRef<Pending[]>([]),attemptIds=useRef(new Map<string,string>()),syncPromise=useRef<Promise<boolean>|null>(null),started=useRef(Date.now()),answerLock=useRef<string|null>(null);
+  const persist=useCallback((entries:Pending[])=>{queue.current=entries;localStorage.setItem(storageKey,JSON.stringify(entries));setPendingCount(entries.length)},[storageKey]);
   const sync=useCallback(async (all=false):Promise<boolean>=>{
     if(syncPromise.current){const ok=await syncPromise.current;if(!ok)return false;if(queue.current.length&&(all||queue.current.length>=5))return sync(all);return true}
     if(!queue.current.length||!all&&queue.current.length<5)return true;
@@ -24,7 +24,8 @@ export function StudyScreen({sessionId}:{sessionId:string}){
           const body=await response.json();
           if(!response.ok)throw new Error(body.error?.message||"回答を保存できませんでした。");
           answers.forEach((entry,i)=>attemptIds.current.set(entry.studyItemId,body.results[i].attemptId));
-          persist(queue.current.slice(answers.length));
+          const savedIds=new Set(answers.map(a=>a.requestId));
+          persist(queue.current.filter(a=>!savedIds.has(a.requestId)));
         }
         return true;
       }catch(e){setError(e instanceof Error?e.message:"回答を保存できませんでした。");return false}
@@ -50,7 +51,8 @@ export function StudyScreen({sessionId}:{sessionId:string}){
       }));
       if(cancelled)return;
       const allItems=pages.flat(),answered=new Set(first.answeredIds);
-      const saved=JSON.parse(sessionStorage.getItem(storageKey)||"[]") as Pending[];
+      const saved=JSON.parse(localStorage.getItem(storageKey)||sessionStorage.getItem(storageKey)||"[]") as Pending[];
+      sessionStorage.removeItem(storageKey);
       const outstanding=saved.filter(entry=>!answered.has(entry.studyItemId));persist(outstanding);
       const firstUnanswered=allItems.findIndex(item=>!answered.has(item.id));
       setItems(allItems);setIndex(Math.min(allItems.length,(firstUnanswered<0?allItems.length:firstUnanswered)+outstanding.length));setReady(true);
@@ -58,18 +60,22 @@ export function StudyScreen({sessionId}:{sessionId:string}){
       if(first.completed&&!outstanding.length)router.replace(`/study/complete/${sessionId}`);
     }catch(e){if(!cancelled)setError(e instanceof Error?e.message:"問題を読み込めませんでした。")}
   })();return()=>{cancelled=true}},[persist,router,sessionId,storageKey,sync]);
+  useEffect(()=>{answerLock.current=null},[index]);
   function answer(value:boolean){
-    const item=items[index];if(!item||selected!==null)return;
+    const item=items[index];if(!item||selected!==null||answerLock.current===item.id)return;
+    answerLock.current=item.id;
     const entry:Pending={requestId:crypto.randomUUID(),sessionId,studyItemId:item.id,selectedJudgment:value,wasUnsure:unsure,responseMs:Date.now()-started.current};
     persist([...queue.current,entry]);setSelected(value);
     if(queue.current.length>=5)void sync();
+    if(fast&&value===item.correctJudgment&&!unsure){setSelected(null);setIndex(n=>n+1);setUnsure(false);started.current=Date.now();if(index+1>=items.length)void sync(true).then(ok=>{if(ok)router.replace(`/study/complete/${sessionId}`)});}
   }
   async function next(){
     if(selected===null)return;
     if(index+1>=items.length){const ok=await sync(true);if(ok)router.replace(`/study/complete/${sessionId}`);return}
     setIndex(n=>n+1);setSelected(null);setUnsure(false);started.current=Date.now();
   }
-  async function leave(){const ok=await sync(true);if(ok)router.push("/")}
+  async function leave(){void sync(true);router.push("/")}
+  useEffect(()=>{const retry=()=>{if(queue.current.length)void sync(true)};window.addEventListener("online",retry);const timer=window.setInterval(retry,30000);return()=>{window.removeEventListener("online",retry);window.clearInterval(timer)}},[sync]);
   function changeUnsure(value:boolean){
     setUnsure(value);
     const item=items[index],entry=queue.current.find(e=>e.studyItemId===item.id);
@@ -84,6 +90,6 @@ export function StudyScreen({sessionId}:{sessionId:string}){
   const item=items[index];
   if(!item)return <main className="shell"><section className="card"><h1>回答を同期中</h1><p>{error||`未同期 ${pendingCount}件`}</p><button className="primary" onClick={()=>void sync(true)}>保存を再試行</button></section></main>;
   const correct=selected===item.correctJudgment;
-  return <main className="shell"><header className="top"><button className="ghost" onClick={()=>void leave()}>保存して終了</button><b>{index+1} / {total}</b></header><div className="progress"><i style={{width:`${index/total*100}%`}}/></div><p className="muted" role="status">{syncing?"回答履歴を同期中…":pendingCount?`端末に保存済み・サーバー未同期 ${pendingCount}件`:"回答履歴は同期済み"}</p>{error&&<p className="error">同期エラー：{error} <button className="ghost" onClick={()=>void sync(true)}>再試行</button></p>}<section className="card"><p className="eyebrow">{item.subject.name}</p><p className="question">{item.statementText}</p>{selected===null&&<label><input type="checkbox" checked={unsure} onChange={e=>setUnsure(e.target.checked)}/> 迷った</label>}</section>{selected!==null?<section className="card"><h2 className={correct?"result-ok":"result-ng"}>{correct?"○ 正解":"× 不正解"}</h2><p>あなたの回答：{selected?"○ 正しい":"× 誤り"}{!correct&&<>　正しい判定：{item.correctJudgment?"○ 正しい":"× 誤り"}</>}</p>{item.explanationType==="GROUP_SHARED"&&<p className="badge">問題群に共通する解説</p>}<p style={{whiteSpace:"pre-wrap",lineHeight:1.8}}>{item.explanation}</p><p className="muted">根拠：{item.sourceReference}</p><Flags item={item}/><label><input type="checkbox" checked={unsure} disabled={syncing} onChange={e=>changeUnsure(e.target.checked)}/> 迷った</label><button className="primary" style={{width:"100%",marginTop:18}} onClick={()=>void next()}>次の問題へ</button></section>:<div className="answers"><button className="answer true" onClick={()=>answer(true)}>○ 正しい</button><button className="answer false" onClick={()=>answer(false)}>× 誤り</button></div>}</main>
+  return <main className="shell"><header className="top"><button className="ghost" onClick={()=>void leave()}>終了</button><b>{index+1} / {total}</b></header><div className="progress"><i style={{width:`${index/total*100}%`}}/></div><p className="muted" role="status">{syncing?"回答履歴を同期中…":pendingCount?`端末に保存済み・サーバー未同期 ${pendingCount}件`:"回答履歴は同期済み"}</p>{error&&<p className="error">同期エラー：{error} <button className="ghost" onClick={()=>void sync(true)}>再試行</button></p>}<section className="card"><p className="eyebrow">{item.subject.name}</p><p className="question">{item.statementText}</p>{fast&&<p className="muted">高速周回：正解は自動で次へ進みます</p>}{selected===null&&<label><input type="checkbox" checked={unsure} onChange={e=>setUnsure(e.target.checked)}/> 迷った</label>}</section>{selected!==null?<section className="card"><h2 className={correct?"result-ok":"result-ng"}>{correct?"○ 正解":"× 不正解"}</h2><p>あなたの回答：{selected?"○ 正しい":"× 誤り"}{!correct&&<>　正しい判定：{item.correctJudgment?"○ 正しい":"× 誤り"}</>}</p>{item.explanationType==="GROUP_SHARED"&&<p className="badge">問題群に共通する解説</p>}<p style={{whiteSpace:"pre-wrap",lineHeight:1.8}}>{item.explanation}</p><p className="muted">根拠：{item.sourceReference}</p><Flags item={item}/><label><input type="checkbox" checked={unsure} disabled={syncing} onChange={e=>changeUnsure(e.target.checked)}/> 迷った</label><button className="primary" style={{width:"100%",marginTop:18}} onClick={()=>void next()}>次の問題へ</button></section>:<div className="answers"><button className="answer true" onClick={()=>answer(true)}>○ 正しい</button><button className="answer false" onClick={()=>answer(false)}>× 誤り</button></div>}</main>
 }
 function Flags({item}:{item:Item}){return <div>{item.verificationStatus==="JUDGMENT_CONFIRMED_REASON_UNVERIFIED"&&<p className="badge">正誤確認済／理由要確認</p>}{item.verificationStatus==="PAST_EXAM_ONLY"&&<p className="badge">過去問・原典未確認</p>}{item.verificationStatus==="SOURCE_UNCERTAIN"&&<p className="badge">要確認問題</p>}{item.caution==="AMENDMENT"&&<p className="badge">改正注意</p>}{item.timeSensitive&&<p className="badge">試験直前に再確認</p>}{item.historicalJudgment!==null&&<p className="muted">過去時点の判定：{item.historicalJudgment?"○":"×"}（{item.historicalContext}）／現在判定を正答として採点</p>}</div>}

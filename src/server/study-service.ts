@@ -3,7 +3,7 @@ import { prisma } from "./db";
 import { ApiError } from "./errors";
 import { applyExamDateAdjustment, calculateProgress, emptyProgress, rebuildProgress } from "@/lib/review";
 
-export type CreateSessionInput={mode:StudyMode;subjectSlug?:string;requestedCount?:number;progressFilter?:"ALL"|"UNSTUDIED"|"INCORRECT"|"UNSURE"};
+export type CreateSessionInput={mode:StudyMode;subjectSlug?:string;requestedCount?:number;progressFilter?:"ALL"|"UNSTUDIED"|"INCORRECT"|"UNSURE"|"LOW_ACCURACY"};
 const dateInZone=(d:Date,tz:string)=>new Intl.DateTimeFormat("en-CA",{timeZone:tz,year:"numeric",month:"2-digit",day:"2-digit"}).format(d);
 const shuffle=<T>(a:T[])=>{const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b};
 
@@ -22,7 +22,9 @@ export async function createStudySession(userId:string,input:CreateSessionInput)
       const subject=await tx.subject.findUnique({where:{slug:input.subjectSlug}}); if(!subject)throw new ApiError("INVALID_INPUT","科目を指定してください。",400); subjectId=subject.id;
     }
     const base=eligibleWhere(settings.includeSourceUncertain); let ids:string[]=[];
-    const progressFilter:Prisma.StudyItemWhereInput=input.progressFilter==="UNSTUDIED"?{progresses:{none:{userId}}}:input.progressFilter==="INCORRECT"?{progresses:{some:{userId,incorrectCount:{gt:0}}}}:input.progressFilter==="UNSURE"?{attempts:{some:{userId,wasUnsure:true}}}:{};
+    const lowProgress=input.progressFilter==="LOW_ACCURACY"?await tx.studyItemProgress.findMany({where:{userId,attemptsCount:{gte:2}},select:{studyItemId:true,correctCount:true,attemptsCount:true}}):[];
+    const lowIds=lowProgress.filter(p=>p.correctCount/p.attemptsCount<0.7).map(p=>p.studyItemId);
+    const progressFilter:Prisma.StudyItemWhereInput=input.progressFilter==="UNSTUDIED"?{progresses:{none:{userId}}}:input.progressFilter==="INCORRECT"?{progresses:{some:{userId,incorrectCount:{gt:0}}}}:input.progressFilter==="UNSURE"?{attempts:{some:{userId,wasUnsure:true}}}:input.progressFilter==="LOW_ACCURACY"?{id:{in:lowIds}}:{};
     if(input.mode==="TODAY"){
       const due=await tx.studyItemProgress.findMany({where:{userId,nextReviewAt:{lte:now},studyItem:base},orderBy:{nextReviewAt:"asc"},take:settings.dailyReviewLimit,select:{studyItemId:true}});
       const remaining=Math.max(0,settings.dailyReviewLimit-due.length);
