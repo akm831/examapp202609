@@ -1,5 +1,7 @@
 import { PrismaClient, VerificationStatus } from "@prisma/client";
-const prisma = new PrismaClient();
+const connectionString = process.env.DATABASE_URL;
+if (!connectionString) throw new Error("DATABASE_URL is not configured");
+const prisma = new PrismaClient({ adapter: new PrismaPg({ connectionString }) });
 const expectedSubjects: Record<string, number> = { "local-government-law":146,"local-public-service-law":192,shisei:110,"labor-standards-law":20,"municipal-regulations":100,"domestic-affairs":25 };
 const expectedStatuses: Record<string, number> = { CONFIRMED:565,JUDGMENT_CONFIRMED_REASON_UNVERIFIED:10,PAST_EXAM_ONLY:12,SOURCE_UNCERTAIN:6 };
 function eq(label:string, actual:number, expected:number) { if (actual !== expected) throw new Error(`${label}: expected ${expected}, got ${actual}`); console.log(`✓ ${label}: ${actual}`); }
