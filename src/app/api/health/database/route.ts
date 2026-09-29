@@ -18,6 +18,9 @@ export async function GET() {
       message.includes("Query engine library") ? "QUERY_ENGINE" :
       message.includes("DATABASE_URL") ? "DATABASE_URL" :
       message.includes("Can't reach database server") ? "DB_UNREACHABLE" :
+      (e?.code === "ENOENT" && message.toLowerCase().includes("certificate")) ? "TLS_CERT_FILE" :
+      (e?.code === "ENOENT" && message.toLowerCase().includes("ssl")) ? "TLS_FILE" :
+      e?.code === "ENOENT" ? "ENOENT_OTHER" :
       "OTHER";
     return Response.json({
       ok: false,
