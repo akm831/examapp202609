@@ -1,7 +1,9 @@
 import { PrismaClient, VerificationStatus } from "@prisma/client";
 import payload from "../data/study_items.json";
 
-const prisma = new PrismaClient();
+const connectionString = process.env.DATABASE_URL;
+if (!connectionString) throw new Error("DATABASE_URL is not configured");
+const prisma = new PrismaClient({ adapter: new PrismaPg({ connectionString }) });
 const SUBJECTS = [
   ["local-government-law", "地方自治法", 1],
   ["local-public-service-law", "地方公務員法", 2],
