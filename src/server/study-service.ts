@@ -3,7 +3,7 @@ import { prisma } from "./db";
 import { ApiError } from "./errors";
 import { applyExamDateAdjustment, calculateProgress, emptyProgress, rebuildProgress } from "@/lib/review";
 
-export type CreateSessionInput={mode:StudyMode;subjectSlug?:string;requestedCount?:number};
+export type CreateSessionInput={mode:StudyMode;subjectSlug?:string;requestedCount?:number;progressFilter?:"ALL"|"UNSTUDIED"|"INCORRECT"|"UNSURE"};
 const dateInZone=(d:Date,tz:string)=>new Intl.DateTimeFormat("en-CA",{timeZone:tz,year:"numeric",month:"2-digit",day:"2-digit"}).format(d);
 const shuffle=<T>(a:T[])=>{const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b};
 
@@ -22,15 +22,16 @@ export async function createStudySession(userId:string,input:CreateSessionInput)
       const subject=await tx.subject.findUnique({where:{slug:input.subjectSlug}}); if(!subject)throw new ApiError("INVALID_INPUT","科目を指定してください。",400); subjectId=subject.id;
     }
     const base=eligibleWhere(settings.includeSourceUncertain); let ids:string[]=[];
+    const progressFilter:Prisma.StudyItemWhereInput=input.progressFilter==="UNSTUDIED"?{progresses:{none:{userId}}}:input.progressFilter==="INCORRECT"?{progresses:{some:{userId,incorrectCount:{gt:0}}}}:input.progressFilter==="UNSURE"?{attempts:{some:{userId,wasUnsure:true}}}:{};
     if(input.mode==="TODAY"){
       const due=await tx.studyItemProgress.findMany({where:{userId,nextReviewAt:{lte:now},studyItem:base},orderBy:{nextReviewAt:"asc"},take:settings.dailyReviewLimit,select:{studyItemId:true}});
       const remaining=Math.max(0,settings.dailyReviewLimit-due.length);
       const fresh=remaining?await tx.studyItem.findMany({where:{...base,progresses:{none:{userId}}},orderBy:{sourceOrder:"asc"},take:Math.min(settings.newItemsPerDay,remaining),select:{id:true}}):[];
       ids=[...due.map(x=>x.studyItemId),...fresh.map(x=>x.id)];
     }else if(input.mode==="WRONG"){
-      const rows=await tx.studyItemProgress.findMany({where:{userId,incorrectCount:{gt:0},studyItem:base},orderBy:{lastAnsweredAt:"asc"},...(input.requestedCount?{take:input.requestedCount}:{}),select:{studyItemId:true}}); ids=rows.map(x=>x.studyItemId);
+      const rows=await tx.studyItemProgress.findMany({where:{userId,incorrectCount:{gt:0},studyItem:{...base,...progressFilter}},orderBy:{lastAnsweredAt:"asc"},...(input.requestedCount?{take:input.requestedCount}:{}),select:{studyItemId:true}}); ids=rows.map(x=>x.studyItemId);
     }else{
-      const rows=await tx.studyItem.findMany({where:{...base,...(subjectId?{subjectId}:{})},select:{id:true}}); ids=shuffle(rows.map(x=>x.id)); if(input.requestedCount)ids=ids.slice(0,input.requestedCount);
+      const rows=await tx.studyItem.findMany({where:{...base,...progressFilter,...(subjectId?{subjectId}:{})},select:{id:true}}); ids=shuffle(rows.map(x=>x.id)); if(input.requestedCount)ids=ids.slice(0,input.requestedCount);
     }
     if(!ids.length)throw new ApiError("NO_STUDY_ITEMS","現在、対象の問題はありません。",409);
     const session=await tx.studySession.create({data:{userId,mode:input.mode,subjectId,requestedCount:ids.length,localDate:input.mode==="TODAY"?localDate:null,items:{create:ids.map((studyItemId,position)=>({studyItemId,position}))}}});
@@ -74,9 +75,7 @@ export async function getSessionItems(userId:string,id:string){
       items:{
         orderBy:{position:"asc"},
         select:{studyItem:{select:{
-          id:true,statementText:true,correctJudgment:true,explanation:true,explanationType:true,
-          sourceReference:true,verificationStatus:true,caution:true,timeSensitive:true,
-          historicalJudgment:true,historicalContext:true,judgmentAsOf:true,
+          id:true,statementText:true,
           subject:{select:{slug:true,name:true}},
         }}},
       },
@@ -84,15 +83,24 @@ export async function getSessionItems(userId:string,id:string){
   });
   if(!session)throw new ApiError("NOT_FOUND","セッションが見つかりません。",404);
   const answeredIds=new Set(session.attempts.map(a=>a.studyItemId));
-  const items=session.items.map(x=>({
-    ...x.studyItem,
-    judgmentAsOf:x.studyItem.judgmentAsOf?.toISOString().slice(0,10)??null,
-  }));
+  const items=session.items.map(x=>x.studyItem);
   return {sessionId:id,answeredIds:[...answeredIds],total:items.length,completed:!!session.endedAt||answeredIds.size>=items.length,items};
 }
 
-export async function submitAnswer(userId:string,input:{requestId:string;studyItemId:string;sessionId?:string;selectedJudgment:boolean;wasUnsure:boolean;responseMs?:number}){
+export type AnswerInput={requestId:string;studyItemId:string;sessionId?:string;selectedJudgment:boolean;wasUnsure:boolean;responseMs?:number};
+export async function submitAnswer(userId:string,input:AnswerInput){
+  return prisma.$transaction(tx=>submitAnswerInTransaction(tx,userId,input),{isolationLevel:Prisma.TransactionIsolationLevel.Serializable});
+}
+export async function submitAnswerBatch(userId:string,inputs:AnswerInput[]){
+  if(!inputs.length||inputs.length>10)throw new ApiError("INVALID_INPUT","1〜10件の回答を指定してください。",400);
+  if(new Set(inputs.map(x=>x.requestId)).size!==inputs.length||new Set(inputs.map(x=>x.studyItemId)).size!==inputs.length)throw new ApiError("INVALID_INPUT","同じ回答または問題が重複しています。",400);
   return prisma.$transaction(async tx=>{
+    const results=[];
+    for(const input of inputs)results.push(await submitAnswerInTransaction(tx,userId,input));
+    return results;
+  },{isolationLevel:Prisma.TransactionIsolationLevel.Serializable,timeout:20000});
+}
+async function submitAnswerInTransaction(tx:Prisma.TransactionClient,userId:string,input:AnswerInput){
     const prior=await tx.answerAttempt.findUnique({where:{userId_requestId:{userId,requestId:input.requestId}},include:{studyItem:true}}); if(prior)return feedback(prior);
     const item=await tx.studyItem.findUnique({where:{id:input.studyItemId}}); if(!item)throw new ApiError("NOT_FOUND","問題が見つかりません。",404);
     if(input.sessionId){const valid=await tx.studySessionItem.findFirst({where:{sessionId:input.sessionId,studyItemId:item.id,session:{userId}}});if(!valid)throw new ApiError("SESSION_INVALID","このセッションでは回答できません。",409)}
@@ -104,8 +112,7 @@ export async function submitAnswer(userId:string,input:{requestId:string;studyIt
     result={...result,nextReviewAt:applyExamDateAdjustment(result.nextReviewAt!,attempt.answeredAt,settings.examDate)};
     await tx.studyItemProgress.upsert({where:{userId_studyItemId:{userId,studyItemId:item.id}},create:{userId,studyItemId:item.id,...result},update:result as Prisma.StudyItemProgressUpdateInput});
     return feedback(attempt);
-  },{isolationLevel:Prisma.TransactionIsolationLevel.Serializable});
-}
+  }
 
 function feedback(a:{id:string;selectedJudgment:boolean;isCorrect:boolean;wasUnsure:boolean;studyItem:{correctJudgment:boolean;explanation:string;explanationType:string;sourceReference:string;verificationStatus:string;caution:string|null;timeSensitive:boolean;historicalJudgment:boolean|null;historicalContext:string|null;judgmentAsOf:Date|null}}){return {attemptId:a.id,isCorrect:a.isCorrect,selectedJudgment:a.selectedJudgment,correctJudgment:a.studyItem.correctJudgment,wasUnsure:a.wasUnsure,explanation:a.studyItem.explanation,explanationType:a.studyItem.explanationType,sourceReference:a.studyItem.sourceReference,verificationStatus:a.studyItem.verificationStatus,caution:a.studyItem.caution,timeSensitive:a.studyItem.timeSensitive,historicalJudgment:a.studyItem.historicalJudgment,historicalContext:a.studyItem.historicalContext,judgmentAsOf:a.studyItem.judgmentAsOf?.toISOString().slice(0,10)??null};}
 
@@ -127,4 +134,9 @@ export async function dashboard(userId:string){
     prisma.subject.findMany({orderBy:{sortOrder:"asc"},include:{_count:{select:{items:true}}}}),prisma.answerAttempt.count({where:{userId}}),prisma.studyItemProgress.count({where:{userId}}),prisma.studyItemProgress.count({where:{userId,masteryStatus:"MASTERED"}}),prisma.studyItemProgress.count({where:{userId,masteryStatus:"RELEARNING"}}),prisma.studySession.findMany({where:{userId,endedAt:null},orderBy:{startedAt:"desc"},include:{_count:{select:{items:true,attempts:true}}}}),prisma.studyItemProgress.count({where:{userId,nextReviewAt:{lte:now},studyItem:eligibleWhere(settings.includeSourceUncertain)}})
   ]);
   return {exam:{date:settings.examDate?.toISOString().slice(0,10)??null,daysRemaining:settings.examDate?Math.ceil((settings.examDate.getTime()-now.getTime())/86400000):null},today:{due,new:settings.newItemsPerDay},stats:{totalAttempts,studiedItems,unstudiedItems:593-studiedItems,masteredItems,relearningItems},subjects:subjects.map(s=>({slug:s.slug,name:s.name,count:s._count.items})),openSessions:openSessions.map(s=>({id:s.id,mode:s.mode,answered:s._count.attempts,total:s._count.items}))};
+}
+
+export async function answerLog(userId:string){
+  const rows=await prisma.answerAttempt.findMany({where:{userId},orderBy:[{answeredAt:"asc"},{id:"asc"}],select:{id:true,answeredAt:true,sessionId:true,selectedJudgment:true,isCorrect:true,wasUnsure:true,responseMs:true,studyItem:{select:{sourceItemKey:true,statementText:true,correctJudgment:true,explanation:true,sourceReference:true,subject:{select:{name:true,slug:true}}}}}});
+  return {format:"examapp-answer-log-v1",exportedAt:new Date().toISOString(),count:rows.length,attempts:rows.map(a=>({attemptId:a.id,answeredAt:a.answeredAt.toISOString(),sessionId:a.sessionId,subject:a.studyItem.subject.name,subjectSlug:a.studyItem.subject.slug,sourceItemKey:a.studyItem.sourceItemKey,question:a.studyItem.statementText,answer:a.selectedJudgment,correctAnswer:a.studyItem.correctJudgment,isCorrect:a.isCorrect,wasUnsure:a.wasUnsure,responseMs:a.responseMs,explanation:a.studyItem.explanation,sourceReference:a.studyItem.sourceReference}))};
 }

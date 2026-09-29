@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --no-lint",
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
@@ -15,7 +15,8 @@
     "db:migrate:deploy": "prisma migrate deploy",
     "db:seed": "tsx prisma/seed.ts",
     "db:verify": "tsx scripts/verify-db.ts",
-    "db:gate": "npm run db:generate && npm run db:migrate:deploy && npm run db:seed && npm run db:verify"
+    "db:gate": "npm run db:generate && npm run db:migrate:deploy && npm run db:seed && npm run db:verify",
+    "check": "npm run lint && npm run typecheck"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
