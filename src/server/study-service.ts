@@ -65,6 +65,32 @@ export async function getNextItem(userId:string,id:string){
   return {sessionId:id,progress:{answered,total},completed:false as const,item:{id:row.studyItem.id,subject:row.studyItem.subject,statementText:row.studyItem.statementText}};
 }
 
+export async function getSessionItems(userId:string,id:string){
+  const session=await prisma.studySession.findFirst({
+    where:{id,userId},
+    select:{
+      endedAt:true,
+      attempts:{select:{studyItemId:true}},
+      items:{
+        orderBy:{position:"asc"},
+        select:{studyItem:{select:{
+          id:true,statementText:true,correctJudgment:true,explanation:true,explanationType:true,
+          sourceReference:true,verificationStatus:true,caution:true,timeSensitive:true,
+          historicalJudgment:true,historicalContext:true,judgmentAsOf:true,
+          subject:{select:{slug:true,name:true}},
+        }}},
+      },
+    },
+  });
+  if(!session)throw new ApiError("NOT_FOUND","セッションが見つかりません。",404);
+  const answeredIds=new Set(session.attempts.map(a=>a.studyItemId));
+  const items=session.items.map(x=>({
+    ...x.studyItem,
+    judgmentAsOf:x.studyItem.judgmentAsOf?.toISOString().slice(0,10)??null,
+  }));
+  return {sessionId:id,answeredIds:[...answeredIds],total:items.length,completed:!!session.endedAt||answeredIds.size>=items.length,items};
+}
+
 export async function submitAnswer(userId:string,input:{requestId:string;studyItemId:string;sessionId?:string;selectedJudgment:boolean;wasUnsure:boolean;responseMs?:number}){
   return prisma.$transaction(async tx=>{
     const prior=await tx.answerAttempt.findUnique({where:{userId_requestId:{userId,requestId:input.requestId}},include:{studyItem:true}}); if(prior)return feedback(prior);
