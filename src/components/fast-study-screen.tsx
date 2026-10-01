@@ -1,9 +1,11 @@
 "use client";
 import { useCallback,useEffect,useRef,useState } from "react";
+import { QuestionContext } from "./question-context";
+import type { StudyContext } from "@/lib/study-context";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-type Item={id:string;statementText:string;subject:{name:string}};
+type Item={context?:StudyContext|null;id:string;statementText:string;subject:{name:string}};
 type Pending={requestId:string;sessionId:string;studyItemId:string;selectedJudgment:boolean;wasUnsure:boolean;responseMs:number};
 const BATCH_SIZE=5;
 export function FastStudyScreen({sessionId}:{sessionId:string}){
@@ -48,5 +50,6 @@ export function FastStudyScreen({sessionId}:{sessionId:string}){
   }
   async function finish(){const ok=await save(queue.current);if(ok)router.push("/")}
   const item=items[index];
-  return <main className="shell"><header className="top"><button className="ghost" disabled={busy} onClick={()=>void finish()}>保存して終了</button><b>{Math.min(index+1,items.length)} / {items.length}</b></header><div className="progress"><i style={{width:`${items.length?index/items.length*100:0}%`}}/></div><p className="muted">高速周回・解説を挟まず回答（{pending.length}件が保存待ち）</p>{error&&<section className="card"><p className="error">{error}</p><button className="secondary" onClick={()=>void save(queue.current)}>保存を再試行</button></section>}{busy?<p>読み込み・保存中…</p>:item?<><section className="card"><p className="eyebrow">{item.subject.name}</p><p className="question">{item.statementText}</p><label><input type="checkbox" checked={unsure} onChange={e=>setUnsure(e.target.checked)}/> 迷った</label></section><div className="answers"><button disabled={!!error} className="answer true" onClick={()=>void answer(true)}>○ 正しい</button><button disabled={!!error} className="answer false" onClick={()=>void answer(false)}>× 誤り</button></div></>:items.length?<section className="card"><h2>回答完了</h2><p>保存済みの結果を表示します。</p><Link href={`/study/complete/${sessionId}`} className="button primary">結果を見る</Link></section>:!error?<p>問題を読み込み中…</p>:null}</main>
+  return <main className="shell"><header className="top"><button className="ghost" disabled={busy} onClick={()=>void finish()}>保存して終了</button><b>{Math.min(index+1,items.length)} / {items.length}</b></header><div className="progress"><i style={{width:`${items.length?index/items.length*100:0}%`}}/></div><p className="muted">高速周回・解説を挟まず回答（{pending.length}件が保存待ち）</p>{error&&<section className="card"><p className="error">{error}</p><button className="secondary" onClick={()=>void save(queue.current)}>保存を再試行</button></section>}{busy?<p>読み込み・保存中…</p>:item?<><section className="card"><p className="eyebrow">{item.subject.name}</p><QuestionContext context={item.context}/><p className="question">{item.statementText}</p><label><input type="checkbox" checked={unsure} onChange={e=>setUnsure(e.target.checked)}/> 迷った</label></section><div className="answers"><button disabled={!!error} className="answer true" onClick={()=>void answer(true)}>○ 正しい</button><button disabled={!!error} className="answer false" onClick={()=>void answer(false)}>× 誤り</button></div></>:items.length?<section className="card"><h2>回答完了</h2><p>保存済みの結果を表示します。</p><Link href={`/study/complete/${sessionId}`} className="button primary">結果を見る</Link></section>:!error?<p>問題を読み込み中…</p>:null}</main>
 }
+
