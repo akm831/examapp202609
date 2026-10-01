@@ -1,6 +1,7 @@
 "use client";
 import { useCallback,useEffect,useRef,useState } from "react";
 import { useRouter } from "next/navigation";
+import { acknowledgePending, readPending, sendAnswers } from "@/lib/answer-sync";
 
 type Item={id:string;subject:{name:string;slug:string};statementText:string;correctJudgment:boolean;explanation:string;explanationType:string;sourceReference:string;verificationStatus:string;caution:string|null;timeSensitive:boolean;historicalJudgment:boolean|null;historicalContext:string|null;judgmentAsOf:string|null};
 type Pending={requestId:string;sessionId:string;studyItemId:string;selectedJudgment:boolean;wasUnsure:boolean;responseMs:number};
@@ -19,13 +20,13 @@ export function StudyScreen({sessionId,fast=false}:{sessionId:string;fast?:boole
       setSyncing(true);setError("");
       try{
         while(queue.current.length&&(all||queue.current.length>=5)){
+          queue.current=readPending(storageKey);
+          if(!queue.current.length)break;
           const answers=queue.current.slice(0,5);
-          const response=await fetch("/api/attempts/batch",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({answers})});
-          const body=await response.json();
-          if(!response.ok)throw new Error(body.error?.message||"回答を保存できませんでした。");
-          answers.forEach((entry,i)=>attemptIds.current.set(entry.studyItemId,body.results[i].attemptId));
-          const savedIds=new Set(answers.map(a=>a.requestId));
-          persist(queue.current.filter(a=>!savedIds.has(a.requestId)));
+          const results=await sendAnswers(answers);
+          answers.forEach((entry,i)=>attemptIds.current.set(entry.studyItemId,results[i].attemptId));
+          queue.current=acknowledgePending(storageKey,answers.map(a=>a.requestId));
+          setPendingCount(queue.current.length);
         }
         return true;
       }catch(e){setError(e instanceof Error?e.message:"回答を保存できませんでした。");return false}
@@ -33,7 +34,7 @@ export function StudyScreen({sessionId,fast=false}:{sessionId:string;fast?:boole
     };
     const task=run();syncPromise.current=task;
     try{return await task}finally{if(syncPromise.current===task)syncPromise.current=null}
-  },[persist]);
+  },[storageKey]);
   useEffect(()=>{router.prefetch(`/study/complete/${sessionId}`);let cancelled=false;void (async()=>{
     try{
       const fetchPage=async(offset:number):Promise<Page>=>{
@@ -65,16 +66,16 @@ export function StudyScreen({sessionId,fast=false}:{sessionId:string;fast?:boole
     const item=items[index];if(!item||selected!==null||answerLock.current===item.id)return;
     answerLock.current=item.id;
     const entry:Pending={requestId:crypto.randomUUID(),sessionId,studyItemId:item.id,selectedJudgment:value,wasUnsure:unsure,responseMs:Date.now()-started.current};
-    persist([...queue.current,entry]);setSelected(value);
+    persist([...readPending(storageKey),entry]);setSelected(value);
     if(queue.current.length>=5)void sync();
-    if(fast&&value===item.correctJudgment&&!unsure){setSelected(null);setIndex(n=>n+1);setUnsure(false);started.current=Date.now();if(index+1>=items.length)void sync(true).then(ok=>{if(ok)router.replace(`/study/complete/${sessionId}`)});}
+    if(fast&&value===item.correctJudgment&&!unsure){setSelected(null);setIndex(n=>n+1);setUnsure(false);started.current=Date.now();if(index+1>=items.length)void sync(true).then(ok=>{if(ok)window.location.assign(`/study/complete/${sessionId}`)});}
   }
   async function next(){
     if(selected===null)return;
-    if(index+1>=items.length){const ok=await sync(true);if(ok)router.replace(`/study/complete/${sessionId}`);return}
+    if(index+1>=items.length){const ok=await sync(true);if(ok)window.location.assign(`/study/complete/${sessionId}`);return}
     setIndex(n=>n+1);setSelected(null);setUnsure(false);started.current=Date.now();
   }
-  async function leave(){void sync(true);router.push("/")}
+  function leave(){window.location.assign("/")}
   useEffect(()=>{const retry=()=>{if(queue.current.length)void sync(true)};window.addEventListener("online",retry);const timer=window.setInterval(retry,30000);return()=>{window.removeEventListener("online",retry);window.clearInterval(timer)}},[sync]);
   function changeUnsure(value:boolean){
     setUnsure(value);
@@ -88,7 +89,7 @@ export function StudyScreen({sessionId,fast=false}:{sessionId:string;fast?:boole
   }
   if(!ready)return <main className="shell"><section className="card" role="status"><h1>演習を準備中</h1><p>{error||`問題と解説を読み込み中：${loaded} / ${total||"確認中"}問`}</p><div className="progress loading-progress"><i style={{width:`${total?Math.round(loaded/total*100):0}%`}}/></div><p>{total?`${Math.round(loaded/total*100)}%`:"件数を確認中…"}</p>{error&&<button className="ghost" onClick={()=>location.reload()}>再試行</button>}</section></main>;
   const item=items[index];
-  if(!item)return <main className="shell"><section className="card"><h1>回答を同期中</h1><p>{error||`未同期 ${pendingCount}件`}</p><button className="primary" onClick={()=>void sync(true)}>保存を再試行</button></section></main>;
+  if(!item)return <main className="shell"><section className="card"><h1>回答を同期中</h1><p>{error||`未同期 ${pendingCount}件`}</p><button className="primary" onClick={()=>void sync(true).then(ok=>{if(ok)window.location.assign(`/study/complete/${sessionId}`)})}>保存を再試行</button><button className="ghost" onClick={leave}>未同期回答を保持してホームへ戻る</button></section></main>;
   const correct=selected===item.correctJudgment;
   return <main className="shell"><header className="top"><button className="ghost" onClick={()=>void leave()}>終了</button><b>{index+1} / {total}</b></header><div className="progress"><i style={{width:`${index/total*100}%`}}/></div><p className="muted" role="status">{syncing?"回答履歴を同期中…":pendingCount?`端末に保存済み・サーバー未同期 ${pendingCount}件`:"回答履歴は同期済み"}</p>{error&&<p className="error">同期エラー：{error} <button className="ghost" onClick={()=>void sync(true)}>再試行</button></p>}<section className="card"><p className="eyebrow">{item.subject.name}</p><p className="question">{item.statementText}</p>{fast&&<p className="muted">高速周回：正解は自動で次へ進みます</p>}{selected===null&&<label><input type="checkbox" checked={unsure} onChange={e=>setUnsure(e.target.checked)}/> 迷った</label>}</section>{selected!==null?<section className="card"><h2 className={correct?"result-ok":"result-ng"}>{correct?"○ 正解":"× 不正解"}</h2><p>あなたの回答：{selected?"○ 正しい":"× 誤り"}{!correct&&<>　正しい判定：{item.correctJudgment?"○ 正しい":"× 誤り"}</>}</p>{item.explanationType==="GROUP_SHARED"&&<p className="badge">問題群に共通する解説</p>}<p style={{whiteSpace:"pre-wrap",lineHeight:1.8}}>{item.explanation}</p><p className="muted">根拠：{item.sourceReference}</p><Flags item={item}/><label><input type="checkbox" checked={unsure} disabled={syncing} onChange={e=>changeUnsure(e.target.checked)}/> 迷った</label><button className="primary" style={{width:"100%",marginTop:18}} onClick={()=>void next()}>次の問題へ</button></section>:<div className="answers"><button className="answer true" onClick={()=>answer(true)}>○ 正しい</button><button className="answer false" onClick={()=>answer(false)}>× 誤り</button></div>}</main>
 }
