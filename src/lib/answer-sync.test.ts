@@ -14,3 +14,7 @@ it("rejects malformed success responses before acknowledging any answers",async(
   vi.stubGlobal("fetch",vi.fn().mockResolvedValue({ok:true,json:async()=>({})}));
   await expect(sendAnswers([])).rejects.toThrow("INVALID_RESPONSE");
 });
+it("shows the invalid answer field returned by the server",async()=>{
+  vi.stubGlobal("fetch",vi.fn().mockResolvedValue({ok:false,status:400,json:async()=>({error:{code:"INVALID_INPUT",message:"入力内容を確認してください。",issues:[{path:"answers.0.responseMs",message:"Too big"}]}})}));
+  await expect(sendAnswers([])).rejects.toThrow("answers.0.responseMs: Too big");
+});
