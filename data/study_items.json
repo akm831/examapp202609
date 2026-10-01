@@ -10494,7 +10494,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:63",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10506,7 +10506,10 @@
       "sourceOrder": 1,
       "sourceMetadata": {
         "statementLine": 63,
-        "explanationLine": 72
+        "explanationLine": 72,
+        "questionContext": "札幌市の令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10525,7 +10528,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:64",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10537,7 +10540,10 @@
       "sourceOrder": 2,
       "sourceMetadata": {
         "statementLine": 64,
-        "explanationLine": 73
+        "explanationLine": 73,
+        "questionContext": "札幌市の令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10556,7 +10562,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:65",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10568,7 +10574,10 @@
       "sourceOrder": 3,
       "sourceMetadata": {
         "statementLine": 65,
-        "explanationLine": 74
+        "explanationLine": 74,
+        "questionContext": "札幌市の令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10587,7 +10596,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:66",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10599,7 +10608,10 @@
       "sourceOrder": 4,
       "sourceMetadata": {
         "statementLine": 66,
-        "explanationLine": 75
+        "explanationLine": 75,
+        "questionContext": "札幌市の令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10618,7 +10630,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:67",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10630,7 +10642,10 @@
       "sourceOrder": 5,
       "sourceMetadata": {
         "statementLine": 67,
-        "explanationLine": 76
+        "explanationLine": 76,
+        "questionContext": "札幌市の令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10649,7 +10664,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:91",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10661,7 +10676,10 @@
       "sourceOrder": 6,
       "sourceMetadata": {
         "statementLine": 91,
-        "explanationLine": 100
+        "explanationLine": 100,
+        "questionContext": "札幌市の令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10680,7 +10698,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:92",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10692,7 +10710,10 @@
       "sourceOrder": 7,
       "sourceMetadata": {
         "statementLine": 92,
-        "explanationLine": 101
+        "explanationLine": 101,
+        "questionContext": "札幌市の令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10711,7 +10732,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:93",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10723,7 +10744,10 @@
       "sourceOrder": 8,
       "sourceMetadata": {
         "statementLine": 93,
-        "explanationLine": 102
+        "explanationLine": 102,
+        "questionContext": "札幌市の令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10742,7 +10766,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:94",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10754,7 +10778,10 @@
       "sourceOrder": 9,
       "sourceMetadata": {
         "statementLine": 94,
-        "explanationLine": 103
+        "explanationLine": 103,
+        "questionContext": "札幌市の令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10773,7 +10800,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:95",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10785,7 +10812,10 @@
       "sourceOrder": 10,
       "sourceMetadata": {
         "statementLine": 95,
-        "explanationLine": 104
+        "explanationLine": 104,
+        "questionContext": "札幌市の令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10804,7 +10834,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:115",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10816,7 +10846,10 @@
       "sourceOrder": 11,
       "sourceMetadata": {
         "statementLine": 115,
-        "explanationLine": 124
+        "explanationLine": 124,
+        "questionContext": "札幌市の令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10835,7 +10868,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:116",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10847,7 +10880,10 @@
       "sourceOrder": 12,
       "sourceMetadata": {
         "statementLine": 116,
-        "explanationLine": 125
+        "explanationLine": 125,
+        "questionContext": "札幌市の令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10866,7 +10902,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:117",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10878,7 +10914,10 @@
       "sourceOrder": 13,
       "sourceMetadata": {
         "statementLine": 117,
-        "explanationLine": 126
+        "explanationLine": 126,
+        "questionContext": "札幌市の令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10897,7 +10936,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:118",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10909,7 +10948,10 @@
       "sourceOrder": 14,
       "sourceMetadata": {
         "statementLine": 118,
-        "explanationLine": 127
+        "explanationLine": 127,
+        "questionContext": "札幌市の令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10928,7 +10970,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:119",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10940,7 +10982,10 @@
       "sourceOrder": 15,
       "sourceMetadata": {
         "statementLine": 119,
-        "explanationLine": 128
+        "explanationLine": 128,
+        "questionContext": "札幌市の令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10959,7 +11004,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:159",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -10971,7 +11016,10 @@
       "sourceOrder": 16,
       "sourceMetadata": {
         "statementLine": 159,
-        "explanationLine": 168
+        "explanationLine": 168,
+        "questionContext": "札幌市の令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -10990,7 +11038,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:160",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11002,7 +11050,10 @@
       "sourceOrder": 17,
       "sourceMetadata": {
         "statementLine": 160,
-        "explanationLine": 169
+        "explanationLine": 169,
+        "questionContext": "札幌市の令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11021,7 +11072,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:161",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11033,7 +11084,10 @@
       "sourceOrder": 18,
       "sourceMetadata": {
         "statementLine": 161,
-        "explanationLine": 170
+        "explanationLine": 170,
+        "questionContext": "札幌市の令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11052,7 +11106,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:162",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11064,7 +11118,10 @@
       "sourceOrder": 19,
       "sourceMetadata": {
         "statementLine": 162,
-        "explanationLine": 171
+        "explanationLine": 171,
+        "questionContext": "札幌市の令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11083,7 +11140,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:163",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11095,7 +11152,10 @@
       "sourceOrder": 20,
       "sourceMetadata": {
         "statementLine": 163,
-        "explanationLine": 172
+        "explanationLine": 172,
+        "questionContext": "札幌市の令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11114,7 +11174,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:196",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11126,7 +11186,10 @@
       "sourceOrder": 21,
       "sourceMetadata": {
         "statementLine": 196,
-        "explanationLine": 205
+        "explanationLine": 205,
+        "questionContext": "札幌市の2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11145,7 +11208,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:197",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11157,7 +11220,10 @@
       "sourceOrder": 22,
       "sourceMetadata": {
         "statementLine": 197,
-        "explanationLine": 206
+        "explanationLine": 206,
+        "questionContext": "札幌市の2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11176,7 +11242,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:198",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11188,7 +11254,10 @@
       "sourceOrder": 23,
       "sourceMetadata": {
         "statementLine": 198,
-        "explanationLine": 207
+        "explanationLine": 207,
+        "questionContext": "札幌市の2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11207,7 +11276,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:199",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11219,7 +11288,10 @@
       "sourceOrder": 24,
       "sourceMetadata": {
         "statementLine": 199,
-        "explanationLine": 208
+        "explanationLine": 208,
+        "questionContext": "札幌市の2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11238,7 +11310,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:200",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11250,7 +11322,10 @@
       "sourceOrder": 25,
       "sourceMetadata": {
         "statementLine": 200,
-        "explanationLine": 209
+        "explanationLine": 209,
+        "questionContext": "札幌市の2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11269,7 +11344,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:234",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11281,7 +11356,10 @@
       "sourceOrder": 26,
       "sourceMetadata": {
         "statementLine": 234,
-        "explanationLine": 243
+        "explanationLine": 243,
+        "questionContext": "札幌市の令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11300,7 +11378,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:235",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11312,7 +11390,10 @@
       "sourceOrder": 27,
       "sourceMetadata": {
         "statementLine": 235,
-        "explanationLine": 244
+        "explanationLine": 244,
+        "questionContext": "札幌市の令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11331,7 +11412,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:236",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11343,7 +11424,10 @@
       "sourceOrder": 28,
       "sourceMetadata": {
         "statementLine": 236,
-        "explanationLine": 245
+        "explanationLine": 245,
+        "questionContext": "札幌市の令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11362,7 +11446,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:237",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11374,7 +11458,10 @@
       "sourceOrder": 29,
       "sourceMetadata": {
         "statementLine": 237,
-        "explanationLine": 246
+        "explanationLine": 246,
+        "questionContext": "札幌市の令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11393,7 +11480,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:238",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11405,7 +11492,10 @@
       "sourceOrder": 30,
       "sourceMetadata": {
         "statementLine": 238,
-        "explanationLine": 247
+        "explanationLine": 247,
+        "questionContext": "札幌市の令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11424,7 +11514,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:259",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11436,7 +11526,10 @@
       "sourceOrder": 31,
       "sourceMetadata": {
         "statementLine": 259,
-        "explanationLine": 268
+        "explanationLine": 268,
+        "questionContext": "札幌市の物価高対策の全市民向け給付・低所得等世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11455,7 +11548,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:260",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11467,7 +11560,10 @@
       "sourceOrder": 32,
       "sourceMetadata": {
         "statementLine": 260,
-        "explanationLine": 269
+        "explanationLine": 269,
+        "questionContext": "札幌市の物価高対策の全市民向け給付・低所得等世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11486,7 +11582,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:261",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11498,7 +11594,10 @@
       "sourceOrder": 33,
       "sourceMetadata": {
         "statementLine": 261,
-        "explanationLine": 270
+        "explanationLine": 270,
+        "questionContext": "札幌市の物価高対策の全市民向け給付・低所得等世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11517,7 +11616,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:262",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11529,7 +11628,10 @@
       "sourceOrder": 34,
       "sourceMetadata": {
         "statementLine": 262,
-        "explanationLine": 271
+        "explanationLine": 271,
+        "questionContext": "札幌市の物価高対策の全市民向け給付・低所得等世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11548,7 +11650,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:263",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11560,7 +11662,10 @@
       "sourceOrder": 35,
       "sourceMetadata": {
         "statementLine": 263,
-        "explanationLine": 272
+        "explanationLine": 272,
+        "questionContext": "札幌市の物価高対策の全市民向け給付・低所得等世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11579,7 +11684,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:284",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11591,7 +11696,10 @@
       "sourceOrder": 36,
       "sourceMetadata": {
         "statementLine": 284,
-        "explanationLine": 293
+        "explanationLine": 293,
+        "questionContext": "札幌市の2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11610,7 +11718,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:285",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11622,7 +11730,10 @@
       "sourceOrder": 37,
       "sourceMetadata": {
         "statementLine": 285,
-        "explanationLine": 294
+        "explanationLine": 294,
+        "questionContext": "札幌市の2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11641,7 +11752,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:286",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11653,7 +11764,10 @@
       "sourceOrder": 38,
       "sourceMetadata": {
         "statementLine": 286,
-        "explanationLine": 295
+        "explanationLine": 295,
+        "questionContext": "札幌市の2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11672,7 +11786,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:287",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11684,7 +11798,10 @@
       "sourceOrder": 39,
       "sourceMetadata": {
         "statementLine": 287,
-        "explanationLine": 296
+        "explanationLine": 296,
+        "questionContext": "札幌市の2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11703,7 +11820,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:288",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11715,7 +11832,10 @@
       "sourceOrder": 40,
       "sourceMetadata": {
         "statementLine": 288,
-        "explanationLine": 297
+        "explanationLine": 297,
+        "questionContext": "札幌市の2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11734,7 +11854,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:370",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11746,7 +11866,10 @@
       "sourceOrder": 41,
       "sourceMetadata": {
         "statementLine": 370,
-        "explanationLine": 379
+        "explanationLine": 379,
+        "questionContext": "札幌市の札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11765,7 +11888,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:371",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11777,7 +11900,10 @@
       "sourceOrder": 42,
       "sourceMetadata": {
         "statementLine": 371,
-        "explanationLine": 380
+        "explanationLine": 380,
+        "questionContext": "札幌市の札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11796,7 +11922,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:372",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11808,7 +11934,10 @@
       "sourceOrder": 43,
       "sourceMetadata": {
         "statementLine": 372,
-        "explanationLine": 381
+        "explanationLine": 381,
+        "questionContext": "札幌市の札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11827,7 +11956,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:373",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11839,7 +11968,10 @@
       "sourceOrder": 44,
       "sourceMetadata": {
         "statementLine": 373,
-        "explanationLine": 382
+        "explanationLine": 382,
+        "questionContext": "札幌市の札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11858,7 +11990,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:374",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11870,7 +12002,10 @@
       "sourceOrder": 45,
       "sourceMetadata": {
         "statementLine": 374,
-        "explanationLine": 383
+        "explanationLine": 383,
+        "questionContext": "札幌市の札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11889,7 +12024,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:449",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11901,7 +12036,10 @@
       "sourceOrder": 46,
       "sourceMetadata": {
         "statementLine": 449,
-        "explanationLine": 458
+        "explanationLine": 458,
+        "questionContext": "札幌市の札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11920,7 +12058,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:450",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11932,7 +12070,10 @@
       "sourceOrder": 47,
       "sourceMetadata": {
         "statementLine": 450,
-        "explanationLine": 459
+        "explanationLine": 459,
+        "questionContext": "札幌市の札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11951,7 +12092,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:451",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11963,7 +12104,10 @@
       "sourceOrder": 48,
       "sourceMetadata": {
         "statementLine": 451,
-        "explanationLine": 460
+        "explanationLine": 460,
+        "questionContext": "札幌市の札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -11982,7 +12126,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:452",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -11994,7 +12138,10 @@
       "sourceOrder": 49,
       "sourceMetadata": {
         "statementLine": 452,
-        "explanationLine": 461
+        "explanationLine": 461,
+        "questionContext": "札幌市の札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12013,7 +12160,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:453",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12025,7 +12172,10 @@
       "sourceOrder": 50,
       "sourceMetadata": {
         "statementLine": 453,
-        "explanationLine": 462
+        "explanationLine": 462,
+        "questionContext": "札幌市の札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12044,7 +12194,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:494",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12056,7 +12206,10 @@
       "sourceOrder": 51,
       "sourceMetadata": {
         "statementLine": 494,
-        "explanationLine": 503
+        "explanationLine": 503,
+        "questionContext": "札幌市の札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12075,7 +12228,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:495",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12087,7 +12240,10 @@
       "sourceOrder": 52,
       "sourceMetadata": {
         "statementLine": 495,
-        "explanationLine": 504
+        "explanationLine": 504,
+        "questionContext": "札幌市の札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12106,7 +12262,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:496",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12118,7 +12274,10 @@
       "sourceOrder": 53,
       "sourceMetadata": {
         "statementLine": 496,
-        "explanationLine": 505
+        "explanationLine": 505,
+        "questionContext": "札幌市の札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12137,7 +12296,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:497",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12149,7 +12308,10 @@
       "sourceOrder": 54,
       "sourceMetadata": {
         "statementLine": 497,
-        "explanationLine": 506
+        "explanationLine": 506,
+        "questionContext": "札幌市の札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12168,7 +12330,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:498",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12180,7 +12342,10 @@
       "sourceOrder": 55,
       "sourceMetadata": {
         "statementLine": 498,
-        "explanationLine": 507
+        "explanationLine": 507,
+        "questionContext": "札幌市の札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12199,7 +12364,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:529",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12211,7 +12376,10 @@
       "sourceOrder": 56,
       "sourceMetadata": {
         "statementLine": 529,
-        "explanationLine": 538
+        "explanationLine": 538,
+        "questionContext": "札幌市のヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12230,7 +12398,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:530",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12242,7 +12410,10 @@
       "sourceOrder": 57,
       "sourceMetadata": {
         "statementLine": 530,
-        "explanationLine": 539
+        "explanationLine": 539,
+        "questionContext": "札幌市のヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12261,7 +12432,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:531",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12273,7 +12444,10 @@
       "sourceOrder": 58,
       "sourceMetadata": {
         "statementLine": 531,
-        "explanationLine": 540
+        "explanationLine": 540,
+        "questionContext": "札幌市のヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12292,7 +12466,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:532",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12304,7 +12478,10 @@
       "sourceOrder": 59,
       "sourceMetadata": {
         "statementLine": 532,
-        "explanationLine": 541
+        "explanationLine": 541,
+        "questionContext": "札幌市のヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12323,7 +12500,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:533",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12335,7 +12512,10 @@
       "sourceOrder": 60,
       "sourceMetadata": {
         "statementLine": 533,
-        "explanationLine": 542
+        "explanationLine": 542,
+        "questionContext": "札幌市のヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12354,7 +12534,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:579",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12366,7 +12546,10 @@
       "sourceOrder": 61,
       "sourceMetadata": {
         "statementLine": 579,
-        "explanationLine": 588
+        "explanationLine": 588,
+        "questionContext": "札幌市の第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12385,7 +12568,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:580",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12397,7 +12580,10 @@
       "sourceOrder": 62,
       "sourceMetadata": {
         "statementLine": 580,
-        "explanationLine": 589
+        "explanationLine": 589,
+        "questionContext": "札幌市の第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12416,7 +12602,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:581",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12428,7 +12614,10 @@
       "sourceOrder": 63,
       "sourceMetadata": {
         "statementLine": 581,
-        "explanationLine": 590
+        "explanationLine": 590,
+        "questionContext": "札幌市の第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12447,7 +12636,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:582",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12459,7 +12648,10 @@
       "sourceOrder": 64,
       "sourceMetadata": {
         "statementLine": 582,
-        "explanationLine": 591
+        "explanationLine": 591,
+        "questionContext": "札幌市の第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12478,7 +12670,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:583",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12490,7 +12682,10 @@
       "sourceOrder": 65,
       "sourceMetadata": {
         "statementLine": 583,
-        "explanationLine": 592
+        "explanationLine": 592,
+        "questionContext": "札幌市の第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12509,7 +12704,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:635",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12521,7 +12716,10 @@
       "sourceOrder": 66,
       "sourceMetadata": {
         "statementLine": 635,
-        "explanationLine": 644
+        "explanationLine": 644,
+        "questionContext": "札幌市の第3次札幌市都心まちづくり計画について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12540,7 +12738,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:636",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12552,7 +12750,10 @@
       "sourceOrder": 67,
       "sourceMetadata": {
         "statementLine": 636,
-        "explanationLine": 645
+        "explanationLine": 645,
+        "questionContext": "札幌市の第3次札幌市都心まちづくり計画について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12571,7 +12772,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:637",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12583,7 +12784,10 @@
       "sourceOrder": 68,
       "sourceMetadata": {
         "statementLine": 637,
-        "explanationLine": 646
+        "explanationLine": 646,
+        "questionContext": "札幌市の第3次札幌市都心まちづくり計画について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12602,7 +12806,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:638",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12614,7 +12818,10 @@
       "sourceOrder": 69,
       "sourceMetadata": {
         "statementLine": 638,
-        "explanationLine": 647
+        "explanationLine": 647,
+        "questionContext": "札幌市の第3次札幌市都心まちづくり計画について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12633,7 +12840,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:639",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12645,7 +12852,10 @@
       "sourceOrder": 70,
       "sourceMetadata": {
         "statementLine": 639,
-        "explanationLine": 648
+        "explanationLine": 648,
+        "questionContext": "札幌市の第3次札幌市都心まちづくり計画について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12664,7 +12874,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:675",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12676,7 +12886,10 @@
       "sourceOrder": 71,
       "sourceMetadata": {
         "statementLine": 675,
-        "explanationLine": 684
+        "explanationLine": 684,
+        "questionContext": "札幌市のWell-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12695,7 +12908,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:676",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12707,7 +12920,10 @@
       "sourceOrder": 72,
       "sourceMetadata": {
         "statementLine": 676,
-        "explanationLine": 685
+        "explanationLine": 685,
+        "questionContext": "札幌市のWell-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12726,7 +12942,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:677",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12738,7 +12954,10 @@
       "sourceOrder": 73,
       "sourceMetadata": {
         "statementLine": 677,
-        "explanationLine": 686
+        "explanationLine": 686,
+        "questionContext": "札幌市のWell-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12757,7 +12976,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:678",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12769,7 +12988,10 @@
       "sourceOrder": 74,
       "sourceMetadata": {
         "statementLine": 678,
-        "explanationLine": 687
+        "explanationLine": 687,
+        "questionContext": "札幌市のWell-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12788,7 +13010,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:679",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12800,7 +13022,10 @@
       "sourceOrder": 75,
       "sourceMetadata": {
         "statementLine": 679,
-        "explanationLine": 688
+        "explanationLine": 688,
+        "questionContext": "札幌市のWell-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12819,7 +13044,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:704",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12831,7 +13056,10 @@
       "sourceOrder": 76,
       "sourceMetadata": {
         "statementLine": 704,
-        "explanationLine": 713
+        "explanationLine": 713,
+        "questionContext": "札幌市の札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12850,7 +13078,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:705",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12862,7 +13090,10 @@
       "sourceOrder": 77,
       "sourceMetadata": {
         "statementLine": 705,
-        "explanationLine": 714
+        "explanationLine": 714,
+        "questionContext": "札幌市の札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12881,7 +13112,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:706",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12893,7 +13124,10 @@
       "sourceOrder": 78,
       "sourceMetadata": {
         "statementLine": 706,
-        "explanationLine": 715
+        "explanationLine": 715,
+        "questionContext": "札幌市の札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12912,7 +13146,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:707",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12924,7 +13158,10 @@
       "sourceOrder": 79,
       "sourceMetadata": {
         "statementLine": 707,
-        "explanationLine": 716
+        "explanationLine": 716,
+        "questionContext": "札幌市の札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12943,7 +13180,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:708",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12955,7 +13192,10 @@
       "sourceOrder": 80,
       "sourceMetadata": {
         "statementLine": 708,
-        "explanationLine": 717
+        "explanationLine": 717,
+        "questionContext": "札幌市の札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -12974,7 +13214,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:729",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -12986,7 +13226,10 @@
       "sourceOrder": 81,
       "sourceMetadata": {
         "statementLine": 729,
-        "explanationLine": 738
+        "explanationLine": 738,
+        "questionContext": "札幌市の札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13005,7 +13248,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:730",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13017,7 +13260,10 @@
       "sourceOrder": 82,
       "sourceMetadata": {
         "statementLine": 730,
-        "explanationLine": 739
+        "explanationLine": 739,
+        "questionContext": "札幌市の札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13036,7 +13282,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:731",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13048,7 +13294,10 @@
       "sourceOrder": 83,
       "sourceMetadata": {
         "statementLine": 731,
-        "explanationLine": 740
+        "explanationLine": 740,
+        "questionContext": "札幌市の札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13067,7 +13316,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:732",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13079,7 +13328,10 @@
       "sourceOrder": 84,
       "sourceMetadata": {
         "statementLine": 732,
-        "explanationLine": 741
+        "explanationLine": 741,
+        "questionContext": "札幌市の札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13098,7 +13350,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:733",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13110,7 +13362,10 @@
       "sourceOrder": 85,
       "sourceMetadata": {
         "statementLine": 733,
-        "explanationLine": 742
+        "explanationLine": 742,
+        "questionContext": "札幌市の札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13129,7 +13384,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:929",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13141,7 +13396,10 @@
       "sourceOrder": 86,
       "sourceMetadata": {
         "statementLine": 929,
-        "explanationLine": 938
+        "explanationLine": 938,
+        "questionContext": "札幌市の市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13160,7 +13418,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:930",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13172,7 +13430,10 @@
       "sourceOrder": 87,
       "sourceMetadata": {
         "statementLine": 930,
-        "explanationLine": 939
+        "explanationLine": 939,
+        "questionContext": "札幌市の市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13191,7 +13452,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:931",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13203,7 +13464,10 @@
       "sourceOrder": 88,
       "sourceMetadata": {
         "statementLine": 931,
-        "explanationLine": 940
+        "explanationLine": 940,
+        "questionContext": "札幌市の市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13222,7 +13486,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:932",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13234,7 +13498,10 @@
       "sourceOrder": 89,
       "sourceMetadata": {
         "statementLine": 932,
-        "explanationLine": 941
+        "explanationLine": 941,
+        "questionContext": "札幌市の市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13253,7 +13520,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:933",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13265,7 +13532,10 @@
       "sourceOrder": 90,
       "sourceMetadata": {
         "statementLine": 933,
-        "explanationLine": 942
+        "explanationLine": 942,
+        "questionContext": "札幌市の市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13284,7 +13554,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1001",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13296,7 +13566,10 @@
       "sourceOrder": 91,
       "sourceMetadata": {
         "statementLine": 1001,
-        "explanationLine": 1010
+        "explanationLine": 1010,
+        "questionContext": "札幌市の札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13315,7 +13588,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1002",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13327,7 +13600,10 @@
       "sourceOrder": 92,
       "sourceMetadata": {
         "statementLine": 1002,
-        "explanationLine": 1011
+        "explanationLine": 1011,
+        "questionContext": "札幌市の札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13346,7 +13622,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1003",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13358,7 +13634,10 @@
       "sourceOrder": 93,
       "sourceMetadata": {
         "statementLine": 1003,
-        "explanationLine": 1012
+        "explanationLine": 1012,
+        "questionContext": "札幌市の札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13377,7 +13656,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1004",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13389,7 +13668,10 @@
       "sourceOrder": 94,
       "sourceMetadata": {
         "statementLine": 1004,
-        "explanationLine": 1013
+        "explanationLine": 1013,
+        "questionContext": "札幌市の札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13408,7 +13690,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1005",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13420,7 +13702,10 @@
       "sourceOrder": 95,
       "sourceMetadata": {
         "statementLine": 1005,
-        "explanationLine": 1014
+        "explanationLine": 1014,
+        "questionContext": "札幌市の札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13439,7 +13724,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1017",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13451,7 +13736,10 @@
       "sourceOrder": 96,
       "sourceMetadata": {
         "statementLine": 1017,
-        "explanationLine": 1026
+        "explanationLine": 1026,
+        "questionContext": "札幌市の令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13470,7 +13758,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1018",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13482,7 +13770,10 @@
       "sourceOrder": 97,
       "sourceMetadata": {
         "statementLine": 1018,
-        "explanationLine": 1027
+        "explanationLine": 1027,
+        "questionContext": "札幌市の令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13501,7 +13792,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1019",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13513,7 +13804,10 @@
       "sourceOrder": 98,
       "sourceMetadata": {
         "statementLine": 1019,
-        "explanationLine": 1028
+        "explanationLine": 1028,
+        "questionContext": "札幌市の令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13532,7 +13826,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1020",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13544,7 +13838,10 @@
       "sourceOrder": 99,
       "sourceMetadata": {
         "statementLine": 1020,
-        "explanationLine": 1029
+        "explanationLine": 1029,
+        "questionContext": "札幌市の令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13563,7 +13860,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1021",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13575,7 +13872,10 @@
       "sourceOrder": 100,
       "sourceMetadata": {
         "statementLine": 1021,
-        "explanationLine": 1030
+        "explanationLine": 1030,
+        "questionContext": "札幌市の令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13594,7 +13894,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1033",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13606,7 +13906,10 @@
       "sourceOrder": 101,
       "sourceMetadata": {
         "statementLine": 1033,
-        "explanationLine": 1042
+        "explanationLine": 1042,
+        "questionContext": "札幌市の札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13625,7 +13928,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1034",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13637,7 +13940,10 @@
       "sourceOrder": 102,
       "sourceMetadata": {
         "statementLine": 1034,
-        "explanationLine": 1043
+        "explanationLine": 1043,
+        "questionContext": "札幌市の札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13656,7 +13962,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1035",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13668,7 +13974,10 @@
       "sourceOrder": 103,
       "sourceMetadata": {
         "statementLine": 1035,
-        "explanationLine": 1044
+        "explanationLine": 1044,
+        "questionContext": "札幌市の札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13687,7 +13996,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1036",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13699,7 +14008,10 @@
       "sourceOrder": 104,
       "sourceMetadata": {
         "statementLine": 1036,
-        "explanationLine": 1045
+        "explanationLine": 1045,
+        "questionContext": "札幌市の札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13718,7 +14030,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1037",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13730,7 +14042,10 @@
       "sourceOrder": 105,
       "sourceMetadata": {
         "statementLine": 1037,
-        "explanationLine": 1046
+        "explanationLine": 1046,
+        "questionContext": "札幌市の札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13749,7 +14064,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1089",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13761,7 +14076,10 @@
       "sourceOrder": 106,
       "sourceMetadata": {
         "statementLine": 1089,
-        "explanationLine": 1098
+        "explanationLine": 1098,
+        "questionContext": "札幌市の令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13780,7 +14098,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1090",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13792,7 +14110,10 @@
       "sourceOrder": 107,
       "sourceMetadata": {
         "statementLine": 1090,
-        "explanationLine": 1099
+        "explanationLine": 1099,
+        "questionContext": "札幌市の令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13811,7 +14132,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1091",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13823,7 +14144,10 @@
       "sourceOrder": 108,
       "sourceMetadata": {
         "statementLine": 1091,
-        "explanationLine": 1100
+        "explanationLine": 1100,
+        "questionContext": "札幌市の令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13842,7 +14166,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1092",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13854,7 +14178,10 @@
       "sourceOrder": 109,
       "sourceMetadata": {
         "statementLine": 1092,
-        "explanationLine": 1101
+        "explanationLine": 1101,
+        "questionContext": "札幌市の令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -13873,7 +14200,7 @@
       "sourceReference": "shisei_integrated_review_text(1).md:1093",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -13885,7 +14212,10 @@
       "sourceOrder": 110,
       "sourceMetadata": {
         "statementLine": 1093,
-        "explanationLine": 1102
+        "explanationLine": 1102,
+        "questionContext": "札幌市の令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・知識確認",
+        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
       },
       "active": true
     },
@@ -14519,7 +14849,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:25",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14531,7 +14861,10 @@
       "sourceOrder": 1,
       "sourceMetadata": {
         "statementLine": 25,
-        "explanationLine": 34
+        "explanationLine": 34,
+        "questionContext": "札幌市情報公開条例における「定義・請求権者・実施機関」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14550,7 +14883,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:26",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14562,7 +14895,10 @@
       "sourceOrder": 2,
       "sourceMetadata": {
         "statementLine": 26,
-        "explanationLine": 35
+        "explanationLine": 35,
+        "questionContext": "札幌市情報公開条例における「定義・請求権者・実施機関」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14581,7 +14917,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:27",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14593,7 +14929,10 @@
       "sourceOrder": 3,
       "sourceMetadata": {
         "statementLine": 27,
-        "explanationLine": 36
+        "explanationLine": 36,
+        "questionContext": "札幌市情報公開条例における「定義・請求権者・実施機関」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14612,7 +14951,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:28",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14624,7 +14963,10 @@
       "sourceOrder": 4,
       "sourceMetadata": {
         "statementLine": 28,
-        "explanationLine": 37
+        "explanationLine": 37,
+        "questionContext": "札幌市情報公開条例における「定義・請求権者・実施機関」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14643,7 +14985,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:29",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14655,7 +14997,10 @@
       "sourceOrder": 5,
       "sourceMetadata": {
         "statementLine": 29,
-        "explanationLine": 38
+        "explanationLine": 38,
+        "questionContext": "札幌市情報公開条例における「定義・請求権者・実施機関」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14674,7 +15019,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:49",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14685,7 +15030,10 @@
       "sourceHeading": "Q2 非公開情報・存否応答拒否",
       "sourceOrder": 6,
       "sourceMetadata": {
-        "statementLine": 49
+        "statementLine": 49,
+        "questionContext": "札幌市情報公開条例における「非公開情報・存否応答拒否」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14704,7 +15052,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:50",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14715,7 +15063,10 @@
       "sourceHeading": "Q2 非公開情報・存否応答拒否",
       "sourceOrder": 7,
       "sourceMetadata": {
-        "statementLine": 50
+        "statementLine": 50,
+        "questionContext": "札幌市情報公開条例における「非公開情報・存否応答拒否」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14734,7 +15085,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:51",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14745,7 +15096,10 @@
       "sourceHeading": "Q2 非公開情報・存否応答拒否",
       "sourceOrder": 8,
       "sourceMetadata": {
-        "statementLine": 51
+        "statementLine": 51,
+        "questionContext": "札幌市情報公開条例における「非公開情報・存否応答拒否」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14764,7 +15118,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:52",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14775,7 +15129,10 @@
       "sourceHeading": "Q2 非公開情報・存否応答拒否",
       "sourceOrder": 9,
       "sourceMetadata": {
-        "statementLine": 52
+        "statementLine": 52,
+        "questionContext": "札幌市情報公開条例における「非公開情報・存否応答拒否」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14794,7 +15151,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:53",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14805,7 +15162,10 @@
       "sourceHeading": "Q2 非公開情報・存否応答拒否",
       "sourceOrder": 10,
       "sourceMetadata": {
-        "statementLine": 53
+        "statementLine": 53,
+        "questionContext": "札幌市情報公開条例における「非公開情報・存否応答拒否」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14824,7 +15184,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:69",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14835,7 +15195,10 @@
       "sourceHeading": "Q3 公開決定の期限・通知・大量請求",
       "sourceOrder": 11,
       "sourceMetadata": {
-        "statementLine": 69
+        "statementLine": 69,
+        "questionContext": "札幌市情報公開条例における「公開決定の期限・通知・大量請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14854,7 +15217,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:70",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14865,7 +15228,10 @@
       "sourceHeading": "Q3 公開決定の期限・通知・大量請求",
       "sourceOrder": 12,
       "sourceMetadata": {
-        "statementLine": 70
+        "statementLine": 70,
+        "questionContext": "札幌市情報公開条例における「公開決定の期限・通知・大量請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14884,7 +15250,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:71",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14895,7 +15261,10 @@
       "sourceHeading": "Q3 公開決定の期限・通知・大量請求",
       "sourceOrder": 13,
       "sourceMetadata": {
-        "statementLine": 71
+        "statementLine": 71,
+        "questionContext": "札幌市情報公開条例における「公開決定の期限・通知・大量請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14914,7 +15283,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:72",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14925,7 +15294,10 @@
       "sourceHeading": "Q3 公開決定の期限・通知・大量請求",
       "sourceOrder": 14,
       "sourceMetadata": {
-        "statementLine": 72
+        "statementLine": 72,
+        "questionContext": "札幌市情報公開条例における「公開決定の期限・通知・大量請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14944,7 +15316,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:73",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14955,7 +15327,10 @@
       "sourceHeading": "Q3 公開決定の期限・通知・大量請求",
       "sourceOrder": 15,
       "sourceMetadata": {
-        "statementLine": 73
+        "statementLine": 73,
+        "questionContext": "札幌市情報公開条例における「公開決定の期限・通知・大量請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -14974,7 +15349,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:89",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -14986,7 +15361,10 @@
       "sourceOrder": 16,
       "sourceMetadata": {
         "statementLine": 89,
-        "explanationLine": 98
+        "explanationLine": 98,
+        "questionContext": "札幌市情報公開条例における「公開方法・費用・審査請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15005,7 +15383,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:90",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15017,7 +15395,10 @@
       "sourceOrder": 17,
       "sourceMetadata": {
         "statementLine": 90,
-        "explanationLine": 99
+        "explanationLine": 99,
+        "questionContext": "札幌市情報公開条例における「公開方法・費用・審査請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15036,7 +15417,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:91",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15048,7 +15429,10 @@
       "sourceOrder": 18,
       "sourceMetadata": {
         "statementLine": 91,
-        "explanationLine": 100
+        "explanationLine": 100,
+        "questionContext": "札幌市情報公開条例における「公開方法・費用・審査請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15067,7 +15451,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:92",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15079,7 +15463,10 @@
       "sourceOrder": 19,
       "sourceMetadata": {
         "statementLine": 92,
-        "explanationLine": 101
+        "explanationLine": 101,
+        "questionContext": "札幌市情報公開条例における「公開方法・費用・審査請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15098,7 +15485,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:93",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15110,7 +15497,10 @@
       "sourceOrder": 20,
       "sourceMetadata": {
         "statementLine": 93,
-        "explanationLine": 102
+        "explanationLine": 102,
+        "questionContext": "札幌市情報公開条例における「公開方法・費用・審査請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15129,7 +15519,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:115",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15141,7 +15531,10 @@
       "sourceOrder": 21,
       "sourceMetadata": {
         "statementLine": 115,
-        "explanationLine": 124
+        "explanationLine": 124,
+        "questionContext": "札幌市事務取扱規程における「文書記号・起案表示」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15160,7 +15553,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:116",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15172,7 +15565,10 @@
       "sourceOrder": 22,
       "sourceMetadata": {
         "statementLine": 116,
-        "explanationLine": 125
+        "explanationLine": 125,
+        "questionContext": "札幌市事務取扱規程における「文書記号・起案表示」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15191,7 +15587,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:117",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15203,7 +15599,10 @@
       "sourceOrder": 23,
       "sourceMetadata": {
         "statementLine": 117,
-        "explanationLine": 126
+        "explanationLine": 126,
+        "questionContext": "札幌市事務取扱規程における「文書記号・起案表示」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15222,7 +15621,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:118",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15234,7 +15633,10 @@
       "sourceOrder": 24,
       "sourceMetadata": {
         "statementLine": 118,
-        "explanationLine": 127
+        "explanationLine": 127,
+        "questionContext": "札幌市事務取扱規程における「文書記号・起案表示」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15253,7 +15655,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:119",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15265,7 +15667,10 @@
       "sourceOrder": 25,
       "sourceMetadata": {
         "statementLine": 119,
-        "explanationLine": 128
+        "explanationLine": 128,
+        "questionContext": "札幌市事務取扱規程における「文書記号・起案表示」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15284,7 +15689,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:139",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15296,7 +15701,10 @@
       "sourceOrder": 26,
       "sourceMetadata": {
         "statementLine": 139,
-        "explanationLine": 148
+        "explanationLine": 148,
+        "questionContext": "札幌市事務取扱規程における「起案文書・加除訂正」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15315,7 +15723,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:140",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15327,7 +15735,10 @@
       "sourceOrder": 27,
       "sourceMetadata": {
         "statementLine": 140,
-        "explanationLine": 149
+        "explanationLine": 149,
+        "questionContext": "札幌市事務取扱規程における「起案文書・加除訂正」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15346,7 +15757,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:141",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15358,7 +15769,10 @@
       "sourceOrder": 28,
       "sourceMetadata": {
         "statementLine": 141,
-        "explanationLine": 150
+        "explanationLine": 150,
+        "questionContext": "札幌市事務取扱規程における「起案文書・加除訂正」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15377,7 +15791,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:142",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15389,7 +15803,10 @@
       "sourceOrder": 29,
       "sourceMetadata": {
         "statementLine": 142,
-        "explanationLine": 151
+        "explanationLine": 151,
+        "questionContext": "札幌市事務取扱規程における「起案文書・加除訂正」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15408,7 +15825,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:143",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15420,7 +15837,10 @@
       "sourceOrder": 30,
       "sourceMetadata": {
         "statementLine": 143,
-        "explanationLine": 152
+        "explanationLine": 152,
+        "questionContext": "札幌市事務取扱規程における「起案文書・加除訂正」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15439,7 +15859,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:169",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15450,7 +15870,10 @@
       "sourceHeading": "Q7 合議・回議",
       "sourceOrder": 31,
       "sourceMetadata": {
-        "statementLine": 169
+        "statementLine": 169,
+        "questionContext": "札幌市事務取扱規程における「合議・回議」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15469,7 +15892,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:170",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15480,7 +15903,10 @@
       "sourceHeading": "Q7 合議・回議",
       "sourceOrder": 32,
       "sourceMetadata": {
-        "statementLine": 170
+        "statementLine": 170,
+        "questionContext": "札幌市事務取扱規程における「合議・回議」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15499,7 +15925,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:171",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15510,7 +15936,10 @@
       "sourceHeading": "Q7 合議・回議",
       "sourceOrder": 33,
       "sourceMetadata": {
-        "statementLine": 171
+        "statementLine": 171,
+        "questionContext": "札幌市事務取扱規程における「合議・回議」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15529,7 +15958,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:172",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15540,7 +15969,10 @@
       "sourceHeading": "Q7 合議・回議",
       "sourceOrder": 34,
       "sourceMetadata": {
-        "statementLine": 172
+        "statementLine": 172,
+        "questionContext": "札幌市事務取扱規程における「合議・回議」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15559,7 +15991,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:173",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15570,7 +16002,10 @@
       "sourceHeading": "Q7 合議・回議",
       "sourceOrder": 35,
       "sourceMetadata": {
-        "statementLine": 173
+        "statementLine": 173,
+        "questionContext": "札幌市事務取扱規程における「合議・回議」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15589,7 +16024,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:189",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15600,7 +16035,10 @@
       "sourceHeading": "Q8 代決・後閲・公布",
       "sourceOrder": 36,
       "sourceMetadata": {
-        "statementLine": 189
+        "statementLine": 189,
+        "questionContext": "札幌市事務取扱規程における「代決・後閲・公布」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15619,7 +16057,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:190",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15630,7 +16068,10 @@
       "sourceHeading": "Q8 代決・後閲・公布",
       "sourceOrder": 37,
       "sourceMetadata": {
-        "statementLine": 190
+        "statementLine": 190,
+        "questionContext": "札幌市事務取扱規程における「代決・後閲・公布」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15649,7 +16090,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:191",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15660,7 +16101,10 @@
       "sourceHeading": "Q8 代決・後閲・公布",
       "sourceOrder": 38,
       "sourceMetadata": {
-        "statementLine": 191
+        "statementLine": 191,
+        "questionContext": "札幌市事務取扱規程における「代決・後閲・公布」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15679,7 +16123,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:192",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15690,7 +16134,10 @@
       "sourceHeading": "Q8 代決・後閲・公布",
       "sourceOrder": 39,
       "sourceMetadata": {
-        "statementLine": 192
+        "statementLine": 192,
+        "questionContext": "札幌市事務取扱規程における「代決・後閲・公布」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15709,7 +16156,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:193",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15720,7 +16167,10 @@
       "sourceHeading": "Q8 代決・後閲・公布",
       "sourceOrder": 40,
       "sourceMetadata": {
-        "statementLine": 193
+        "statementLine": 193,
+        "questionContext": "札幌市事務取扱規程における「代決・後閲・公布」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15739,7 +16189,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:211",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15751,7 +16201,10 @@
       "sourceOrder": 41,
       "sourceMetadata": {
         "statementLine": 211,
-        "explanationLine": 220
+        "explanationLine": 220,
+        "questionContext": "札幌市公文書管理条例・規則における「公文書作成義務・管理体制」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15770,7 +16223,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:212",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15782,7 +16235,10 @@
       "sourceOrder": 42,
       "sourceMetadata": {
         "statementLine": 212,
-        "explanationLine": 221
+        "explanationLine": 221,
+        "questionContext": "札幌市公文書管理条例・規則における「公文書作成義務・管理体制」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15801,7 +16257,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:213",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15813,7 +16269,10 @@
       "sourceOrder": 43,
       "sourceMetadata": {
         "statementLine": 213,
-        "explanationLine": 222
+        "explanationLine": 222,
+        "questionContext": "札幌市公文書管理条例・規則における「公文書作成義務・管理体制」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15832,7 +16291,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:214",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15844,7 +16303,10 @@
       "sourceOrder": 44,
       "sourceMetadata": {
         "statementLine": 214,
-        "explanationLine": 223
+        "explanationLine": 223,
+        "questionContext": "札幌市公文書管理条例・規則における「公文書作成義務・管理体制」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15863,7 +16325,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:215",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15875,7 +16337,10 @@
       "sourceOrder": 45,
       "sourceMetadata": {
         "statementLine": 215,
-        "explanationLine": 224
+        "explanationLine": 224,
+        "questionContext": "札幌市公文書管理条例・規則における「公文書作成義務・管理体制」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15894,7 +16359,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:235",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15905,7 +16370,10 @@
       "sourceHeading": "Q10 特定重要公文書の利用請求",
       "sourceOrder": 46,
       "sourceMetadata": {
-        "statementLine": 235
+        "statementLine": 235,
+        "questionContext": "札幌市公文書管理条例・規則における「特定重要公文書の利用請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15924,7 +16392,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:236",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15935,7 +16403,10 @@
       "sourceHeading": "Q10 特定重要公文書の利用請求",
       "sourceOrder": 47,
       "sourceMetadata": {
-        "statementLine": 236
+        "statementLine": 236,
+        "questionContext": "札幌市公文書管理条例・規則における「特定重要公文書の利用請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15954,7 +16425,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:237",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15965,7 +16436,10 @@
       "sourceHeading": "Q10 特定重要公文書の利用請求",
       "sourceOrder": 48,
       "sourceMetadata": {
-        "statementLine": 237
+        "statementLine": 237,
+        "questionContext": "札幌市公文書管理条例・規則における「特定重要公文書の利用請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -15984,7 +16458,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:238",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -15995,7 +16469,10 @@
       "sourceHeading": "Q10 特定重要公文書の利用請求",
       "sourceOrder": 49,
       "sourceMetadata": {
-        "statementLine": 238
+        "statementLine": 238,
+        "questionContext": "札幌市公文書管理条例・規則における「特定重要公文書の利用請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16014,7 +16491,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:239",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16025,7 +16502,10 @@
       "sourceHeading": "Q10 特定重要公文書の利用請求",
       "sourceOrder": 50,
       "sourceMetadata": {
-        "statementLine": 239
+        "statementLine": 239,
+        "questionContext": "札幌市公文書管理条例・規則における「特定重要公文書の利用請求」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16044,7 +16524,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:255",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16055,7 +16535,10 @@
       "sourceHeading": "Q11 利用決定・通知・期限",
       "sourceOrder": 51,
       "sourceMetadata": {
-        "statementLine": 255
+        "statementLine": 255,
+        "questionContext": "札幌市公文書管理条例・規則における「利用決定・通知・期限」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16074,7 +16557,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:256",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16085,7 +16568,10 @@
       "sourceHeading": "Q11 利用決定・通知・期限",
       "sourceOrder": 52,
       "sourceMetadata": {
-        "statementLine": 256
+        "statementLine": 256,
+        "questionContext": "札幌市公文書管理条例・規則における「利用決定・通知・期限」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16104,7 +16590,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:257",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16115,7 +16601,10 @@
       "sourceHeading": "Q11 利用決定・通知・期限",
       "sourceOrder": 53,
       "sourceMetadata": {
-        "statementLine": 257
+        "statementLine": 257,
+        "questionContext": "札幌市公文書管理条例・規則における「利用決定・通知・期限」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16134,7 +16623,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:258",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16145,7 +16634,10 @@
       "sourceHeading": "Q11 利用決定・通知・期限",
       "sourceOrder": 54,
       "sourceMetadata": {
-        "statementLine": 258
+        "statementLine": 258,
+        "questionContext": "札幌市公文書管理条例・規則における「利用決定・通知・期限」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16164,7 +16656,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:259",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16175,7 +16667,10 @@
       "sourceHeading": "Q11 利用決定・通知・期限",
       "sourceOrder": 55,
       "sourceMetadata": {
-        "statementLine": 259
+        "statementLine": 259,
+        "questionContext": "札幌市公文書管理条例・規則における「利用決定・通知・期限」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16194,7 +16689,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:275",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16205,7 +16700,10 @@
       "sourceHeading": "Q12 永久保存・廃棄・審議会・罰則",
       "sourceOrder": 56,
       "sourceMetadata": {
-        "statementLine": 275
+        "statementLine": 275,
+        "questionContext": "札幌市公文書管理条例・規則における「永久保存・廃棄・審議会・罰則」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16224,7 +16722,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:276",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16235,7 +16733,10 @@
       "sourceHeading": "Q12 永久保存・廃棄・審議会・罰則",
       "sourceOrder": 57,
       "sourceMetadata": {
-        "statementLine": 276
+        "statementLine": 276,
+        "questionContext": "札幌市公文書管理条例・規則における「永久保存・廃棄・審議会・罰則」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16254,7 +16755,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:277",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16265,7 +16766,10 @@
       "sourceHeading": "Q12 永久保存・廃棄・審議会・罰則",
       "sourceOrder": 58,
       "sourceMetadata": {
-        "statementLine": 277
+        "statementLine": 277,
+        "questionContext": "札幌市公文書管理条例・規則における「永久保存・廃棄・審議会・罰則」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16284,7 +16788,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:278",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16295,7 +16799,10 @@
       "sourceHeading": "Q12 永久保存・廃棄・審議会・罰則",
       "sourceOrder": 59,
       "sourceMetadata": {
-        "statementLine": 278
+        "statementLine": 278,
+        "questionContext": "札幌市公文書管理条例・規則における「永久保存・廃棄・審議会・罰則」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16314,7 +16821,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:279",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16325,7 +16832,10 @@
       "sourceHeading": "Q12 永久保存・廃棄・審議会・罰則",
       "sourceOrder": 60,
       "sourceMetadata": {
-        "statementLine": 279
+        "statementLine": 279,
+        "questionContext": "札幌市公文書管理条例・規則における「永久保存・廃棄・審議会・罰則」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16344,7 +16854,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:297",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16356,7 +16866,10 @@
       "sourceOrder": 61,
       "sourceMetadata": {
         "statementLine": 297,
-        "explanationLine": 306
+        "explanationLine": 306,
+        "questionContext": "札幌市公用文規程における「文体・文章構成」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16375,7 +16888,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:298",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16387,7 +16900,10 @@
       "sourceOrder": 62,
       "sourceMetadata": {
         "statementLine": 298,
-        "explanationLine": 307
+        "explanationLine": 307,
+        "questionContext": "札幌市公用文規程における「文体・文章構成」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16406,7 +16922,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:299",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16418,7 +16934,10 @@
       "sourceOrder": 63,
       "sourceMetadata": {
         "statementLine": 299,
-        "explanationLine": 308
+        "explanationLine": 308,
+        "questionContext": "札幌市公用文規程における「文体・文章構成」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16437,7 +16956,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:300",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16449,7 +16968,10 @@
       "sourceOrder": 64,
       "sourceMetadata": {
         "statementLine": 300,
-        "explanationLine": 309
+        "explanationLine": 309,
+        "questionContext": "札幌市公用文規程における「文体・文章構成」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16468,7 +16990,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:301",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16480,7 +17002,10 @@
       "sourceOrder": 65,
       "sourceMetadata": {
         "statementLine": 301,
-        "explanationLine": 310
+        "explanationLine": 310,
+        "questionContext": "札幌市公用文規程における「文体・文章構成」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16499,7 +17024,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:321",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16510,7 +17035,10 @@
       "sourceHeading": "Q14 数字・記号・繰返し符号",
       "sourceOrder": 66,
       "sourceMetadata": {
-        "statementLine": 321
+        "statementLine": 321,
+        "questionContext": "札幌市公用文規程における「数字・記号・繰返し符号」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16529,7 +17057,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:322",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16540,7 +17068,10 @@
       "sourceHeading": "Q14 数字・記号・繰返し符号",
       "sourceOrder": 67,
       "sourceMetadata": {
-        "statementLine": 322
+        "statementLine": 322,
+        "questionContext": "札幌市公用文規程における「数字・記号・繰返し符号」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16559,7 +17090,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:323",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16570,7 +17101,10 @@
       "sourceHeading": "Q14 数字・記号・繰返し符号",
       "sourceOrder": 68,
       "sourceMetadata": {
-        "statementLine": 323
+        "statementLine": 323,
+        "questionContext": "札幌市公用文規程における「数字・記号・繰返し符号」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16589,7 +17123,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:324",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16600,7 +17134,10 @@
       "sourceHeading": "Q14 数字・記号・繰返し符号",
       "sourceOrder": 69,
       "sourceMetadata": {
-        "statementLine": 324
+        "statementLine": 324,
+        "questionContext": "札幌市公用文規程における「数字・記号・繰返し符号」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16619,7 +17156,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:325",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16630,7 +17167,10 @@
       "sourceHeading": "Q14 数字・記号・繰返し符号",
       "sourceOrder": 70,
       "sourceMetadata": {
-        "statementLine": 325
+        "statementLine": 325,
+        "questionContext": "札幌市公用文規程における「数字・記号・繰返し符号」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16649,7 +17189,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:341",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16660,7 +17200,10 @@
       "sourceHeading": "Q15 見出し記号・議案等",
       "sourceOrder": 71,
       "sourceMetadata": {
-        "statementLine": 341
+        "statementLine": 341,
+        "questionContext": "札幌市公用文規程における「見出し記号・議案等」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16679,7 +17222,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:342",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16690,7 +17233,10 @@
       "sourceHeading": "Q15 見出し記号・議案等",
       "sourceOrder": 72,
       "sourceMetadata": {
-        "statementLine": 342
+        "statementLine": 342,
+        "questionContext": "札幌市公用文規程における「見出し記号・議案等」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16709,7 +17255,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:343",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16720,7 +17266,10 @@
       "sourceHeading": "Q15 見出し記号・議案等",
       "sourceOrder": 73,
       "sourceMetadata": {
-        "statementLine": 343
+        "statementLine": 343,
+        "questionContext": "札幌市公用文規程における「見出し記号・議案等」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16739,7 +17288,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:344",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16750,7 +17299,10 @@
       "sourceHeading": "Q15 見出し記号・議案等",
       "sourceOrder": 74,
       "sourceMetadata": {
-        "statementLine": 344
+        "statementLine": 344,
+        "questionContext": "札幌市公用文規程における「見出し記号・議案等」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16769,7 +17321,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:345",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16780,7 +17332,10 @@
       "sourceHeading": "Q15 見出し記号・議案等",
       "sourceOrder": 75,
       "sourceMetadata": {
-        "statementLine": 345
+        "statementLine": 345,
+        "questionContext": "札幌市公用文規程における「見出し記号・議案等」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16799,7 +17354,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:363",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16811,7 +17366,10 @@
       "sourceOrder": 76,
       "sourceMetadata": {
         "statementLine": 363,
-        "explanationLine": 372
+        "explanationLine": 372,
+        "questionContext": "札幌市オンブズマン条例における「所轄・調査対象外」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16830,7 +17388,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:364",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16842,7 +17400,10 @@
       "sourceOrder": 77,
       "sourceMetadata": {
         "statementLine": 364,
-        "explanationLine": 373
+        "explanationLine": 373,
+        "questionContext": "札幌市オンブズマン条例における「所轄・調査対象外」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16861,7 +17422,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:365",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16873,7 +17434,10 @@
       "sourceOrder": 78,
       "sourceMetadata": {
         "statementLine": 365,
-        "explanationLine": 374
+        "explanationLine": 374,
+        "questionContext": "札幌市オンブズマン条例における「所轄・調査対象外」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16892,7 +17456,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:366",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16904,7 +17468,10 @@
       "sourceOrder": 79,
       "sourceMetadata": {
         "statementLine": 366,
-        "explanationLine": 375
+        "explanationLine": 375,
+        "questionContext": "札幌市オンブズマン条例における「所轄・調査対象外」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16923,7 +17490,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:367",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16935,7 +17502,10 @@
       "sourceOrder": 80,
       "sourceMetadata": {
         "statementLine": 367,
-        "explanationLine": 376
+        "explanationLine": 376,
+        "questionContext": "札幌市オンブズマン条例における「所轄・調査対象外」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16954,7 +17524,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:387",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16966,7 +17536,10 @@
       "sourceOrder": 81,
       "sourceMetadata": {
         "statementLine": 387,
-        "explanationLine": 396
+        "explanationLine": 396,
+        "questionContext": "札幌市オンブズマン条例における「オンブズマンの組織・申立方法」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -16985,7 +17558,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:388",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -16997,7 +17570,10 @@
       "sourceOrder": 82,
       "sourceMetadata": {
         "statementLine": 388,
-        "explanationLine": 397
+        "explanationLine": 397,
+        "questionContext": "札幌市オンブズマン条例における「オンブズマンの組織・申立方法」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17016,7 +17592,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:389",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17028,7 +17604,10 @@
       "sourceOrder": 83,
       "sourceMetadata": {
         "statementLine": 389,
-        "explanationLine": 398
+        "explanationLine": 398,
+        "questionContext": "札幌市オンブズマン条例における「オンブズマンの組織・申立方法」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17047,7 +17626,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:390",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17059,7 +17638,10 @@
       "sourceOrder": 84,
       "sourceMetadata": {
         "statementLine": 390,
-        "explanationLine": 399
+        "explanationLine": 399,
+        "questionContext": "札幌市オンブズマン条例における「オンブズマンの組織・申立方法」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17078,7 +17660,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:391",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17090,7 +17672,10 @@
       "sourceOrder": 85,
       "sourceMetadata": {
         "statementLine": 391,
-        "explanationLine": 400
+        "explanationLine": 400,
+        "questionContext": "札幌市オンブズマン条例における「オンブズマンの組織・申立方法」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17109,7 +17694,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:413",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17120,7 +17705,10 @@
       "sourceHeading": "Q18 内部監査の種類・実施主体",
       "sourceOrder": 86,
       "sourceMetadata": {
-        "statementLine": 413
+        "statementLine": 413,
+        "questionContext": "札幌市内部監査規程における「内部監査の種類・実施主体」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17139,7 +17727,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:414",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17150,7 +17738,10 @@
       "sourceHeading": "Q18 内部監査の種類・実施主体",
       "sourceOrder": 87,
       "sourceMetadata": {
-        "statementLine": 414
+        "statementLine": 414,
+        "questionContext": "札幌市内部監査規程における「内部監査の種類・実施主体」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17169,7 +17760,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:415",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17180,7 +17771,10 @@
       "sourceHeading": "Q18 内部監査の種類・実施主体",
       "sourceOrder": 88,
       "sourceMetadata": {
-        "statementLine": 415
+        "statementLine": 415,
+        "questionContext": "札幌市内部監査規程における「内部監査の種類・実施主体」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17199,7 +17793,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:416",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17210,7 +17804,10 @@
       "sourceHeading": "Q18 内部監査の種類・実施主体",
       "sourceOrder": 89,
       "sourceMetadata": {
-        "statementLine": 416
+        "statementLine": 416,
+        "questionContext": "札幌市内部監査規程における「内部監査の種類・実施主体」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17229,7 +17826,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:417",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17240,7 +17837,10 @@
       "sourceHeading": "Q18 内部監査の種類・実施主体",
       "sourceOrder": 90,
       "sourceMetadata": {
-        "statementLine": 417
+        "statementLine": 417,
+        "questionContext": "札幌市内部監査規程における「内部監査の種類・実施主体」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17259,7 +17859,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:433",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17271,7 +17871,10 @@
       "sourceOrder": 91,
       "sourceMetadata": {
         "statementLine": 433,
-        "explanationLine": 442
+        "explanationLine": 442,
+        "questionContext": "札幌市内部監査規程における「定期内部監査の時期・報告」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17290,7 +17893,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:434",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17302,7 +17905,10 @@
       "sourceOrder": 92,
       "sourceMetadata": {
         "statementLine": 434,
-        "explanationLine": 443
+        "explanationLine": 443,
+        "questionContext": "札幌市内部監査規程における「定期内部監査の時期・報告」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17321,7 +17927,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:435",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17333,7 +17939,10 @@
       "sourceOrder": 93,
       "sourceMetadata": {
         "statementLine": 435,
-        "explanationLine": 444
+        "explanationLine": 444,
+        "questionContext": "札幌市内部監査規程における「定期内部監査の時期・報告」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17352,7 +17961,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:436",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17364,7 +17973,10 @@
       "sourceOrder": 94,
       "sourceMetadata": {
         "statementLine": 436,
-        "explanationLine": 445
+        "explanationLine": 445,
+        "questionContext": "札幌市内部監査規程における「定期内部監査の時期・報告」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17383,7 +17995,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:437",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17395,7 +18007,10 @@
       "sourceOrder": 95,
       "sourceMetadata": {
         "statementLine": 437,
-        "explanationLine": 446
+        "explanationLine": 446,
+        "questionContext": "札幌市内部監査規程における「定期内部監査の時期・報告」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題（過去問テーマ参考）",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17414,7 +18029,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:460",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17426,7 +18041,10 @@
       "sourceOrder": 96,
       "sourceMetadata": {
         "statementLine": 460,
-        "explanationLine": 469
+        "explanationLine": 469,
+        "questionContext": "札幌市の情報公開条例・事務取扱規程・公文書管理条例・公用文規程・オンブズマン条例・内部監査規程の横断比較における「頻出数字・主体・改正注意」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・横断確認",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17445,7 +18063,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:461",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17457,7 +18075,10 @@
       "sourceOrder": 97,
       "sourceMetadata": {
         "statementLine": 461,
-        "explanationLine": 470
+        "explanationLine": 470,
+        "questionContext": "札幌市の情報公開条例・事務取扱規程・公文書管理条例・公用文規程・オンブズマン条例・内部監査規程の横断比較における「頻出数字・主体・改正注意」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・横断確認",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17476,7 +18097,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:462",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17488,7 +18109,10 @@
       "sourceOrder": 98,
       "sourceMetadata": {
         "statementLine": 462,
-        "explanationLine": 471
+        "explanationLine": 471,
+        "questionContext": "札幌市の情報公開条例・事務取扱規程・公文書管理条例・公用文規程・オンブズマン条例・内部監査規程の横断比較における「頻出数字・主体・改正注意」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・横断確認",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17507,7 +18131,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:463",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17519,7 +18143,10 @@
       "sourceOrder": 99,
       "sourceMetadata": {
         "statementLine": 463,
-        "explanationLine": 472
+        "explanationLine": 472,
+        "questionContext": "札幌市の情報公開条例・事務取扱規程・公文書管理条例・公用文規程・オンブズマン条例・内部監査規程の横断比較における「頻出数字・主体・改正注意」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・横断確認",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },
@@ -17538,7 +18165,7 @@
       "sourceReference": "municipal_regulations_integrated_review_text(1).md:464",
       "verificationStatus": "CONFIRMED",
       "reviewEligible": true,
-      "judgmentAsOf": "2026-04-01",
+      "judgmentAsOf": null,
       "historicalJudgment": null,
       "historicalContext": null,
       "timeSensitive": false,
@@ -17550,7 +18177,10 @@
       "sourceOrder": 100,
       "sourceMetadata": {
         "statementLine": 464,
-        "explanationLine": 473
+        "explanationLine": 473,
+        "questionContext": "札幌市の情報公開条例・事務取扱規程・公文書管理条例・公用文規程・オンブズマン条例・内部監査規程の横断比較における「頻出数字・主体・改正注意」について、次の記述の正誤を判断してください。",
+        "originLabel": "予想問題・横断確認",
+        "referenceDateLabel": "教材更新：2026-09-04。教材に記載された条文・改正の扱いで判定（現行条文の再監査は未実施）。"
       },
       "active": true
     },

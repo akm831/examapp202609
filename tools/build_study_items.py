@@ -10,6 +10,7 @@ import unicodedata
 import uuid
 from collections import Counter
 from pathlib import Path
+from study_context import enrich_context
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "sources"
@@ -250,11 +251,13 @@ def main():
                             frozenset({2,3,7,8,10,11,12,14,15,18}), frozenset({6,8,12}))
     items += choice_subject("domestic-affairs", r"問(\d+)")
     apply_statuses(items)
+    contexts = enrich_context(items, lines)
     order = Counter()
     for it in items:
         order[it["subject"]] += 1; it["sourceOrder"] = order[it["subject"]]
     items.sort(key=lambda x: (list(SUBJECTS.values()).index(x["subject"]), x["sourceOrder"]))
     OUT.mkdir(exist_ok=True)
+    (OUT / "study_contexts.json").write_text(json.dumps(contexts, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (OUT / "study_items.json").write_text(json.dumps({
         "schemaVersion": "1.0.0", "generatedFrom": "six read-only project source documents",
         "itemCount": len(items), "items": items}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

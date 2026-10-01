@@ -2,6 +2,7 @@ import { Prisma, StudyMode } from "@prisma/client";
 import { prisma } from "./db";
 import { ApiError } from "./errors";
 import { applyExamDateAdjustment, calculateProgress, emptyProgress, rebuildProgress } from "@/lib/review";
+import { studyContextFor } from "@/lib/study-context";
 
 export type CreateSessionInput={mode:StudyMode;subjectSlug?:string;requestedCount?:number;progressFilter?:"ALL"|"UNSTUDIED"|"INCORRECT"|"UNSURE"|"LOW_ACCURACY"};
 const dateInZone=(d:Date,tz:string)=>new Intl.DateTimeFormat("en-CA",{timeZone:tz,year:"numeric",month:"2-digit",day:"2-digit"}).format(d);
@@ -65,7 +66,7 @@ export async function getNextItem(userId:string,id:string){
     select:{studyItem:{select:{id:true,statementText:true,subject:{select:{slug:true,name:true}}}}},
   });
   if(!row)throw new ApiError("NOT_FOUND","次の問題が見つかりません。",404);
-  return {sessionId:id,progress:{answered,total},completed:false as const,item:{id:row.studyItem.id,subject:row.studyItem.subject,statementText:row.studyItem.statementText}};
+  return {sessionId:id,progress:{answered,total},completed:false as const,item:{id:row.studyItem.id,subject:row.studyItem.subject,statementText:row.studyItem.statementText,context:studyContextFor(row.studyItem.id)}};
 }
 
 export async function getSessionItems(userId:string,id:string,offset=0,limit=593){
@@ -86,7 +87,10 @@ export async function getSessionItems(userId:string,id:string,offset=0,limit=593
   });
   if(!session)throw new ApiError("NOT_FOUND","セッションが見つかりません。",404);
   const answeredIds="attempts" in session?session.attempts.map(a=>a.studyItemId):[];
-  const items=session.items.map(x=>({...x.studyItem,judgmentAsOf:x.studyItem.judgmentAsOf?.toISOString().slice(0,10)??null}));
+  const items=session.items.map(x=>{
+    const context=studyContextFor(x.studyItem.id);
+    return {...x.studyItem,context,judgmentAsOf:context?context.judgmentAsOf:x.studyItem.judgmentAsOf?.toISOString().slice(0,10)??null};
+  });
   return {sessionId:id,answeredIds,total:session._count.items,completed:!!session.endedAt||offset===0&&answeredIds.length>=session._count.items,items};
 }
 
@@ -157,6 +161,6 @@ export async function dashboard(userId:string){
 }
 
 export async function answerLog(userId:string){
-  const rows=await prisma.answerAttempt.findMany({where:{userId},orderBy:[{answeredAt:"asc"},{id:"asc"}],select:{id:true,answeredAt:true,sessionId:true,selectedJudgment:true,isCorrect:true,wasUnsure:true,responseMs:true,studyItem:{select:{sourceItemKey:true,statementText:true,correctJudgment:true,explanation:true,sourceReference:true,subject:{select:{name:true,slug:true}}}}}});
-  return {format:"examapp-answer-log-v1",exportedAt:new Date().toISOString(),count:rows.length,attempts:rows.map(a=>({attemptId:a.id,answeredAt:a.answeredAt.toISOString(),sessionId:a.sessionId,subject:a.studyItem.subject.name,subjectSlug:a.studyItem.subject.slug,sourceItemKey:a.studyItem.sourceItemKey,question:a.studyItem.statementText,answer:a.selectedJudgment,correctAnswer:a.studyItem.correctJudgment,isCorrect:a.isCorrect,wasUnsure:a.wasUnsure,responseMs:a.responseMs,explanation:a.studyItem.explanation,sourceReference:a.studyItem.sourceReference}))};
+  const rows=await prisma.answerAttempt.findMany({where:{userId},orderBy:[{answeredAt:"asc"},{id:"asc"}],select:{id:true,answeredAt:true,sessionId:true,selectedJudgment:true,isCorrect:true,wasUnsure:true,responseMs:true,studyItem:{select:{id:true,sourceItemKey:true,statementText:true,correctJudgment:true,explanation:true,sourceReference:true,subject:{select:{name:true,slug:true}}}}}});
+  return {format:"examapp-answer-log-v1",exportedAt:new Date().toISOString(),count:rows.length,attempts:rows.map(a=>({attemptId:a.id,answeredAt:a.answeredAt.toISOString(),sessionId:a.sessionId,subject:a.studyItem.subject.name,subjectSlug:a.studyItem.subject.slug,sourceItemKey:a.studyItem.sourceItemKey,question:a.studyItem.statementText,questionContext:studyContextFor(a.studyItem.id)?.questionContext??null,referenceDateLabel:studyContextFor(a.studyItem.id)?.referenceDateLabel??null,answer:a.selectedJudgment,correctAnswer:a.studyItem.correctJudgment,isCorrect:a.isCorrect,wasUnsure:a.wasUnsure,responseMs:a.responseMs,explanation:a.studyItem.explanation,sourceReference:a.studyItem.sourceReference}))};
 }

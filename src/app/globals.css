@@ -2,3 +2,13 @@
 .loading-progress{height:16px;background:var(--line);margin:18px 0}.loading-progress>i{transition:width .25s ease}
 
 .analytics-table{overflow-x:auto} .analytics-table table{width:100%;border-collapse:collapse;text-align:left} .analytics-table td,.analytics-table th{padding:8px;border-bottom:1px solid #ddd;white-space:nowrap}
+.question-context { border-bottom:1px solid #dce3ed; margin-bottom:20px; padding-bottom:12px; }
+.question-premise { font-weight:600; line-height:1.7; }
+.choice-list { display:grid; gap:12px; margin:20px 0; }
+.choice-option { display:flex; gap:12px; align-items:flex-start; padding:16px; border:1px solid #cbd5e1; border-radius:12px; background:white; cursor:pointer; line-height:1.8; }
+.choice-option input { margin-top:7px; flex-shrink:0; }
+.choice-option.chosen { border-color:#2563eb; background:#eff6ff; }
+.choice-option.right { border-color:#15803d; }
+.choice-option.wrong { border-color:#b91c1c; }
+.choice-explanation { padding:14px 0; border-bottom:1px solid #e2e8f0; line-height:1.8; }
+.choice-explanation:last-child { border-bottom:0; }
