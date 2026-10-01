@@ -56,6 +56,7 @@ export function StudyScreen({sessionId,fast=false}:{sessionId:string;fast?:boole
       sessionStorage.removeItem(storageKey);
       const outstanding=saved.filter(entry=>!answered.has(entry.studyItemId));persist(outstanding);
       const firstUnanswered=allItems.findIndex(item=>!answered.has(item.id));
+      started.current=Date.now();
       setItems(allItems);setIndex(Math.min(allItems.length,(firstUnanswered<0?allItems.length:firstUnanswered)+outstanding.length));setReady(true);
       if(outstanding.length)void sync(true);
       if(first.completed&&!outstanding.length)router.replace(`/study/complete/${sessionId}`);
@@ -65,7 +66,7 @@ export function StudyScreen({sessionId,fast=false}:{sessionId:string;fast?:boole
   function answer(value:boolean){
     const item=items[index];if(!item||selected!==null||answerLock.current===item.id)return;
     answerLock.current=item.id;
-    const entry:Pending={requestId:crypto.randomUUID(),sessionId,studyItemId:item.id,selectedJudgment:value,wasUnsure:unsure,responseMs:Date.now()-started.current};
+    const entry:Pending={requestId:crypto.randomUUID(),sessionId,studyItemId:item.id,selectedJudgment:value,wasUnsure:unsure,responseMs:Math.min(2147483647,Math.max(0,Date.now()-started.current))};
     persist([...readPending(storageKey),entry]);setSelected(value);
     if(queue.current.length>=5)void sync();
     if(fast&&value===item.correctJudgment&&!unsure){setSelected(null);setIndex(n=>n+1);setUnsure(false);started.current=Date.now();if(index+1>=items.length)void sync(true).then(ok=>{if(ok)window.location.assign(`/study/complete/${sessionId}`)});}

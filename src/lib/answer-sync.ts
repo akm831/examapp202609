@@ -10,7 +10,8 @@ export async function sendAnswers(answers:PendingAnswer[]){
   try{
     const response=await fetch("/api/attempts/batch",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({answers}),signal:controller.signal});
     const body=await response.json().catch(()=>null);
-    if(!response.ok)throw new Error(`${body?.error?.message||"サーバーから正常な応答がありません。"} [HTTP ${response.status} / ${body?.error?.code||"INVALID_RESPONSE"} / ${Date.now()-started}ms]`);
+    const issues=Array.isArray(body?.error?.issues)?body.error.issues.map((issue:{path?:string;message?:string})=>`${issue.path}: ${issue.message}`).join("; "):"";
+    if(!response.ok)throw new Error(`${body?.error?.message||"サーバーから正常な応答がありません。"} [HTTP ${response.status} / ${body?.error?.code||"INVALID_RESPONSE"} / ${Date.now()-started}ms]${issues?` ${issues}`:""}`);
     if(!Array.isArray(body?.results)||body.results.length!==answers.length||body.results.some((r:{attemptId?:string})=>!r?.attemptId))throw new Error("同期結果を確認できませんでした。[INVALID_RESPONSE]");
     return body.results as {attemptId:string}[];
   }catch(error){
