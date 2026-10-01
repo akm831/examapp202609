@@ -91,22 +91,39 @@ export async function getSessionItems(userId:string,id:string,offset=0,limit=593
 }
 
 export type AnswerInput={requestId:string;studyItemId:string;sessionId?:string;selectedJudgment:boolean;wasUnsure:boolean;responseMs?:number};
+async function answerTransaction<T>(run:(tx:Prisma.TransactionClient)=>Promise<T>):Promise<T>{
+  // Serializable conflicts and concurrent duplicate submissions must retry the whole transaction.
+  for(let attempt=0;;attempt++){
+    try{return await prisma.$transaction(run,{isolationLevel:Prisma.TransactionIsolationLevel.Serializable,timeout:20000})}
+    catch(error){
+      const code=error instanceof Prisma.PrismaClientKnownRequestError?error.code:undefined;
+      if(attempt>=3||(code!=="P2034"&&code!=="P2002"))throw error;
+      await new Promise(resolve=>setTimeout(resolve,50*(attempt+1)));
+    }
+  }
+}
 export async function submitAnswer(userId:string,input:AnswerInput){
-  return prisma.$transaction(tx=>submitAnswerInTransaction(tx,userId,input),{isolationLevel:Prisma.TransactionIsolationLevel.Serializable});
+  return answerTransaction(tx=>submitAnswerInTransaction(tx,userId,input));
 }
 export async function submitAnswerBatch(userId:string,inputs:AnswerInput[]){
   if(!inputs.length||inputs.length>10)throw new ApiError("INVALID_INPUT","1〜10件の回答を指定してください。",400);
   if(new Set(inputs.map(x=>x.requestId)).size!==inputs.length||new Set(inputs.map(x=>x.studyItemId)).size!==inputs.length)throw new ApiError("INVALID_INPUT","同じ回答または問題が重複しています。",400);
-  return prisma.$transaction(async tx=>{
+  return answerTransaction(async tx=>{
     const results=[];
     for(const input of inputs)results.push(await submitAnswerInTransaction(tx,userId,input));
     return results;
-  },{isolationLevel:Prisma.TransactionIsolationLevel.Serializable,timeout:20000});
+  });
 }
 async function submitAnswerInTransaction(tx:Prisma.TransactionClient,userId:string,input:AnswerInput){
     const prior=await tx.answerAttempt.findUnique({where:{userId_requestId:{userId,requestId:input.requestId}},include:{studyItem:true}}); if(prior)return feedback(prior);
     const item=await tx.studyItem.findUnique({where:{id:input.studyItemId}}); if(!item)throw new ApiError("NOT_FOUND","問題が見つかりません。",404);
     if(input.sessionId){const valid=await tx.studySessionItem.findFirst({where:{sessionId:input.sessionId,studyItemId:item.id,session:{userId}}});if(!valid)throw new ApiError("SESSION_INVALID","このセッションでは回答できません。",409)}
+    // TODAY reuses a session; another tab/device or a stale local queue may use a new requestId
+    // for an already committed session item. Acknowledge the existing answer without counting twice.
+    if(input.sessionId){
+      const existing=await tx.answerAttempt.findUnique({where:{sessionId_studyItemId:{sessionId:input.sessionId,studyItemId:item.id}},include:{studyItem:true}});
+      if(existing){if(existing.userId!==userId)throw new ApiError("SESSION_INVALID","このセッションでは回答できません。",409);return feedback(existing)}
+    }
     const settings=await settingsFor(tx,userId); const isCorrect=input.selectedJudgment===item.correctJudgment;
     const attempt=await tx.answerAttempt.create({data:{...input,userId,isCorrect},include:{studyItem:true}});
     const previous=await tx.studyItemProgress.findUnique({where:{userId_studyItemId:{userId,studyItemId:item.id}}});
