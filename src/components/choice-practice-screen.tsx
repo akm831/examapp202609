@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import {HandbookButton} from "./handbook-button";
 import {useEffect,useRef,useState} from "react";
 import {choiceIsCorrect,readChoiceAnswers,type ChoiceAnswer,type ChoiceQuestion} from "@/lib/choice-practice";
 
@@ -40,7 +41,8 @@ export function ChoicePracticeScreen({questions,userId}:{questions:ChoiceQuestio
         <fieldset style={{border:0,padding:0,margin:0}} disabled={result!==null}><legend className="question">{question.prompt}</legend><div className="choice-list">{question.choices.map((choice,n)=><label key={n} className={`choice-option${selected===n+1?" chosen":""}${result&&n+1===question.correctChoice?" right":""}${result&&selected===n+1&&!result.isCorrect?" wrong":""}`}><input type="radio" name={question.id} checked={selected===n+1} onChange={()=>setSelected(n+1)}/><span><b>{n+1}．</b>{choice.text}</span></label>)}</div><label><input type="checkbox" checked={unsure} onChange={e=>setUnsure(e.target.checked)}/> 迷った</label></fieldset>
         {!result&&<button className="primary" disabled={selected===null} style={{width:"100%",marginTop:18}} onClick={answer}>回答する</button>}
       </section>
-      {result&&<section className="card" aria-live="polite"><h2 className={result.isCorrect?"result-ok":"result-ng"}>{result.isCorrect?"○ 正解":"× 不正解"}</h2><p>あなたの回答：{result.selectedChoice} ／ 正答：{question.correctChoice}{result.wasUnsure?"（迷った）":""}</p><h3>全肢解説</h3>{question.choices.map((choice,n)=><div className="choice-explanation" key={n}><b>{n+1}．{n+1===question.correctChoice?"○":"×"}</b><p>{choice.explanation}</p><p className="muted">根拠：{choice.sourceUrl?<a href={choice.sourceUrl} target="_blank" rel="noreferrer">{choice.source}</a>:choice.source}</p></div>)}<button className="primary" style={{width:"100%",marginTop:18}} onClick={next}>{index+1===subset.length?"結果へ":"次の問題へ"}</button></section>}
+      {result&&<section className="card" aria-live="polite"><h2 className={result.isCorrect?"result-ok":"result-ng"}>{result.isCorrect?"○ 正解":"× 不正解"}</h2><p>あなたの回答：{result.selectedChoice} ／ 正答：{question.correctChoice}{result.wasUnsure?"（迷った）":""}</p><h3>全肢解説</h3>{question.choices.map((choice,n)=><div className="choice-explanation" key={n}><b>{n+1}．{n+1===question.correctChoice?"○":"×"}</b><p>{choice.explanation}</p><HandbookButton text={choice.text}/><p className="muted">根拠：{choice.sourceUrl?<a href={choice.sourceUrl} target="_blank" rel="noreferrer">{choice.source}</a>:choice.source}</p></div>)}<button className="primary" style={{width:"100%",marginTop:18}} onClick={next}>{index+1===subset.length?"結果へ":"次の問題へ"}</button></section>}
     </>}
   </main>;
 }
+
