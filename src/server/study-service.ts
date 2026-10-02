@@ -14,9 +14,11 @@ const eligibleWhere=(include:boolean):Prisma.StudyItemWhereInput=>({active:true,
 export async function createStudySession(userId:string,input:CreateSessionInput){
   return prisma.$transaction(async tx=>{
     const settings=await settingsFor(tx,userId); const now=new Date(); const localDate=dateInZone(now,settings.timezone);
+    let completedTodayId:string|undefined;
     if(input.mode==="TODAY"){
-      const existing=await tx.studySession.findUnique({where:{userId_mode_localDate:{userId,mode:"TODAY",localDate}}});
-      if(existing)return {id:existing.id};
+      const existing=await tx.studySession.findUnique({where:{userId_mode_localDate:{userId,mode:"TODAY",localDate}},include:{_count:{select:{items:true,attempts:true}}}});
+      if(existing&&!existing.endedAt&&existing._count.attempts<existing._count.items)return {id:existing.id};
+      completedTodayId=existing?.id;
     }
     let subjectId:string|undefined;
     if(input.mode==="SUBJECT"){
@@ -37,6 +39,8 @@ export async function createStudySession(userId:string,input:CreateSessionInput)
       const rows=await tx.studyItem.findMany({where:{...base,...progressFilter,...(subjectId?{subjectId}:{})},select:{id:true}}); ids=shuffle(rows.map(x=>x.id)); if(input.requestedCount)ids=ids.slice(0,input.requestedCount);
     }
     if(!ids.length)throw new ApiError("NO_STUDY_ITEMS","現在、対象の問題はありません。",409);
+    // Release the daily unique key without deleting the completed session or its answers.
+    if(completedTodayId)await tx.studySession.update({where:{id:completedTodayId},data:{localDate:null,endedAt:now}});
     const session=await tx.studySession.create({data:{userId,mode:input.mode,subjectId,requestedCount:ids.length,localDate:input.mode==="TODAY"?localDate:null,items:{create:ids.map((studyItemId,position)=>({studyItemId,position}))}}});
     return {id:session.id};
   },{isolationLevel:Prisma.TransactionIsolationLevel.Serializable});
@@ -107,7 +111,11 @@ async function answerTransaction<T>(run:(tx:Prisma.TransactionClient)=>Promise<T
   }
 }
 export async function submitAnswer(userId:string,input:AnswerInput){
-  return answerTransaction(tx=>submitAnswerInTransaction(tx,userId,input));
+  return answerTransaction(async tx=>{
+    const result=await submitAnswerInTransaction(tx,userId,input);
+    if(input.sessionId)await completeSessionIfAnswered(tx,userId,input.sessionId);
+    return result;
+  });
 }
 export async function submitAnswerBatch(userId:string,inputs:AnswerInput[]){
   if(!inputs.length||inputs.length>10)throw new ApiError("INVALID_INPUT","1〜10件の回答を指定してください。",400);
@@ -115,6 +123,7 @@ export async function submitAnswerBatch(userId:string,inputs:AnswerInput[]){
   return answerTransaction(async tx=>{
     const results=[];
     for(const input of inputs)results.push(await submitAnswerInTransaction(tx,userId,input));
+    for(const sessionId of new Set(inputs.flatMap(input=>input.sessionId?[input.sessionId]:[])))await completeSessionIfAnswered(tx,userId,sessionId);
     return results;
   });
 }
@@ -138,6 +147,11 @@ async function submitAnswerInTransaction(tx:Prisma.TransactionClient,userId:stri
     return feedback(attempt);
   }
 
+async function completeSessionIfAnswered(tx:Prisma.TransactionClient,userId:string,id:string){
+  const session=await tx.studySession.findFirst({where:{id,userId},select:{endedAt:true,_count:{select:{items:true,attempts:true}}}});
+  if(session&&!session.endedAt&&session._count.attempts>=session._count.items)await tx.studySession.update({where:{id},data:{endedAt:new Date()}});
+}
+
 function feedback(a:{id:string;selectedJudgment:boolean;isCorrect:boolean;wasUnsure:boolean;studyItem:{correctJudgment:boolean;explanation:string;explanationType:string;sourceReference:string;verificationStatus:string;caution:string|null;timeSensitive:boolean;historicalJudgment:boolean|null;historicalContext:string|null;judgmentAsOf:Date|null}}){return {attemptId:a.id,isCorrect:a.isCorrect,selectedJudgment:a.selectedJudgment,correctJudgment:a.studyItem.correctJudgment,wasUnsure:a.wasUnsure,explanation:a.studyItem.explanation,explanationType:a.studyItem.explanationType,sourceReference:a.studyItem.sourceReference,verificationStatus:a.studyItem.verificationStatus,caution:a.studyItem.caution,timeSensitive:a.studyItem.timeSensitive,historicalJudgment:a.studyItem.historicalJudgment,historicalContext:a.studyItem.historicalContext,judgmentAsOf:a.studyItem.judgmentAsOf?.toISOString().slice(0,10)??null};}
 
 export async function updateUnsure(userId:string,attemptId:string,wasUnsure:boolean){
@@ -157,7 +171,7 @@ export async function dashboard(userId:string){
   const [subjects,totalAttempts,studiedItems,masteredItems,relearningItems,openSessions,due]=await Promise.all([
     prisma.subject.findMany({orderBy:{sortOrder:"asc"},include:{_count:{select:{items:true}}}}),prisma.answerAttempt.count({where:{userId}}),prisma.studyItemProgress.count({where:{userId}}),prisma.studyItemProgress.count({where:{userId,masteryStatus:"MASTERED"}}),prisma.studyItemProgress.count({where:{userId,masteryStatus:"RELEARNING"}}),prisma.studySession.findMany({where:{userId,endedAt:null},orderBy:{startedAt:"desc"},include:{_count:{select:{items:true,attempts:true}}}}),prisma.studyItemProgress.count({where:{userId,nextReviewAt:{lte:now},studyItem:eligibleWhere(settings.includeSourceUncertain)}})
   ]);
-  return {exam:{date:settings.examDate?.toISOString().slice(0,10)??null,daysRemaining:settings.examDate?Math.ceil((settings.examDate.getTime()-now.getTime())/86400000):null},today:{due,new:settings.newItemsPerDay},stats:{totalAttempts,studiedItems,unstudiedItems:593-studiedItems,masteredItems,relearningItems},subjects:subjects.map(s=>({slug:s.slug,name:s.name,count:s._count.items})),openSessions:openSessions.map(s=>({id:s.id,mode:s.mode,answered:s._count.attempts,total:s._count.items}))};
+  return {exam:{date:settings.examDate?.toISOString().slice(0,10)??null,daysRemaining:settings.examDate?Math.ceil((settings.examDate.getTime()-now.getTime())/86400000):null},today:{due,new:settings.newItemsPerDay},stats:{totalAttempts,studiedItems,unstudiedItems:593-studiedItems,masteredItems,relearningItems},subjects:subjects.map(s=>({slug:s.slug,name:s.name,count:s._count.items})),openSessions:openSessions.filter(s=>s._count.attempts<s._count.items).map(s=>({id:s.id,mode:s.mode,answered:s._count.attempts,total:s._count.items}))};
 }
 
 export async function answerLog(userId:string){

@@ -11,7 +11,7 @@ describe("answer synchronization",()=>{
   it("acknowledges a previously saved TODAY session item with a different requestId without rewriting progress",async()=>{
     const findUnique=vi.fn().mockResolvedValueOnce(null).mockResolvedValueOnce(existing);
     const create=vi.fn();
-    mocks.transaction.mockImplementation(async run=>run({answerAttempt:{findUnique,create},studyItem:{findUnique:vi.fn().mockResolvedValue({id:"item"})},studySessionItem:{findFirst:vi.fn().mockResolvedValue({id:"session-item"})}}));
+    mocks.transaction.mockImplementation(async run=>run({studySession:{findFirst:vi.fn().mockResolvedValue(null)},answerAttempt:{findUnique,create},studyItem:{findUnique:vi.fn().mockResolvedValue({id:"item"})},studySessionItem:{findFirst:vi.fn().mockResolvedValue({id:"session-item"})}}));
     const results=await submitAnswerBatch("user",[input]);
     expect(results[0].attemptId).toBe("saved-attempt");expect(create).not.toHaveBeenCalled();
   });
