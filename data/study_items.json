@@ -10486,10 +10486,10 @@
       "questionGroup": "q01",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "一般会計は1兆3,185億円だが、全会計は2兆円未満である。",
+      "statement": "札幌市の令和8年度当初予算は、一般会計が1兆3,185億円となった一方、一般会計・特別会計・企業会計を合わせた全会計の総額は2兆円を下回った。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：全会計は**2兆405億円**で2兆円を超える。",
+      "explanation": "全会計は2兆405億円で2兆円を超える。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:63",
       "verificationStatus": "CONFIRMED",
@@ -10507,9 +10507,10 @@
       "sourceMetadata": {
         "statementLine": 63,
         "explanationLine": 72,
-        "questionContext": "札幌市の令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10520,10 +10521,10 @@
       "questionGroup": "q01",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "全会計は2兆405億円で、前年度比3.3％減である。",
+      "statement": "札幌市の令和8年度当初予算の全会計総額は2兆405億円であり、前年度当初予算と比較して3.3％減少した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：3.3％**増**である。",
+      "explanation": "3.3％増である。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:64",
       "verificationStatus": "CONFIRMED",
@@ -10541,9 +10542,10 @@
       "sourceMetadata": {
         "statementLine": 64,
         "explanationLine": 73,
-        "questionContext": "札幌市の令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10554,10 +10556,10 @@
       "questionGroup": "q01",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "一般会計は1兆3,185億円、全会計は2兆405億円で、全会計は初めて2兆円を超えた。",
+      "statement": "札幌市の令和8年度当初予算は、一般会計が1兆3,185億円、全会計が2兆405億円となり、全会計の総額は初めて2兆円を超えた。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：一般会計・全会計の規模と「初の2兆円超」が一致する。",
+      "explanation": "令和8年度当初予算は一般会計1兆3,185億円、全会計2兆405億円です。全会計は一般会計・特別会計（公債会計を除く）・企業会計を合わせた金額で、初めて2兆円を超えました。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:65",
       "verificationStatus": "CONFIRMED",
@@ -10575,9 +10577,10 @@
       "sourceMetadata": {
         "statementLine": 65,
         "explanationLine": 74,
-        "questionContext": "札幌市の令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10588,10 +10591,10 @@
       "questionGroup": "q01",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "特別会計は3,095億円、企業会計は4,125億円である。",
+      "statement": "札幌市の令和8年度当初予算のうち、公債会計を除く特別会計の総額は3,095億円、企業会計の総額は4,125億円である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：特別会計**4,125億円**、企業会計**3,095億円**。",
+      "explanation": "特別会計4,125億円、企業会計3,095億円。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:66",
       "verificationStatus": "CONFIRMED",
@@ -10609,9 +10612,10 @@
       "sourceMetadata": {
         "statementLine": 66,
         "explanationLine": 75,
-        "questionContext": "札幌市の令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10622,10 +10626,10 @@
       "questionGroup": "q01",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "全会計が初めて1兆円を超えた年度である。",
+      "statement": "札幌市の令和8年度当初予算では、一般会計・特別会計・企業会計を合わせた総額が初めて1兆円を超えた。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：「初めて超えた」のは**2兆円**。",
+      "explanation": "「初めて超えた」のは2兆円。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:67",
       "verificationStatus": "CONFIRMED",
@@ -10643,9 +10647,10 @@
       "sourceMetadata": {
         "statementLine": 67,
         "explanationLine": 76,
-        "questionContext": "札幌市の令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度当初予算の会計別規模について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10656,10 +10661,10 @@
       "questionGroup": "q02",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "扶助費総額が増えたので、生活保護費と医療助成も増えた。",
+      "statement": "札幌市の令和8年度当初予算では、扶助費の総額が前年度より増加し、その内訳である生活保護費と医療助成の予算額も、ともに増加した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：生活保護費と医療助成は**減少**。",
+      "explanation": "生活保護費と医療助成は減少。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:91",
       "verificationStatus": "CONFIRMED",
@@ -10677,9 +10682,10 @@
       "sourceMetadata": {
         "statementLine": 91,
         "explanationLine": 100,
-        "questionContext": "札幌市の令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10690,10 +10696,10 @@
       "questionGroup": "q02",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "障がい福祉費は11.7％減少した。",
+      "statement": "札幌市の令和8年度当初予算における障がい福祉費は、前年度当初予算と比較して11.7％減少した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：障がい福祉費は**11.7％増**。",
+      "explanation": "障がい福祉費は11.7％増。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:92",
       "verificationStatus": "CONFIRMED",
@@ -10711,9 +10717,10 @@
       "sourceMetadata": {
         "statementLine": 92,
         "explanationLine": 101,
-        "questionContext": "札幌市の令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10724,10 +10731,10 @@
       "questionGroup": "q02",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "一般会計建設事業費は15.7％減少した。",
+      "statement": "札幌市の令和8年度当初予算における一般会計の建設事業費は、前年度当初予算と比較して15.7％減少した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：一般会計建設事業費は**15.7％増**。",
+      "explanation": "一般会計建設事業費は15.7％増です。前年度補正予算の前倒し計上分を除いた比較です。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:93",
       "verificationStatus": "CONFIRMED",
@@ -10745,9 +10752,10 @@
       "sourceMetadata": {
         "statementLine": 93,
         "explanationLine": 102,
-        "questionContext": "札幌市の令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10758,10 +10766,10 @@
       "questionGroup": "q02",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "扶助費は増加したが、生活保護費と医療助成は減少し、建設事業費はR7減からR8増へ転じた。",
+      "statement": "札幌市の令和8年度当初予算では、扶助費の総額は増加したものの、生活保護費と医療助成は減少した。また、一般会計の建設事業費は、令和7年度の前年度比減少から増加に転じた。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：総額と内訳の増減方向を正しく区別している。",
+      "explanation": "扶助費は総額で増加していますが、内訳の生活保護費と医療助成は減少しています。一般会計建設事業費は令和8年度に前年度比15.7％増となりました。この比較は前年度補正予算の前倒し計上分を除いたものです。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:94",
       "verificationStatus": "CONFIRMED",
@@ -10779,9 +10787,10 @@
       "sourceMetadata": {
         "statementLine": 94,
         "explanationLine": 103,
-        "questionContext": "札幌市の令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10792,10 +10801,10 @@
       "questionGroup": "q02",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "4.4％は建設事業費、16.7％は扶助費の伸び率である。",
+      "statement": "札幌市の令和8年度当初予算では、全会計の建設事業費が前年度比4.4％増、扶助費が前年度比16.7％増となった。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：扶助費が**+4.4％**、全会計建設事業費が**+16.7％**。",
+      "explanation": "扶助費が+4.4％、全会計建設事業費が+16.7％。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:95",
       "verificationStatus": "CONFIRMED",
@@ -10813,9 +10822,10 @@
       "sourceMetadata": {
         "statementLine": 95,
         "explanationLine": 104,
-        "questionContext": "札幌市の令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度当初予算の扶助費・建設事業費と前年度比について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10826,10 +10836,10 @@
       "questionGroup": "q03",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "歳入最大は国庫支出金である。",
+      "statement": "札幌市の令和8年度一般会計当初予算では、歳入のうち最も大きな割合を占める項目は国庫支出金である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：歳入最大は**市税**。",
+      "explanation": "歳入最大は市税。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:115",
       "verificationStatus": "CONFIRMED",
@@ -10847,9 +10857,10 @@
       "sourceMetadata": {
         "statementLine": 115,
         "explanationLine": 124,
-        "questionContext": "札幌市の令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10860,10 +10871,10 @@
       "questionGroup": "q03",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "歳出最大は教育費である。",
+      "statement": "札幌市の令和8年度一般会計当初予算では、歳出のうち最も大きな割合を占める項目は教育費である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：歳出最大は**保健福祉費**。",
+      "explanation": "歳出最大は保健福祉費。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:116",
       "verificationStatus": "CONFIRMED",
@@ -10881,9 +10892,10 @@
       "sourceMetadata": {
         "statementLine": 116,
         "explanationLine": 125,
-        "questionContext": "札幌市の令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10894,10 +10906,10 @@
       "questionGroup": "q03",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "市税3,987億円が歳入最大、保健福祉費5,286億円が歳出最大である。",
+      "statement": "札幌市の令和8年度一般会計当初予算では、歳入は市税の3,987億円、歳出は保健福祉費の5,286億円が、それぞれ最大の項目となっている。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：金額・最大項目とも正しい。",
+      "explanation": "一般会計の歳入で最大なのは市税3,987億円、歳出で最大なのは保健福祉費5,286億円です。国庫支出金や教育費が最大という説明は誤りです。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:117",
       "verificationStatus": "CONFIRMED",
@@ -10915,9 +10927,10 @@
       "sourceMetadata": {
         "statementLine": 117,
         "explanationLine": 126,
-        "questionContext": "札幌市の令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10928,10 +10941,10 @@
       "questionGroup": "q03",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "環境費は17.8％増加した。",
+      "statement": "札幌市の令和8年度一般会計当初予算における環境費は、前年度当初予算と比較して17.8％増加した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：環境費は**17.8％減**。",
+      "explanation": "環境費は17.8％減。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:118",
       "verificationStatus": "CONFIRMED",
@@ -10949,9 +10962,10 @@
       "sourceMetadata": {
         "statementLine": 118,
         "explanationLine": 127,
-        "questionContext": "札幌市の令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10962,10 +10976,10 @@
       "questionGroup": "q03",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "公債費は16.3％減少した。",
+      "statement": "札幌市の令和8年度一般会計当初予算における公債費は、前年度当初予算と比較して16.3％減少した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：公債費は**16.3％増**。",
+      "explanation": "公債費は16.3％増。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:119",
       "verificationStatus": "CONFIRMED",
@@ -10983,9 +10997,10 @@
       "sourceMetadata": {
         "statementLine": 119,
         "explanationLine": 128,
-        "questionContext": "札幌市の令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度一般会計の歳入・歳出と前年度比について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -10996,10 +11011,10 @@
       "questionGroup": "q04",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "活用可能基金はR15に枯渇する見込みである。",
+      "statement": "札幌市の令和8年度予算資料で示された財政推計では、活用可能基金は令和15年度に枯渇する見込みとされている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：基金枯渇見込みは**R13**。",
+      "explanation": "基金枯渇見込みはR13。 財政改善策を行わず、令和13年度の活用可能基金枯渇後は減債基金を収支不足に充てる場合の試算です。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:159",
       "verificationStatus": "CONFIRMED",
@@ -11017,9 +11032,10 @@
       "sourceMetadata": {
         "statementLine": 159,
         "explanationLine": 168,
-        "questionContext": "札幌市の令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11030,10 +11046,10 @@
       "questionGroup": "q04",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "建設事業費と一般会計市債残高はいずれもR11にピークを迎える。",
+      "statement": "札幌市の令和8年度予算資料で示された将来見通しでは、建設事業費と一般会計の市債残高は、いずれも令和11年度に最大となる見込みである。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：一般会計市債残高のピークは**R15**。",
+      "explanation": "一般会計市債残高のピークはR15。 財政改善策を行わず、令和13年度の活用可能基金枯渇後は減債基金を収支不足に充てる場合の試算です。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:160",
       "verificationStatus": "CONFIRMED",
@@ -11051,9 +11067,10 @@
       "sourceMetadata": {
         "statementLine": 160,
         "explanationLine": 169,
-        "questionContext": "札幌市の令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11064,10 +11081,10 @@
       "questionGroup": "q04",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "R16は実質公債費比率25％超の節目である。",
+      "statement": "札幌市の令和8年度予算資料で示された将来見通しでは、実質公債費比率が初めて25％を超える年度は令和16年度とされている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：R16は**18％超**。25％超はR19。",
+      "explanation": "R16は18％超。25％超はR19。 財政改善策を行わず、令和13年度の活用可能基金枯渇後は減債基金を収支不足に充てる場合の試算です。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:161",
       "verificationStatus": "CONFIRMED",
@@ -11085,9 +11102,10 @@
       "sourceMetadata": {
         "statementLine": 161,
         "explanationLine": 170,
-        "questionContext": "札幌市の令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11098,10 +11116,10 @@
       "questionGroup": "q04",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "建設事業費R11、基金枯渇R13、一般会計市債R15、建設債・実質負担R21の順である。",
+      "statement": "札幌市の令和8年度予算資料で示された将来見通しでは、建設事業費は令和11年度、一般会計の市債残高は令和15年度、建設債残高と建設事業の実質負担は令和21年度に最大となる見込みである。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：主要ピーク・節目の順序が正しい。",
+      "explanation": "建設事業費は令和11年度、一般会計市債残高は令和15年度、建設債残高と建設事業の実質負担は令和21年度に最大となる見込みです。予算資料に示された推計であり、確定した実績ではありません。 実質公債費比率の推計は、財政改善策を行わず、令和13年度の活用可能基金枯渇後は減債基金を収支不足に充てる場合の試算です。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:162",
       "verificationStatus": "CONFIRMED",
@@ -11119,9 +11137,10 @@
       "sourceMetadata": {
         "statementLine": 162,
         "explanationLine": 171,
-        "questionContext": "札幌市の令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11132,10 +11151,10 @@
       "questionGroup": "q04",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "R25は実質公債費比率18％超の節目である。",
+      "statement": "札幌市の令和8年度予算資料で示された将来見通しでは、実質公債費比率が初めて18％を超える年度は令和25年度とされている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：R25は**35％超**。",
+      "explanation": "R25は35％超。 財政改善策を行わず、令和13年度の活用可能基金枯渇後は減債基金を収支不足に充てる場合の試算です。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:163",
       "verificationStatus": "CONFIRMED",
@@ -11153,9 +11172,10 @@
       "sourceMetadata": {
         "statementLine": 163,
         "explanationLine": 172,
-        "questionContext": "札幌市の令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度予算資料における基金・今後の財政推計について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11166,10 +11186,10 @@
       "questionGroup": "q05",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "市分は2万円未満200円、2～5万円未満500円、5万円以上1,000円の3段階である。",
+      "statement": "令和8年4月に導入された札幌市宿泊税の市税分は、1人1泊の宿泊料金が2万円未満の場合200円、2万円以上5万円未満の場合500円、5万円以上の場合1,000円の3段階である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：3段階なのは**道税込み**。市分は5万円を境に2段階。",
+      "explanation": "市税分は5万円未満200円、5万円以上500円の2段階です。道税を含む合計は2万円未満300円、2万円以上5万円未満400円、5万円以上1,000円です。問題文の3段階の金額は市税分とも合計とも一致しません。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:196",
       "verificationStatus": "CONFIRMED",
@@ -11187,9 +11207,10 @@
       "sourceMetadata": {
         "statementLine": 196,
         "explanationLine": 205,
-        "questionContext": "札幌市の2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
+        "questionContext": "2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11200,10 +11221,10 @@
       "questionGroup": "q05",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "市分は5万円未満200円、5万円以上500円で、納税義務者は宿泊者、施設経営者が特別徴収義務者となる。",
+      "statement": "札幌市宿泊税の市税分は、1人1泊の宿泊料金が5万円未満の場合200円、5万円以上の場合500円である。宿泊者が納税義務者となり、宿泊施設の経営者が特別徴収義務者として税を徴収する。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：市分の税率、納税義務者、特別徴収義務者が一致する。",
+      "explanation": "市税分は宿泊料金5万円未満で200円、5万円以上で500円の2段階です。宿泊者が納税義務者、施設経営者が徴収・納入を担う特別徴収義務者となります。北海道の宿泊税を含めた金額とは区別します。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:197",
       "verificationStatus": "CONFIRMED",
@@ -11221,9 +11242,10 @@
       "sourceMetadata": {
         "statementLine": 197,
         "explanationLine": 206,
-        "questionContext": "札幌市の2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
+        "questionContext": "2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11234,10 +11256,10 @@
       "questionGroup": "q05",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "2026年4月1日前に予約した宿泊は、宿泊日が4月1日以後でも課税されない。",
+      "statement": "札幌市宿泊税は、令和8年4月1日より前に予約した宿泊については、同日以後に宿泊する場合でも課税されない。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：課税判定は**予約日ではなく宿泊日**。",
+      "explanation": "課税判定は予約日ではなく宿泊日。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:198",
       "verificationStatus": "CONFIRMED",
@@ -11255,9 +11277,10 @@
       "sourceMetadata": {
         "statementLine": 198,
         "explanationLine": 207,
-        "questionContext": "札幌市の2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
+        "questionContext": "2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11268,10 +11291,10 @@
       "questionGroup": "q05",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "修学旅行等の免除は大学を含む全ての学校の行事参加者に及び、引率者は対象外である。",
+      "statement": "札幌市宿泊税では、大学が主催する修学旅行も学校行事として課税免除の対象となる。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：学校教育法第1条の学校でも**大学は除外**。一定の引率者も免除対象。",
+      "explanation": "学校行事に関する課税免除の対象となる学校から、大学は除かれています。なお、要件を満たす学校行事では一定の引率者も免除の対象となります。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:199",
       "verificationStatus": "CONFIRMED",
@@ -11289,9 +11312,10 @@
       "sourceMetadata": {
         "statementLine": 199,
         "explanationLine": 208,
-        "questionContext": "札幌市の2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
+        "questionContext": "2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11302,10 +11326,10 @@
       "questionGroup": "q05",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "宿泊者が札幌市へ直接申告納付する普通徴収が原則である。",
+      "statement": "札幌市宿泊税は、宿泊者が札幌市へ直接申告し、納付する普通徴収を原則としている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：徴収は**特別徴収**で、宿泊施設が宿泊者から徴収して札幌市へ納入する。",
+      "explanation": "徴収は特別徴収で、宿泊施設が宿泊者から徴収して札幌市へ納入する。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:200",
       "verificationStatus": "CONFIRMED",
@@ -11323,9 +11347,10 @@
       "sourceMetadata": {
         "statementLine": 200,
         "explanationLine": 209,
-        "questionContext": "札幌市の2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
+        "questionContext": "2026年4月導入の札幌市宿泊税（市分と北海道分を区別）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11336,10 +11361,10 @@
       "questionGroup": "q06",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "敬老パスは75歳未満の既存利用者も一律利用不可となった。",
+      "statement": "札幌市は令和8年4月に敬老優待乗車証の交付対象年齢を原則75歳以上へ変更し、既に乗車証を持っていた75歳未満の市民も利用できなくなった。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：既存保有者等には**経過措置**があり、そのまま使用できる者は再申請不要。",
+      "explanation": "既存保有者等には経過措置があり、そのまま使用できる者は再申請不要。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:234",
       "verificationStatus": "CONFIRMED",
@@ -11357,9 +11382,10 @@
       "sourceMetadata": {
         "statementLine": 234,
         "explanationLine": 243,
-        "questionContext": "札幌市の令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11370,10 +11396,10 @@
       "questionGroup": "q06",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "福祉除雪は要介護1以上の者が世帯に1人いれば、集合住宅でも利用できる。",
+      "statement": "札幌市の令和8年度の福祉除雪は、世帯に要介護1以上の人が1人いれば、集合住宅に住む世帯も利用できる。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：本人だけでなく**世帯全員**の条件、住居形態等を満たす必要がある。",
+      "explanation": "本人だけでなく世帯全員の条件、住居形態等を満たす必要がある。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:235",
       "verificationStatus": "CONFIRMED",
@@ -11391,9 +11417,10 @@
       "sourceMetadata": {
         "statementLine": 235,
         "explanationLine": 244,
-        "questionContext": "札幌市の令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11404,10 +11431,10 @@
       "questionGroup": "q06",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "地域協力員活動費は23,000円から21,000円へ減額された。",
+      "statement": "札幌市の令和8年度の福祉除雪では、除雪を担う地域協力員の活動費を21,000円へ引き下げた。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：**21,000円→23,000円**へ増額。",
+      "explanation": "21,000円→23,000円へ増額。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:236",
       "verificationStatus": "CONFIRMED",
@@ -11425,9 +11452,10 @@
       "sourceMetadata": {
         "statementLine": 236,
         "explanationLine": 245,
-        "questionContext": "札幌市の令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11438,10 +11466,10 @@
       "questionGroup": "q06",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "敬老パスには4月14日までの経過措置境界があり、福祉除雪は道路に面する一戸建て住宅・世帯全員・約500m以内の援助可能親族の有無等を要件として見る。",
+      "statement": "札幌市の令和8年度の福祉除雪では、道路に面する一戸建て住宅に住み、世帯全員が所定の要件に該当して自力での除雪が困難と認められることなどが利用条件となる。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：両制度の境界・住居・世帯・近隣親族条件を正しく述べる。",
+      "explanation": "福祉除雪は、道路に面する一戸建て住宅や世帯全員の要件などを確認します。約500メートル以内に除雪を援助できる子やその配偶者が住んでいないことなども条件です。本人の要介護度だけで利用できるものではありません。 なお、令和7年度の利用世帯は、利用要件に変更がなければ引き続き利用できます。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:237",
       "verificationStatus": "CONFIRMED",
@@ -11459,9 +11487,10 @@
       "sourceMetadata": {
         "statementLine": 237,
         "explanationLine": 246,
-        "questionContext": "札幌市の令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11472,10 +11501,10 @@
       "questionGroup": "q06",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "福祉除雪では令和7年度利用世帯も令和8年度に一律利用資格を失う。",
+      "statement": "札幌市の福祉除雪では、令和7年度に利用した世帯も、利用要件に変更があるかどうかにかかわらず、令和8年度は利用できない。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：R7利用世帯で利用要件に変更がなければ**継続利用可能**。",
+      "explanation": "R7利用世帯で利用要件に変更がなければ継続利用可能。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:238",
       "verificationStatus": "CONFIRMED",
@@ -11493,9 +11522,10 @@
       "sourceMetadata": {
         "statementLine": 238,
         "explanationLine": 247,
-        "questionContext": "札幌市の令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の敬老優待乗車証と福祉除雪の制度変更について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11506,10 +11536,10 @@
       "questionGroup": "q07",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "5,000円は世帯単位である。",
+      "statement": "札幌市の物価高対策として実施される全市民向けの給付は、1世帯当たり5,000円を支給するものである。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：5,000円は**1人**単位。",
+      "explanation": "5,000円は1人単位。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:259",
       "verificationStatus": "CONFIRMED",
@@ -11527,9 +11557,10 @@
       "sourceMetadata": {
         "statementLine": 259,
         "explanationLine": 268,
-        "questionContext": "札幌市の物価高対策の全市民向け給付・低所得等世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
+        "questionContext": "物価高対策の全市民向け給付・住民税非課税世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11540,10 +11571,10 @@
       "questionGroup": "q07",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "1万円加算は個人単位である。",
+      "statement": "札幌市の物価高対策では、住民税非課税世帯への加算額1万円は、世帯の人数に応じて1人当たり1万円として支給される。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：1万円加算は**1世帯**単位。",
+      "explanation": "1万円加算は1世帯単位。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:260",
       "verificationStatus": "CONFIRMED",
@@ -11561,9 +11592,10 @@
       "sourceMetadata": {
         "statementLine": 260,
         "explanationLine": 269,
-        "questionContext": "札幌市の物価高対策の全市民向け給付・低所得等世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
+        "questionContext": "物価高対策の全市民向け給付・住民税非課税世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11574,10 +11606,10 @@
       "questionGroup": "q07",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "2万円は児童1人単位で、1回限りである。",
+      "statement": "札幌市で支給される物価高対応の子育て応援手当は、対象児童1人当たり2万円を1回限り支給するものである。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：児童1人2万円、1回限り。",
+      "explanation": "子育て応援手当は対象児童1人につき2万円を1回限り支給します。世帯単位の支給でも、毎月の支給でもありません。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:261",
       "verificationStatus": "CONFIRMED",
@@ -11595,9 +11627,10 @@
       "sourceMetadata": {
         "statementLine": 261,
         "explanationLine": 270,
-        "questionContext": "札幌市の物価高対策の全市民向け給付・低所得等世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
+        "questionContext": "物価高対策の全市民向け給付・住民税非課税世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11608,10 +11641,10 @@
       "questionGroup": "q07",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "2万円は1世帯単位で毎月支給する。",
+      "statement": "札幌市で支給される物価高対応の子育て応援手当は、対象児童のいる世帯に対し、1世帯当たり毎月2万円を支給するものである。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：世帯単位でも毎月でもない。",
+      "explanation": "世帯単位でも毎月でもない。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:262",
       "verificationStatus": "CONFIRMED",
@@ -11629,9 +11662,10 @@
       "sourceMetadata": {
         "statementLine": 262,
         "explanationLine": 271,
-        "questionContext": "札幌市の物価高対策の全市民向け給付・低所得等世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
+        "questionContext": "物価高対策の全市民向け給付・住民税非課税世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11642,10 +11676,10 @@
       "questionGroup": "q07",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "3制度はいずれも同じ単位で支給する。",
+      "statement": "札幌市の物価高対策における全市民向けの5,000円給付、住民税非課税世帯への1万円加算、子育て応援手当の2万円は、いずれも世帯単位で支給される。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：人・世帯・児童で単位が異なる。",
+      "explanation": "人・世帯・児童で単位が異なる。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:263",
       "verificationStatus": "CONFIRMED",
@@ -11663,9 +11697,10 @@
       "sourceMetadata": {
         "statementLine": 263,
         "explanationLine": 272,
-        "questionContext": "札幌市の物価高対策の全市民向け給付・低所得等世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
+        "questionContext": "物価高対策の全市民向け給付・住民税非課税世帯への加算・子育て応援手当の支給単位について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11676,10 +11711,10 @@
       "questionGroup": "q08",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "下水道使用料は2026年10月から平均22.6％改定し、10m3までの基本料金は600円から750円となる。",
+      "statement": "札幌市の下水道使用料は令和8年10月から平均22.6％引き上げられ、1か月の使用水量10立方メートルまでの基本料金は、税抜600円から750円となる。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：時期、平均改定率、基本料金が一致する。",
+      "explanation": "下水道使用料の改定は2026年10月からで、平均改定率は22.6％です。1か月10立方メートルまでの基本料金は税抜600円から750円となります。水道料金の改定とは区別します。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:284",
       "verificationStatus": "CONFIRMED",
@@ -11697,9 +11732,10 @@
       "sourceMetadata": {
         "statementLine": 284,
         "explanationLine": 293,
-        "questionContext": "札幌市の2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
+        "questionContext": "2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11710,10 +11746,10 @@
       "questionGroup": "q08",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "水道料金も同時に22.6％改定する。",
+      "statement": "札幌市は令和8年10月の下水道使用料改定と同時に、水道料金も平均22.6％引き上げることとした。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：改定対象は**下水道使用料**。",
+      "explanation": "改定対象は下水道使用料。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:285",
       "verificationStatus": "CONFIRMED",
@@ -11731,9 +11767,10 @@
       "sourceMetadata": {
         "statementLine": 285,
         "explanationLine": 294,
-        "questionContext": "札幌市の2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
+        "questionContext": "2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11744,10 +11781,10 @@
       "questionGroup": "q08",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "H19以来約20年ぶりである。",
+      "statement": "札幌市の令和8年10月の下水道使用料改定は、平成19年以来、約20年ぶりの改定である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：**H9以来約30年ぶり**。",
+      "explanation": "H9以来約30年ぶり。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:286",
       "verificationStatus": "CONFIRMED",
@@ -11765,9 +11802,10 @@
       "sourceMetadata": {
         "statementLine": 286,
         "explanationLine": 295,
-        "questionContext": "札幌市の2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
+        "questionContext": "2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11778,10 +11816,10 @@
       "questionGroup": "q08",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "指定ごみ袋は45L超のみ使用可能とした。",
+      "statement": "札幌市は令和8年の指定ごみ袋の供給不足への臨時対応として、市販の透明・半透明の袋のうち、容量が45リットルを超えるものに限り使用を認めた。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：条件は**45L以内**等。",
+      "explanation": "条件は45L以内等。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:287",
       "verificationStatus": "CONFIRMED",
@@ -11799,9 +11837,10 @@
       "sourceMetadata": {
         "statementLine": 287,
         "explanationLine": 296,
-        "questionContext": "札幌市の2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
+        "questionContext": "2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11812,10 +11851,10 @@
       "questionGroup": "q08",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "市販袋使用を恒久制度化した。",
+      "statement": "札幌市は令和8年の指定ごみ袋の供給不足への対応として、市販の透明・半透明の袋で燃やせるごみ等を出せる仕組みを、期限を設けない恒久制度として導入した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：供給問題への**期限付き臨時対応**。",
+      "explanation": "供給問題への期限付き臨時対応。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:288",
       "verificationStatus": "CONFIRMED",
@@ -11833,9 +11872,10 @@
       "sourceMetadata": {
         "statementLine": 288,
         "explanationLine": 297,
-        "questionContext": "札幌市の2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
+        "questionContext": "2026年10月の下水道使用料改定と、2026年6月〜9月の指定ごみ袋の臨時対応について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11846,10 +11886,10 @@
       "questionGroup": "q09",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "アルカサルの主な対象は20歳以上である。",
+      "statement": "札幌健康アプリ「アルカサル」は、歩行や健康づくり活動をポイントにつなげる仕組みで、主な利用対象は20歳以上の札幌市民である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：アルカサルの主な対象は**40歳以上**。",
+      "explanation": "アルカサルの主な対象は40歳以上。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:370",
       "verificationStatus": "CONFIRMED",
@@ -11867,9 +11907,10 @@
       "sourceMetadata": {
         "statementLine": 370,
         "explanationLine": 379,
-        "questionContext": "札幌市の札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11880,10 +11921,10 @@
       "questionGroup": "q09",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "受診の目安ナビは18歳以下の本人向けアプリである。",
+      "statement": "札幌市の「受診の目安ナビ」は、18歳以下の子ども本人が利用するスマートフォンアプリである。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：**15歳以下の子どもの保護者向け無料Web**。",
+      "explanation": "15歳以下の子どもの保護者向け無料Web。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:371",
       "verificationStatus": "CONFIRMED",
@@ -11901,9 +11942,10 @@
       "sourceMetadata": {
         "statementLine": 371,
         "explanationLine": 380,
-        "questionContext": "札幌市の札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11914,10 +11956,10 @@
       "questionGroup": "q09",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "緊急度判定ツールは医療機関検索が主機能である。",
+      "statement": "札幌市の救急に関する緊急度判定ツールは、症状に応じた医療機関の検索を主な機能としている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：医療機関検索機能はない。判定結果を#7119へ引き継げる。",
+      "explanation": "医療機関検索機能はない。判定結果を#7119へ引き継げる。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:372",
       "verificationStatus": "CONFIRMED",
@@ -11935,9 +11977,10 @@
       "sourceMetadata": {
         "statementLine": 372,
         "explanationLine": 381,
-        "questionContext": "札幌市の札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11948,10 +11991,10 @@
       "questionGroup": "q09",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "第二マイナンバーカードセンターはカード受取予約不要である。",
+      "statement": "札幌市の第二マイナンバーカードセンターでは、マイナンバーカードの受け取りに事前予約は必要ない。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：カード受取は**完全予約制**。",
+      "explanation": "カード受取は完全予約制。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:373",
       "verificationStatus": "CONFIRMED",
@@ -11969,9 +12012,10 @@
       "sourceMetadata": {
         "statementLine": 373,
         "explanationLine": 382,
-        "questionContext": "札幌市の札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -11982,10 +12026,10 @@
       "questionGroup": "q09",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "受診の目安ナビは15歳以下の子の保護者向け無料Webで、R7実証後R8年度も継続利用できる。",
+      "statement": "札幌市の「受診の目安ナビ」は、札幌市内に住む15歳以下の子どもの保護者が無料で利用できるウェブサービスであり、令和7年度の実証事業後も、令和8年度に引き続き利用できる。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：対象、媒体、状態を正しく述べている。",
+      "explanation": "受診の目安ナビは、札幌市内に住む15歳以下の子どもの保護者向けの無料ウェブサービスです。子ども本人向けのアプリではなく、令和7年度の実証後も令和8年度に利用できます。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:374",
       "verificationStatus": "CONFIRMED",
@@ -12003,9 +12047,10 @@
       "sourceMetadata": {
         "statementLine": 374,
         "explanationLine": 383,
-        "questionContext": "札幌市の札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌健康アプリ「アルカサル」・夜間休日急病センター・救急相談等の対象と利用方法について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12016,10 +12061,10 @@
       "questionGroup": "q10",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "LiLiLiは新琴似スポーツ広場の愛称である。",
+      "statement": "札幌市の公園施設のうち、「LiLiLi」は新琴似スポーツ広場の愛称である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：LiLiLiは**百合が原公園交流施設**。",
+      "explanation": "LiLiLiは百合が原公園交流施設。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:449",
       "verificationStatus": "CONFIRMED",
@@ -12037,9 +12082,10 @@
       "sourceMetadata": {
         "statementLine": 449,
         "explanationLine": 458,
-        "questionContext": "札幌市の札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12050,10 +12096,10 @@
       "questionGroup": "q10",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "新琴似スポーツ広場の多目的広場は117m×78mの天然芝である。",
+      "statement": "札幌市の新琴似スポーツ広場に設けられた多目的広場は、117メートル×78メートルの天然芝の広場である。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：寸法・芝種とも正しい。",
+      "explanation": "新琴似スポーツ広場の多目的広場は117メートル×78メートルで、天然芝です。施設名、寸法、芝の種類を確認します。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:450",
       "verificationStatus": "CONFIRMED",
@@ -12071,9 +12117,10 @@
       "sourceMetadata": {
         "statementLine": 450,
         "explanationLine": 459,
-        "questionContext": "札幌市の札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12084,10 +12131,10 @@
       "questionGroup": "q10",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "円山動物園の電子チケットは2026年8月1日開始である。",
+      "statement": "札幌市円山動物園は、来園者が入園券を購入できる電子チケットのサービスを令和8年8月1日に開始した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：電子チケット開始は**2026年3月2日**。",
+      "explanation": "電子チケット開始は2026年3月2日。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:451",
       "verificationStatus": "CONFIRMED",
@@ -12105,9 +12152,10 @@
       "sourceMetadata": {
         "statementLine": 451,
         "explanationLine": 460,
-        "questionContext": "札幌市の札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12118,10 +12166,10 @@
       "questionGroup": "q10",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "南区複合庁舎は8つの施設コンセプトで構成する。",
+      "statement": "札幌市の南区複合庁舎整備基本計画では、施設整備の方向性として8つの施設コンセプトを掲げている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：**4コンセプト＋10方針**。",
+      "explanation": "4コンセプト＋10方針。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:452",
       "verificationStatus": "CONFIRMED",
@@ -12139,9 +12187,10 @@
       "sourceMetadata": {
         "statementLine": 452,
         "explanationLine": 461,
-        "questionContext": "札幌市の札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12152,10 +12201,10 @@
       "questionGroup": "q10",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "こども本の森は高校生以上だけが利用できる有料施設である。",
+      "statement": "「こども本の森 札幌・北大」は、高校生以上だけを利用対象とする有料の施設である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：小中学生を主対象とするが**誰でも無料利用可能**。",
+      "explanation": "小中学生を主対象とするが誰でも無料利用可能。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:453",
       "verificationStatus": "CONFIRMED",
@@ -12173,9 +12222,10 @@
       "sourceMetadata": {
         "statementLine": 453,
         "explanationLine": 462,
-        "questionContext": "札幌市の札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の施設整備・施設サービス（LiLiLi、新琴似スポーツ広場等）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12186,10 +12236,10 @@
       "questionGroup": "q11",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "現行基本計画と現行実行プログラムはいずれも2023～2027で、同一階層の計画である。",
+      "statement": "札幌市の雪対策の基本計画「札幌市冬のみちづくりプラン2018」は、令和5年から令和9年までの5年間を計画期間としている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：基本計画は**2018～2027**で、実行プログラムとは役割も階層も異なる。",
+      "explanation": "基本計画は2018～2027で、実行プログラムとは役割も階層も異なる。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:494",
       "verificationStatus": "CONFIRMED",
@@ -12207,9 +12257,10 @@
       "sourceMetadata": {
         "statementLine": 494,
         "explanationLine": 503,
-        "questionContext": "札幌市の札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12220,10 +12271,10 @@
       "questionGroup": "q11",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "現行実行プログラムは基本計画より上位にあり、基本計画を策定する根拠となる。",
+      "statement": "「札幌市冬みちプラン2018実行プログラム」は、雪対策の基本計画より上位に位置付けられ、基本計画を策定する根拠となるものである。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：実行プログラムは基本計画の取組の**実行性を確保する具体化層**。",
+      "explanation": "実行プログラムは基本計画の取組の実行性を確保する具体化層。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:495",
       "verificationStatus": "CONFIRMED",
@@ -12241,9 +12292,10 @@
       "sourceMetadata": {
         "statementLine": 495,
         "explanationLine": 504,
-        "questionContext": "札幌市の札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12254,10 +12306,10 @@
       "questionGroup": "q11",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "基本計画は2018～2027、現行実行プログラムは2023～2027、前実行プログラムは2019～2023で、後継計画はR8基本方針→R9基本計画の順で進む予定である。",
+      "statement": "札幌市の雪対策の基本計画「札幌市冬のみちづくりプラン2018」の計画期間は平成30年から令和9年までであり、その取組を具体化する現行の実行プログラムの期間は令和5年から令和9年までである。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：現行基本計画・現行/前実行プログラム・後継工程を正しく区別している。",
+      "explanation": "基本計画の期間は2018～2027年、現行の実行プログラムは2023～2027年です。実行プログラムは、基本計画に掲げた取組の実行性を確保するためのものです。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:496",
       "verificationStatus": "CONFIRMED",
@@ -12275,9 +12327,10 @@
       "sourceMetadata": {
         "statementLine": 496,
         "explanationLine": 505,
-        "questionContext": "札幌市の札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12288,10 +12341,10 @@
       "questionGroup": "q11",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "前実行プログラムは2023～2027、現行実行プログラムは2019～2023である。",
+      "statement": "「札幌市冬みちプラン2018実行プログラム」は、前のプログラムの期間が令和5年から令和9年まで、現行のプログラムの期間が平成31年から令和5年までである。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：前実行と現行実行の期間を逆にしている。",
+      "explanation": "前実行と現行実行の期間を逆にしている。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:497",
       "verificationStatus": "CONFIRMED",
@@ -12309,9 +12362,10 @@
       "sourceMetadata": {
         "statementLine": 497,
         "explanationLine": 506,
-        "questionContext": "札幌市の札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12322,10 +12376,10 @@
       "questionGroup": "q11",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "R8に後継基本計画が既に確定済みである。",
+      "statement": "札幌市の雪対策では、令和8年9月時点で、現行の「札幌市冬のみちづくりプラン2018」に続く基本計画の策定が既に完了している。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：R8は基本方針策定予定で、後継基本計画はR9策定予定。",
+      "explanation": "R8は基本方針策定予定で、後継基本計画はR9策定予定。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:498",
       "verificationStatus": "CONFIRMED",
@@ -12343,9 +12397,10 @@
       "sourceMetadata": {
         "statementLine": 498,
         "explanationLine": 507,
-        "questionContext": "札幌市の札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の雪対策に関する計画の期間・後継計画の策定工程について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12356,10 +12411,10 @@
       "questionGroup": "q12",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "2026年に初めて策定された計画である。",
+      "statement": "「さっぽろヒグマ基本計画2023」は、令和8年に初めて策定された計画である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：現行計画は**2023年3月策定**。",
+      "explanation": "現行計画は2023年3月策定。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:529",
       "verificationStatus": "CONFIRMED",
@@ -12377,9 +12432,10 @@
       "sourceMetadata": {
         "statementLine": 529,
         "explanationLine": 538,
-        "questionContext": "札幌市のヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
+        "questionContext": "ヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12390,10 +12446,10 @@
       "questionGroup": "q12",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "2026-09-03時点で一部改定案の内容はすべて確定済みである。",
+      "statement": "「さっぽろヒグマ基本計画2023」の令和8年の一部改定については、同年9月3日時点で、改定案に示された内容がすべて確定している。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：9月3日時点では**一部改定案**。",
+      "explanation": "2026年9月1日の市長記者会見では、9月中の改定を目指して作業中と説明されており、9月3日時点で確定済みという記述は誤りです。その後、2026年9月に一部改定されました。指定された時点と現在を区別します。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:530",
       "verificationStatus": "CONFIRMED",
@@ -12411,9 +12467,10 @@
       "sourceMetadata": {
         "statementLine": 530,
         "explanationLine": 539,
-        "questionContext": "札幌市のヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
+        "questionContext": "ヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12424,10 +12481,10 @@
       "questionGroup": "q12",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "現行計画は2023年策定でゾーニング管理を基本とし、2026一部改定は9月3日時点で案である。",
+      "statement": "令和5年3月に策定された「さっぽろヒグマ基本計画2023」は、人の生活圏とヒグマの生息域のすみ分けを図るゾーニング管理を基本的な考え方としている。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：現行と案の状態を正しく分離している。",
+      "explanation": "2023年3月策定の計画は、人とヒグマのすみ分けを図るゾーニング管理を基本としています。2026年9月3日時点の一部改定案と、既に策定された計画を区別します。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:531",
       "verificationStatus": "CONFIRMED",
@@ -12445,9 +12502,10 @@
       "sourceMetadata": {
         "statementLine": 531,
         "explanationLine": 540,
-        "questionContext": "札幌市のヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
+        "questionContext": "ヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12458,10 +12516,10 @@
       "questionGroup": "q12",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "パブコメは2026/1/9～2/9である。",
+      "statement": "「さっぽろヒグマ基本計画2023」の令和8年の一部改定案について、市民から意見を募集した期間は、同年1月9日から2月9日までである。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：パブコメは**6/22～7/21**。",
+      "explanation": "パブコメは6/22～7/21。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:532",
       "verificationStatus": "CONFIRMED",
@@ -12479,9 +12537,10 @@
       "sourceMetadata": {
         "statementLine": 532,
         "explanationLine": 541,
-        "questionContext": "札幌市のヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
+        "questionContext": "ヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12492,10 +12551,10 @@
       "questionGroup": "q12",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "現行計画には基本目標がない。",
+      "statement": "「さっぽろヒグマ基本計画2023」は、人とヒグマのすみ分けを目指すビジョンを示しているが、基本目標は設定していない。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：現行計画には**3基本目標**がある。",
+      "explanation": "現行計画には3基本目標がある。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:533",
       "verificationStatus": "CONFIRMED",
@@ -12513,9 +12572,10 @@
       "sourceMetadata": {
         "statementLine": 533,
         "explanationLine": 542,
-        "questionContext": "札幌市のヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
+        "questionContext": "ヒグマ対策の計画・ゾーニング（2026年9月3日時点の改定案）について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12526,10 +12586,10 @@
       "questionGroup": "q13",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "都市計画区域マスタープランも第3次札幌市都市計画マスタープランも札幌市が定める。",
+      "statement": "札幌市に関する都市計画区域マスタープランと「第3次札幌市都市計画マスタープラン」は、いずれも札幌市が定める計画である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：区域MPは**北海道**、市町村MPは**札幌市**。",
+      "explanation": "区域MPは北海道、市町村MPは札幌市。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:579",
       "verificationStatus": "CONFIRMED",
@@ -12547,9 +12607,10 @@
       "sourceMetadata": {
         "statementLine": 579,
         "explanationLine": 588,
-        "questionContext": "札幌市の第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
+        "questionContext": "第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12560,10 +12621,10 @@
       "questionGroup": "q13",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "第3次札幌市都市計画マスタープランは北海道が広域的見地から定める区域マスタープランである。",
+      "statement": "「第3次札幌市都市計画マスタープラン」は、北海道が広域的な見地から定める都市計画区域マスタープランである。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：第3次札幌市都市計画MPは**市町村マスタープラン**。",
+      "explanation": "第3次札幌市都市計画MPは市町村マスタープラン。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:580",
       "verificationStatus": "CONFIRMED",
@@ -12581,9 +12642,10 @@
       "sourceMetadata": {
         "statementLine": 580,
         "explanationLine": 589,
-        "questionContext": "札幌市の第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
+        "questionContext": "第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12594,10 +12656,10 @@
       "questionGroup": "q13",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "根拠は都市再開発法第2条の3だけである。",
+      "statement": "「第3次札幌市都市計画マスタープラン」は、都市再開発法第2条の3に基づいて策定された計画である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：根拠は**都市計画法18条の2**。",
+      "explanation": "根拠は都市計画法18条の2。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:581",
       "verificationStatus": "CONFIRMED",
@@ -12615,9 +12677,10 @@
       "sourceMetadata": {
         "statementLine": 581,
         "explanationLine": 590,
-        "questionContext": "札幌市の第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
+        "questionContext": "第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12628,10 +12691,10 @@
       "questionGroup": "q13",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "都市計画区域マスタープランは北海道が定め、市町村マスタープランは区域MPと整合を図りながら札幌市が定める。第3次札幌市都市計画MPは後者で、2045年を目標年次とする。",
+      "statement": "「第3次札幌市都市計画マスタープラン」は、北海道が定める都市計画区域マスタープランと整合を図りながら札幌市が定めるもので、令和27年（2045年）を目標年次としている。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：策定主体・計画階層・目標年が正しい。",
+      "explanation": "都市計画区域マスタープランを定めるのは北海道です。第3次札幌市都市計画マスタープランは札幌市が定める市町村マスタープランで、目標年次は2045年です。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:582",
       "verificationStatus": "CONFIRMED",
@@ -12649,9 +12712,10 @@
       "sourceMetadata": {
         "statementLine": 582,
         "explanationLine": 591,
-        "questionContext": "札幌市の第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
+        "questionContext": "第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12662,10 +12726,10 @@
       "questionGroup": "q13",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "第3次札幌市都市計画MPの部門別方針は5分野である。",
+      "statement": "「第3次札幌市都市計画マスタープラン」の部門別方針は、5つの分野で構成されている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：部門別方針は**7分野**。",
+      "explanation": "部門別方針は7分野。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:583",
       "verificationStatus": "CONFIRMED",
@@ -12683,9 +12747,10 @@
       "sourceMetadata": {
         "statementLine": 583,
         "explanationLine": 592,
-        "questionContext": "札幌市の第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
+        "questionContext": "第3次札幌市都市計画マスタープランの目標年次・人口推計・都市空間像について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12696,10 +12761,10 @@
       "questionGroup": "q14",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "5軸は札幌駅前通、大通、創成川通、北3条通、東4丁目線である。",
+      "statement": "「第3次都心まちづくり計画」では、都心のまちづくりを進める5つの軸として、札幌駅前通、大通、創成川通、北3条通、東4丁目線を位置付けている。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：5軸を正しく列挙している。",
+      "explanation": "計画に位置付けられた5つの軸は、札幌駅前通、大通、創成川通、北3条通、東4丁目線です。東4丁目線も含まれます。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:635",
       "verificationStatus": "CONFIRMED",
@@ -12717,9 +12782,10 @@
       "sourceMetadata": {
         "statementLine": 635,
         "explanationLine": 644,
-        "questionContext": "札幌市の第3次札幌市都心まちづくり計画について、次の記述の正誤を判断してください。",
+        "questionContext": "第3次都心まちづくり計画について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12730,10 +12796,10 @@
       "questionGroup": "q14",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "第3次都心計画は2016年の立地適正化計画と2018年の都市計画MPを統合した。",
+      "statement": "「第3次都心まちづくり計画」は、平成28年の立地適正化計画と平成30年の都市計画マスタープランを統合したものである。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：統合したのは**2016年第2次都心計画＋2018年都心エネルギーマスタープラン**。",
+      "explanation": "統合したのは2016年第2次都心計画＋2018年都心エネルギーマスタープラン。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:636",
       "verificationStatus": "CONFIRMED",
@@ -12751,9 +12817,10 @@
       "sourceMetadata": {
         "statementLine": 636,
         "explanationLine": 645,
-        "questionContext": "札幌市の第3次札幌市都心まちづくり計画について、次の記述の正誤を判断してください。",
+        "questionContext": "第3次都心まちづくり計画について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12764,10 +12831,10 @@
       "questionGroup": "q14",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "中期アクションプログラムは計画本体と同一文書で、状態差を区別しない。",
+      "statement": "「第3次都心まちづくり計画」は、具体的な取組を定める中期アクションプログラムを計画本体に含めており、別のプログラムを策定する仕組みは設けていない。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：本体と**中期アクションプログラムは区別**し、状態差にも注意する。",
+      "explanation": "中期アクションプログラムは、都心まちづくり計画の内容を具体的な取組につなげるため、計画本体とは別に策定するものです。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:637",
       "verificationStatus": "CONFIRMED",
@@ -12785,9 +12852,10 @@
       "sourceMetadata": {
         "statementLine": 637,
         "explanationLine": 646,
-        "questionContext": "札幌市の第3次札幌市都心まちづくり計画について、次の記述の正誤を判断してください。",
+        "questionContext": "第3次都心まちづくり計画について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12798,10 +12866,10 @@
       "questionGroup": "q14",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "第2次都心計画と都心エネルギーマスタープランはいずれも2026年に初めて策定された。",
+      "statement": "「第3次都心まちづくり計画」に統合された「第2次都心まちづくり計画」は、令和8年に初めて策定されたものである。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：統合前2計画にはそれぞれ2016年、2018年という策定年がある。",
+      "explanation": "第2次都心まちづくり計画は2016年策定です。2026年に初めて策定された計画ではありません。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:638",
       "verificationStatus": "CONFIRMED",
@@ -12819,9 +12887,10 @@
       "sourceMetadata": {
         "statementLine": 638,
         "explanationLine": 647,
-        "questionContext": "札幌市の第3次札幌市都心まちづくり計画について、次の記述の正誤を判断してください。",
+        "questionContext": "第3次都心まちづくり計画について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12832,10 +12901,10 @@
       "questionGroup": "q14",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "進捗管理主体はWell-Moving Networkである。",
+      "statement": "「第3次都心まちづくり計画」の進捗管理は、Well-Moving Networkが担うこととされている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：進捗管理は**都心まちづくり推進委員会**。",
+      "explanation": "進捗管理は都心まちづくり推進委員会。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:639",
       "verificationStatus": "CONFIRMED",
@@ -12853,9 +12922,10 @@
       "sourceMetadata": {
         "statementLine": 639,
         "explanationLine": 648,
-        "questionContext": "札幌市の第3次札幌市都心まちづくり計画について、次の記述の正誤を判断してください。",
+        "questionContext": "第3次都心まちづくり計画について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12866,10 +12936,10 @@
       "questionGroup": "q15",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "「歩かさる」は徒歩だけを意味する。",
+      "statement": "「Well-Moving City SAPPORO 2045」が掲げる「歩かさる」は、徒歩での移動だけを意味し、自転車や公共交通を利用する移動は含まない。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：自転車・公共交通等も含む。",
+      "explanation": "自転車・公共交通等も含む。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:675",
       "verificationStatus": "CONFIRMED",
@@ -12887,9 +12957,10 @@
       "sourceMetadata": {
         "statementLine": 675,
         "explanationLine": 684,
-        "questionContext": "札幌市のWell-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
+        "questionContext": "Well-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12900,10 +12971,10 @@
       "questionGroup": "q15",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "Well-Movingは第2次札幌市まちづくり戦略ビジョンと無関係な独立計画である。",
+      "statement": "「Well-Moving City SAPPORO 2045」は、第2次札幌市まちづくり戦略ビジョンとは関係を持たない独立した計画である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：**第2次札幌市まちづくり戦略ビジョン（戦略編）に基づく**。",
+      "explanation": "第2次札幌市まちづくり戦略ビジョン（戦略編）に基づく。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:676",
       "verificationStatus": "CONFIRMED",
@@ -12921,9 +12992,10 @@
       "sourceMetadata": {
         "statementLine": 676,
         "explanationLine": 685,
-        "questionContext": "札幌市のWell-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
+        "questionContext": "Well-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12934,10 +13006,10 @@
       "questionGroup": "q15",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "第2次戦略ビジョンに基づき、市全域を対象として、都心・地域交流拠点・住宅市街地に目指す姿とリーディングプロジェクトを設定している。",
+      "statement": "「Well-Moving City SAPPORO 2045」は、第2次札幌市まちづくり戦略ビジョンに基づき市全域を対象とするもので、都心、地域交流拠点、住宅市街地について、目指す姿と先導的な取組を設定している。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：上位計画との関係、対象、3エリアの構造が一致する。",
+      "explanation": "第2次札幌市まちづくり戦略ビジョンの戦略編に基づくビジョンです。対象は都心に限らず市全域で、都心・地域交流拠点・住宅市街地の3つのエリアについて取組を示します。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:677",
       "verificationStatus": "CONFIRMED",
@@ -12955,9 +13027,10 @@
       "sourceMetadata": {
         "statementLine": 677,
         "explanationLine": 686,
-        "questionContext": "札幌市のWell-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
+        "questionContext": "Well-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -12968,10 +13041,10 @@
       "questionGroup": "q15",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "Well-Moving推進プログラムはビジョン策定前に廃止された旧計画である。",
+      "statement": "Well-Moving推進プログラムは、「Well-Moving City SAPPORO 2045」の策定前に廃止された旧計画である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：ビジョンとは別に**今後策定する具体施策のプログラム**。",
+      "explanation": "ビジョンとは別に今後策定する具体施策のプログラム。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:678",
       "verificationStatus": "CONFIRMED",
@@ -12989,9 +13062,10 @@
       "sourceMetadata": {
         "statementLine": 678,
         "explanationLine": 687,
-        "questionContext": "札幌市のWell-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
+        "questionContext": "Well-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13002,10 +13076,10 @@
       "questionGroup": "q15",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "Well-Moving Networkは都市計画法上の法定審議会である。",
+      "statement": "Well-Moving Networkは、都市計画法に基づいて設置される法定の審議会である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：Networkは**産学官民の場**。",
+      "explanation": "Networkは産学官民の場。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:679",
       "verificationStatus": "CONFIRMED",
@@ -13023,9 +13097,10 @@
       "sourceMetadata": {
         "statementLine": 679,
         "explanationLine": 688,
-        "questionContext": "札幌市のWell-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
+        "questionContext": "Well-Moving City SAPPORO 2045の対象区域・理念について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13036,10 +13111,10 @@
       "questionGroup": "q16",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "地区指定を受けると、それだけで建築・土地取引に具体的制限と届出義務が生じる。",
+      "statement": "札幌市都市再開発方針における地区指定を受けると、その指定だけで建築や土地取引に具体的な制限と届出義務が生じる。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：**地区指定自体**にはその効果はない。",
+      "explanation": "地区指定自体にはその効果はない。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:704",
       "verificationStatus": "CONFIRMED",
@@ -13057,9 +13132,10 @@
       "sourceMetadata": {
         "statementLine": 704,
         "explanationLine": 713,
-        "questionContext": "札幌市の札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13070,10 +13146,10 @@
       "questionGroup": "q16",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "根拠は都市計画法18条の2のみである。",
+      "statement": "札幌市都市再開発方針は、都市計画法第18条の2だけを根拠として定められている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：**都市計画法7条の2＋都市再開発法2条の3**。",
+      "explanation": "都市計画法7条の2＋都市再開発法2条の3。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:705",
       "verificationStatus": "CONFIRMED",
@@ -13091,9 +13167,10 @@
       "sourceMetadata": {
         "statementLine": 705,
         "explanationLine": 714,
-        "questionContext": "札幌市の札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13104,10 +13181,10 @@
       "questionGroup": "q16",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "5年間の短期事業計画である。",
+      "statement": "札幌市都市再開発方針は、5年間に実施する個別事業を定めた短期の事業計画である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：長期的・総合的マスタープラン。",
+      "explanation": "長期的・総合的マスタープラン。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:706",
       "verificationStatus": "CONFIRMED",
@@ -13125,9 +13202,10 @@
       "sourceMetadata": {
         "statementLine": 706,
         "explanationLine": 715,
-        "questionContext": "札幌市の札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13138,10 +13216,10 @@
       "questionGroup": "q16",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "基本目標は2つである。",
+      "statement": "札幌市都市再開発方針では、都市再開発を進めるための基本目標を2つ掲げている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：基本目標は**4つ**。",
+      "explanation": "基本目標は4つ。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:707",
       "verificationStatus": "CONFIRMED",
@@ -13159,9 +13237,10 @@
       "sourceMetadata": {
         "statementLine": 707,
         "explanationLine": 716,
-        "questionContext": "札幌市の札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13172,10 +13251,10 @@
       "questionGroup": "q16",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "長期的・総合的マスタープランで、地区指定自体は具体的制限や届出義務を生じさせない。",
+      "statement": "札幌市都市再開発方針は、都市再開発に関する長期的・総合的な方針を示すものであり、方針に基づく地区指定だけで具体的な建築制限や届出義務が生じるものではない。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：計画の性格と地区指定の法的効果を正しく述べる。",
+      "explanation": "都市再開発方針は長期的・総合的な方向性を示すものです。地区指定自体によって、具体的な建築制限や土地取引の届出義務が生じるわけではありません。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:708",
       "verificationStatus": "CONFIRMED",
@@ -13193,9 +13272,10 @@
       "sourceMetadata": {
         "statementLine": 708,
         "explanationLine": 717,
-        "questionContext": "札幌市の札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市都市再開発方針の区域指定と法的効果について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13206,10 +13286,10 @@
       "questionGroup": "urban-planning-cross",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "第3次都市計画MPと都市再開発方針は、いずれも都市計画法18条の2のみを根拠とする。",
+      "statement": "「第3次札幌市都市計画マスタープラン」と札幌市都市再開発方針は、いずれも都市計画法第18条の2だけを根拠として策定されている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：18条の2は都市計画MP。再開発方針は7条の2＋都市再開発法2条の3。",
+      "explanation": "18条の2は都市計画MP。再開発方針は7条の2＋都市再開発法2条の3。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:729",
       "verificationStatus": "CONFIRMED",
@@ -13227,9 +13307,10 @@
       "sourceMetadata": {
         "statementLine": 729,
         "explanationLine": 738,
-        "questionContext": "札幌市の札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13240,10 +13321,10 @@
       "questionGroup": "urban-planning-cross",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "第3次都心計画の中期アクションプログラムとWell-Moving推進プログラムは、それぞれの本体計画・ビジョンと区別して把握する。",
+      "statement": "「第3次都心まちづくり計画」の中期アクションプログラムとWell-Moving推進プログラムは、それぞれの計画やビジョンを具体的な取組につなげるため、計画本体とは別に策定するものである。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：どちらも本体と具体化プログラムを分ける。",
+      "explanation": "両プログラムは、それぞれの計画・ビジョンを具体的な施策につなげるためのものです。計画本体に示す長期的な方向性と、具体的な取組を定めるプログラムは別です。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:730",
       "verificationStatus": "CONFIRMED",
@@ -13261,9 +13342,10 @@
       "sourceMetadata": {
         "statementLine": 730,
         "explanationLine": 739,
-        "questionContext": "札幌市の札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13274,10 +13356,10 @@
       "questionGroup": "urban-planning-cross",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "Well-Movingは都心の4拠点だけを対象とする。",
+      "statement": "「Well-Moving City SAPPORO 2045」は、札幌市の都心に位置付けられた4つの拠点だけを対象としている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：Well-Movingは**札幌市全域**。",
+      "explanation": "Well-Movingは札幌市全域。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:731",
       "verificationStatus": "CONFIRMED",
@@ -13295,9 +13377,10 @@
       "sourceMetadata": {
         "statementLine": 731,
         "explanationLine": 740,
-        "questionContext": "札幌市の札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13308,10 +13391,10 @@
       "questionGroup": "urban-planning-cross",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "第2次立地適正化計画は第3次都市計画MPに吸収され廃止された。",
+      "statement": "第2次札幌市立地適正化計画は、第3次札幌市都市計画マスタープランに吸収され、独立した計画としては廃止された。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：合わせて策定されたが吸収・廃止ではない。",
+      "explanation": "合わせて策定されたが吸収・廃止ではない。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:732",
       "verificationStatus": "CONFIRMED",
@@ -13329,9 +13412,10 @@
       "sourceMetadata": {
         "statementLine": 732,
         "explanationLine": 741,
-        "questionContext": "札幌市の札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13342,10 +13426,10 @@
       "questionGroup": "urban-planning-cross",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "都市再開発方針の地区指定だけで直ちに建築制限が生じる。",
+      "statement": "札幌市都市再開発方針では、地区指定を受けるだけで、直ちにその地区内の建築に具体的な制限が生じる。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：地区指定自体には直接の具体的制限・届出義務は生じない。",
+      "explanation": "地区指定自体には直接の具体的制限・届出義務は生じない。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:733",
       "verificationStatus": "CONFIRMED",
@@ -13363,9 +13447,10 @@
       "sourceMetadata": {
         "statementLine": 733,
         "explanationLine": 742,
-        "questionContext": "札幌市の札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の都市計画関連計画の横断比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13376,10 +13461,10 @@
       "questionGroup": "q17",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "市立札幌病院のR7値はすべて目標値である。",
+      "statement": "市立札幌病院の「中期経営計画2025」に掲載された成果指標では、令和7年度の数値を目標値として示している。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：R7は**見込**。",
+      "explanation": "中期経営計画2025の成果指標は、令和7年度が見込み、令和8年度以降が目標です。収支計画では令和7年度が決算見込み、令和8年度以降が収支見通しであり、表によって数値の位置付けが異なります。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:929",
       "verificationStatus": "CONFIRMED",
@@ -13397,9 +13482,10 @@
       "sourceMetadata": {
         "statementLine": 929,
         "explanationLine": 938,
-        "questionContext": "札幌市の市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
+        "questionContext": "市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13410,10 +13496,10 @@
       "questionGroup": "q17",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "火葬場・墓地計画の計画期間は2054年度までである。",
+      "statement": "「第2次札幌市火葬場・墓地に関する運営計画」は、令和36年度（2054年度）までを計画期間としている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：計画期間は**2026～2030**。2054は火葬件数のピーク予測年。",
+      "explanation": "計画期間は2026～2030。2054は火葬件数のピーク予測年。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:930",
       "verificationStatus": "CONFIRMED",
@@ -13431,9 +13517,10 @@
       "sourceMetadata": {
         "statementLine": 930,
         "explanationLine": 939,
-        "questionContext": "札幌市の市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
+        "questionContext": "市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13444,10 +13531,10 @@
       "questionGroup": "q17",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "「最後のとりで」は火葬場・墓地のキャッチコピーである。",
+      "statement": "「第2次札幌市火葬場・墓地に関する運営計画」では、施設の役割を表すキャッチコピーとして「最後のとりで」を掲げている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：「最後のとりで」は**市立札幌病院の使命**に関する表現。",
+      "explanation": "「最後のとりで」は市立札幌病院の使命に関する表現。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:931",
       "verificationStatus": "CONFIRMED",
@@ -13465,9 +13552,10 @@
       "sourceMetadata": {
         "statementLine": 931,
         "explanationLine": 940,
-        "questionContext": "札幌市の市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
+        "questionContext": "市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13478,10 +13566,10 @@
       "questionGroup": "q17",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "市立札幌病院はR7見込、R8以降目標で、火葬場・墓地計画は2026～2030だが火葬件数ピーク予測は2054年度である。",
+      "statement": "「第2次札幌市火葬場・墓地に関する運営計画」の期間は令和8年度から令和12年度までであり、将来の火葬件数は令和36年度（2054年度）に最大になると予測されている。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：年度の意味を正しく分けている。",
+      "explanation": "計画期間は2026～2030年度です。2054年度は将来の火葬件数が最大となる予測年度であり、計画の終了年度ではありません。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:932",
       "verificationStatus": "CONFIRMED",
@@ -13499,9 +13587,10 @@
       "sourceMetadata": {
         "statementLine": 932,
         "explanationLine": 941,
-        "questionContext": "札幌市の市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
+        "questionContext": "市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13512,10 +13601,10 @@
       "questionGroup": "q17",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "水道行政は全事務が国交省へ一元移管された。",
+      "statement": "令和6年4月の国の水道行政の移管では、水質・衛生に関する事務を含め、すべての事務が国土交通省へ移管された。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：水質・衛生事務は環境省、それ以外は国交省。",
+      "explanation": "令和6年4月、国の水道整備・管理行政は国土交通省へ、水質基準の策定など水質・衛生に関する行政は環境省へ移管されました。すべてが国土交通省への移管ではありません。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:933",
       "verificationStatus": "CONFIRMED",
@@ -13533,9 +13622,10 @@
       "sourceMetadata": {
         "statementLine": 933,
         "explanationLine": 942,
-        "questionContext": "札幌市の市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
+        "questionContext": "市立札幌病院・下水道・火葬場・墓地の計画と年次・所管について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13546,10 +13636,10 @@
       "questionGroup": "q18",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "第3次都市計画MPでは2040年が目標年次である。",
+      "statement": "「第3次札幌市都市計画マスタープラン」は、令和22年（2040年）を目標年次としている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：2040は人口推計年、目標年次は2045。",
+      "explanation": "第3次札幌市都市計画マスタープランの目標年次は2045年です。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1001",
       "verificationStatus": "CONFIRMED",
@@ -13567,9 +13657,10 @@
       "sourceMetadata": {
         "statementLine": 1001,
         "explanationLine": 1010,
-        "questionContext": "札幌市の札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13580,10 +13671,10 @@
       "questionGroup": "q18",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "Well-Movingは都心だけを対象とする。",
+      "statement": "「Well-Moving City SAPPORO 2045」は、都心だけを対象とし、地域交流拠点や住宅市街地は対象に含めていない。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：対象は札幌市全域。",
+      "explanation": "対象は札幌市全域。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1002",
       "verificationStatus": "CONFIRMED",
@@ -13601,9 +13692,10 @@
       "sourceMetadata": {
         "statementLine": 1002,
         "explanationLine": 1011,
-        "questionContext": "札幌市の札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13614,10 +13706,10 @@
       "questionGroup": "q18",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "都市再開発方針の地区指定は直ちに建築制限を生じさせる。",
+      "statement": "札幌市都市再開発方針に基づく地区指定を受けると、その指定だけで直ちに具体的な建築制限が生じる。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：地区指定自体では具体的制限を生じさせない。",
+      "explanation": "地区指定自体では具体的制限を生じさせない。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1003",
       "verificationStatus": "CONFIRMED",
@@ -13635,9 +13727,10 @@
       "sourceMetadata": {
         "statementLine": 1003,
         "explanationLine": 1012,
-        "questionContext": "札幌市の札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13648,10 +13741,10 @@
       "questionGroup": "q18",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "第3次都心まちづくり計画の5軸には東4丁目線が含まれる。",
+      "statement": "「第3次都心まちづくり計画」が位置付ける5つの軸には、東4丁目線が含まれている。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：東4丁目線は5軸の一つ。",
+      "explanation": "東4丁目線は、札幌駅前通、大通、創成川通、北3条通とともに、都心まちづくり計画の5つの軸に含まれます。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1004",
       "verificationStatus": "CONFIRMED",
@@ -13669,9 +13762,10 @@
       "sourceMetadata": {
         "statementLine": 1004,
         "explanationLine": 1013,
-        "questionContext": "札幌市の札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13682,10 +13776,10 @@
       "questionGroup": "q18",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "ヒグマ2026一部改定は9月3日時点で最終確定済みである。",
+      "statement": "「さっぽろヒグマ基本計画2023」の令和8年の一部改定は、同年9月3日時点で最終的な内容が確定している。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：9月3日時点では一部改定案。",
+      "explanation": "2026年9月1日の市長記者会見では、9月中の改定を目指して作業中と説明されており、9月3日時点で確定済みという記述は誤りです。その後、2026年9月に一部改定されました。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1005",
       "verificationStatus": "CONFIRMED",
@@ -13703,9 +13797,10 @@
       "sourceMetadata": {
         "statementLine": 1005,
         "explanationLine": 1014,
-        "questionContext": "札幌市の札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の都市計画・都心まちづくり・ヒグマ対策の横断比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13716,10 +13811,10 @@
       "questionGroup": "q19",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "敬老パスは75歳未満の既存利用者にも経過措置がない。",
+      "statement": "令和8年4月の札幌市の敬老優待乗車証制度の見直しでは、75歳未満の既存利用者に対する経過措置は設けられていない。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：既存利用者等には経過措置がある。",
+      "explanation": "既存利用者等には経過措置がある。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1017",
       "verificationStatus": "CONFIRMED",
@@ -13737,9 +13832,10 @@
       "sourceMetadata": {
         "statementLine": 1017,
         "explanationLine": 1026,
-        "questionContext": "札幌市の令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13750,10 +13846,10 @@
       "questionGroup": "q19",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "アルカサルは40歳以上を主対象に2026年4月本格運用された。",
+      "statement": "札幌健康アプリ「アルカサル」は、40歳以上の札幌市民を主な対象とし、令和8年4月に本格運用を開始した。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：対象・時期とも正しい。",
+      "explanation": "アルカサルは40歳以上の札幌市民を主な対象とし、2026年4月に本格運用されました。歩行や健康づくり活動をポイントにつなげる健康アプリです。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1018",
       "verificationStatus": "CONFIRMED",
@@ -13771,9 +13867,10 @@
       "sourceMetadata": {
         "statementLine": 1018,
         "explanationLine": 1027,
-        "questionContext": "札幌市の令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13784,10 +13881,10 @@
       "questionGroup": "q19",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "こども本の森は2026年3月2日開館である。",
+      "statement": "子ども向け図書館「こども本の森 札幌・北大」は、令和8年3月2日に開館した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：開館は2026年8月1日。",
+      "explanation": "開館は2026年8月1日。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1019",
       "verificationStatus": "CONFIRMED",
@@ -13805,9 +13902,10 @@
       "sourceMetadata": {
         "statementLine": 1019,
         "explanationLine": 1028,
-        "questionContext": "札幌市の令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13818,10 +13916,10 @@
       "questionGroup": "q19",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "下水道使用料改定は水道料金と同時である。",
+      "statement": "札幌市は、令和8年10月の下水道使用料改定と併せて、水道料金の改定も実施することとした。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：下水道使用料の改定であり、水道料金そのものではない。",
+      "explanation": "下水道使用料の改定であり、水道料金そのものではない。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1020",
       "verificationStatus": "CONFIRMED",
@@ -13839,9 +13937,10 @@
       "sourceMetadata": {
         "statementLine": 1020,
         "explanationLine": 1029,
-        "questionContext": "札幌市の令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13852,10 +13951,10 @@
       "questionGroup": "q19",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "物価高の2万円は世帯単位である。",
+      "statement": "札幌市で支給される物価高対応の子育て応援手当は、対象児童の人数にかかわらず、1世帯当たり2万円である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：2万円は児童1人単位。",
+      "explanation": "2万円は児童1人単位。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1021",
       "verificationStatus": "CONFIRMED",
@@ -13873,9 +13972,10 @@
       "sourceMetadata": {
         "statementLine": 1021,
         "explanationLine": 1030,
-        "questionContext": "札幌市の令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の敬老パス・健康アプリ・子育て・下水道等の施策比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13886,10 +13986,10 @@
       "questionGroup": "q20",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "市立札幌病院のR7 KPIは目標、R8は見込である。",
+      "statement": "市立札幌病院の「中期経営計画2025」に掲載された成果指標では、令和7年度の数値を目標値、令和8年度の数値を見込みとして示している。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：病院KPIは**R7見込、R8目標**。",
+      "explanation": "中期経営計画2025の成果指標は、令和7年度が見込み、令和8年度が目標です。問題文は両年度の数値の位置付けを逆にしています。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1033",
       "verificationStatus": "CONFIRMED",
@@ -13907,9 +14007,10 @@
       "sourceMetadata": {
         "statementLine": 1033,
         "explanationLine": 1042,
-        "questionContext": "札幌市の札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13920,10 +14021,10 @@
       "questionGroup": "q20",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "新琴似スポーツ広場は札幌市初Park-PFI施設である。",
+      "statement": "新琴似スポーツ広場は、公募設置管理制度（Park-PFI）を札幌市で初めて活用した施設である。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：札幌市初Park-PFIは**LiLiLi**。",
+      "explanation": "札幌市初Park-PFIはLiLiLi。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1034",
       "verificationStatus": "CONFIRMED",
@@ -13941,9 +14042,10 @@
       "sourceMetadata": {
         "statementLine": 1034,
         "explanationLine": 1043,
-        "questionContext": "札幌市の札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13954,10 +14056,10 @@
       "questionGroup": "q20",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "LiLiLiは2025年10月25日グランドオープンの札幌市初Park-PFI事業である。",
+      "statement": "百合が原公園の公園交流施設「LiLiLi」は、札幌市初の公募設置管理制度（Park-PFI）による事業として、令和7年10月25日にグランドオープンした。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：名称、日付、事業方式が一致する。",
+      "explanation": "LiLiLiは百合が原公園の公園交流施設で、2025年10月25日にグランドオープンしました。札幌市初のPark-PFI事業であり、新琴似スポーツ広場とは別の施設です。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1035",
       "verificationStatus": "CONFIRMED",
@@ -13975,9 +14077,10 @@
       "sourceMetadata": {
         "statementLine": 1035,
         "explanationLine": 1044,
-        "questionContext": "札幌市の札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -13988,10 +14091,10 @@
       "questionGroup": "q20",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "円山動物園の電子チケットは8月29日開始である。",
+      "statement": "札幌市円山動物園は、入園券を購入できる電子チケットのサービスを令和8年8月29日に開始した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：電子チケットは**2026年3月2日**開始。",
+      "explanation": "電子チケットは2026年3月2日開始。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1036",
       "verificationStatus": "CONFIRMED",
@@ -14009,9 +14112,10 @@
       "sourceMetadata": {
         "statementLine": 1036,
         "explanationLine": 1045,
-        "questionContext": "札幌市の札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -14022,10 +14126,10 @@
       "questionGroup": "q20",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "南区複合庁舎は8つのコンセプトを持つ。",
+      "statement": "札幌市の南区複合庁舎整備基本計画は、施設整備の方向性として8つの施設コンセプトを掲げている。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：南区複合庁舎は**4コンセプト＋10方針**。",
+      "explanation": "南区複合庁舎は4コンセプト＋10方針。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1037",
       "verificationStatus": "CONFIRMED",
@@ -14043,9 +14147,10 @@
       "sourceMetadata": {
         "statementLine": 1037,
         "explanationLine": 1046,
-        "questionContext": "札幌市の札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
+        "questionContext": "札幌市の病院計画・公園施設・動物園サービス・南区複合庁舎の比較について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -14056,10 +14161,10 @@
       "questionGroup": "q21",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "総職員数は22,638人で前年度より93人増加し、事務・技術等職員は16人減、教職員は109人増となった。",
+      "statement": "札幌市の令和8年度の総職員定数は22,638人で、前年度より93人増加した。内訳では、事務・技術等職員は16人減少し、教職員は109人増加した。",
       "correctJudgment": true,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "○：総職員数、事務・技術等職員、教職員のR7→R8の増減が一致する。",
+      "explanation": "総職員定数は前年度比93人増の22,638人です。事務・技術等職員16人減と教職員109人増を合わせると、93人増になります。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1089",
       "verificationStatus": "CONFIRMED",
@@ -14077,9 +14182,10 @@
       "sourceMetadata": {
         "statementLine": 1089,
         "explanationLine": 1098,
-        "questionContext": "札幌市の令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -14090,10 +14196,10 @@
       "questionGroup": "q21",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "総職員数は22,638人で前年度より93人減少し、教職員も109人減少した。",
+      "statement": "札幌市の令和8年度の総職員定数は22,638人で、前年度より93人減少した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：総職員数は**93人増**、教職員は**109人増**。",
+      "explanation": "総職員定数は22,638人で、前年度から93人の増加です。減少ではありません。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1090",
       "verificationStatus": "CONFIRMED",
@@ -14111,9 +14217,10 @@
       "sourceMetadata": {
         "statementLine": 1090,
         "explanationLine": 1099,
-        "questionContext": "札幌市の令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -14124,10 +14231,10 @@
       "questionGroup": "q21",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "行政改革・DX推進体制では、改革推進室を行政DX推進室へ移管統合し、18名を増員した。",
+      "statement": "札幌市の令和8年度の機構編成では、改革推進室を行政DX推進室へ移管・統合した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：**行政DX推進室を改革推進室へ移管統合**し、改革推進室は**4名増員・18名体制**。",
+      "explanation": "移管・統合の方向が逆です。行政DX推進室を改革推進室へ移管・統合し、改革推進室は4人増員の18人体制としています。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1091",
       "verificationStatus": "CONFIRMED",
@@ -14145,9 +14252,10 @@
       "sourceMetadata": {
         "statementLine": 1091,
         "explanationLine": 1100,
-        "questionContext": "札幌市の令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -14158,10 +14266,10 @@
       "questionGroup": "q21",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "ヒグマ出没・捕獲対応では6名を増員し、AIスタートアップ等推進では12名を増員した。",
+      "statement": "札幌市の令和8年度の職員配置では、AI・スタートアップ等の推進に当たる職員を、前年度から12人増員した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：ヒグマの**6名**は体制人数、AIスタートアップの**12名**も体制人数。AIスタートアップの増員数は**2名**。",
+      "explanation": "AI・スタートアップ等の推進は2人増員の12人体制です。12人は増員数ではありません。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1092",
       "verificationStatus": "CONFIRMED",
@@ -14179,9 +14287,10 @@
       "sourceMetadata": {
         "statementLine": 1092,
         "explanationLine": 1101,
-        "questionContext": "札幌市の令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },
@@ -14192,10 +14301,10 @@
       "questionGroup": "q21",
       "sourceType": "PREDICTED",
       "itemType": "TRUE_FALSE",
-      "statement": "既存業務の見直し等により36名減となったため、総職員数も前年度から36人減少した。",
+      "statement": "札幌市の令和8年度の職員配置では、既存業務の見直し等による36人の減員に伴い、総職員定数も前年度より36人減少した。",
       "correctJudgment": false,
       "judgmentSource": "SOURCE_EXPLICIT",
-      "explanation": "×：36名減は業務見直し等に伴う減員。総職員数は前年度比**93人増**。",
+      "explanation": "既存業務の見直し等による減員は36人ですが、総職員定数は前年度比93人増です。",
       "explanationType": "ITEM_SPECIFIC",
       "sourceReference": "shisei_integrated_review_text(1).md:1093",
       "verificationStatus": "CONFIRMED",
@@ -14213,9 +14322,10 @@
       "sourceMetadata": {
         "statementLine": 1093,
         "explanationLine": 1102,
-        "questionContext": "札幌市の令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
+        "questionContext": "令和8年度の札幌市職員定数・機構編成について、次の記述の正誤を判断してください。",
         "originLabel": "予想問題・知識確認",
-        "referenceDateLabel": "教材更新：2026-09-09。個別の時点指定を優先し、現在の制度と区別して判定。"
+        "referenceDateLabel": "教材の基準日：2026-09-09。問題文に時点の指定がある場合は、その時点で判断してください。",
+        "editorialRevision": "2026-10-02"
       },
       "active": true
     },

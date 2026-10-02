@@ -3,6 +3,7 @@ import { prisma } from "./db";
 import { ApiError } from "./errors";
 import { applyExamDateAdjustment, calculateProgress, emptyProgress, rebuildProgress } from "@/lib/review";
 import { studyContextFor } from "@/lib/study-context";
+import { revisedStudyItem } from "@/lib/shisei-rewrites";
 
 export type CreateSessionInput={mode:StudyMode;subjectSlug?:string;requestedCount?:number;progressFilter?:"ALL"|"UNSTUDIED"|"INCORRECT"|"UNSURE"|"LOW_ACCURACY"};
 const dateInZone=(d:Date,tz:string)=>new Intl.DateTimeFormat("en-CA",{timeZone:tz,year:"numeric",month:"2-digit",day:"2-digit"}).format(d);
@@ -67,10 +68,10 @@ export async function getNextItem(userId:string,id:string){
   }
   const row=await prisma.studySessionItem.findUnique({
     where:{sessionId_position:{sessionId:id,position:answered}},
-    select:{studyItem:{select:{id:true,statementText:true,subject:{select:{slug:true,name:true}}}}},
+    select:{studyItem:{select:{id:true,statementText:true,correctJudgment:true,subject:{select:{slug:true,name:true}}}}},
   });
   if(!row)throw new ApiError("NOT_FOUND","次の問題が見つかりません。",404);
-  return {sessionId:id,progress:{answered,total},completed:false as const,item:{id:row.studyItem.id,subject:row.studyItem.subject,statementText:row.studyItem.statementText,context:studyContextFor(row.studyItem.id)}};
+  return {sessionId:id,progress:{answered,total},completed:false as const,item:{id:row.studyItem.id,subject:row.studyItem.subject,statementText:revisedStudyItem(row.studyItem).statementText,context:studyContextFor(row.studyItem.id)}};
 }
 
 export async function getSessionItems(userId:string,id:string,offset=0,limit=593){
@@ -93,7 +94,7 @@ export async function getSessionItems(userId:string,id:string,offset=0,limit=593
   const answeredIds="attempts" in session?session.attempts.map(a=>a.studyItemId):[];
   const items=session.items.map(x=>{
     const context=studyContextFor(x.studyItem.id);
-    return {...x.studyItem,context,judgmentAsOf:context?context.judgmentAsOf:x.studyItem.judgmentAsOf?.toISOString().slice(0,10)??null};
+    return {...revisedStudyItem(x.studyItem),context,judgmentAsOf:context?context.judgmentAsOf:x.studyItem.judgmentAsOf?.toISOString().slice(0,10)??null};
   });
   return {sessionId:id,answeredIds,total:session._count.items,completed:!!session.endedAt||offset===0&&answeredIds.length>=session._count.items,items};
 }
@@ -152,7 +153,7 @@ async function completeSessionIfAnswered(tx:Prisma.TransactionClient,userId:stri
   if(session&&!session.endedAt&&session._count.attempts>=session._count.items)await tx.studySession.update({where:{id},data:{endedAt:new Date()}});
 }
 
-function feedback(a:{id:string;selectedJudgment:boolean;isCorrect:boolean;wasUnsure:boolean;studyItem:{correctJudgment:boolean;explanation:string;explanationType:string;sourceReference:string;verificationStatus:string;caution:string|null;timeSensitive:boolean;historicalJudgment:boolean|null;historicalContext:string|null;judgmentAsOf:Date|null}}){return {attemptId:a.id,isCorrect:a.isCorrect,selectedJudgment:a.selectedJudgment,correctJudgment:a.studyItem.correctJudgment,wasUnsure:a.wasUnsure,explanation:a.studyItem.explanation,explanationType:a.studyItem.explanationType,sourceReference:a.studyItem.sourceReference,verificationStatus:a.studyItem.verificationStatus,caution:a.studyItem.caution,timeSensitive:a.studyItem.timeSensitive,historicalJudgment:a.studyItem.historicalJudgment,historicalContext:a.studyItem.historicalContext,judgmentAsOf:a.studyItem.judgmentAsOf?.toISOString().slice(0,10)??null};}
+function feedback(a:{id:string;selectedJudgment:boolean;isCorrect:boolean;wasUnsure:boolean;studyItem:{id:string;correctJudgment:boolean;explanation:string;explanationType:string;sourceReference:string;verificationStatus:string;caution:string|null;timeSensitive:boolean;historicalJudgment:boolean|null;historicalContext:string|null;judgmentAsOf:Date|null}}){return {attemptId:a.id,isCorrect:a.isCorrect,selectedJudgment:a.selectedJudgment,correctJudgment:a.studyItem.correctJudgment,wasUnsure:a.wasUnsure,explanation:revisedStudyItem(a.studyItem).explanation,explanationType:a.studyItem.explanationType,sourceReference:a.studyItem.sourceReference,verificationStatus:a.studyItem.verificationStatus,caution:a.studyItem.caution,timeSensitive:a.studyItem.timeSensitive,historicalJudgment:a.studyItem.historicalJudgment,historicalContext:a.studyItem.historicalContext,judgmentAsOf:a.studyItem.judgmentAsOf?.toISOString().slice(0,10)??null};}
 
 export async function updateUnsure(userId:string,attemptId:string,wasUnsure:boolean){
   return prisma.$transaction(async tx=>{
@@ -176,5 +177,5 @@ export async function dashboard(userId:string){
 
 export async function answerLog(userId:string){
   const rows=await prisma.answerAttempt.findMany({where:{userId},orderBy:[{answeredAt:"asc"},{id:"asc"}],select:{id:true,answeredAt:true,sessionId:true,selectedJudgment:true,isCorrect:true,wasUnsure:true,responseMs:true,studyItem:{select:{id:true,sourceItemKey:true,statementText:true,correctJudgment:true,explanation:true,sourceReference:true,subject:{select:{name:true,slug:true}}}}}});
-  return {format:"examapp-answer-log-v1",exportedAt:new Date().toISOString(),count:rows.length,attempts:rows.map(a=>({attemptId:a.id,answeredAt:a.answeredAt.toISOString(),sessionId:a.sessionId,subject:a.studyItem.subject.name,subjectSlug:a.studyItem.subject.slug,sourceItemKey:a.studyItem.sourceItemKey,question:a.studyItem.statementText,questionContext:studyContextFor(a.studyItem.id)?.questionContext??null,referenceDateLabel:studyContextFor(a.studyItem.id)?.referenceDateLabel??null,answer:a.selectedJudgment,correctAnswer:a.studyItem.correctJudgment,isCorrect:a.isCorrect,wasUnsure:a.wasUnsure,responseMs:a.responseMs,explanation:a.studyItem.explanation,sourceReference:a.studyItem.sourceReference}))};
+  return {format:"examapp-answer-log-v1",exportedAt:new Date().toISOString(),count:rows.length,attempts:rows.map(a=>({attemptId:a.id,answeredAt:a.answeredAt.toISOString(),sessionId:a.sessionId,subject:a.studyItem.subject.name,subjectSlug:a.studyItem.subject.slug,sourceItemKey:a.studyItem.sourceItemKey,question:revisedStudyItem(a.studyItem).statementText,questionContext:studyContextFor(a.studyItem.id)?.questionContext??null,referenceDateLabel:studyContextFor(a.studyItem.id)?.referenceDateLabel??null,answer:a.selectedJudgment,correctAnswer:a.studyItem.correctJudgment,isCorrect:a.isCorrect,wasUnsure:a.wasUnsure,responseMs:a.responseMs,explanation:revisedStudyItem(a.studyItem).explanation,sourceReference:a.studyItem.sourceReference}))};
 }
