@@ -27011,5 +27011,3065 @@
     },
     "judgmentAsOf": "2026-10-03",
     "status": "MATCHED"
+  },
+  "0df6ebe3-d60d-51cf-aef4-de31baff7c77": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "25条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 3,
+      "yearCount": 2,
+      "years": [
+        "H8",
+        "H11"
+      ],
+      "latestYear": "H11",
+      "yearRecordCount": 3,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 167,
+          "years": "H8"
+        },
+        {
+          "row": 172,
+          "years": "H8"
+        },
+        {
+          "row": 175,
+          "years": "H11"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 14,
+      "yearCount": 7,
+      "years": [
+        "H4",
+        "H8",
+        "H9",
+        "H11",
+        "H14",
+        "H18",
+        "H22"
+      ],
+      "latestYear": "H22",
+      "yearRecordCount": 14,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 165,
+          "years": "H8"
+        },
+        {
+          "row": 166,
+          "years": "H9"
+        },
+        {
+          "row": 167,
+          "years": "H8"
+        },
+        {
+          "row": 168,
+          "years": "H14"
+        },
+        {
+          "row": 169,
+          "years": "H18"
+        },
+        {
+          "row": 170,
+          "years": "H22"
+        },
+        {
+          "row": 171,
+          "years": "H14"
+        },
+        {
+          "row": 172,
+          "years": "H8"
+        },
+        {
+          "row": 173,
+          "years": "H18"
+        },
+        {
+          "row": 174,
+          "years": "H8"
+        },
+        {
+          "row": 175,
+          "years": "H11"
+        },
+        {
+          "row": 176,
+          "years": "H4"
+        },
+        {
+          "row": 177,
+          "years": "H22"
+        },
+        {
+          "row": 178,
+          "years": "H11"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "1ed0ddbc-3a64-591f-afc4-7cb774e0a3c6": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "25条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 1,
+      "yearCount": 1,
+      "years": [
+        "H8"
+      ],
+      "latestYear": "H8",
+      "yearRecordCount": 1,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 172,
+          "years": "H8"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 14,
+      "yearCount": 7,
+      "years": [
+        "H4",
+        "H8",
+        "H9",
+        "H11",
+        "H14",
+        "H18",
+        "H22"
+      ],
+      "latestYear": "H22",
+      "yearRecordCount": 14,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 165,
+          "years": "H8"
+        },
+        {
+          "row": 166,
+          "years": "H9"
+        },
+        {
+          "row": 167,
+          "years": "H8"
+        },
+        {
+          "row": 168,
+          "years": "H14"
+        },
+        {
+          "row": 169,
+          "years": "H18"
+        },
+        {
+          "row": 170,
+          "years": "H22"
+        },
+        {
+          "row": 171,
+          "years": "H14"
+        },
+        {
+          "row": 172,
+          "years": "H8"
+        },
+        {
+          "row": 173,
+          "years": "H18"
+        },
+        {
+          "row": 174,
+          "years": "H8"
+        },
+        {
+          "row": 175,
+          "years": "H11"
+        },
+        {
+          "row": 176,
+          "years": "H4"
+        },
+        {
+          "row": 177,
+          "years": "H22"
+        },
+        {
+          "row": 178,
+          "years": "H11"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "296e3499-b083-5f47-9402-7101987b479c": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "25条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 2,
+      "yearCount": 2,
+      "years": [
+        "H8",
+        "H18"
+      ],
+      "latestYear": "H18",
+      "yearRecordCount": 2,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 169,
+          "years": "H18"
+        },
+        {
+          "row": 174,
+          "years": "H8"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 14,
+      "yearCount": 7,
+      "years": [
+        "H4",
+        "H8",
+        "H9",
+        "H11",
+        "H14",
+        "H18",
+        "H22"
+      ],
+      "latestYear": "H22",
+      "yearRecordCount": 14,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 165,
+          "years": "H8"
+        },
+        {
+          "row": 166,
+          "years": "H9"
+        },
+        {
+          "row": 167,
+          "years": "H8"
+        },
+        {
+          "row": 168,
+          "years": "H14"
+        },
+        {
+          "row": 169,
+          "years": "H18"
+        },
+        {
+          "row": 170,
+          "years": "H22"
+        },
+        {
+          "row": 171,
+          "years": "H14"
+        },
+        {
+          "row": 172,
+          "years": "H8"
+        },
+        {
+          "row": 173,
+          "years": "H18"
+        },
+        {
+          "row": 174,
+          "years": "H8"
+        },
+        {
+          "row": 175,
+          "years": "H11"
+        },
+        {
+          "row": 176,
+          "years": "H4"
+        },
+        {
+          "row": 177,
+          "years": "H22"
+        },
+        {
+          "row": 178,
+          "years": "H11"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "f33be22e-7a54-5022-b1c8-97aa75a67c15": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "26条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 4,
+      "yearCount": 4,
+      "years": [
+        "H8",
+        "H9",
+        "H14",
+        "H22"
+      ],
+      "latestYear": "H22",
+      "yearRecordCount": 4,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 180,
+          "years": "H9"
+        },
+        {
+          "row": 181,
+          "years": "H14"
+        },
+        {
+          "row": 182,
+          "years": "H22"
+        },
+        {
+          "row": 183,
+          "years": "H8"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 5,
+      "yearCount": 4,
+      "years": [
+        "H8",
+        "H9",
+        "H14",
+        "H22"
+      ],
+      "latestYear": "H22",
+      "yearRecordCount": 5,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 179,
+          "years": "H8"
+        },
+        {
+          "row": 180,
+          "years": "H9"
+        },
+        {
+          "row": 181,
+          "years": "H14"
+        },
+        {
+          "row": 182,
+          "years": "H22"
+        },
+        {
+          "row": 183,
+          "years": "H8"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "d72b30de-f16b-5f86-b838-74b5ac35ac67": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "26条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 2,
+      "yearCount": 2,
+      "years": [
+        "H8",
+        "H14"
+      ],
+      "latestYear": "H14",
+      "yearRecordCount": 2,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 181,
+          "years": "H14"
+        },
+        {
+          "row": 183,
+          "years": "H8"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 5,
+      "yearCount": 4,
+      "years": [
+        "H8",
+        "H9",
+        "H14",
+        "H22"
+      ],
+      "latestYear": "H22",
+      "yearRecordCount": 5,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 179,
+          "years": "H8"
+        },
+        {
+          "row": 180,
+          "years": "H9"
+        },
+        {
+          "row": 181,
+          "years": "H14"
+        },
+        {
+          "row": 182,
+          "years": "H22"
+        },
+        {
+          "row": 183,
+          "years": "H8"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "e7876bba-c537-52bf-92f4-086c2145b7dc": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "26条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 1,
+      "yearCount": 1,
+      "years": [
+        "H8"
+      ],
+      "latestYear": "H8",
+      "yearRecordCount": 1,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 179,
+          "years": "H8"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 5,
+      "yearCount": 4,
+      "years": [
+        "H8",
+        "H9",
+        "H14",
+        "H22"
+      ],
+      "latestYear": "H22",
+      "yearRecordCount": 5,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 179,
+          "years": "H8"
+        },
+        {
+          "row": 180,
+          "years": "H9"
+        },
+        {
+          "row": 181,
+          "years": "H14"
+        },
+        {
+          "row": 182,
+          "years": "H22"
+        },
+        {
+          "row": 183,
+          "years": "H8"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "dfd0c962-c91d-54a9-b02f-fe7cc1fc00a4": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "53条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 2,
+      "yearCount": 3,
+      "years": [
+        "H3",
+        "H5",
+        "H14"
+      ],
+      "latestYear": "H14",
+      "yearRecordCount": 3,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 462,
+          "years": "H3、H5"
+        },
+        {
+          "row": 466,
+          "years": "H14"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 8,
+      "yearCount": 6,
+      "years": [
+        "H3",
+        "H5",
+        "H14",
+        "H21",
+        "H23",
+        "R1"
+      ],
+      "latestYear": "R1",
+      "yearRecordCount": 9,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 461,
+          "years": "R1"
+        },
+        {
+          "row": 462,
+          "years": "H3、H5"
+        },
+        {
+          "row": 463,
+          "years": "H23"
+        },
+        {
+          "row": 464,
+          "years": "H3"
+        },
+        {
+          "row": 465,
+          "years": "H21"
+        },
+        {
+          "row": 466,
+          "years": "H14"
+        },
+        {
+          "row": 467,
+          "years": "H21"
+        },
+        {
+          "row": 468,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "9c29e6a4-eeb3-5a86-a330-3ca5a78ab50d": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "53条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "relatedArticles": {
+      "recordCount": 8,
+      "yearCount": 6,
+      "years": [
+        "H3",
+        "H5",
+        "H14",
+        "H21",
+        "H23",
+        "R1"
+      ],
+      "latestYear": "R1",
+      "yearRecordCount": 9,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 461,
+          "years": "R1"
+        },
+        {
+          "row": 462,
+          "years": "H3、H5"
+        },
+        {
+          "row": 463,
+          "years": "H23"
+        },
+        {
+          "row": 464,
+          "years": "H3"
+        },
+        {
+          "row": 465,
+          "years": "H21"
+        },
+        {
+          "row": 466,
+          "years": "H14"
+        },
+        {
+          "row": 467,
+          "years": "H21"
+        },
+        {
+          "row": 468,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "d36531eb-1a9d-5242-b816-c71e4337eb8b": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "53条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 1,
+      "yearCount": 1,
+      "years": [
+        "H17"
+      ],
+      "latestYear": "H17",
+      "yearRecordCount": 1,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 452,
+          "years": "H17"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 8,
+      "yearCount": 6,
+      "years": [
+        "H3",
+        "H5",
+        "H14",
+        "H21",
+        "H23",
+        "R1"
+      ],
+      "latestYear": "R1",
+      "yearRecordCount": 9,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 461,
+          "years": "R1"
+        },
+        {
+          "row": 462,
+          "years": "H3、H5"
+        },
+        {
+          "row": 463,
+          "years": "H23"
+        },
+        {
+          "row": 464,
+          "years": "H3"
+        },
+        {
+          "row": 465,
+          "years": "H21"
+        },
+        {
+          "row": 466,
+          "years": "H14"
+        },
+        {
+          "row": 467,
+          "years": "H21"
+        },
+        {
+          "row": 468,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "96dfd16f-8ebb-5a7a-bc19-d9ed91efacae": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "53条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 1,
+      "yearCount": 1,
+      "years": [
+        "H23"
+      ],
+      "latestYear": "H23",
+      "yearRecordCount": 1,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 463,
+          "years": "H23"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 8,
+      "yearCount": 6,
+      "years": [
+        "H3",
+        "H5",
+        "H14",
+        "H21",
+        "H23",
+        "R1"
+      ],
+      "latestYear": "R1",
+      "yearRecordCount": 9,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 461,
+          "years": "R1"
+        },
+        {
+          "row": 462,
+          "years": "H3、H5"
+        },
+        {
+          "row": 463,
+          "years": "H23"
+        },
+        {
+          "row": 464,
+          "years": "H3"
+        },
+        {
+          "row": 465,
+          "years": "H21"
+        },
+        {
+          "row": 466,
+          "years": "H14"
+        },
+        {
+          "row": 467,
+          "years": "H21"
+        },
+        {
+          "row": 468,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "494df505-96f1-59db-bd2e-eb80d7402458": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "53条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 1,
+      "yearCount": 1,
+      "years": [
+        "H21"
+      ],
+      "latestYear": "H21",
+      "yearRecordCount": 1,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 467,
+          "years": "H21"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 8,
+      "yearCount": 6,
+      "years": [
+        "H3",
+        "H5",
+        "H14",
+        "H21",
+        "H23",
+        "R1"
+      ],
+      "latestYear": "R1",
+      "yearRecordCount": 9,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 461,
+          "years": "R1"
+        },
+        {
+          "row": 462,
+          "years": "H3、H5"
+        },
+        {
+          "row": 463,
+          "years": "H23"
+        },
+        {
+          "row": 464,
+          "years": "H3"
+        },
+        {
+          "row": 465,
+          "years": "H21"
+        },
+        {
+          "row": 466,
+          "years": "H14"
+        },
+        {
+          "row": 467,
+          "years": "H21"
+        },
+        {
+          "row": 468,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "1fa7fc6a-88e6-5aad-ac51-d3248d33fed2": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "53条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 2,
+      "yearCount": 2,
+      "years": [
+        "H14",
+        "H23"
+      ],
+      "latestYear": "H23",
+      "yearRecordCount": 2,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 463,
+          "years": "H23"
+        },
+        {
+          "row": 466,
+          "years": "H14"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 8,
+      "yearCount": 6,
+      "years": [
+        "H3",
+        "H5",
+        "H14",
+        "H21",
+        "H23",
+        "R1"
+      ],
+      "latestYear": "R1",
+      "yearRecordCount": 9,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 461,
+          "years": "R1"
+        },
+        {
+          "row": 462,
+          "years": "H3、H5"
+        },
+        {
+          "row": 463,
+          "years": "H23"
+        },
+        {
+          "row": 464,
+          "years": "H3"
+        },
+        {
+          "row": 465,
+          "years": "H21"
+        },
+        {
+          "row": 466,
+          "years": "H14"
+        },
+        {
+          "row": 467,
+          "years": "H21"
+        },
+        {
+          "row": 468,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "bda38af2-9d20-59e3-8877-efa3cc0fc23a": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "55条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 5,
+      "yearCount": 5,
+      "years": [
+        "H1",
+        "H6",
+        "H12",
+        "H23",
+        "R1"
+      ],
+      "latestYear": "R1",
+      "yearRecordCount": 5,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 471,
+          "years": "H6"
+        },
+        {
+          "row": 482,
+          "years": "H1"
+        },
+        {
+          "row": 488,
+          "years": "R1"
+        },
+        {
+          "row": 490,
+          "years": "H12"
+        },
+        {
+          "row": 492,
+          "years": "H23"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 34,
+      "yearCount": 13,
+      "years": [
+        "H1",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H8",
+        "H12",
+        "H14",
+        "H17",
+        "H21",
+        "H23",
+        "R1",
+        "R5"
+      ],
+      "latestYear": "R5",
+      "yearRecordCount": 37,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 437,
+          "years": "H21"
+        },
+        {
+          "row": 469,
+          "years": "H6"
+        },
+        {
+          "row": 470,
+          "years": "H21"
+        },
+        {
+          "row": 471,
+          "years": "H6"
+        },
+        {
+          "row": 472,
+          "years": "H12、H6"
+        },
+        {
+          "row": 473,
+          "years": "H12"
+        },
+        {
+          "row": 474,
+          "years": "H4、H6"
+        },
+        {
+          "row": 475,
+          "years": "H1"
+        },
+        {
+          "row": 476,
+          "years": "H8"
+        },
+        {
+          "row": 477,
+          "years": "H4、H17"
+        },
+        {
+          "row": 478,
+          "years": "H4"
+        },
+        {
+          "row": 479,
+          "years": "H23"
+        },
+        {
+          "row": 480,
+          "years": "H12"
+        },
+        {
+          "row": 481,
+          "years": "H1"
+        },
+        {
+          "row": 482,
+          "years": "H1"
+        },
+        {
+          "row": 483,
+          "years": "H8"
+        },
+        {
+          "row": 484,
+          "years": "H5"
+        },
+        {
+          "row": 485,
+          "years": "H5"
+        },
+        {
+          "row": 486,
+          "years": "H8"
+        },
+        {
+          "row": 487,
+          "years": "H3"
+        },
+        {
+          "row": 488,
+          "years": "R1"
+        },
+        {
+          "row": 489,
+          "years": "H14"
+        },
+        {
+          "row": 490,
+          "years": "H12"
+        },
+        {
+          "row": 491,
+          "years": "H4"
+        },
+        {
+          "row": 492,
+          "years": "H23"
+        },
+        {
+          "row": 493,
+          "years": "R1"
+        },
+        {
+          "row": 494,
+          "years": "R5"
+        },
+        {
+          "row": 495,
+          "years": "H4"
+        },
+        {
+          "row": 496,
+          "years": "H17"
+        },
+        {
+          "row": 497,
+          "years": "H12"
+        },
+        {
+          "row": 498,
+          "years": "H8"
+        },
+        {
+          "row": 499,
+          "years": "H6"
+        },
+        {
+          "row": 500,
+          "years": "H8"
+        },
+        {
+          "row": 501,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "60954402-d2e2-5f2e-8d7e-65ce4ab3d697": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "55条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 2,
+      "yearCount": 2,
+      "years": [
+        "H1",
+        "H3"
+      ],
+      "latestYear": "H3",
+      "yearRecordCount": 2,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 481,
+          "years": "H1"
+        },
+        {
+          "row": 487,
+          "years": "H3"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 34,
+      "yearCount": 13,
+      "years": [
+        "H1",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H8",
+        "H12",
+        "H14",
+        "H17",
+        "H21",
+        "H23",
+        "R1",
+        "R5"
+      ],
+      "latestYear": "R5",
+      "yearRecordCount": 37,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 437,
+          "years": "H21"
+        },
+        {
+          "row": 469,
+          "years": "H6"
+        },
+        {
+          "row": 470,
+          "years": "H21"
+        },
+        {
+          "row": 471,
+          "years": "H6"
+        },
+        {
+          "row": 472,
+          "years": "H12、H6"
+        },
+        {
+          "row": 473,
+          "years": "H12"
+        },
+        {
+          "row": 474,
+          "years": "H4、H6"
+        },
+        {
+          "row": 475,
+          "years": "H1"
+        },
+        {
+          "row": 476,
+          "years": "H8"
+        },
+        {
+          "row": 477,
+          "years": "H4、H17"
+        },
+        {
+          "row": 478,
+          "years": "H4"
+        },
+        {
+          "row": 479,
+          "years": "H23"
+        },
+        {
+          "row": 480,
+          "years": "H12"
+        },
+        {
+          "row": 481,
+          "years": "H1"
+        },
+        {
+          "row": 482,
+          "years": "H1"
+        },
+        {
+          "row": 483,
+          "years": "H8"
+        },
+        {
+          "row": 484,
+          "years": "H5"
+        },
+        {
+          "row": 485,
+          "years": "H5"
+        },
+        {
+          "row": 486,
+          "years": "H8"
+        },
+        {
+          "row": 487,
+          "years": "H3"
+        },
+        {
+          "row": 488,
+          "years": "R1"
+        },
+        {
+          "row": 489,
+          "years": "H14"
+        },
+        {
+          "row": 490,
+          "years": "H12"
+        },
+        {
+          "row": 491,
+          "years": "H4"
+        },
+        {
+          "row": 492,
+          "years": "H23"
+        },
+        {
+          "row": 493,
+          "years": "R1"
+        },
+        {
+          "row": 494,
+          "years": "R5"
+        },
+        {
+          "row": 495,
+          "years": "H4"
+        },
+        {
+          "row": 496,
+          "years": "H17"
+        },
+        {
+          "row": 497,
+          "years": "H12"
+        },
+        {
+          "row": 498,
+          "years": "H8"
+        },
+        {
+          "row": 499,
+          "years": "H6"
+        },
+        {
+          "row": 500,
+          "years": "H8"
+        },
+        {
+          "row": 501,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "3e014441-5858-5205-80b8-20dfa5f8b202": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "55条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 4,
+      "yearCount": 4,
+      "years": [
+        "H1",
+        "H3",
+        "H12",
+        "R1"
+      ],
+      "latestYear": "R1",
+      "yearRecordCount": 4,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 482,
+          "years": "H1"
+        },
+        {
+          "row": 487,
+          "years": "H3"
+        },
+        {
+          "row": 488,
+          "years": "R1"
+        },
+        {
+          "row": 490,
+          "years": "H12"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 34,
+      "yearCount": 13,
+      "years": [
+        "H1",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H8",
+        "H12",
+        "H14",
+        "H17",
+        "H21",
+        "H23",
+        "R1",
+        "R5"
+      ],
+      "latestYear": "R5",
+      "yearRecordCount": 37,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 437,
+          "years": "H21"
+        },
+        {
+          "row": 469,
+          "years": "H6"
+        },
+        {
+          "row": 470,
+          "years": "H21"
+        },
+        {
+          "row": 471,
+          "years": "H6"
+        },
+        {
+          "row": 472,
+          "years": "H12、H6"
+        },
+        {
+          "row": 473,
+          "years": "H12"
+        },
+        {
+          "row": 474,
+          "years": "H4、H6"
+        },
+        {
+          "row": 475,
+          "years": "H1"
+        },
+        {
+          "row": 476,
+          "years": "H8"
+        },
+        {
+          "row": 477,
+          "years": "H4、H17"
+        },
+        {
+          "row": 478,
+          "years": "H4"
+        },
+        {
+          "row": 479,
+          "years": "H23"
+        },
+        {
+          "row": 480,
+          "years": "H12"
+        },
+        {
+          "row": 481,
+          "years": "H1"
+        },
+        {
+          "row": 482,
+          "years": "H1"
+        },
+        {
+          "row": 483,
+          "years": "H8"
+        },
+        {
+          "row": 484,
+          "years": "H5"
+        },
+        {
+          "row": 485,
+          "years": "H5"
+        },
+        {
+          "row": 486,
+          "years": "H8"
+        },
+        {
+          "row": 487,
+          "years": "H3"
+        },
+        {
+          "row": 488,
+          "years": "R1"
+        },
+        {
+          "row": 489,
+          "years": "H14"
+        },
+        {
+          "row": 490,
+          "years": "H12"
+        },
+        {
+          "row": 491,
+          "years": "H4"
+        },
+        {
+          "row": 492,
+          "years": "H23"
+        },
+        {
+          "row": 493,
+          "years": "R1"
+        },
+        {
+          "row": 494,
+          "years": "R5"
+        },
+        {
+          "row": 495,
+          "years": "H4"
+        },
+        {
+          "row": 496,
+          "years": "H17"
+        },
+        {
+          "row": 497,
+          "years": "H12"
+        },
+        {
+          "row": 498,
+          "years": "H8"
+        },
+        {
+          "row": 499,
+          "years": "H6"
+        },
+        {
+          "row": 500,
+          "years": "H8"
+        },
+        {
+          "row": 501,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "0c9f4787-9dfa-52ad-9529-61c2fb000114": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "55条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 4,
+      "yearCount": 4,
+      "years": [
+        "H4",
+        "H5",
+        "H12",
+        "H14"
+      ],
+      "latestYear": "H14",
+      "yearRecordCount": 4,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 473,
+          "years": "H12"
+        },
+        {
+          "row": 478,
+          "years": "H4"
+        },
+        {
+          "row": 485,
+          "years": "H5"
+        },
+        {
+          "row": 489,
+          "years": "H14"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 34,
+      "yearCount": 13,
+      "years": [
+        "H1",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H8",
+        "H12",
+        "H14",
+        "H17",
+        "H21",
+        "H23",
+        "R1",
+        "R5"
+      ],
+      "latestYear": "R5",
+      "yearRecordCount": 37,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 437,
+          "years": "H21"
+        },
+        {
+          "row": 469,
+          "years": "H6"
+        },
+        {
+          "row": 470,
+          "years": "H21"
+        },
+        {
+          "row": 471,
+          "years": "H6"
+        },
+        {
+          "row": 472,
+          "years": "H12、H6"
+        },
+        {
+          "row": 473,
+          "years": "H12"
+        },
+        {
+          "row": 474,
+          "years": "H4、H6"
+        },
+        {
+          "row": 475,
+          "years": "H1"
+        },
+        {
+          "row": 476,
+          "years": "H8"
+        },
+        {
+          "row": 477,
+          "years": "H4、H17"
+        },
+        {
+          "row": 478,
+          "years": "H4"
+        },
+        {
+          "row": 479,
+          "years": "H23"
+        },
+        {
+          "row": 480,
+          "years": "H12"
+        },
+        {
+          "row": 481,
+          "years": "H1"
+        },
+        {
+          "row": 482,
+          "years": "H1"
+        },
+        {
+          "row": 483,
+          "years": "H8"
+        },
+        {
+          "row": 484,
+          "years": "H5"
+        },
+        {
+          "row": 485,
+          "years": "H5"
+        },
+        {
+          "row": 486,
+          "years": "H8"
+        },
+        {
+          "row": 487,
+          "years": "H3"
+        },
+        {
+          "row": 488,
+          "years": "R1"
+        },
+        {
+          "row": 489,
+          "years": "H14"
+        },
+        {
+          "row": 490,
+          "years": "H12"
+        },
+        {
+          "row": 491,
+          "years": "H4"
+        },
+        {
+          "row": 492,
+          "years": "H23"
+        },
+        {
+          "row": 493,
+          "years": "R1"
+        },
+        {
+          "row": 494,
+          "years": "R5"
+        },
+        {
+          "row": 495,
+          "years": "H4"
+        },
+        {
+          "row": 496,
+          "years": "H17"
+        },
+        {
+          "row": 497,
+          "years": "H12"
+        },
+        {
+          "row": 498,
+          "years": "H8"
+        },
+        {
+          "row": 499,
+          "years": "H6"
+        },
+        {
+          "row": 500,
+          "years": "H8"
+        },
+        {
+          "row": 501,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "609e0106-0001-5674-92ee-fcef61370f18": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "55条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 4,
+      "yearCount": 4,
+      "years": [
+        "H12",
+        "H14",
+        "H17",
+        "H21"
+      ],
+      "latestYear": "H21",
+      "yearRecordCount": 4,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 470,
+          "years": "H21"
+        },
+        {
+          "row": 480,
+          "years": "H12"
+        },
+        {
+          "row": 496,
+          "years": "H17"
+        },
+        {
+          "row": 501,
+          "years": "H14"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 34,
+      "yearCount": 13,
+      "years": [
+        "H1",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H8",
+        "H12",
+        "H14",
+        "H17",
+        "H21",
+        "H23",
+        "R1",
+        "R5"
+      ],
+      "latestYear": "R5",
+      "yearRecordCount": 37,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 437,
+          "years": "H21"
+        },
+        {
+          "row": 469,
+          "years": "H6"
+        },
+        {
+          "row": 470,
+          "years": "H21"
+        },
+        {
+          "row": 471,
+          "years": "H6"
+        },
+        {
+          "row": 472,
+          "years": "H12、H6"
+        },
+        {
+          "row": 473,
+          "years": "H12"
+        },
+        {
+          "row": 474,
+          "years": "H4、H6"
+        },
+        {
+          "row": 475,
+          "years": "H1"
+        },
+        {
+          "row": 476,
+          "years": "H8"
+        },
+        {
+          "row": 477,
+          "years": "H4、H17"
+        },
+        {
+          "row": 478,
+          "years": "H4"
+        },
+        {
+          "row": 479,
+          "years": "H23"
+        },
+        {
+          "row": 480,
+          "years": "H12"
+        },
+        {
+          "row": 481,
+          "years": "H1"
+        },
+        {
+          "row": 482,
+          "years": "H1"
+        },
+        {
+          "row": 483,
+          "years": "H8"
+        },
+        {
+          "row": 484,
+          "years": "H5"
+        },
+        {
+          "row": 485,
+          "years": "H5"
+        },
+        {
+          "row": 486,
+          "years": "H8"
+        },
+        {
+          "row": 487,
+          "years": "H3"
+        },
+        {
+          "row": 488,
+          "years": "R1"
+        },
+        {
+          "row": 489,
+          "years": "H14"
+        },
+        {
+          "row": 490,
+          "years": "H12"
+        },
+        {
+          "row": 491,
+          "years": "H4"
+        },
+        {
+          "row": 492,
+          "years": "H23"
+        },
+        {
+          "row": 493,
+          "years": "R1"
+        },
+        {
+          "row": 494,
+          "years": "R5"
+        },
+        {
+          "row": 495,
+          "years": "H4"
+        },
+        {
+          "row": 496,
+          "years": "H17"
+        },
+        {
+          "row": 497,
+          "years": "H12"
+        },
+        {
+          "row": 498,
+          "years": "H8"
+        },
+        {
+          "row": 499,
+          "years": "H6"
+        },
+        {
+          "row": 500,
+          "years": "H8"
+        },
+        {
+          "row": 501,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "71e28914-54d3-5a09-80b6-841eaee53316": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "55条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 1,
+      "yearCount": 1,
+      "years": [
+        "H23"
+      ],
+      "latestYear": "H23",
+      "yearRecordCount": 1,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 479,
+          "years": "H23"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 34,
+      "yearCount": 13,
+      "years": [
+        "H1",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H8",
+        "H12",
+        "H14",
+        "H17",
+        "H21",
+        "H23",
+        "R1",
+        "R5"
+      ],
+      "latestYear": "R5",
+      "yearRecordCount": 37,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 437,
+          "years": "H21"
+        },
+        {
+          "row": 469,
+          "years": "H6"
+        },
+        {
+          "row": 470,
+          "years": "H21"
+        },
+        {
+          "row": 471,
+          "years": "H6"
+        },
+        {
+          "row": 472,
+          "years": "H12、H6"
+        },
+        {
+          "row": 473,
+          "years": "H12"
+        },
+        {
+          "row": 474,
+          "years": "H4、H6"
+        },
+        {
+          "row": 475,
+          "years": "H1"
+        },
+        {
+          "row": 476,
+          "years": "H8"
+        },
+        {
+          "row": 477,
+          "years": "H4、H17"
+        },
+        {
+          "row": 478,
+          "years": "H4"
+        },
+        {
+          "row": 479,
+          "years": "H23"
+        },
+        {
+          "row": 480,
+          "years": "H12"
+        },
+        {
+          "row": 481,
+          "years": "H1"
+        },
+        {
+          "row": 482,
+          "years": "H1"
+        },
+        {
+          "row": 483,
+          "years": "H8"
+        },
+        {
+          "row": 484,
+          "years": "H5"
+        },
+        {
+          "row": 485,
+          "years": "H5"
+        },
+        {
+          "row": 486,
+          "years": "H8"
+        },
+        {
+          "row": 487,
+          "years": "H3"
+        },
+        {
+          "row": 488,
+          "years": "R1"
+        },
+        {
+          "row": 489,
+          "years": "H14"
+        },
+        {
+          "row": 490,
+          "years": "H12"
+        },
+        {
+          "row": 491,
+          "years": "H4"
+        },
+        {
+          "row": 492,
+          "years": "H23"
+        },
+        {
+          "row": 493,
+          "years": "R1"
+        },
+        {
+          "row": 494,
+          "years": "R5"
+        },
+        {
+          "row": 495,
+          "years": "H4"
+        },
+        {
+          "row": 496,
+          "years": "H17"
+        },
+        {
+          "row": 497,
+          "years": "H12"
+        },
+        {
+          "row": 498,
+          "years": "H8"
+        },
+        {
+          "row": 499,
+          "years": "H6"
+        },
+        {
+          "row": 500,
+          "years": "H8"
+        },
+        {
+          "row": 501,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "82849114-c893-523b-b54c-759b7d2c0cf5": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "55条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 1,
+      "yearCount": 2,
+      "years": [
+        "H6",
+        "H12"
+      ],
+      "latestYear": "H12",
+      "yearRecordCount": 2,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 472,
+          "years": "H12、H6"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 34,
+      "yearCount": 13,
+      "years": [
+        "H1",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H8",
+        "H12",
+        "H14",
+        "H17",
+        "H21",
+        "H23",
+        "R1",
+        "R5"
+      ],
+      "latestYear": "R5",
+      "yearRecordCount": 37,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 437,
+          "years": "H21"
+        },
+        {
+          "row": 469,
+          "years": "H6"
+        },
+        {
+          "row": 470,
+          "years": "H21"
+        },
+        {
+          "row": 471,
+          "years": "H6"
+        },
+        {
+          "row": 472,
+          "years": "H12、H6"
+        },
+        {
+          "row": 473,
+          "years": "H12"
+        },
+        {
+          "row": 474,
+          "years": "H4、H6"
+        },
+        {
+          "row": 475,
+          "years": "H1"
+        },
+        {
+          "row": 476,
+          "years": "H8"
+        },
+        {
+          "row": 477,
+          "years": "H4、H17"
+        },
+        {
+          "row": 478,
+          "years": "H4"
+        },
+        {
+          "row": 479,
+          "years": "H23"
+        },
+        {
+          "row": 480,
+          "years": "H12"
+        },
+        {
+          "row": 481,
+          "years": "H1"
+        },
+        {
+          "row": 482,
+          "years": "H1"
+        },
+        {
+          "row": 483,
+          "years": "H8"
+        },
+        {
+          "row": 484,
+          "years": "H5"
+        },
+        {
+          "row": 485,
+          "years": "H5"
+        },
+        {
+          "row": 486,
+          "years": "H8"
+        },
+        {
+          "row": 487,
+          "years": "H3"
+        },
+        {
+          "row": 488,
+          "years": "R1"
+        },
+        {
+          "row": 489,
+          "years": "H14"
+        },
+        {
+          "row": 490,
+          "years": "H12"
+        },
+        {
+          "row": 491,
+          "years": "H4"
+        },
+        {
+          "row": 492,
+          "years": "H23"
+        },
+        {
+          "row": 493,
+          "years": "R1"
+        },
+        {
+          "row": 494,
+          "years": "R5"
+        },
+        {
+          "row": 495,
+          "years": "H4"
+        },
+        {
+          "row": 496,
+          "years": "H17"
+        },
+        {
+          "row": 497,
+          "years": "H12"
+        },
+        {
+          "row": 498,
+          "years": "H8"
+        },
+        {
+          "row": 499,
+          "years": "H6"
+        },
+        {
+          "row": 500,
+          "years": "H8"
+        },
+        {
+          "row": 501,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "78f77626-45a2-5175-8746-2b679d290882": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "38条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 2,
+      "yearCount": 2,
+      "years": [
+        "H2",
+        "H17"
+      ],
+      "latestYear": "H17",
+      "yearRecordCount": 2,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 413,
+          "years": "H17"
+        },
+        {
+          "row": 416,
+          "years": "H2"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 24,
+      "yearCount": 8,
+      "years": [
+        "H1",
+        "H2",
+        "H6",
+        "H11",
+        "H17",
+        "H19",
+        "H20",
+        "H22"
+      ],
+      "latestYear": "H22",
+      "yearRecordCount": 25,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 411,
+          "years": "H6"
+        },
+        {
+          "row": 412,
+          "years": "H19"
+        },
+        {
+          "row": 413,
+          "years": "H17"
+        },
+        {
+          "row": 414,
+          "years": "H19"
+        },
+        {
+          "row": 415,
+          "years": "H19、H2"
+        },
+        {
+          "row": 416,
+          "years": "H2"
+        },
+        {
+          "row": 417,
+          "years": "H17"
+        },
+        {
+          "row": 418,
+          "years": "H17"
+        },
+        {
+          "row": 419,
+          "years": "H22"
+        },
+        {
+          "row": 420,
+          "years": "H2"
+        },
+        {
+          "row": 421,
+          "years": "H6"
+        },
+        {
+          "row": 422,
+          "years": "H17"
+        },
+        {
+          "row": 423,
+          "years": "H1"
+        },
+        {
+          "row": 424,
+          "years": "H17"
+        },
+        {
+          "row": 425,
+          "years": "H6"
+        },
+        {
+          "row": 426,
+          "years": "H20"
+        },
+        {
+          "row": 427,
+          "years": "H22"
+        },
+        {
+          "row": 428,
+          "years": "H1"
+        },
+        {
+          "row": 429,
+          "years": "H19"
+        },
+        {
+          "row": 430,
+          "years": "H1"
+        },
+        {
+          "row": 431,
+          "years": "H19"
+        },
+        {
+          "row": 432,
+          "years": "H22"
+        },
+        {
+          "row": 433,
+          "years": "H22"
+        },
+        {
+          "row": 434,
+          "years": "H11"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "d3fa1f7b-aa16-5edf-a253-d30d21d85dd9": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "55条の2"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 1,
+      "yearCount": 1,
+      "years": [
+        "H1"
+      ],
+      "latestYear": "H1",
+      "yearRecordCount": 1,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 502,
+          "years": "H1"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 5,
+      "yearCount": 5,
+      "years": [
+        "H1",
+        "H17",
+        "H18",
+        "H23",
+        "R5"
+      ],
+      "latestYear": "R5",
+      "yearRecordCount": 5,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 185,
+          "years": "H18"
+        },
+        {
+          "row": 502,
+          "years": "H1"
+        },
+        {
+          "row": 503,
+          "years": "R5"
+        },
+        {
+          "row": 504,
+          "years": "H17"
+        },
+        {
+          "row": 505,
+          "years": "H23"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "7adf8edf-f1d4-5e4d-a0ba-e72ad3c1c293": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "29条の2"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 3,
+      "yearCount": 3,
+      "years": [
+        "H4",
+        "H5",
+        "H14"
+      ],
+      "latestYear": "H14",
+      "yearRecordCount": 3,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 266,
+          "years": "H5"
+        },
+        {
+          "row": 570,
+          "years": "H4"
+        },
+        {
+          "row": 571,
+          "years": "H14"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 24,
+      "yearCount": 18,
+      "years": [
+        "H3",
+        "H4",
+        "H5",
+        "H7",
+        "H8",
+        "H9",
+        "H11",
+        "H14",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H20",
+        "H23",
+        "H24",
+        "R1",
+        "R3"
+      ],
+      "latestYear": "R3",
+      "yearRecordCount": 25,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 139,
+          "years": "R1"
+        },
+        {
+          "row": 140,
+          "years": "H15"
+        },
+        {
+          "row": 141,
+          "years": "H15"
+        },
+        {
+          "row": 142,
+          "years": "H20"
+        },
+        {
+          "row": 143,
+          "years": "H4"
+        },
+        {
+          "row": 144,
+          "years": "H3"
+        },
+        {
+          "row": 145,
+          "years": "H3"
+        },
+        {
+          "row": 146,
+          "years": "H16"
+        },
+        {
+          "row": 265,
+          "years": "H7"
+        },
+        {
+          "row": 266,
+          "years": "H5"
+        },
+        {
+          "row": 267,
+          "years": "H5"
+        },
+        {
+          "row": 268,
+          "years": "H3"
+        },
+        {
+          "row": 269,
+          "years": "H17"
+        },
+        {
+          "row": 270,
+          "years": "H4"
+        },
+        {
+          "row": 277,
+          "years": "H24、H18"
+        },
+        {
+          "row": 506,
+          "years": "H23"
+        },
+        {
+          "row": 507,
+          "years": "H4"
+        },
+        {
+          "row": 508,
+          "years": "H8"
+        },
+        {
+          "row": 509,
+          "years": "H19"
+        },
+        {
+          "row": 510,
+          "years": "R3"
+        },
+        {
+          "row": 511,
+          "years": "H11"
+        },
+        {
+          "row": 512,
+          "years": "H9"
+        },
+        {
+          "row": 570,
+          "years": "H4"
+        },
+        {
+          "row": 571,
+          "years": "H14"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "7f32853a-1520-547e-a6c6-f31d8199ba71": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "50条"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 3,
+      "yearCount": 4,
+      "years": [
+        "H8",
+        "H10",
+        "H16",
+        "H20"
+      ],
+      "latestYear": "H20",
+      "yearRecordCount": 4,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 568,
+          "years": "H10"
+        },
+        {
+          "row": 593,
+          "years": "H20、H16"
+        },
+        {
+          "row": 596,
+          "years": "H8"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 8,
+      "yearCount": 7,
+      "years": [
+        "H8",
+        "H10",
+        "H14",
+        "H16",
+        "H18",
+        "H20",
+        "R2"
+      ],
+      "latestYear": "R2",
+      "yearRecordCount": 9,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 567,
+          "years": "H8"
+        },
+        {
+          "row": 568,
+          "years": "H10"
+        },
+        {
+          "row": 591,
+          "years": "H18"
+        },
+        {
+          "row": 592,
+          "years": "R2"
+        },
+        {
+          "row": 593,
+          "years": "H20、H16"
+        },
+        {
+          "row": 594,
+          "years": "H14"
+        },
+        {
+          "row": 595,
+          "years": "H20"
+        },
+        {
+          "row": 596,
+          "years": "H8"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
+  },
+  "1a155ea0-9792-5784-8def-0a823ea73618": {
+    "sourceFile": "horitsudb_2026.xlsx",
+    "sheet": "地方公務員法",
+    "articleLabels": [
+      "51条の2"
+    ],
+    "exact": {
+      "recordCount": 0,
+      "yearCount": 0,
+      "years": [],
+      "latestYear": null,
+      "yearRecordCount": 0,
+      "undatedRecordCount": 0,
+      "rows": []
+    },
+    "topic": {
+      "recordCount": 2,
+      "yearCount": 2,
+      "years": [
+        "H4",
+        "H8"
+      ],
+      "latestYear": "H8",
+      "yearRecordCount": 2,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 598,
+          "years": "H8"
+        },
+        {
+          "row": 601,
+          "years": "H4"
+        }
+      ]
+    },
+    "relatedArticles": {
+      "recordCount": 5,
+      "yearCount": 6,
+      "years": [
+        "H4",
+        "H6",
+        "H8",
+        "H14",
+        "H20",
+        "R2"
+      ],
+      "latestYear": "R2",
+      "yearRecordCount": 6,
+      "undatedRecordCount": 0,
+      "rows": [
+        {
+          "row": 598,
+          "years": "H8"
+        },
+        {
+          "row": 599,
+          "years": "H14、H6"
+        },
+        {
+          "row": 600,
+          "years": "H20"
+        },
+        {
+          "row": 601,
+          "years": "H4"
+        },
+        {
+          "row": 602,
+          "years": "R2"
+        }
+      ]
+    },
+    "judgmentAsOf": "2026-10-03",
+    "status": "MATCHED"
   }
 }

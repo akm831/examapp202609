@@ -1,25 +1,25 @@
 {
-  "itemCount": 613,
+  "itemCount": 637,
   "bySubject": {
     "地方自治法": 166,
-    "地方公務員法": 192,
+    "地方公務員法": 216,
     "市政知識": 110,
     "労働基準法": 20,
     "市例規": 100,
     "国内情勢": 25
   },
   "byVerificationStatus": {
-    "CONFIRMED": 585,
+    "CONFIRMED": 609,
     "JUDGMENT_CONFIRMED_REASON_UNVERIFIED": 10,
     "SOURCE_UNCERTAIN": 6,
     "PAST_EXAM_ONLY": 12
   },
   "reviewEligible": {
-    "true": 607,
+    "true": 631,
     "false": 6
   },
   "explanationType": {
-    "ITEM_SPECIFIC": 563,
+    "ITEM_SPECIFIC": 587,
     "GROUP_SHARED": 50
   },
   "amendmentItems": 15,

@@ -22,6 +22,7 @@ def summarize(records):
 def apply_exam_history(items):
     db=json.loads((ROOT/'content/past-exams/law-db-2026.json').read_text())
     drafts=json.loads((ROOT/'content/questions/council-supplement.json').read_text())
+    public_drafts=json.loads((ROOT/'content/questions/public-service-supplement.json').read_text())
     history={};stats={}
     for item in items:
         subject=item['subject']
@@ -33,6 +34,8 @@ def apply_exam_history(items):
         draft=None
         if item['questionGroup']=='議会補完2026':
             draft=drafts[item['sourceItemNumber']-1];refs=draft['articles']
+        if item['questionGroup']=='公務員法補完2026':
+            draft=public_drafts[item['sourceItemNumber']-1];refs=draft['articles']
         related=[r for r in records if set(refs)&set(articles(r['articleLabel']))]
         topic=[r for r in records if draft and r['row'] in draft['pastExamRows']]
         entry={'sourceFile':db['sourceFile'],'sheet':subject,'articleLabels':[a+'条' if 'の' not in a else a.split('の',1)[0]+'条の'+a.split('の',1)[1] for a in refs],
@@ -59,4 +62,19 @@ def add_council_questions(items,base_item):
         item['judgmentSource']='OFFICIAL_LAW_REVIEWED'
         item['sourceDocument']='council-supplement.json';item['sourceReference']='地方自治法 '+ '・'.join(a+'条' if 'の' not in a else a.split('の',1)[0]+'条の'+a.split('の',1)[1] for a in draft['articles'])
         item['sourceMetadata']['lawUrl']='https://laws.e-gov.go.jp/law/322AC0000000067'
+        items.append(item)
+
+def add_public_service_questions(items,base_item):
+    drafts=json.loads((ROOT/'content/questions/public-service-supplement.json').read_text())
+    for draft in drafts:
+        n=draft['number']
+        item=base_item('local-public-service-law','公務員法補完2026',draft['topic'],n,
+                       draft['statement'],n,
+                       draft['correctJudgment'],draft['explanation']+' 根拠：地方公務員法'+ '・'.join(a+'条' if 'の' not in a else a.split('の',1)[0]+'条の'+a.split('の',1)[1] for a in draft['articles'])+'。')
+        # Keep the reviewed draft verbatim; common premise is supplied by the context.
+        item['statement']=draft['statement']
+        item['judgmentAsOf']='2026-10-03'
+        item['judgmentSource']='OFFICIAL_LAW_REVIEWED'
+        item['sourceDocument']='public-service-supplement.json';item['sourceReference']='地方公務員法 '+ '・'.join(a+'条' if 'の' not in a else a.split('の',1)[0]+'条の'+a.split('の',1)[1] for a in draft['articles'])
+        item['sourceMetadata']['lawUrl']='https://laws.e-gov.go.jp/law/325AC0000000261'
         items.append(item)
