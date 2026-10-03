@@ -1,0 +1,16 @@
+{
+  "地方自治法": {
+    "items": 166,
+    "exact": 15,
+    "topic": 14,
+    "relatedArticles": 137,
+    "unconfirmed": 20
+  },
+  "地方公務員法": {
+    "items": 192,
+    "exact": 57,
+    "topic": 0,
+    "relatedArticles": 142,
+    "unconfirmed": 49
+  }
+}

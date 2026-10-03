@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedFrom": "six read-only project source documents",
-  "itemCount": 593,
+  "generatedFrom": "six read-only project source documents and reviewed council supplement",
+  "itemCount": 613,
   "items": [
     {
       "id": "0f30f91c-5a8a-5631-a244-be5abf25fa86",
@@ -30,7 +30,8 @@
       "sourceOrder": 1,
       "sourceMetadata": {
         "statementLine": 30,
-        "explanationLine": 38
+        "explanationLine": 38,
+        "pastExamHistoryReference": "exam_history.json:0f30f91c-5a8a-5631-a244-be5abf25fa86"
       },
       "active": true
     },
@@ -61,7 +62,8 @@
       "sourceOrder": 2,
       "sourceMetadata": {
         "statementLine": 31,
-        "explanationLine": 39
+        "explanationLine": 39,
+        "pastExamHistoryReference": "exam_history.json:282badc7-2cd6-5d25-9057-c1beae7498ef"
       },
       "active": true
     },
@@ -92,7 +94,8 @@
       "sourceOrder": 3,
       "sourceMetadata": {
         "statementLine": 32,
-        "explanationLine": 40
+        "explanationLine": 40,
+        "pastExamHistoryReference": "exam_history.json:dede6422-df7f-51c6-a37d-de8897a403a4"
       },
       "active": true
     },
@@ -123,7 +126,8 @@
       "sourceOrder": 4,
       "sourceMetadata": {
         "statementLine": 33,
-        "explanationLine": 41
+        "explanationLine": 41,
+        "pastExamHistoryReference": "exam_history.json:f7f76fac-10b1-518b-bfb0-f739761b8ba8"
       },
       "active": true
     },
@@ -154,7 +158,8 @@
       "sourceOrder": 5,
       "sourceMetadata": {
         "statementLine": 34,
-        "explanationLine": 42
+        "explanationLine": 42,
+        "pastExamHistoryReference": "exam_history.json:a1bdd1c7-96d2-549d-bd91-7fed48696850"
       },
       "active": true
     },
@@ -185,7 +190,8 @@
       "sourceOrder": 6,
       "sourceMetadata": {
         "statementLine": 52,
-        "explanationLine": 60
+        "explanationLine": 60,
+        "pastExamHistoryReference": "exam_history.json:85460ab4-c016-5fb5-bef5-ef90da84082a"
       },
       "active": true
     },
@@ -216,7 +222,8 @@
       "sourceOrder": 7,
       "sourceMetadata": {
         "statementLine": 53,
-        "explanationLine": 61
+        "explanationLine": 61,
+        "pastExamHistoryReference": "exam_history.json:6e678b98-8945-5851-b27c-3b6c2e1f2e5b"
       },
       "active": true
     },
@@ -247,7 +254,8 @@
       "sourceOrder": 8,
       "sourceMetadata": {
         "statementLine": 54,
-        "explanationLine": 62
+        "explanationLine": 62,
+        "pastExamHistoryReference": "exam_history.json:ae595eae-c64d-5635-b892-7a577867b67b"
       },
       "active": true
     },
@@ -278,7 +286,8 @@
       "sourceOrder": 9,
       "sourceMetadata": {
         "statementLine": 55,
-        "explanationLine": 63
+        "explanationLine": 63,
+        "pastExamHistoryReference": "exam_history.json:cc1e9105-809d-595d-abe5-6d26840af050"
       },
       "active": true
     },
@@ -309,7 +318,8 @@
       "sourceOrder": 10,
       "sourceMetadata": {
         "statementLine": 56,
-        "explanationLine": 64
+        "explanationLine": 64,
+        "pastExamHistoryReference": "exam_history.json:956e8464-f1bd-5f9f-b237-405234d5e2e9"
       },
       "active": true
     },
@@ -340,7 +350,8 @@
       "sourceOrder": 11,
       "sourceMetadata": {
         "statementLine": 72,
-        "explanationLine": 80
+        "explanationLine": 80,
+        "pastExamHistoryReference": "exam_history.json:1875e615-f09a-5eb4-ace9-0038dbe48db1"
       },
       "active": true
     },
@@ -371,7 +382,8 @@
       "sourceOrder": 12,
       "sourceMetadata": {
         "statementLine": 73,
-        "explanationLine": 81
+        "explanationLine": 81,
+        "pastExamHistoryReference": "exam_history.json:45ae3d3b-ae25-517d-b5a3-935a8dae4a7e"
       },
       "active": true
     },
@@ -402,7 +414,8 @@
       "sourceOrder": 13,
       "sourceMetadata": {
         "statementLine": 74,
-        "explanationLine": 82
+        "explanationLine": 82,
+        "pastExamHistoryReference": "exam_history.json:d4a06ac4-3459-5c63-80c9-d31285558533"
       },
       "active": true
     },
@@ -433,7 +446,8 @@
       "sourceOrder": 14,
       "sourceMetadata": {
         "statementLine": 75,
-        "explanationLine": 83
+        "explanationLine": 83,
+        "pastExamHistoryReference": "exam_history.json:4402fd65-ffe5-53df-b431-e858ac500c18"
       },
       "active": true
     },
@@ -464,7 +478,8 @@
       "sourceOrder": 15,
       "sourceMetadata": {
         "statementLine": 76,
-        "explanationLine": 84
+        "explanationLine": 84,
+        "pastExamHistoryReference": "exam_history.json:82f673b3-b583-5dba-b3ed-736654bbad51"
       },
       "active": true
     },
@@ -495,7 +510,8 @@
       "sourceOrder": 16,
       "sourceMetadata": {
         "statementLine": 92,
-        "explanationLine": 100
+        "explanationLine": 100,
+        "pastExamHistoryReference": "exam_history.json:9aa04bb8-b0f8-5eeb-8654-ce2714f584c8"
       },
       "active": true
     },
@@ -526,7 +542,8 @@
       "sourceOrder": 17,
       "sourceMetadata": {
         "statementLine": 93,
-        "explanationLine": 101
+        "explanationLine": 101,
+        "pastExamHistoryReference": "exam_history.json:70d7d2d2-66fd-5918-b069-23d3b7d81c9e"
       },
       "active": true
     },
@@ -557,7 +574,8 @@
       "sourceOrder": 18,
       "sourceMetadata": {
         "statementLine": 94,
-        "explanationLine": 102
+        "explanationLine": 102,
+        "pastExamHistoryReference": "exam_history.json:cc2f4d7a-eb12-5bf3-a364-0e0ba76b86b5"
       },
       "active": true
     },
@@ -588,7 +606,8 @@
       "sourceOrder": 19,
       "sourceMetadata": {
         "statementLine": 95,
-        "explanationLine": 103
+        "explanationLine": 103,
+        "pastExamHistoryReference": "exam_history.json:f810458a-0918-5695-af4d-75a874f4dbd3"
       },
       "active": true
     },
@@ -619,7 +638,8 @@
       "sourceOrder": 20,
       "sourceMetadata": {
         "statementLine": 96,
-        "explanationLine": 104
+        "explanationLine": 104,
+        "pastExamHistoryReference": "exam_history.json:a103061d-032b-5068-bbfd-d15c3eba0124"
       },
       "active": true
     },
@@ -650,7 +670,8 @@
       "sourceOrder": 21,
       "sourceMetadata": {
         "statementLine": 114,
-        "explanationLine": 122
+        "explanationLine": 122,
+        "pastExamHistoryReference": "exam_history.json:55fcde49-e6ae-5344-86b7-bef30e020953"
       },
       "active": true
     },
@@ -681,7 +702,8 @@
       "sourceOrder": 22,
       "sourceMetadata": {
         "statementLine": 115,
-        "explanationLine": 123
+        "explanationLine": 123,
+        "pastExamHistoryReference": "exam_history.json:648d57cb-bd8f-5b4a-a651-727e13af97ba"
       },
       "active": true
     },
@@ -712,7 +734,8 @@
       "sourceOrder": 23,
       "sourceMetadata": {
         "statementLine": 116,
-        "explanationLine": 124
+        "explanationLine": 124,
+        "pastExamHistoryReference": "exam_history.json:c91879db-6818-5e16-b1d3-707f74cc3a8e"
       },
       "active": true
     },
@@ -743,7 +766,8 @@
       "sourceOrder": 24,
       "sourceMetadata": {
         "statementLine": 117,
-        "explanationLine": 125
+        "explanationLine": 125,
+        "pastExamHistoryReference": "exam_history.json:571081da-78a5-5fa1-873a-d6d344e6c4e8"
       },
       "active": true
     },
@@ -774,7 +798,8 @@
       "sourceOrder": 25,
       "sourceMetadata": {
         "statementLine": 118,
-        "explanationLine": 126
+        "explanationLine": 126,
+        "pastExamHistoryReference": "exam_history.json:85f08c1a-6fc3-5af0-a7ee-d413e6062c5d"
       },
       "active": true
     },
@@ -805,7 +830,8 @@
       "sourceOrder": 26,
       "sourceMetadata": {
         "statementLine": 134,
-        "explanationLine": 142
+        "explanationLine": 142,
+        "pastExamHistoryReference": "exam_history.json:7d2b539b-9cab-5b5a-93ad-f5ac25aab446"
       },
       "active": true
     },
@@ -836,7 +862,8 @@
       "sourceOrder": 27,
       "sourceMetadata": {
         "statementLine": 135,
-        "explanationLine": 143
+        "explanationLine": 143,
+        "pastExamHistoryReference": "exam_history.json:ff144702-73d9-5adc-ae44-1d7222df699d"
       },
       "active": true
     },
@@ -867,7 +894,8 @@
       "sourceOrder": 28,
       "sourceMetadata": {
         "statementLine": 136,
-        "explanationLine": 144
+        "explanationLine": 144,
+        "pastExamHistoryReference": "exam_history.json:50e3b663-0fca-573d-bfd2-be312dc15e85"
       },
       "active": true
     },
@@ -898,7 +926,8 @@
       "sourceOrder": 29,
       "sourceMetadata": {
         "statementLine": 137,
-        "explanationLine": 145
+        "explanationLine": 145,
+        "pastExamHistoryReference": "exam_history.json:db50ae84-c746-518a-9df0-24c4bee8500c"
       },
       "active": true
     },
@@ -929,7 +958,8 @@
       "sourceOrder": 30,
       "sourceMetadata": {
         "statementLine": 138,
-        "explanationLine": 146
+        "explanationLine": 146,
+        "pastExamHistoryReference": "exam_history.json:21b5816b-9725-54e5-92b9-8397b7d629cc"
       },
       "active": true
     },
@@ -960,7 +990,8 @@
       "sourceOrder": 31,
       "sourceMetadata": {
         "statementLine": 159,
-        "explanationLine": 167
+        "explanationLine": 167,
+        "pastExamHistoryReference": "exam_history.json:eed59ce2-2bed-5ec0-b134-a48fe5c086a2"
       },
       "active": true
     },
@@ -991,7 +1022,8 @@
       "sourceOrder": 32,
       "sourceMetadata": {
         "statementLine": 160,
-        "explanationLine": 168
+        "explanationLine": 168,
+        "pastExamHistoryReference": "exam_history.json:3a7f6e41-9760-53cc-a745-7991f93f354c"
       },
       "active": true
     },
@@ -1022,7 +1054,8 @@
       "sourceOrder": 33,
       "sourceMetadata": {
         "statementLine": 161,
-        "explanationLine": 169
+        "explanationLine": 169,
+        "pastExamHistoryReference": "exam_history.json:7a8f31a8-eec3-5be6-b042-09baab0b8709"
       },
       "active": true
     },
@@ -1053,7 +1086,8 @@
       "sourceOrder": 34,
       "sourceMetadata": {
         "statementLine": 162,
-        "explanationLine": 170
+        "explanationLine": 170,
+        "pastExamHistoryReference": "exam_history.json:9dbe8322-815e-569c-8001-68f60f09a333"
       },
       "active": true
     },
@@ -1084,7 +1118,8 @@
       "sourceOrder": 35,
       "sourceMetadata": {
         "statementLine": 163,
-        "explanationLine": 171
+        "explanationLine": 171,
+        "pastExamHistoryReference": "exam_history.json:275f7f61-dda2-51bb-a669-cef5dd4a4d56"
       },
       "active": true
     },
@@ -1115,7 +1150,8 @@
       "sourceOrder": 36,
       "sourceMetadata": {
         "statementLine": 184,
-        "explanationLine": 192
+        "explanationLine": 192,
+        "pastExamHistoryReference": "exam_history.json:779659ab-cf75-519a-82b3-a9dc25ff1640"
       },
       "active": true
     },
@@ -1146,7 +1182,8 @@
       "sourceOrder": 37,
       "sourceMetadata": {
         "statementLine": 185,
-        "explanationLine": 193
+        "explanationLine": 193,
+        "pastExamHistoryReference": "exam_history.json:a9fa475f-d924-5a07-9ef6-00db87ff3e85"
       },
       "active": true
     },
@@ -1177,7 +1214,8 @@
       "sourceOrder": 38,
       "sourceMetadata": {
         "statementLine": 186,
-        "explanationLine": 194
+        "explanationLine": 194,
+        "pastExamHistoryReference": "exam_history.json:35b1568e-a9b5-5b85-8c2f-97e1850994ae"
       },
       "active": true
     },
@@ -1208,7 +1246,8 @@
       "sourceOrder": 39,
       "sourceMetadata": {
         "statementLine": 187,
-        "explanationLine": 195
+        "explanationLine": 195,
+        "pastExamHistoryReference": "exam_history.json:61df8a05-39f3-5729-8c9b-c55068c922ee"
       },
       "active": true
     },
@@ -1239,7 +1278,8 @@
       "sourceOrder": 40,
       "sourceMetadata": {
         "statementLine": 188,
-        "explanationLine": 196
+        "explanationLine": 196,
+        "pastExamHistoryReference": "exam_history.json:96a4893c-c7db-5060-af21-7a6c0f6520be"
       },
       "active": true
     },
@@ -1270,7 +1310,8 @@
       "sourceOrder": 41,
       "sourceMetadata": {
         "statementLine": 204,
-        "explanationLine": 212
+        "explanationLine": 212,
+        "pastExamHistoryReference": "exam_history.json:b39194fc-ac19-5c0f-9b7b-7ebc7509cab3"
       },
       "active": true
     },
@@ -1301,7 +1342,8 @@
       "sourceOrder": 42,
       "sourceMetadata": {
         "statementLine": 205,
-        "explanationLine": 213
+        "explanationLine": 213,
+        "pastExamHistoryReference": "exam_history.json:5e611e53-db4c-519a-a7b2-7f7dd62fd168"
       },
       "active": true
     },
@@ -1332,7 +1374,8 @@
       "sourceOrder": 43,
       "sourceMetadata": {
         "statementLine": 206,
-        "explanationLine": 214
+        "explanationLine": 214,
+        "pastExamHistoryReference": "exam_history.json:748efbad-f2ed-5c50-af32-ac774f9c9a8e"
       },
       "active": true
     },
@@ -1363,7 +1406,8 @@
       "sourceOrder": 44,
       "sourceMetadata": {
         "statementLine": 207,
-        "explanationLine": 215
+        "explanationLine": 215,
+        "pastExamHistoryReference": "exam_history.json:692c6507-14bc-5363-ae28-600b8b5cb13b"
       },
       "active": true
     },
@@ -1394,7 +1438,8 @@
       "sourceOrder": 45,
       "sourceMetadata": {
         "statementLine": 208,
-        "explanationLine": 216
+        "explanationLine": 216,
+        "pastExamHistoryReference": "exam_history.json:29305dd8-75a7-59fe-8539-f75cebb5e07c"
       },
       "active": true
     },
@@ -1425,7 +1470,8 @@
       "sourceOrder": 46,
       "sourceMetadata": {
         "statementLine": 231,
-        "explanationLine": 239
+        "explanationLine": 239,
+        "pastExamHistoryReference": "exam_history.json:f3a39cfc-52e2-52f8-a850-3e7e5d29bc78"
       },
       "active": true
     },
@@ -1456,7 +1502,8 @@
       "sourceOrder": 47,
       "sourceMetadata": {
         "statementLine": 232,
-        "explanationLine": 240
+        "explanationLine": 240,
+        "pastExamHistoryReference": "exam_history.json:3444a5fe-0b37-546f-b928-bbb42db8855a"
       },
       "active": true
     },
@@ -1487,7 +1534,8 @@
       "sourceOrder": 48,
       "sourceMetadata": {
         "statementLine": 233,
-        "explanationLine": 241
+        "explanationLine": 241,
+        "pastExamHistoryReference": "exam_history.json:dedf2de7-5cce-5b10-a8f2-3fc7e6777eb0"
       },
       "active": true
     },
@@ -1518,7 +1566,8 @@
       "sourceOrder": 49,
       "sourceMetadata": {
         "statementLine": 234,
-        "explanationLine": 242
+        "explanationLine": 242,
+        "pastExamHistoryReference": "exam_history.json:4b3a99bd-0742-5d3c-9135-afaefafd8013"
       },
       "active": true
     },
@@ -1549,7 +1598,8 @@
       "sourceOrder": 50,
       "sourceMetadata": {
         "statementLine": 235,
-        "explanationLine": 243
+        "explanationLine": 243,
+        "pastExamHistoryReference": "exam_history.json:47426543-d124-5f8b-8162-0301e378b93c"
       },
       "active": true
     },
@@ -1580,7 +1630,8 @@
       "sourceOrder": 51,
       "sourceMetadata": {
         "statementLine": 255,
-        "explanationLine": 263
+        "explanationLine": 263,
+        "pastExamHistoryReference": "exam_history.json:789fbca2-4a05-5699-b21a-bad86a574ed4"
       },
       "active": true
     },
@@ -1611,7 +1662,8 @@
       "sourceOrder": 52,
       "sourceMetadata": {
         "statementLine": 256,
-        "explanationLine": 264
+        "explanationLine": 264,
+        "pastExamHistoryReference": "exam_history.json:8fe713dc-2e7d-58ac-a510-206928922b0c"
       },
       "active": true
     },
@@ -1642,7 +1694,8 @@
       "sourceOrder": 53,
       "sourceMetadata": {
         "statementLine": 257,
-        "explanationLine": 265
+        "explanationLine": 265,
+        "pastExamHistoryReference": "exam_history.json:920b3dab-3644-542b-aaf0-df4371d91155"
       },
       "active": true
     },
@@ -1673,7 +1726,8 @@
       "sourceOrder": 54,
       "sourceMetadata": {
         "statementLine": 258,
-        "explanationLine": 266
+        "explanationLine": 266,
+        "pastExamHistoryReference": "exam_history.json:dbf242cf-597a-5e9d-bb0a-3d42e3b3c4fc"
       },
       "active": true
     },
@@ -1704,7 +1758,8 @@
       "sourceOrder": 55,
       "sourceMetadata": {
         "statementLine": 259,
-        "explanationLine": 267
+        "explanationLine": 267,
+        "pastExamHistoryReference": "exam_history.json:3d70bde5-6e87-5316-80dd-87a84b2cf28f"
       },
       "active": true
     },
@@ -1735,7 +1790,8 @@
       "sourceOrder": 56,
       "sourceMetadata": {
         "statementLine": 275,
-        "explanationLine": 283
+        "explanationLine": 283,
+        "pastExamHistoryReference": "exam_history.json:5d49bd90-070d-53e0-9f1e-9593d9399b3b"
       },
       "active": true
     },
@@ -1766,7 +1822,8 @@
       "sourceOrder": 57,
       "sourceMetadata": {
         "statementLine": 276,
-        "explanationLine": 284
+        "explanationLine": 284,
+        "pastExamHistoryReference": "exam_history.json:229426a2-29b8-5097-8f8f-e101a7b5843e"
       },
       "active": true
     },
@@ -1797,7 +1854,8 @@
       "sourceOrder": 58,
       "sourceMetadata": {
         "statementLine": 277,
-        "explanationLine": 285
+        "explanationLine": 285,
+        "pastExamHistoryReference": "exam_history.json:677d8f90-1bd7-5600-a1d8-e28eae46755f"
       },
       "active": true
     },
@@ -1828,7 +1886,8 @@
       "sourceOrder": 59,
       "sourceMetadata": {
         "statementLine": 278,
-        "explanationLine": 286
+        "explanationLine": 286,
+        "pastExamHistoryReference": "exam_history.json:5d915a77-00fd-5903-9791-67fbca3dbfad"
       },
       "active": true
     },
@@ -1859,7 +1918,8 @@
       "sourceOrder": 60,
       "sourceMetadata": {
         "statementLine": 279,
-        "explanationLine": 287
+        "explanationLine": 287,
+        "pastExamHistoryReference": "exam_history.json:81dc76d4-8d7e-5bfe-867e-935bd1866529"
       },
       "active": true
     },
@@ -1890,7 +1950,8 @@
       "sourceOrder": 61,
       "sourceMetadata": {
         "statementLine": 297,
-        "explanationLine": 305
+        "explanationLine": 305,
+        "pastExamHistoryReference": "exam_history.json:3752e31c-0ad4-5d0c-a78c-f3248a8e1dc9"
       },
       "active": true
     },
@@ -1921,7 +1982,8 @@
       "sourceOrder": 62,
       "sourceMetadata": {
         "statementLine": 298,
-        "explanationLine": 306
+        "explanationLine": 306,
+        "pastExamHistoryReference": "exam_history.json:3adf2c23-043c-5a90-95c6-bded0223e675"
       },
       "active": true
     },
@@ -1952,7 +2014,8 @@
       "sourceOrder": 63,
       "sourceMetadata": {
         "statementLine": 299,
-        "explanationLine": 307
+        "explanationLine": 307,
+        "pastExamHistoryReference": "exam_history.json:92b3bf3c-105a-574b-969b-cad2099feb84"
       },
       "active": true
     },
@@ -1983,7 +2046,8 @@
       "sourceOrder": 64,
       "sourceMetadata": {
         "statementLine": 300,
-        "explanationLine": 308
+        "explanationLine": 308,
+        "pastExamHistoryReference": "exam_history.json:aa18cd73-05a3-57d9-828a-f9b9ffe389c7"
       },
       "active": true
     },
@@ -2014,7 +2078,8 @@
       "sourceOrder": 65,
       "sourceMetadata": {
         "statementLine": 301,
-        "explanationLine": 309
+        "explanationLine": 309,
+        "pastExamHistoryReference": "exam_history.json:67b64253-99a6-5378-af16-254b0ef6a1c9"
       },
       "active": true
     },
@@ -2045,7 +2110,8 @@
       "sourceOrder": 66,
       "sourceMetadata": {
         "statementLine": 319,
-        "explanationLine": 327
+        "explanationLine": 327,
+        "pastExamHistoryReference": "exam_history.json:0d6343ab-ec73-537e-8213-88a802a7ce99"
       },
       "active": true
     },
@@ -2076,7 +2142,8 @@
       "sourceOrder": 67,
       "sourceMetadata": {
         "statementLine": 320,
-        "explanationLine": 328
+        "explanationLine": 328,
+        "pastExamHistoryReference": "exam_history.json:b809d35d-30fb-5e78-b3ea-637d1f4c9f44"
       },
       "active": true
     },
@@ -2107,7 +2174,8 @@
       "sourceOrder": 68,
       "sourceMetadata": {
         "statementLine": 321,
-        "explanationLine": 329
+        "explanationLine": 329,
+        "pastExamHistoryReference": "exam_history.json:22046e86-737a-56dc-a3b8-07e130f2c874"
       },
       "active": true
     },
@@ -2138,7 +2206,8 @@
       "sourceOrder": 69,
       "sourceMetadata": {
         "statementLine": 322,
-        "explanationLine": 330
+        "explanationLine": 330,
+        "pastExamHistoryReference": "exam_history.json:932368d0-5beb-5f15-aec2-2fed5d5cb702"
       },
       "active": true
     },
@@ -2169,7 +2238,8 @@
       "sourceOrder": 70,
       "sourceMetadata": {
         "statementLine": 323,
-        "explanationLine": 331
+        "explanationLine": 331,
+        "pastExamHistoryReference": "exam_history.json:23e6865c-e3ed-52ba-be3f-11be20a918ab"
       },
       "active": true
     },
@@ -2200,7 +2270,8 @@
       "sourceOrder": 71,
       "sourceMetadata": {
         "statementLine": 339,
-        "explanationLine": 347
+        "explanationLine": 347,
+        "pastExamHistoryReference": "exam_history.json:06cd361d-74d7-5b77-aa10-3b4758fd9812"
       },
       "active": true
     },
@@ -2231,7 +2302,8 @@
       "sourceOrder": 72,
       "sourceMetadata": {
         "statementLine": 340,
-        "explanationLine": 348
+        "explanationLine": 348,
+        "pastExamHistoryReference": "exam_history.json:6aea8a65-a68f-5ff6-be1b-b8b5f6d35e18"
       },
       "active": true
     },
@@ -2262,7 +2334,8 @@
       "sourceOrder": 73,
       "sourceMetadata": {
         "statementLine": 341,
-        "explanationLine": 349
+        "explanationLine": 349,
+        "pastExamHistoryReference": "exam_history.json:8a20d350-69c9-563b-99ad-578b28101d06"
       },
       "active": true
     },
@@ -2293,7 +2366,8 @@
       "sourceOrder": 74,
       "sourceMetadata": {
         "statementLine": 342,
-        "explanationLine": 350
+        "explanationLine": 350,
+        "pastExamHistoryReference": "exam_history.json:1257d332-f8e5-5fd4-b326-32053f3996f9"
       },
       "active": true
     },
@@ -2324,7 +2398,8 @@
       "sourceOrder": 75,
       "sourceMetadata": {
         "statementLine": 343,
-        "explanationLine": 351
+        "explanationLine": 351,
+        "pastExamHistoryReference": "exam_history.json:088c7f25-e2f3-5c0e-980a-da1dadbdd917"
       },
       "active": true
     },
@@ -2355,7 +2430,8 @@
       "sourceOrder": 76,
       "sourceMetadata": {
         "statementLine": 357,
-        "explanationLine": 366
+        "explanationLine": 366,
+        "pastExamHistoryReference": "exam_history.json:e9b75d3d-96e6-5134-8585-8d10f0bbc6ab"
       },
       "active": true
     },
@@ -2386,7 +2462,8 @@
       "sourceOrder": 77,
       "sourceMetadata": {
         "statementLine": 358,
-        "explanationLine": 367
+        "explanationLine": 367,
+        "pastExamHistoryReference": "exam_history.json:6277b282-068d-52d0-b903-83e07de9b718"
       },
       "active": true
     },
@@ -2417,7 +2494,8 @@
       "sourceOrder": 78,
       "sourceMetadata": {
         "statementLine": 359,
-        "explanationLine": 368
+        "explanationLine": 368,
+        "pastExamHistoryReference": "exam_history.json:e1ed2f25-b700-5315-873d-64439ac73a34"
       },
       "active": true
     },
@@ -2448,7 +2526,8 @@
       "sourceOrder": 79,
       "sourceMetadata": {
         "statementLine": 360,
-        "explanationLine": 369
+        "explanationLine": 369,
+        "pastExamHistoryReference": "exam_history.json:3b1db325-b117-5cfd-a564-fe29b4b58d24"
       },
       "active": true
     },
@@ -2479,7 +2558,8 @@
       "sourceOrder": 80,
       "sourceMetadata": {
         "statementLine": 361,
-        "explanationLine": 370
+        "explanationLine": 370,
+        "pastExamHistoryReference": "exam_history.json:1d9efee1-09de-5d27-a159-793ec4892d4b"
       },
       "active": true
     },
@@ -2510,7 +2590,8 @@
       "sourceOrder": 81,
       "sourceMetadata": {
         "statementLine": 380,
-        "explanationLine": 388
+        "explanationLine": 388,
+        "pastExamHistoryReference": "exam_history.json:b9a58cda-f972-5df7-93ff-ca1c7aaa36bc"
       },
       "active": true
     },
@@ -2541,7 +2622,8 @@
       "sourceOrder": 82,
       "sourceMetadata": {
         "statementLine": 381,
-        "explanationLine": 389
+        "explanationLine": 389,
+        "pastExamHistoryReference": "exam_history.json:79e0d763-3d0e-526e-9eea-2eb644ed4017"
       },
       "active": true
     },
@@ -2572,7 +2654,8 @@
       "sourceOrder": 83,
       "sourceMetadata": {
         "statementLine": 382,
-        "explanationLine": 390
+        "explanationLine": 390,
+        "pastExamHistoryReference": "exam_history.json:9cbb26e8-ad24-533b-843b-ecbb500bc296"
       },
       "active": true
     },
@@ -2603,7 +2686,8 @@
       "sourceOrder": 84,
       "sourceMetadata": {
         "statementLine": 383,
-        "explanationLine": 391
+        "explanationLine": 391,
+        "pastExamHistoryReference": "exam_history.json:3db4bb6c-5cf0-5812-a696-d76111559c30"
       },
       "active": true
     },
@@ -2634,7 +2718,8 @@
       "sourceOrder": 85,
       "sourceMetadata": {
         "statementLine": 384,
-        "explanationLine": 392
+        "explanationLine": 392,
+        "pastExamHistoryReference": "exam_history.json:dd83bf89-99ce-5e86-b792-cfd6238ebb29"
       },
       "active": true
     },
@@ -2665,7 +2750,8 @@
       "sourceOrder": 86,
       "sourceMetadata": {
         "statementLine": 409,
-        "explanationLine": 417
+        "explanationLine": 417,
+        "pastExamHistoryReference": "exam_history.json:ef85a146-e0dc-5773-8f8e-d2d0bfac3365"
       },
       "active": true
     },
@@ -2696,7 +2782,8 @@
       "sourceOrder": 87,
       "sourceMetadata": {
         "statementLine": 410,
-        "explanationLine": 418
+        "explanationLine": 418,
+        "pastExamHistoryReference": "exam_history.json:0d5d0271-71e5-5a23-9880-a757f88270bd"
       },
       "active": true
     },
@@ -2727,7 +2814,8 @@
       "sourceOrder": 88,
       "sourceMetadata": {
         "statementLine": 411,
-        "explanationLine": 419
+        "explanationLine": 419,
+        "pastExamHistoryReference": "exam_history.json:d9f63845-e58b-577c-951d-6a8f127a61c3"
       },
       "active": true
     },
@@ -2758,7 +2846,8 @@
       "sourceOrder": 89,
       "sourceMetadata": {
         "statementLine": 412,
-        "explanationLine": 420
+        "explanationLine": 420,
+        "pastExamHistoryReference": "exam_history.json:5c4c4d61-41f3-54aa-aa1f-b6193f7b2180"
       },
       "active": true
     },
@@ -2789,7 +2878,8 @@
       "sourceOrder": 90,
       "sourceMetadata": {
         "statementLine": 413,
-        "explanationLine": 421
+        "explanationLine": 421,
+        "pastExamHistoryReference": "exam_history.json:145dac07-ae7d-5df0-9d5f-1e498f510f43"
       },
       "active": true
     },
@@ -2820,7 +2910,8 @@
       "sourceOrder": 91,
       "sourceMetadata": {
         "statementLine": 429,
-        "explanationLine": 437
+        "explanationLine": 437,
+        "pastExamHistoryReference": "exam_history.json:9287a390-22e0-5eab-934a-09cf8d096e4f"
       },
       "active": true
     },
@@ -2851,7 +2942,8 @@
       "sourceOrder": 92,
       "sourceMetadata": {
         "statementLine": 430,
-        "explanationLine": 438
+        "explanationLine": 438,
+        "pastExamHistoryReference": "exam_history.json:1bf8d6ad-7ccc-5eb4-8293-a7000d1d4054"
       },
       "active": true
     },
@@ -2882,7 +2974,8 @@
       "sourceOrder": 93,
       "sourceMetadata": {
         "statementLine": 431,
-        "explanationLine": 439
+        "explanationLine": 439,
+        "pastExamHistoryReference": "exam_history.json:f364876b-43bb-5b19-852a-443ee50f4de8"
       },
       "active": true
     },
@@ -2913,7 +3006,8 @@
       "sourceOrder": 94,
       "sourceMetadata": {
         "statementLine": 432,
-        "explanationLine": 440
+        "explanationLine": 440,
+        "pastExamHistoryReference": "exam_history.json:05d441ca-4961-5602-8924-3b08b7ddb118"
       },
       "active": true
     },
@@ -2944,7 +3038,8 @@
       "sourceOrder": 95,
       "sourceMetadata": {
         "statementLine": 433,
-        "explanationLine": 441
+        "explanationLine": 441,
+        "pastExamHistoryReference": "exam_history.json:da8b689f-9bee-5031-8d6e-540a6976b2cc"
       },
       "active": true
     },
@@ -2975,7 +3070,8 @@
       "sourceOrder": 96,
       "sourceMetadata": {
         "statementLine": 449,
-        "explanationLine": 457
+        "explanationLine": 457,
+        "pastExamHistoryReference": "exam_history.json:9f25fcd1-eb91-55ed-86ac-69e94e373771"
       },
       "active": true
     },
@@ -3006,7 +3102,8 @@
       "sourceOrder": 97,
       "sourceMetadata": {
         "statementLine": 450,
-        "explanationLine": 458
+        "explanationLine": 458,
+        "pastExamHistoryReference": "exam_history.json:c285700e-6f91-5e37-a850-5c12c9650abe"
       },
       "active": true
     },
@@ -3037,7 +3134,8 @@
       "sourceOrder": 98,
       "sourceMetadata": {
         "statementLine": 451,
-        "explanationLine": 459
+        "explanationLine": 459,
+        "pastExamHistoryReference": "exam_history.json:76551f9a-36d0-54a5-8025-21825501759b"
       },
       "active": true
     },
@@ -3068,7 +3166,8 @@
       "sourceOrder": 99,
       "sourceMetadata": {
         "statementLine": 452,
-        "explanationLine": 460
+        "explanationLine": 460,
+        "pastExamHistoryReference": "exam_history.json:157a8cba-de8e-51b5-be71-68d7592881d2"
       },
       "active": true
     },
@@ -3099,7 +3198,8 @@
       "sourceOrder": 100,
       "sourceMetadata": {
         "statementLine": 453,
-        "explanationLine": 461
+        "explanationLine": 461,
+        "pastExamHistoryReference": "exam_history.json:046c7574-a11a-5a1d-98a1-dde8dbb8e7d6"
       },
       "active": true
     },
@@ -3130,7 +3230,8 @@
       "sourceOrder": 101,
       "sourceMetadata": {
         "statementLine": 469,
-        "explanationLine": 477
+        "explanationLine": 477,
+        "pastExamHistoryReference": "exam_history.json:caf57aaf-b07e-5b79-9bb6-f305663e1012"
       },
       "active": true
     },
@@ -3161,7 +3262,8 @@
       "sourceOrder": 102,
       "sourceMetadata": {
         "statementLine": 470,
-        "explanationLine": 478
+        "explanationLine": 478,
+        "pastExamHistoryReference": "exam_history.json:950c60ee-7d31-57fe-b03d-2cf8ac956579"
       },
       "active": true
     },
@@ -3192,7 +3294,8 @@
       "sourceOrder": 103,
       "sourceMetadata": {
         "statementLine": 471,
-        "explanationLine": 479
+        "explanationLine": 479,
+        "pastExamHistoryReference": "exam_history.json:f3e07598-44b9-5748-ad1d-6a5c4a6e2315"
       },
       "active": true
     },
@@ -3223,7 +3326,8 @@
       "sourceOrder": 104,
       "sourceMetadata": {
         "statementLine": 472,
-        "explanationLine": 480
+        "explanationLine": 480,
+        "pastExamHistoryReference": "exam_history.json:9550a0ef-991c-5123-88c5-3e4fc5d7b95b"
       },
       "active": true
     },
@@ -3254,7 +3358,8 @@
       "sourceOrder": 105,
       "sourceMetadata": {
         "statementLine": 473,
-        "explanationLine": 481
+        "explanationLine": 481,
+        "pastExamHistoryReference": "exam_history.json:f72d1127-abb4-5451-af62-cff3a45ec0b9"
       },
       "active": true
     },
@@ -3285,7 +3390,8 @@
       "sourceOrder": 106,
       "sourceMetadata": {
         "statementLine": 490,
-        "explanationLine": 498
+        "explanationLine": 498,
+        "pastExamHistoryReference": "exam_history.json:25116b76-4e60-5214-a096-b74c1d72a415"
       },
       "active": true
     },
@@ -3316,7 +3422,8 @@
       "sourceOrder": 107,
       "sourceMetadata": {
         "statementLine": 491,
-        "explanationLine": 499
+        "explanationLine": 499,
+        "pastExamHistoryReference": "exam_history.json:44744cd2-10ad-5c55-aeac-979fea29c4e6"
       },
       "active": true
     },
@@ -3347,7 +3454,8 @@
       "sourceOrder": 108,
       "sourceMetadata": {
         "statementLine": 492,
-        "explanationLine": 500
+        "explanationLine": 500,
+        "pastExamHistoryReference": "exam_history.json:68783c84-0d49-5f46-b503-65d375f03244"
       },
       "active": true
     },
@@ -3378,7 +3486,8 @@
       "sourceOrder": 109,
       "sourceMetadata": {
         "statementLine": 493,
-        "explanationLine": 501
+        "explanationLine": 501,
+        "pastExamHistoryReference": "exam_history.json:626f1a66-85a6-5fc0-be6b-ebc69d2e0e52"
       },
       "active": true
     },
@@ -3409,7 +3518,8 @@
       "sourceOrder": 110,
       "sourceMetadata": {
         "statementLine": 494,
-        "explanationLine": 502
+        "explanationLine": 502,
+        "pastExamHistoryReference": "exam_history.json:ac51db91-c4d6-53bd-9699-4c134dd4b430"
       },
       "active": true
     },
@@ -3440,7 +3550,8 @@
       "sourceOrder": 111,
       "sourceMetadata": {
         "statementLine": 521,
-        "explanationLine": 529
+        "explanationLine": 529,
+        "pastExamHistoryReference": "exam_history.json:03e25036-3908-58a1-b0c5-e52668a00a69"
       },
       "active": true
     },
@@ -3471,7 +3582,8 @@
       "sourceOrder": 112,
       "sourceMetadata": {
         "statementLine": 522,
-        "explanationLine": 530
+        "explanationLine": 530,
+        "pastExamHistoryReference": "exam_history.json:00b95dfe-a4ab-54fb-b492-775bfdf6c046"
       },
       "active": true
     },
@@ -3502,7 +3614,8 @@
       "sourceOrder": 113,
       "sourceMetadata": {
         "statementLine": 523,
-        "explanationLine": 531
+        "explanationLine": 531,
+        "pastExamHistoryReference": "exam_history.json:373861cc-06a1-5d24-94eb-e7506e3037db"
       },
       "active": true
     },
@@ -3533,7 +3646,8 @@
       "sourceOrder": 114,
       "sourceMetadata": {
         "statementLine": 524,
-        "explanationLine": 532
+        "explanationLine": 532,
+        "pastExamHistoryReference": "exam_history.json:8e7f9cac-50bc-543f-b61f-c64ead956cc9"
       },
       "active": true
     },
@@ -3564,7 +3678,8 @@
       "sourceOrder": 115,
       "sourceMetadata": {
         "statementLine": 525,
-        "explanationLine": 533
+        "explanationLine": 533,
+        "pastExamHistoryReference": "exam_history.json:daf63389-0ec1-51bc-9266-86809e735be7"
       },
       "active": true
     },
@@ -3595,7 +3710,8 @@
       "sourceOrder": 116,
       "sourceMetadata": {
         "statementLine": 547,
-        "explanationLine": 555
+        "explanationLine": 555,
+        "pastExamHistoryReference": "exam_history.json:79077b34-fa07-5165-bdf8-4902188c79d6"
       },
       "active": true
     },
@@ -3626,7 +3742,8 @@
       "sourceOrder": 117,
       "sourceMetadata": {
         "statementLine": 548,
-        "explanationLine": 556
+        "explanationLine": 556,
+        "pastExamHistoryReference": "exam_history.json:c3ca7c40-b855-55df-a066-b3522693df8a"
       },
       "active": true
     },
@@ -3657,7 +3774,8 @@
       "sourceOrder": 118,
       "sourceMetadata": {
         "statementLine": 549,
-        "explanationLine": 557
+        "explanationLine": 557,
+        "pastExamHistoryReference": "exam_history.json:5f520e1e-3d6a-5a52-accf-0c72fbfedb73"
       },
       "active": true
     },
@@ -3688,7 +3806,8 @@
       "sourceOrder": 119,
       "sourceMetadata": {
         "statementLine": 550,
-        "explanationLine": 558
+        "explanationLine": 558,
+        "pastExamHistoryReference": "exam_history.json:0a8c7b2d-9998-5cfd-9a6b-f03375897cb9"
       },
       "active": true
     },
@@ -3719,7 +3838,8 @@
       "sourceOrder": 120,
       "sourceMetadata": {
         "statementLine": 551,
-        "explanationLine": 559
+        "explanationLine": 559,
+        "pastExamHistoryReference": "exam_history.json:babf2a73-3d59-5f15-a713-b1c4f995605c"
       },
       "active": true
     },
@@ -3750,7 +3870,8 @@
       "sourceOrder": 121,
       "sourceMetadata": {
         "statementLine": 568,
-        "explanationLine": 576
+        "explanationLine": 576,
+        "pastExamHistoryReference": "exam_history.json:32b8cc34-d0b2-591e-b58e-aa254a2f339f"
       },
       "active": true
     },
@@ -3781,7 +3902,8 @@
       "sourceOrder": 122,
       "sourceMetadata": {
         "statementLine": 569,
-        "explanationLine": 577
+        "explanationLine": 577,
+        "pastExamHistoryReference": "exam_history.json:3f14e286-6d50-505b-9ed2-1a20260e877c"
       },
       "active": true
     },
@@ -3812,7 +3934,8 @@
       "sourceOrder": 123,
       "sourceMetadata": {
         "statementLine": 570,
-        "explanationLine": 578
+        "explanationLine": 578,
+        "pastExamHistoryReference": "exam_history.json:e05bf331-04e4-53b9-9363-7323262f8028"
       },
       "active": true
     },
@@ -3843,7 +3966,8 @@
       "sourceOrder": 124,
       "sourceMetadata": {
         "statementLine": 571,
-        "explanationLine": 579
+        "explanationLine": 579,
+        "pastExamHistoryReference": "exam_history.json:c2eaf039-5172-50ca-9f57-bfbc45295aa0"
       },
       "active": true
     },
@@ -3874,7 +3998,8 @@
       "sourceOrder": 125,
       "sourceMetadata": {
         "statementLine": 572,
-        "explanationLine": 580
+        "explanationLine": 580,
+        "pastExamHistoryReference": "exam_history.json:c76799f9-f4e7-5796-a571-12dc60b244a7"
       },
       "active": true
     },
@@ -3905,7 +4030,8 @@
       "sourceOrder": 126,
       "sourceMetadata": {
         "statementLine": 588,
-        "explanationLine": 596
+        "explanationLine": 596,
+        "pastExamHistoryReference": "exam_history.json:349ce2af-88fa-5b2e-9af8-8ae5d037fce7"
       },
       "active": true
     },
@@ -3936,7 +4062,8 @@
       "sourceOrder": 127,
       "sourceMetadata": {
         "statementLine": 589,
-        "explanationLine": 597
+        "explanationLine": 597,
+        "pastExamHistoryReference": "exam_history.json:b1a49f93-7c3b-5605-a103-1f71da994514"
       },
       "active": true
     },
@@ -3967,7 +4094,8 @@
       "sourceOrder": 128,
       "sourceMetadata": {
         "statementLine": 590,
-        "explanationLine": 598
+        "explanationLine": 598,
+        "pastExamHistoryReference": "exam_history.json:5d8dba62-a717-5919-9809-b890c050742c"
       },
       "active": true
     },
@@ -3998,7 +4126,8 @@
       "sourceOrder": 129,
       "sourceMetadata": {
         "statementLine": 591,
-        "explanationLine": 599
+        "explanationLine": 599,
+        "pastExamHistoryReference": "exam_history.json:deacee71-02df-56be-a5ed-81a9bae6b216"
       },
       "active": true
     },
@@ -4029,7 +4158,8 @@
       "sourceOrder": 130,
       "sourceMetadata": {
         "statementLine": 592,
-        "explanationLine": 600
+        "explanationLine": 600,
+        "pastExamHistoryReference": "exam_history.json:e841c91c-0b95-571c-a907-298e2ac26801"
       },
       "active": true
     },
@@ -4060,7 +4190,8 @@
       "sourceOrder": 131,
       "sourceMetadata": {
         "statementLine": 606,
-        "explanationLine": 615
+        "explanationLine": 615,
+        "pastExamHistoryReference": "exam_history.json:ef92b0f5-44dc-5397-89a2-fffba4ae5f99"
       },
       "active": true
     },
@@ -4091,7 +4222,8 @@
       "sourceOrder": 132,
       "sourceMetadata": {
         "statementLine": 607,
-        "explanationLine": 616
+        "explanationLine": 616,
+        "pastExamHistoryReference": "exam_history.json:8721f2b3-1c70-59cc-abd9-905de51cdc37"
       },
       "active": true
     },
@@ -4122,7 +4254,8 @@
       "sourceOrder": 133,
       "sourceMetadata": {
         "statementLine": 608,
-        "explanationLine": 617
+        "explanationLine": 617,
+        "pastExamHistoryReference": "exam_history.json:4689e9bc-9806-5004-844b-9e36bcd580e5"
       },
       "active": true
     },
@@ -4153,7 +4286,8 @@
       "sourceOrder": 134,
       "sourceMetadata": {
         "statementLine": 609,
-        "explanationLine": 618
+        "explanationLine": 618,
+        "pastExamHistoryReference": "exam_history.json:0d8d2232-0c21-5a45-8615-44438d38d211"
       },
       "active": true
     },
@@ -4184,7 +4318,8 @@
       "sourceOrder": 135,
       "sourceMetadata": {
         "statementLine": 610,
-        "explanationLine": 619
+        "explanationLine": 619,
+        "pastExamHistoryReference": "exam_history.json:a0916e3c-f0b9-5749-824d-397a3413c45c"
       },
       "active": true
     },
@@ -4215,7 +4350,8 @@
       "sourceOrder": 136,
       "sourceMetadata": {
         "statementLine": 631,
-        "explanationLine": 639
+        "explanationLine": 639,
+        "pastExamHistoryReference": "exam_history.json:ae5d8716-33af-56e0-b8d9-b8ee1305662d"
       },
       "active": true
     },
@@ -4246,7 +4382,8 @@
       "sourceOrder": 137,
       "sourceMetadata": {
         "statementLine": 632,
-        "explanationLine": 640
+        "explanationLine": 640,
+        "pastExamHistoryReference": "exam_history.json:a6b20286-37cb-50e3-b4fa-9141daa13f5f"
       },
       "active": true
     },
@@ -4277,7 +4414,8 @@
       "sourceOrder": 138,
       "sourceMetadata": {
         "statementLine": 633,
-        "explanationLine": 641
+        "explanationLine": 641,
+        "pastExamHistoryReference": "exam_history.json:b4b2fc04-532c-530e-a71b-f28c892a9e53"
       },
       "active": true
     },
@@ -4308,7 +4446,8 @@
       "sourceOrder": 139,
       "sourceMetadata": {
         "statementLine": 634,
-        "explanationLine": 642
+        "explanationLine": 642,
+        "pastExamHistoryReference": "exam_history.json:53aeef43-fab4-502e-9cfc-2ef04e1170ae"
       },
       "active": true
     },
@@ -4339,7 +4478,8 @@
       "sourceOrder": 140,
       "sourceMetadata": {
         "statementLine": 635,
-        "explanationLine": 643
+        "explanationLine": 643,
+        "pastExamHistoryReference": "exam_history.json:ef8f4906-3c26-5749-9321-00ac00cdc6a5"
       },
       "active": true
     },
@@ -4370,7 +4510,8 @@
       "sourceOrder": 141,
       "sourceMetadata": {
         "statementLine": 649,
-        "explanationLine": 658
+        "explanationLine": 658,
+        "pastExamHistoryReference": "exam_history.json:7f33428a-8b9a-5de9-af9d-ee004982dacb"
       },
       "active": true
     },
@@ -4401,7 +4542,8 @@
       "sourceOrder": 142,
       "sourceMetadata": {
         "statementLine": 650,
-        "explanationLine": 659
+        "explanationLine": 659,
+        "pastExamHistoryReference": "exam_history.json:2bf87ffc-a335-5cdb-aa27-a80433a9d444"
       },
       "active": true
     },
@@ -4432,7 +4574,8 @@
       "sourceOrder": 143,
       "sourceMetadata": {
         "statementLine": 651,
-        "explanationLine": 660
+        "explanationLine": 660,
+        "pastExamHistoryReference": "exam_history.json:a672c07e-4c58-5fd0-b16f-d86edab08f07"
       },
       "active": true
     },
@@ -4463,7 +4606,8 @@
       "sourceOrder": 144,
       "sourceMetadata": {
         "statementLine": 652,
-        "explanationLine": 661
+        "explanationLine": 661,
+        "pastExamHistoryReference": "exam_history.json:d62719d5-9228-5d15-b9ca-6f597ae849e3"
       },
       "active": true
     },
@@ -4494,7 +4638,8 @@
       "sourceOrder": 145,
       "sourceMetadata": {
         "statementLine": 653,
-        "explanationLine": 662
+        "explanationLine": 662,
+        "pastExamHistoryReference": "exam_history.json:4347e5b2-166d-5767-ac21-02e0c516706e"
       },
       "active": true
     },
@@ -4524,7 +4669,648 @@
       "sourceHeading": "応用問題｜札幌市実過去問肢 R1・基金（公式公開問題）",
       "sourceOrder": 146,
       "sourceMetadata": {
-        "statementLine": 396
+        "statementLine": 396,
+        "pastExamHistoryReference": "exam_history.json:2f2b68d5-3810-579c-b343-acb9325c5aaf"
+      },
+      "active": true
+    },
+    {
+      "id": "c161ea5c-c958-5d6f-ab36-57c3797e5561",
+      "sourceItemKey": "local-government-law:議会補完2026:1",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議長は、議会の同意を得て、議員の中から副議長を選任する。",
+      "correctJudgment": false,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "議長・副議長とも、議会が議員の中から選挙します。 根拠：地方自治法103条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 103条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 1,
+      "sourceHeading": "議長・副議長",
+      "sourceOrder": 147,
+      "sourceMetadata": {
+        "statementLine": 1,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:c161ea5c-c958-5d6f-ab36-57c3797e5561"
+      },
+      "active": true
+    },
+    {
+      "id": "4df3a863-89a3-5639-b220-859940c78878",
+      "sourceItemKey": "local-government-law:議会補完2026:2",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議長に事故があるとき、又は議長が欠けたときは、副議長が議長の職務を行う。",
+      "correctJudgment": true,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "副議長が議長の職務を代行します。 根拠：地方自治法106条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 106条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 2,
+      "sourceHeading": "議長・副議長",
+      "sourceOrder": 148,
+      "sourceMetadata": {
+        "statementLine": 2,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:4df3a863-89a3-5639-b220-859940c78878"
+      },
+      "active": true
+    },
+    {
+      "id": "08da3980-0198-566a-935c-018e3cd46f9e",
+      "sourceItemKey": "local-government-law:議会補完2026:3",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議長は、委員会に出席することはできるが、発言することはできない。",
+      "correctJudgment": false,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "議長は委員会に出席し、発言することができます。 根拠：地方自治法105条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 105条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 3,
+      "sourceHeading": "議長・副議長",
+      "sourceOrder": 149,
+      "sourceMetadata": {
+        "statementLine": 3,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:08da3980-0198-566a-935c-018e3cd46f9e"
+      },
+      "active": true
+    },
+    {
+      "id": "d1e357a9-1cf1-57b4-9084-286379a2e852",
+      "sourceItemKey": "local-government-law:議会補完2026:4",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議長及び副議長の任期は、議員の任期による。",
+      "correctJudgment": true,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "議長・副議長の任期は議員の任期によります。過去問DBにはこの任期自体を問う肢を確認できていないため、出題実績は未確認とします。 根拠：地方自治法103条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 103条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 4,
+      "sourceHeading": "議長・副議長",
+      "sourceOrder": 150,
+      "sourceMetadata": {
+        "statementLine": 4,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:d1e357a9-1cf1-57b4-9084-286379a2e852"
+      },
+      "active": true
+    },
+    {
+      "id": "64339682-f611-5207-b008-6f028d9f40f4",
+      "sourceItemKey": "local-government-law:議会補完2026:5",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議会は、予算その他重要な議案、請願等について公聴会を開き、利害関係を有する者や学識経験を有する者等から意見を聴くことができる。",
+      "correctJudgment": true,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "真に利害関係を有する者又は学識経験を有する者等から意見を聴くことができます。 根拠：地方自治法115条の2。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 115条の2",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 5,
+      "sourceHeading": "公聴会・参考人",
+      "sourceOrder": 151,
+      "sourceMetadata": {
+        "statementLine": 5,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:64339682-f611-5207-b008-6f028d9f40f4"
+      },
+      "active": true
+    },
+    {
+      "id": "a8296f0a-2931-5eca-966c-a9453a5f5df1",
+      "sourceItemKey": "local-government-law:議会補完2026:6",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "公聴会を開くことができるのは議会の本会議に限られ、委員会では開くことができない。",
+      "correctJudgment": false,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "公聴会に関する規定は委員会にも準用されます。 根拠：地方自治法109条・115条の2。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 109条・115条の2",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 6,
+      "sourceHeading": "公聴会・参考人",
+      "sourceOrder": 152,
+      "sourceMetadata": {
+        "statementLine": 6,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:a8296f0a-2931-5eca-966c-a9453a5f5df1"
+      },
+      "active": true
+    },
+    {
+      "id": "31bb46cb-33f0-5de3-a35f-1d2cf808e417",
+      "sourceItemKey": "local-government-law:議会補完2026:7",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議会は、その地方公共団体の事務に関する調査又は審査のため必要があると認めるときは、参考人の出頭を求め、その意見を聴くことができる。",
+      "correctJudgment": true,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "調査・審査のために参考人から意見を聴く制度があります。 根拠：地方自治法115条の2。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 115条の2",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 7,
+      "sourceHeading": "公聴会・参考人",
+      "sourceOrder": 153,
+      "sourceMetadata": {
+        "statementLine": 7,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:31bb46cb-33f0-5de3-a35f-1d2cf808e417"
+      },
+      "active": true
+    },
+    {
+      "id": "9dc35fdc-2638-5f5a-bc6e-67bcac8c91ba",
+      "sourceItemKey": "local-government-law:議会補完2026:8",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議会が出頭を求める参考人は、その地方公共団体の住民に限られる。",
+      "correctJudgment": false,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "参考人について、住民であることを条件としていません。この居住要件自体を問う過去問肢はDBで確認できていません。 根拠：地方自治法115条の2。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 115条の2",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 8,
+      "sourceHeading": "公聴会・参考人",
+      "sourceOrder": 154,
+      "sourceMetadata": {
+        "statementLine": 8,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:9dc35fdc-2638-5f5a-bc6e-67bcac8c91ba"
+      },
+      "active": true
+    },
+    {
+      "id": "907a5360-8ad2-5482-a7d3-8ddda8f8ba6e",
+      "sourceItemKey": "local-government-law:議会補完2026:9",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議員は、議員定数の12分の1以上の者の賛成があれば、予算を議会に提出することができる。",
+      "correctJudgment": false,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "議員の議案提出権から予算は除かれます。 根拠：地方自治法112条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 112条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 9,
+      "sourceHeading": "議員の議案提出",
+      "sourceOrder": 155,
+      "sourceMetadata": {
+        "statementLine": 9,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:907a5360-8ad2-5482-a7d3-8ddda8f8ba6e"
+      },
+      "active": true
+    },
+    {
+      "id": "ef0b6a21-0d43-5ec0-aac2-f6019b692fd4",
+      "sourceItemKey": "local-government-law:議会補完2026:10",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議員が条例案を提出する場合、予算を伴わない条例案であれば、他の議員の賛成は必要ない。",
+      "correctJudgment": false,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "予算を伴うか否かにかかわらず、所定の賛成を要します。 根拠：地方自治法112条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 112条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 10,
+      "sourceHeading": "議員の議案提出",
+      "sourceOrder": 156,
+      "sourceMetadata": {
+        "statementLine": 10,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:ef0b6a21-0d43-5ec0-aac2-f6019b692fd4"
+      },
+      "active": true
+    },
+    {
+      "id": "f8827596-9072-52b2-b80c-d84583524601",
+      "sourceItemKey": "local-government-law:議会補完2026:11",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議員が地方自治法第112条に基づいて議案を提出するには、議員定数の12分の1以上の者の賛成が必要である。",
+      "correctJudgment": true,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "出席議員数ではなく議員定数を基準とします。 根拠：地方自治法112条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 112条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 11,
+      "sourceHeading": "議員の議案提出",
+      "sourceOrder": 157,
+      "sourceMetadata": {
+        "statementLine": 11,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:f8827596-9072-52b2-b80c-d84583524601"
+      },
+      "active": true
+    },
+    {
+      "id": "90803de5-4cb3-5c61-8521-3731c8fcb52a",
+      "sourceItemKey": "local-government-law:議会補完2026:12",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議員が地方自治法第112条に基づいて議案を提出するときは、文書によらなければならない。",
+      "correctJudgment": true,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "議案提出は文書によらなければなりません。この提出方式自体を問う過去問肢はDBで確認できていません。 根拠：地方自治法112条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 112条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 12,
+      "sourceHeading": "議員の議案提出",
+      "sourceOrder": 158,
+      "sourceMetadata": {
+        "statementLine": 12,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:90803de5-4cb3-5c61-8521-3731c8fcb52a"
+      },
+      "active": true
+    },
+    {
+      "id": "7ff87025-8716-5e31-b0db-cd123b23cc42",
+      "sourceItemKey": "local-government-law:議会補完2026:13",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議員定数の4分の1以上の者は、会議に付議すべき事件を示して、長に臨時会の招集を請求することができる。",
+      "correctJudgment": true,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "請求先は長です。 根拠：地方自治法101条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 101条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 13,
+      "sourceHeading": "招集・会期",
+      "sourceOrder": 159,
+      "sourceMetadata": {
+        "statementLine": 13,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:7ff87025-8716-5e31-b0db-cd123b23cc42"
+      },
+      "active": true
+    },
+    {
+      "id": "b7333adb-61b1-5c25-843a-9a574d54e695",
+      "sourceItemKey": "local-government-law:議会補完2026:14",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議員による適法な臨時会の招集請求があったとき、長は、請求の日から10日以内に臨時会を招集しなければならない。",
+      "correctJudgment": false,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "長が招集すべき期限は20日以内です。この期限自体を問う過去問肢はDBで確認できていません。 根拠：地方自治法101条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 101条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 14,
+      "sourceHeading": "招集・会期",
+      "sourceOrder": 160,
+      "sourceMetadata": {
+        "statementLine": 14,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:b7333adb-61b1-5c25-843a-9a574d54e695"
+      },
+      "active": true
+    },
+    {
+      "id": "944e35ce-9275-57a0-9474-4008ee51ac70",
+      "sourceItemKey": "local-government-law:議会補完2026:15",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議会の招集は長の権限であるため、長が臨時会の招集請求に応じない場合でも、議長が招集することは一切できない。",
+      "correctJudgment": false,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "長が所定の期限内に招集しない場合には、議長による招集の制度があります。DBの古い招集問題と同一論点としては数えません。 根拠：地方自治法101条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 101条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 15,
+      "sourceHeading": "招集・会期",
+      "sourceOrder": 161,
+      "sourceMetadata": {
+        "statementLine": 15,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:944e35ce-9275-57a0-9474-4008ee51ac70"
+      },
+      "active": true
+    },
+    {
+      "id": "dc016613-6456-52d5-84b2-929df4d9b28b",
+      "sourceItemKey": "local-government-law:議会補完2026:16",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議会の会期及びその延長並びに開閉に関する事項は、議会が定める。",
+      "correctJudgment": true,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "長が招集することと、議会が会期等を定めることを区別します。 根拠：地方自治法102条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 102条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 16,
+      "sourceHeading": "招集・会期",
+      "sourceOrder": 162,
+      "sourceMetadata": {
+        "statementLine": 16,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:dc016613-6456-52d5-84b2-929df4d9b28b"
+      },
+      "active": true
+    },
+    {
+      "id": "7e6125c3-9591-5056-a85d-b1a198d31cc7",
+      "sourceItemKey": "local-government-law:議会補完2026:17",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議会は、長の予算提出権を侵さない限り、予算を増額して議決することができる。",
+      "correctJudgment": true,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "増額修正が一律に禁止されているわけではありません。 根拠：地方自治法97条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 97条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 17,
+      "sourceHeading": "議決事件・予算修正・通常議決",
+      "sourceOrder": 163,
+      "sourceMetadata": {
+        "statementLine": 17,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:7e6125c3-9591-5056-a85d-b1a198d31cc7"
+      },
+      "active": true
+    },
+    {
+      "id": "94269a55-8690-5544-a2cd-c388a23530f0",
+      "sourceItemKey": "local-government-law:議会補完2026:18",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "議会の議決すべき事件は法律で列挙されたものに限られ、条例で追加することはできない。",
+      "correctJudgment": false,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "法定の除外事項を除き、条例で議決事件を追加できます。 根拠：地方自治法96条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 96条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 18,
+      "sourceHeading": "議決事件・予算修正・通常議決",
+      "sourceOrder": 164,
+      "sourceMetadata": {
+        "statementLine": 18,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:94269a55-8690-5544-a2cd-c388a23530f0"
+      },
+      "active": true
+    },
+    {
+      "id": "5b811e4f-c7f4-5a44-a395-869358029caf",
+      "sourceItemKey": "local-government-law:議会補完2026:19",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "普通地方公共団体が負担付きの寄附又は贈与を受けることは、議会の議決を必要としない。",
+      "correctJudgment": false,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "負担付きの寄附・贈与の受入れは議決事件です。DBでは負担付き寄附の意味を問う肢がありますが、議決の要否と同一論点としては数えません。 根拠：地方自治法96条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 96条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 19,
+      "sourceHeading": "議決事件・予算修正・通常議決",
+      "sourceOrder": 165,
+      "sourceMetadata": {
+        "statementLine": 19,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:5b811e4f-c7f4-5a44-a395-869358029caf"
+      },
+      "active": true
+    },
+    {
+      "id": "094ab00d-5aec-52ae-a409-24c8079abeb3",
+      "sourceItemKey": "local-government-law:議会補完2026:20",
+      "subject": "地方自治法",
+      "questionGroup": "議会補完2026",
+      "sourceType": "PREDICTED",
+      "itemType": "TRUE_FALSE",
+      "statement": "法律に特別の定めがある場合を除き、議会の議事は出席議員の過半数で決し、可否同数のときは議長が決する。",
+      "correctJudgment": true,
+      "judgmentSource": "OFFICIAL_LAW_REVIEWED",
+      "explanation": "通常の議決と、特別多数を必要とする議決を区別します。 根拠：地方自治法116条。",
+      "explanationType": "ITEM_SPECIFIC",
+      "sourceReference": "地方自治法 116条",
+      "verificationStatus": "CONFIRMED",
+      "reviewEligible": true,
+      "judgmentAsOf": "2026-10-03",
+      "historicalJudgment": null,
+      "historicalContext": null,
+      "timeSensitive": false,
+      "caution": null,
+      "sourceDocument": "council-supplement.json",
+      "sourceQuestionNumber": "議会補完2026",
+      "sourceItemNumber": 20,
+      "sourceHeading": "議決事件・予算修正・通常議決",
+      "sourceOrder": 166,
+      "sourceMetadata": {
+        "statementLine": 20,
+        "lawUrl": "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "pastExamHistoryReference": "exam_history.json:094ab00d-5aec-52ae-a409-24c8079abeb3"
       },
       "active": true
     },
@@ -4555,7 +5341,8 @@
       "sourceOrder": 1,
       "sourceMetadata": {
         "statementLine": 35,
-        "explanationLine": 43
+        "explanationLine": 43,
+        "pastExamHistoryReference": "exam_history.json:69df7392-4321-5bae-aa01-d96f9ca0ca5e"
       },
       "active": true
     },
@@ -4586,7 +5373,8 @@
       "sourceOrder": 2,
       "sourceMetadata": {
         "statementLine": 36,
-        "explanationLine": 44
+        "explanationLine": 44,
+        "pastExamHistoryReference": "exam_history.json:24e0aadf-f691-59c5-9f3a-c1aaeb9283e7"
       },
       "active": true
     },
@@ -4617,7 +5405,8 @@
       "sourceOrder": 3,
       "sourceMetadata": {
         "statementLine": 37,
-        "explanationLine": 45
+        "explanationLine": 45,
+        "pastExamHistoryReference": "exam_history.json:60809f99-580c-5367-b143-9ce1870c4f7c"
       },
       "active": true
     },
@@ -4648,7 +5437,8 @@
       "sourceOrder": 4,
       "sourceMetadata": {
         "statementLine": 38,
-        "explanationLine": 46
+        "explanationLine": 46,
+        "pastExamHistoryReference": "exam_history.json:b05eb0d4-4625-544b-9738-5181a1e4ec71"
       },
       "active": true
     },
@@ -4679,7 +5469,8 @@
       "sourceOrder": 5,
       "sourceMetadata": {
         "statementLine": 39,
-        "explanationLine": 47
+        "explanationLine": 47,
+        "pastExamHistoryReference": "exam_history.json:e465c695-98c3-51a5-9b08-b2243d7add94"
       },
       "active": true
     },
@@ -4710,7 +5501,8 @@
       "sourceOrder": 6,
       "sourceMetadata": {
         "statementLine": 51,
-        "explanationLine": 57
+        "explanationLine": 57,
+        "pastExamHistoryReference": "exam_history.json:01439fec-4a6f-52bf-86f4-55b01fc3e6f6"
       },
       "active": true
     },
@@ -4741,7 +5533,8 @@
       "sourceOrder": 7,
       "sourceMetadata": {
         "statementLine": 52,
-        "explanationLine": 58
+        "explanationLine": 58,
+        "pastExamHistoryReference": "exam_history.json:024789e0-e8eb-5605-9cd2-4efb92259201"
       },
       "active": true
     },
@@ -4772,7 +5565,8 @@
       "sourceOrder": 8,
       "sourceMetadata": {
         "statementLine": 53,
-        "explanationLine": 59
+        "explanationLine": 59,
+        "pastExamHistoryReference": "exam_history.json:1e24b0a0-3d80-5d45-ad8f-84a1a01850ee"
       },
       "active": true
     },
@@ -4803,7 +5597,8 @@
       "sourceOrder": 9,
       "sourceMetadata": {
         "statementLine": 54,
-        "explanationLine": 60
+        "explanationLine": 60,
+        "pastExamHistoryReference": "exam_history.json:f14f22d5-f372-555d-af75-6574690f2f47"
       },
       "active": true
     },
@@ -4834,7 +5629,8 @@
       "sourceOrder": 10,
       "sourceMetadata": {
         "statementLine": 69,
-        "explanationLine": 77
+        "explanationLine": 77,
+        "pastExamHistoryReference": "exam_history.json:e82cb758-fb7c-5b65-a1e3-9e3a6d7418ad"
       },
       "active": true
     },
@@ -4865,7 +5661,8 @@
       "sourceOrder": 11,
       "sourceMetadata": {
         "statementLine": 70,
-        "explanationLine": 78
+        "explanationLine": 78,
+        "pastExamHistoryReference": "exam_history.json:8772ac10-e833-5258-96f1-405cb14565c3"
       },
       "active": true
     },
@@ -4896,7 +5693,8 @@
       "sourceOrder": 12,
       "sourceMetadata": {
         "statementLine": 71,
-        "explanationLine": 79
+        "explanationLine": 79,
+        "pastExamHistoryReference": "exam_history.json:12ba945c-d87a-51d2-b633-96eabed9104a"
       },
       "active": true
     },
@@ -4927,7 +5725,8 @@
       "sourceOrder": 13,
       "sourceMetadata": {
         "statementLine": 72,
-        "explanationLine": 80
+        "explanationLine": 80,
+        "pastExamHistoryReference": "exam_history.json:77df1303-c691-56d5-9268-97dadad7383c"
       },
       "active": true
     },
@@ -4958,7 +5757,8 @@
       "sourceOrder": 14,
       "sourceMetadata": {
         "statementLine": 73,
-        "explanationLine": 81
+        "explanationLine": 81,
+        "pastExamHistoryReference": "exam_history.json:6178bd2e-9127-58c5-9262-6abf011034d1"
       },
       "active": true
     },
@@ -4989,7 +5789,8 @@
       "sourceOrder": 15,
       "sourceMetadata": {
         "statementLine": 93,
-        "explanationLine": 101
+        "explanationLine": 101,
+        "pastExamHistoryReference": "exam_history.json:28926e14-e372-5cbd-8435-f8dd7470d901"
       },
       "active": true
     },
@@ -5020,7 +5821,8 @@
       "sourceOrder": 16,
       "sourceMetadata": {
         "statementLine": 94,
-        "explanationLine": 102
+        "explanationLine": 102,
+        "pastExamHistoryReference": "exam_history.json:45144352-d976-58c9-9977-4174c2261b8b"
       },
       "active": true
     },
@@ -5051,7 +5853,8 @@
       "sourceOrder": 17,
       "sourceMetadata": {
         "statementLine": 95,
-        "explanationLine": 103
+        "explanationLine": 103,
+        "pastExamHistoryReference": "exam_history.json:9d1f54e4-64d1-53ef-b870-8736755d9489"
       },
       "active": true
     },
@@ -5082,7 +5885,8 @@
       "sourceOrder": 18,
       "sourceMetadata": {
         "statementLine": 96,
-        "explanationLine": 104
+        "explanationLine": 104,
+        "pastExamHistoryReference": "exam_history.json:7ffbd69e-a64d-565a-bd06-ace99c65bab1"
       },
       "active": true
     },
@@ -5113,7 +5917,8 @@
       "sourceOrder": 19,
       "sourceMetadata": {
         "statementLine": 97,
-        "explanationLine": 105
+        "explanationLine": 105,
+        "pastExamHistoryReference": "exam_history.json:a0b1c234-5812-544a-a5e1-7648859ff017"
       },
       "active": true
     },
@@ -5144,7 +5949,8 @@
       "sourceOrder": 20,
       "sourceMetadata": {
         "statementLine": 109,
-        "explanationLine": 116
+        "explanationLine": 116,
+        "pastExamHistoryReference": "exam_history.json:766995d2-5931-5c86-a111-db9b3082cb88"
       },
       "active": true
     },
@@ -5175,7 +5981,8 @@
       "sourceOrder": 21,
       "sourceMetadata": {
         "statementLine": 110,
-        "explanationLine": 117
+        "explanationLine": 117,
+        "pastExamHistoryReference": "exam_history.json:2d9aaae0-444f-50ab-9edd-98cdf7db9136"
       },
       "active": true
     },
@@ -5206,7 +6013,8 @@
       "sourceOrder": 22,
       "sourceMetadata": {
         "statementLine": 111,
-        "explanationLine": 118
+        "explanationLine": 118,
+        "pastExamHistoryReference": "exam_history.json:c0c0e52f-e173-503a-b16f-5c1c1cae4f91"
       },
       "active": true
     },
@@ -5237,7 +6045,8 @@
       "sourceOrder": 23,
       "sourceMetadata": {
         "statementLine": 112,
-        "explanationLine": 119
+        "explanationLine": 119,
+        "pastExamHistoryReference": "exam_history.json:df2e1ecb-f220-53c6-b35b-90ab06366fab"
       },
       "active": true
     },
@@ -5268,7 +6077,8 @@
       "sourceOrder": 24,
       "sourceMetadata": {
         "statementLine": 113,
-        "explanationLine": 120
+        "explanationLine": 120,
+        "pastExamHistoryReference": "exam_history.json:a6bc29c8-cdb1-5907-93cb-21670bdd6d0e"
       },
       "active": true
     },
@@ -5299,7 +6109,8 @@
       "sourceOrder": 25,
       "sourceMetadata": {
         "statementLine": 129,
-        "explanationLine": 137
+        "explanationLine": 137,
+        "pastExamHistoryReference": "exam_history.json:d5dc7d4a-125d-5793-af03-aed81f35264a"
       },
       "active": true
     },
@@ -5330,7 +6141,8 @@
       "sourceOrder": 26,
       "sourceMetadata": {
         "statementLine": 130,
-        "explanationLine": 138
+        "explanationLine": 138,
+        "pastExamHistoryReference": "exam_history.json:5d7e97e5-0eb6-5c6e-945e-bbeb884d4398"
       },
       "active": true
     },
@@ -5361,7 +6173,8 @@
       "sourceOrder": 27,
       "sourceMetadata": {
         "statementLine": 131,
-        "explanationLine": 139
+        "explanationLine": 139,
+        "pastExamHistoryReference": "exam_history.json:697014f2-9102-553c-8f6f-2790b9840a81"
       },
       "active": true
     },
@@ -5392,7 +6205,8 @@
       "sourceOrder": 28,
       "sourceMetadata": {
         "statementLine": 132,
-        "explanationLine": 140
+        "explanationLine": 140,
+        "pastExamHistoryReference": "exam_history.json:7dd290af-a75a-53e8-ba0e-1fc01e91869d"
       },
       "active": true
     },
@@ -5423,7 +6237,8 @@
       "sourceOrder": 29,
       "sourceMetadata": {
         "statementLine": 133,
-        "explanationLine": 141
+        "explanationLine": 141,
+        "pastExamHistoryReference": "exam_history.json:92573c23-c07f-5efd-9f57-f859a2864da3"
       },
       "active": true
     },
@@ -5454,7 +6269,8 @@
       "sourceOrder": 30,
       "sourceMetadata": {
         "statementLine": 148,
-        "explanationLine": 156
+        "explanationLine": 156,
+        "pastExamHistoryReference": "exam_history.json:f604a942-90f5-538b-ba70-9441da706c78"
       },
       "active": true
     },
@@ -5485,7 +6301,8 @@
       "sourceOrder": 31,
       "sourceMetadata": {
         "statementLine": 149,
-        "explanationLine": 157
+        "explanationLine": 157,
+        "pastExamHistoryReference": "exam_history.json:eb47a0bc-028b-54da-a2ae-1ccc6e77bb07"
       },
       "active": true
     },
@@ -5516,7 +6333,8 @@
       "sourceOrder": 32,
       "sourceMetadata": {
         "statementLine": 150,
-        "explanationLine": 158
+        "explanationLine": 158,
+        "pastExamHistoryReference": "exam_history.json:70907e8b-b909-580e-88c0-25c753319e37"
       },
       "active": true
     },
@@ -5547,7 +6365,8 @@
       "sourceOrder": 33,
       "sourceMetadata": {
         "statementLine": 151,
-        "explanationLine": 159
+        "explanationLine": 159,
+        "pastExamHistoryReference": "exam_history.json:da9e27c2-bd8f-5937-99cb-45554e8a5878"
       },
       "active": true
     },
@@ -5578,7 +6397,8 @@
       "sourceOrder": 34,
       "sourceMetadata": {
         "statementLine": 152,
-        "explanationLine": 160
+        "explanationLine": 160,
+        "pastExamHistoryReference": "exam_history.json:3fd7adab-4873-5f20-8dd1-209db8367ce5"
       },
       "active": true
     },
@@ -5609,7 +6429,8 @@
       "sourceOrder": 35,
       "sourceMetadata": {
         "statementLine": 164,
-        "explanationLine": 171
+        "explanationLine": 171,
+        "pastExamHistoryReference": "exam_history.json:a23f5011-f186-52c1-b01a-08f697ee85c2"
       },
       "active": true
     },
@@ -5640,7 +6461,8 @@
       "sourceOrder": 36,
       "sourceMetadata": {
         "statementLine": 165,
-        "explanationLine": 172
+        "explanationLine": 172,
+        "pastExamHistoryReference": "exam_history.json:a8c7517e-f91b-5a5f-a935-d1e249a7479e"
       },
       "active": true
     },
@@ -5671,7 +6493,8 @@
       "sourceOrder": 37,
       "sourceMetadata": {
         "statementLine": 166,
-        "explanationLine": 173
+        "explanationLine": 173,
+        "pastExamHistoryReference": "exam_history.json:7f9f4a56-3816-5ad0-b237-a81e67488282"
       },
       "active": true
     },
@@ -5702,7 +6525,8 @@
       "sourceOrder": 38,
       "sourceMetadata": {
         "statementLine": 167,
-        "explanationLine": 174
+        "explanationLine": 174,
+        "pastExamHistoryReference": "exam_history.json:7967568d-7d85-5f45-93b4-fddfc61ce332"
       },
       "active": true
     },
@@ -5733,7 +6557,8 @@
       "sourceOrder": 39,
       "sourceMetadata": {
         "statementLine": 168,
-        "explanationLine": 175
+        "explanationLine": 175,
+        "pastExamHistoryReference": "exam_history.json:ba7befbe-3013-5313-a2e7-f5243d7e6d76"
       },
       "active": true
     },
@@ -5764,7 +6589,8 @@
       "sourceOrder": 40,
       "sourceMetadata": {
         "statementLine": 186,
-        "explanationLine": 194
+        "explanationLine": 194,
+        "pastExamHistoryReference": "exam_history.json:10feb3ab-4b37-5397-a238-71b1286a7ec7"
       },
       "active": true
     },
@@ -5795,7 +6621,8 @@
       "sourceOrder": 41,
       "sourceMetadata": {
         "statementLine": 187,
-        "explanationLine": 195
+        "explanationLine": 195,
+        "pastExamHistoryReference": "exam_history.json:556128a4-f646-5029-b05c-a3eaa235a63a"
       },
       "active": true
     },
@@ -5826,7 +6653,8 @@
       "sourceOrder": 42,
       "sourceMetadata": {
         "statementLine": 188,
-        "explanationLine": 196
+        "explanationLine": 196,
+        "pastExamHistoryReference": "exam_history.json:8c64c7ce-951a-5202-b7fe-5cf4d561a1a1"
       },
       "active": true
     },
@@ -5857,7 +6685,8 @@
       "sourceOrder": 43,
       "sourceMetadata": {
         "statementLine": 189,
-        "explanationLine": 197
+        "explanationLine": 197,
+        "pastExamHistoryReference": "exam_history.json:c6b59484-5afa-54f6-82ca-e6c6985f5f92"
       },
       "active": true
     },
@@ -5888,7 +6717,8 @@
       "sourceOrder": 44,
       "sourceMetadata": {
         "statementLine": 190,
-        "explanationLine": 198
+        "explanationLine": 198,
+        "pastExamHistoryReference": "exam_history.json:c97b77aa-4fb2-5f9d-8f62-25aa983ac622"
       },
       "active": true
     },
@@ -5919,7 +6749,8 @@
       "sourceOrder": 45,
       "sourceMetadata": {
         "statementLine": 207,
-        "explanationLine": 215
+        "explanationLine": 215,
+        "pastExamHistoryReference": "exam_history.json:af330248-f707-5bc6-aa70-16defcc41e66"
       },
       "active": true
     },
@@ -5950,7 +6781,8 @@
       "sourceOrder": 46,
       "sourceMetadata": {
         "statementLine": 208,
-        "explanationLine": 216
+        "explanationLine": 216,
+        "pastExamHistoryReference": "exam_history.json:a8229e86-18cb-56c5-a764-9425383d8c9a"
       },
       "active": true
     },
@@ -5981,7 +6813,8 @@
       "sourceOrder": 47,
       "sourceMetadata": {
         "statementLine": 209,
-        "explanationLine": 217
+        "explanationLine": 217,
+        "pastExamHistoryReference": "exam_history.json:0dab7268-82e0-56f1-b8e9-839eac0ad0ca"
       },
       "active": true
     },
@@ -6012,7 +6845,8 @@
       "sourceOrder": 48,
       "sourceMetadata": {
         "statementLine": 210,
-        "explanationLine": 218
+        "explanationLine": 218,
+        "pastExamHistoryReference": "exam_history.json:f75ba353-f0b1-590a-9590-c0dd8903d167"
       },
       "active": true
     },
@@ -6043,7 +6877,8 @@
       "sourceOrder": 49,
       "sourceMetadata": {
         "statementLine": 211,
-        "explanationLine": 219
+        "explanationLine": 219,
+        "pastExamHistoryReference": "exam_history.json:523d9b0f-940c-5102-a3e8-cde457187316"
       },
       "active": true
     },
@@ -6074,7 +6909,8 @@
       "sourceOrder": 50,
       "sourceMetadata": {
         "statementLine": 225,
-        "explanationLine": 230
+        "explanationLine": 230,
+        "pastExamHistoryReference": "exam_history.json:d312c591-bb53-5884-88f8-72b857fef89a"
       },
       "active": true
     },
@@ -6105,7 +6941,8 @@
       "sourceOrder": 51,
       "sourceMetadata": {
         "statementLine": 226,
-        "explanationLine": 231
+        "explanationLine": 231,
+        "pastExamHistoryReference": "exam_history.json:38801e07-057d-5499-9343-fac8936540bb"
       },
       "active": true
     },
@@ -6136,7 +6973,8 @@
       "sourceOrder": 52,
       "sourceMetadata": {
         "statementLine": 227,
-        "explanationLine": 232
+        "explanationLine": 232,
+        "pastExamHistoryReference": "exam_history.json:b756fa9c-22e2-5943-9416-beab64579e7a"
       },
       "active": true
     },
@@ -6167,7 +7005,8 @@
       "sourceOrder": 53,
       "sourceMetadata": {
         "statementLine": 248,
-        "explanationLine": 256
+        "explanationLine": 256,
+        "pastExamHistoryReference": "exam_history.json:a8998634-0431-5e41-b0ca-03689ed0847c"
       },
       "active": true
     },
@@ -6198,7 +7037,8 @@
       "sourceOrder": 54,
       "sourceMetadata": {
         "statementLine": 249,
-        "explanationLine": 257
+        "explanationLine": 257,
+        "pastExamHistoryReference": "exam_history.json:891ae3d2-7af8-58c2-8fc9-bc43d8c11b97"
       },
       "active": true
     },
@@ -6229,7 +7069,8 @@
       "sourceOrder": 55,
       "sourceMetadata": {
         "statementLine": 250,
-        "explanationLine": 258
+        "explanationLine": 258,
+        "pastExamHistoryReference": "exam_history.json:52cea85d-2c5d-51a0-ac4f-66190a567616"
       },
       "active": true
     },
@@ -6260,7 +7101,8 @@
       "sourceOrder": 56,
       "sourceMetadata": {
         "statementLine": 251,
-        "explanationLine": 259
+        "explanationLine": 259,
+        "pastExamHistoryReference": "exam_history.json:f13572c5-2aa6-53d4-ad0d-b1d96d4e9ea6"
       },
       "active": true
     },
@@ -6291,7 +7133,8 @@
       "sourceOrder": 57,
       "sourceMetadata": {
         "statementLine": 252,
-        "explanationLine": 260
+        "explanationLine": 260,
+        "pastExamHistoryReference": "exam_history.json:0dd22ee5-1771-5691-9da7-22d6c55155e1"
       },
       "active": true
     },
@@ -6322,7 +7165,8 @@
       "sourceOrder": 58,
       "sourceMetadata": {
         "statementLine": 271,
-        "explanationLine": 279
+        "explanationLine": 279,
+        "pastExamHistoryReference": "exam_history.json:7ec29276-ff65-5cb0-ab3d-aadd8fd33a06"
       },
       "active": true
     },
@@ -6353,7 +7197,8 @@
       "sourceOrder": 59,
       "sourceMetadata": {
         "statementLine": 272,
-        "explanationLine": 280
+        "explanationLine": 280,
+        "pastExamHistoryReference": "exam_history.json:5765869f-8bd8-5167-9272-3e1885206574"
       },
       "active": true
     },
@@ -6384,7 +7229,8 @@
       "sourceOrder": 60,
       "sourceMetadata": {
         "statementLine": 273,
-        "explanationLine": 281
+        "explanationLine": 281,
+        "pastExamHistoryReference": "exam_history.json:425d14d8-e9a5-5642-ba4b-bb1d490470a2"
       },
       "active": true
     },
@@ -6415,7 +7261,8 @@
       "sourceOrder": 61,
       "sourceMetadata": {
         "statementLine": 274,
-        "explanationLine": 282
+        "explanationLine": 282,
+        "pastExamHistoryReference": "exam_history.json:9975675e-58f0-56d4-8cdf-1fb78f4d639d"
       },
       "active": true
     },
@@ -6446,7 +7293,8 @@
       "sourceOrder": 62,
       "sourceMetadata": {
         "statementLine": 275,
-        "explanationLine": 283
+        "explanationLine": 283,
+        "pastExamHistoryReference": "exam_history.json:cb96672e-e6cd-5900-9159-9d05c13118d4"
       },
       "active": true
     },
@@ -6477,7 +7325,8 @@
       "sourceOrder": 63,
       "sourceMetadata": {
         "statementLine": 287,
-        "explanationLine": 294
+        "explanationLine": 294,
+        "pastExamHistoryReference": "exam_history.json:8e431b53-8c80-56ce-8dc3-bec7ca69f0a3"
       },
       "active": true
     },
@@ -6508,7 +7357,8 @@
       "sourceOrder": 64,
       "sourceMetadata": {
         "statementLine": 288,
-        "explanationLine": 295
+        "explanationLine": 295,
+        "pastExamHistoryReference": "exam_history.json:221923d0-2c09-5a57-b092-4beca6729603"
       },
       "active": true
     },
@@ -6539,7 +7389,8 @@
       "sourceOrder": 65,
       "sourceMetadata": {
         "statementLine": 289,
-        "explanationLine": 296
+        "explanationLine": 296,
+        "pastExamHistoryReference": "exam_history.json:a722c348-fa57-58f2-b3c4-0dda2e8aff7f"
       },
       "active": true
     },
@@ -6570,7 +7421,8 @@
       "sourceOrder": 66,
       "sourceMetadata": {
         "statementLine": 290,
-        "explanationLine": 297
+        "explanationLine": 297,
+        "pastExamHistoryReference": "exam_history.json:7a27aec8-15c1-5b25-90b4-7c369f653555"
       },
       "active": true
     },
@@ -6601,7 +7453,8 @@
       "sourceOrder": 67,
       "sourceMetadata": {
         "statementLine": 291,
-        "explanationLine": 298
+        "explanationLine": 298,
+        "pastExamHistoryReference": "exam_history.json:099b30ea-0ce5-5519-8576-d7f3bedbb6a4"
       },
       "active": true
     },
@@ -6632,7 +7485,8 @@
       "sourceOrder": 68,
       "sourceMetadata": {
         "statementLine": 303,
-        "explanationLine": 311
+        "explanationLine": 311,
+        "pastExamHistoryReference": "exam_history.json:1775bd47-fd3f-5945-b02e-fae8fa0bf6e2"
       },
       "active": true
     },
@@ -6663,7 +7517,8 @@
       "sourceOrder": 69,
       "sourceMetadata": {
         "statementLine": 304,
-        "explanationLine": 312
+        "explanationLine": 312,
+        "pastExamHistoryReference": "exam_history.json:08cf17f5-ec70-5e51-9702-4ccb6aa37749"
       },
       "active": true
     },
@@ -6694,7 +7549,8 @@
       "sourceOrder": 70,
       "sourceMetadata": {
         "statementLine": 305,
-        "explanationLine": 313
+        "explanationLine": 313,
+        "pastExamHistoryReference": "exam_history.json:139dda98-0f28-56d7-89c4-3d0cde9e4478"
       },
       "active": true
     },
@@ -6725,7 +7581,8 @@
       "sourceOrder": 71,
       "sourceMetadata": {
         "statementLine": 306,
-        "explanationLine": 314
+        "explanationLine": 314,
+        "pastExamHistoryReference": "exam_history.json:89ef212d-e7ca-5685-aa3c-ce560887eb81"
       },
       "active": true
     },
@@ -6756,7 +7613,8 @@
       "sourceOrder": 72,
       "sourceMetadata": {
         "statementLine": 307,
-        "explanationLine": 315
+        "explanationLine": 315,
+        "pastExamHistoryReference": "exam_history.json:b85b9abc-813a-51f2-9779-262468535849"
       },
       "active": true
     },
@@ -6787,7 +7645,8 @@
       "sourceOrder": 73,
       "sourceMetadata": {
         "statementLine": 322,
-        "explanationLine": 330
+        "explanationLine": 330,
+        "pastExamHistoryReference": "exam_history.json:44b6f5ca-a6d8-5d1d-b3b8-103a70583c59"
       },
       "active": true
     },
@@ -6818,7 +7677,8 @@
       "sourceOrder": 74,
       "sourceMetadata": {
         "statementLine": 323,
-        "explanationLine": 331
+        "explanationLine": 331,
+        "pastExamHistoryReference": "exam_history.json:292fa006-11ea-54da-ae1a-0ec4fcf34bbd"
       },
       "active": true
     },
@@ -6849,7 +7709,8 @@
       "sourceOrder": 75,
       "sourceMetadata": {
         "statementLine": 324,
-        "explanationLine": 332
+        "explanationLine": 332,
+        "pastExamHistoryReference": "exam_history.json:66d226b9-475f-5796-af52-299cf017983b"
       },
       "active": true
     },
@@ -6880,7 +7741,8 @@
       "sourceOrder": 76,
       "sourceMetadata": {
         "statementLine": 325,
-        "explanationLine": 333
+        "explanationLine": 333,
+        "pastExamHistoryReference": "exam_history.json:72ffb70d-2949-5a7e-9a3e-5804913772f8"
       },
       "active": true
     },
@@ -6911,7 +7773,8 @@
       "sourceOrder": 77,
       "sourceMetadata": {
         "statementLine": 326,
-        "explanationLine": 334
+        "explanationLine": 334,
+        "pastExamHistoryReference": "exam_history.json:343f338a-0d5b-50f2-9007-d66797b8553b"
       },
       "active": true
     },
@@ -6942,7 +7805,8 @@
       "sourceOrder": 78,
       "sourceMetadata": {
         "statementLine": 341,
-        "explanationLine": 349
+        "explanationLine": 349,
+        "pastExamHistoryReference": "exam_history.json:6c864020-ef2b-5fbe-bb0b-3a7db99cfebb"
       },
       "active": true
     },
@@ -6973,7 +7837,8 @@
       "sourceOrder": 79,
       "sourceMetadata": {
         "statementLine": 342,
-        "explanationLine": 350
+        "explanationLine": 350,
+        "pastExamHistoryReference": "exam_history.json:59a5c6b7-9243-5013-a57f-071d5038bfda"
       },
       "active": true
     },
@@ -7004,7 +7869,8 @@
       "sourceOrder": 80,
       "sourceMetadata": {
         "statementLine": 343,
-        "explanationLine": 351
+        "explanationLine": 351,
+        "pastExamHistoryReference": "exam_history.json:b5f7747a-b468-5283-88da-02c49642780c"
       },
       "active": true
     },
@@ -7035,7 +7901,8 @@
       "sourceOrder": 81,
       "sourceMetadata": {
         "statementLine": 344,
-        "explanationLine": 352
+        "explanationLine": 352,
+        "pastExamHistoryReference": "exam_history.json:124b56c8-bdbf-582e-922c-905eef2e6c3b"
       },
       "active": true
     },
@@ -7066,7 +7933,8 @@
       "sourceOrder": 82,
       "sourceMetadata": {
         "statementLine": 345,
-        "explanationLine": 353
+        "explanationLine": 353,
+        "pastExamHistoryReference": "exam_history.json:5f876a44-ba0b-5a0f-8890-785b204c68b5"
       },
       "active": true
     },
@@ -7097,7 +7965,8 @@
       "sourceOrder": 83,
       "sourceMetadata": {
         "statementLine": 357,
-        "explanationLine": 364
+        "explanationLine": 364,
+        "pastExamHistoryReference": "exam_history.json:675f22e0-58a4-5cd3-a1fc-f39bc504472b"
       },
       "active": true
     },
@@ -7128,7 +7997,8 @@
       "sourceOrder": 84,
       "sourceMetadata": {
         "statementLine": 358,
-        "explanationLine": 365
+        "explanationLine": 365,
+        "pastExamHistoryReference": "exam_history.json:8574d908-15f7-5b8d-bca7-22d2beadaf92"
       },
       "active": true
     },
@@ -7159,7 +8029,8 @@
       "sourceOrder": 85,
       "sourceMetadata": {
         "statementLine": 359,
-        "explanationLine": 366
+        "explanationLine": 366,
+        "pastExamHistoryReference": "exam_history.json:8fd67e43-cf95-5c8d-a398-596e8e47189a"
       },
       "active": true
     },
@@ -7190,7 +8061,8 @@
       "sourceOrder": 86,
       "sourceMetadata": {
         "statementLine": 360,
-        "explanationLine": 367
+        "explanationLine": 367,
+        "pastExamHistoryReference": "exam_history.json:11c0a564-f27a-57ea-b2db-fb7812cae3e4"
       },
       "active": true
     },
@@ -7221,7 +8093,8 @@
       "sourceOrder": 87,
       "sourceMetadata": {
         "statementLine": 361,
-        "explanationLine": 368
+        "explanationLine": 368,
+        "pastExamHistoryReference": "exam_history.json:aa051425-05a8-50f0-9c49-0c54de0f2289"
       },
       "active": true
     },
@@ -7252,7 +8125,8 @@
       "sourceOrder": 88,
       "sourceMetadata": {
         "statementLine": 375,
-        "explanationLine": 383
+        "explanationLine": 383,
+        "pastExamHistoryReference": "exam_history.json:4742d4ed-059d-5cc5-8480-b744989d4edf"
       },
       "active": true
     },
@@ -7283,7 +8157,8 @@
       "sourceOrder": 89,
       "sourceMetadata": {
         "statementLine": 376,
-        "explanationLine": 384
+        "explanationLine": 384,
+        "pastExamHistoryReference": "exam_history.json:3909cff0-5079-557d-8a64-5fe5e1b0456b"
       },
       "active": true
     },
@@ -7314,7 +8189,8 @@
       "sourceOrder": 90,
       "sourceMetadata": {
         "statementLine": 377,
-        "explanationLine": 385
+        "explanationLine": 385,
+        "pastExamHistoryReference": "exam_history.json:4d40180b-9227-508a-9595-2df2f4ed6915"
       },
       "active": true
     },
@@ -7345,7 +8221,8 @@
       "sourceOrder": 91,
       "sourceMetadata": {
         "statementLine": 378,
-        "explanationLine": 386
+        "explanationLine": 386,
+        "pastExamHistoryReference": "exam_history.json:e1d7c8a3-ddac-5ac9-a21f-d9493d75ec9e"
       },
       "active": true
     },
@@ -7376,7 +8253,8 @@
       "sourceOrder": 92,
       "sourceMetadata": {
         "statementLine": 379,
-        "explanationLine": 387
+        "explanationLine": 387,
+        "pastExamHistoryReference": "exam_history.json:3532374d-ef24-5667-ac70-c0c9bb21dadd"
       },
       "active": true
     },
@@ -7407,7 +8285,8 @@
       "sourceOrder": 93,
       "sourceMetadata": {
         "statementLine": 399,
-        "explanationLine": 407
+        "explanationLine": 407,
+        "pastExamHistoryReference": "exam_history.json:fa62d37e-7e71-5a41-a597-3350b3da7fc4"
       },
       "active": true
     },
@@ -7438,7 +8317,8 @@
       "sourceOrder": 94,
       "sourceMetadata": {
         "statementLine": 400,
-        "explanationLine": 408
+        "explanationLine": 408,
+        "pastExamHistoryReference": "exam_history.json:966a3934-c6e3-5432-8ae2-bc459e6fabb0"
       },
       "active": true
     },
@@ -7469,7 +8349,8 @@
       "sourceOrder": 95,
       "sourceMetadata": {
         "statementLine": 401,
-        "explanationLine": 409
+        "explanationLine": 409,
+        "pastExamHistoryReference": "exam_history.json:e251ab69-fd8c-5a85-8409-f38705a2ee2f"
       },
       "active": true
     },
@@ -7500,7 +8381,8 @@
       "sourceOrder": 96,
       "sourceMetadata": {
         "statementLine": 402,
-        "explanationLine": 410
+        "explanationLine": 410,
+        "pastExamHistoryReference": "exam_history.json:897e4efd-6d51-5809-8180-2629a26e8484"
       },
       "active": true
     },
@@ -7531,7 +8413,8 @@
       "sourceOrder": 97,
       "sourceMetadata": {
         "statementLine": 403,
-        "explanationLine": 411
+        "explanationLine": 411,
+        "pastExamHistoryReference": "exam_history.json:d1134a19-747e-5236-95b7-d32e1335c894"
       },
       "active": true
     },
@@ -7562,7 +8445,8 @@
       "sourceOrder": 98,
       "sourceMetadata": {
         "statementLine": 420,
-        "explanationLine": 428
+        "explanationLine": 428,
+        "pastExamHistoryReference": "exam_history.json:f12b6b5c-f728-5069-92ba-53a704dcb45c"
       },
       "active": true
     },
@@ -7593,7 +8477,8 @@
       "sourceOrder": 99,
       "sourceMetadata": {
         "statementLine": 421,
-        "explanationLine": 429
+        "explanationLine": 429,
+        "pastExamHistoryReference": "exam_history.json:b35529be-fb63-570a-ba99-25e151682861"
       },
       "active": true
     },
@@ -7624,7 +8509,8 @@
       "sourceOrder": 100,
       "sourceMetadata": {
         "statementLine": 422,
-        "explanationLine": 430
+        "explanationLine": 430,
+        "pastExamHistoryReference": "exam_history.json:35901c80-c463-54a0-940b-8fe7a910578e"
       },
       "active": true
     },
@@ -7655,7 +8541,8 @@
       "sourceOrder": 101,
       "sourceMetadata": {
         "statementLine": 423,
-        "explanationLine": 431
+        "explanationLine": 431,
+        "pastExamHistoryReference": "exam_history.json:ab4a6e01-06c7-588c-92ac-db887e39d060"
       },
       "active": true
     },
@@ -7686,7 +8573,8 @@
       "sourceOrder": 102,
       "sourceMetadata": {
         "statementLine": 424,
-        "explanationLine": 432
+        "explanationLine": 432,
+        "pastExamHistoryReference": "exam_history.json:a6412388-cfc9-5d33-a406-9bacd9bbb5b8"
       },
       "active": true
     },
@@ -7717,7 +8605,8 @@
       "sourceOrder": 103,
       "sourceMetadata": {
         "statementLine": 436,
-        "explanationLine": 443
+        "explanationLine": 443,
+        "pastExamHistoryReference": "exam_history.json:4196e29e-0b0e-57e9-a109-5e13b9090476"
       },
       "active": true
     },
@@ -7748,7 +8637,8 @@
       "sourceOrder": 104,
       "sourceMetadata": {
         "statementLine": 437,
-        "explanationLine": 444
+        "explanationLine": 444,
+        "pastExamHistoryReference": "exam_history.json:a8a82cd1-6399-50c9-bfb7-4dd14b3ffb80"
       },
       "active": true
     },
@@ -7779,7 +8669,8 @@
       "sourceOrder": 105,
       "sourceMetadata": {
         "statementLine": 438,
-        "explanationLine": 445
+        "explanationLine": 445,
+        "pastExamHistoryReference": "exam_history.json:cd91ac93-dd73-57b6-89a8-1a90f4d64891"
       },
       "active": true
     },
@@ -7810,7 +8701,8 @@
       "sourceOrder": 106,
       "sourceMetadata": {
         "statementLine": 439,
-        "explanationLine": 446
+        "explanationLine": 446,
+        "pastExamHistoryReference": "exam_history.json:5dda3721-5568-5595-a877-8c5f82153fea"
       },
       "active": true
     },
@@ -7841,7 +8733,8 @@
       "sourceOrder": 107,
       "sourceMetadata": {
         "statementLine": 440,
-        "explanationLine": 447
+        "explanationLine": 447,
+        "pastExamHistoryReference": "exam_history.json:30b88358-0e08-5395-89a1-36224f61b4d4"
       },
       "active": true
     },
@@ -7872,7 +8765,8 @@
       "sourceOrder": 108,
       "sourceMetadata": {
         "statementLine": 451,
-        "explanationLine": 457
+        "explanationLine": 457,
+        "pastExamHistoryReference": "exam_history.json:db7d4798-2ddd-5b9a-b5ef-fc9b76c21387"
       },
       "active": true
     },
@@ -7903,7 +8797,8 @@
       "sourceOrder": 109,
       "sourceMetadata": {
         "statementLine": 452,
-        "explanationLine": 458
+        "explanationLine": 458,
+        "pastExamHistoryReference": "exam_history.json:fd452732-1581-5c8e-8275-b3cd1105e8e8"
       },
       "active": true
     },
@@ -7934,7 +8829,8 @@
       "sourceOrder": 110,
       "sourceMetadata": {
         "statementLine": 453,
-        "explanationLine": 459
+        "explanationLine": 459,
+        "pastExamHistoryReference": "exam_history.json:08c26804-003e-576d-8ab4-77d2d6ef4e7f"
       },
       "active": true
     },
@@ -7965,7 +8861,8 @@
       "sourceOrder": 111,
       "sourceMetadata": {
         "statementLine": 454,
-        "explanationLine": 460
+        "explanationLine": 460,
+        "pastExamHistoryReference": "exam_history.json:b8c76359-257f-56a6-87ff-87f602e67759"
       },
       "active": true
     },
@@ -7996,7 +8893,8 @@
       "sourceOrder": 112,
       "sourceMetadata": {
         "statementLine": 469,
-        "explanationLine": 477
+        "explanationLine": 477,
+        "pastExamHistoryReference": "exam_history.json:246c3b4b-a502-5593-9fbd-d2987ce17f18"
       },
       "active": true
     },
@@ -8027,7 +8925,8 @@
       "sourceOrder": 113,
       "sourceMetadata": {
         "statementLine": 470,
-        "explanationLine": 478
+        "explanationLine": 478,
+        "pastExamHistoryReference": "exam_history.json:9eff93bf-1b72-5a57-9ede-d7fda5c2e53d"
       },
       "active": true
     },
@@ -8058,7 +8957,8 @@
       "sourceOrder": 114,
       "sourceMetadata": {
         "statementLine": 471,
-        "explanationLine": 479
+        "explanationLine": 479,
+        "pastExamHistoryReference": "exam_history.json:743d2f5f-c9e5-579e-ac45-d894f8e5f153"
       },
       "active": true
     },
@@ -8089,7 +8989,8 @@
       "sourceOrder": 115,
       "sourceMetadata": {
         "statementLine": 472,
-        "explanationLine": 480
+        "explanationLine": 480,
+        "pastExamHistoryReference": "exam_history.json:b85665c7-1ba3-5088-8a9b-f84e468f4f34"
       },
       "active": true
     },
@@ -8120,7 +9021,8 @@
       "sourceOrder": 116,
       "sourceMetadata": {
         "statementLine": 473,
-        "explanationLine": 481
+        "explanationLine": 481,
+        "pastExamHistoryReference": "exam_history.json:6c1a8f05-0acd-5437-b42b-f1c30c390eb3"
       },
       "active": true
     },
@@ -8151,7 +9053,8 @@
       "sourceOrder": 117,
       "sourceMetadata": {
         "statementLine": 487,
-        "explanationLine": 495
+        "explanationLine": 495,
+        "pastExamHistoryReference": "exam_history.json:fba1c103-5ccb-5230-afa2-1d8c87c226d3"
       },
       "active": true
     },
@@ -8182,7 +9085,8 @@
       "sourceOrder": 118,
       "sourceMetadata": {
         "statementLine": 488,
-        "explanationLine": 496
+        "explanationLine": 496,
+        "pastExamHistoryReference": "exam_history.json:c7032d86-ebb7-5a6a-aabd-e69b63176d4a"
       },
       "active": true
     },
@@ -8213,7 +9117,8 @@
       "sourceOrder": 119,
       "sourceMetadata": {
         "statementLine": 489,
-        "explanationLine": 497
+        "explanationLine": 497,
+        "pastExamHistoryReference": "exam_history.json:3271727e-4d62-5c79-be51-83f907610530"
       },
       "active": true
     },
@@ -8244,7 +9149,8 @@
       "sourceOrder": 120,
       "sourceMetadata": {
         "statementLine": 490,
-        "explanationLine": 498
+        "explanationLine": 498,
+        "pastExamHistoryReference": "exam_history.json:91ea2d90-07de-5fe7-a40e-cb9b3e50cfed"
       },
       "active": true
     },
@@ -8275,7 +9181,8 @@
       "sourceOrder": 121,
       "sourceMetadata": {
         "statementLine": 491,
-        "explanationLine": 499
+        "explanationLine": 499,
+        "pastExamHistoryReference": "exam_history.json:3431fbf6-75dc-566d-8081-42aad2c3579a"
       },
       "active": true
     },
@@ -8306,7 +9213,8 @@
       "sourceOrder": 122,
       "sourceMetadata": {
         "statementLine": 506,
-        "explanationLine": 514
+        "explanationLine": 514,
+        "pastExamHistoryReference": "exam_history.json:878d2f7b-9757-5dd9-bd0a-88fd7e0f4827"
       },
       "active": true
     },
@@ -8337,7 +9245,8 @@
       "sourceOrder": 123,
       "sourceMetadata": {
         "statementLine": 507,
-        "explanationLine": 515
+        "explanationLine": 515,
+        "pastExamHistoryReference": "exam_history.json:d87f21b5-b455-5e3e-8a9d-7a95acf3da00"
       },
       "active": true
     },
@@ -8368,7 +9277,8 @@
       "sourceOrder": 124,
       "sourceMetadata": {
         "statementLine": 508,
-        "explanationLine": 516
+        "explanationLine": 516,
+        "pastExamHistoryReference": "exam_history.json:99eb0af6-d4e0-5137-9f5d-d076ed775b2d"
       },
       "active": true
     },
@@ -8399,7 +9309,8 @@
       "sourceOrder": 125,
       "sourceMetadata": {
         "statementLine": 509,
-        "explanationLine": 517
+        "explanationLine": 517,
+        "pastExamHistoryReference": "exam_history.json:7388be35-0e9c-5fcc-9b30-b6204a4450df"
       },
       "active": true
     },
@@ -8430,7 +9341,8 @@
       "sourceOrder": 126,
       "sourceMetadata": {
         "statementLine": 510,
-        "explanationLine": 518
+        "explanationLine": 518,
+        "pastExamHistoryReference": "exam_history.json:df3c55f6-dc1a-5537-80b9-33bc38edd16c"
       },
       "active": true
     },
@@ -8461,7 +9373,8 @@
       "sourceOrder": 127,
       "sourceMetadata": {
         "statementLine": 536,
-        "explanationLine": 544
+        "explanationLine": 544,
+        "pastExamHistoryReference": "exam_history.json:b0e12595-5b7f-5017-a7b4-bd1625379976"
       },
       "active": true
     },
@@ -8492,7 +9405,8 @@
       "sourceOrder": 128,
       "sourceMetadata": {
         "statementLine": 537,
-        "explanationLine": 545
+        "explanationLine": 545,
+        "pastExamHistoryReference": "exam_history.json:f94e2ea2-78ae-57f4-a7b7-e518bdc22278"
       },
       "active": true
     },
@@ -8523,7 +9437,8 @@
       "sourceOrder": 129,
       "sourceMetadata": {
         "statementLine": 538,
-        "explanationLine": 546
+        "explanationLine": 546,
+        "pastExamHistoryReference": "exam_history.json:bfa03ae7-c54c-5c20-93e3-b82a5d6799de"
       },
       "active": true
     },
@@ -8554,7 +9469,8 @@
       "sourceOrder": 130,
       "sourceMetadata": {
         "statementLine": 539,
-        "explanationLine": 547
+        "explanationLine": 547,
+        "pastExamHistoryReference": "exam_history.json:ed43f113-ff30-585f-a41f-b374af4d49f5"
       },
       "active": true
     },
@@ -8585,7 +9501,8 @@
       "sourceOrder": 131,
       "sourceMetadata": {
         "statementLine": 540,
-        "explanationLine": 548
+        "explanationLine": 548,
+        "pastExamHistoryReference": "exam_history.json:b28a259b-c07f-59aa-a0c5-69dc58873e89"
       },
       "active": true
     },
@@ -8616,7 +9533,8 @@
       "sourceOrder": 132,
       "sourceMetadata": {
         "statementLine": 557,
-        "explanationLine": 565
+        "explanationLine": 565,
+        "pastExamHistoryReference": "exam_history.json:cb395e27-e6b0-56a2-afcf-ea7b6106a01c"
       },
       "active": true
     },
@@ -8647,7 +9565,8 @@
       "sourceOrder": 133,
       "sourceMetadata": {
         "statementLine": 558,
-        "explanationLine": 566
+        "explanationLine": 566,
+        "pastExamHistoryReference": "exam_history.json:32de9804-c2b8-5421-86e3-958f53903c35"
       },
       "active": true
     },
@@ -8678,7 +9597,8 @@
       "sourceOrder": 134,
       "sourceMetadata": {
         "statementLine": 559,
-        "explanationLine": 567
+        "explanationLine": 567,
+        "pastExamHistoryReference": "exam_history.json:affa7d9b-8f20-5be6-991f-302c80e9bda1"
       },
       "active": true
     },
@@ -8709,7 +9629,8 @@
       "sourceOrder": 135,
       "sourceMetadata": {
         "statementLine": 560,
-        "explanationLine": 568
+        "explanationLine": 568,
+        "pastExamHistoryReference": "exam_history.json:b7630fbf-f7a2-5571-92ff-54c8d93b2d3d"
       },
       "active": true
     },
@@ -8740,7 +9661,8 @@
       "sourceOrder": 136,
       "sourceMetadata": {
         "statementLine": 561,
-        "explanationLine": 569
+        "explanationLine": 569,
+        "pastExamHistoryReference": "exam_history.json:5818593c-5068-5888-8176-c0bb59c197e6"
       },
       "active": true
     },
@@ -8771,7 +9693,8 @@
       "sourceOrder": 137,
       "sourceMetadata": {
         "statementLine": 573,
-        "explanationLine": 580
+        "explanationLine": 580,
+        "pastExamHistoryReference": "exam_history.json:2d1edaf4-1f65-5504-8137-502fba032920"
       },
       "active": true
     },
@@ -8802,7 +9725,8 @@
       "sourceOrder": 138,
       "sourceMetadata": {
         "statementLine": 574,
-        "explanationLine": 581
+        "explanationLine": 581,
+        "pastExamHistoryReference": "exam_history.json:0c6cf514-99a0-5b15-914b-1a0a794e4482"
       },
       "active": true
     },
@@ -8833,7 +9757,8 @@
       "sourceOrder": 139,
       "sourceMetadata": {
         "statementLine": 575,
-        "explanationLine": 582
+        "explanationLine": 582,
+        "pastExamHistoryReference": "exam_history.json:41c4f665-fd86-504b-bf86-1ec46284ac7a"
       },
       "active": true
     },
@@ -8864,7 +9789,8 @@
       "sourceOrder": 140,
       "sourceMetadata": {
         "statementLine": 576,
-        "explanationLine": 583
+        "explanationLine": 583,
+        "pastExamHistoryReference": "exam_history.json:b9018d39-8322-586a-a397-8e4c3c97319d"
       },
       "active": true
     },
@@ -8895,7 +9821,8 @@
       "sourceOrder": 141,
       "sourceMetadata": {
         "statementLine": 577,
-        "explanationLine": 584
+        "explanationLine": 584,
+        "pastExamHistoryReference": "exam_history.json:6eda228a-19e6-5473-9880-4e49fad97820"
       },
       "active": true
     },
@@ -8926,7 +9853,8 @@
       "sourceOrder": 142,
       "sourceMetadata": {
         "statementLine": 589,
-        "explanationLine": 597
+        "explanationLine": 597,
+        "pastExamHistoryReference": "exam_history.json:db6c2b9b-dce8-50a9-a753-f7c30a13142e"
       },
       "active": true
     },
@@ -8957,7 +9885,8 @@
       "sourceOrder": 143,
       "sourceMetadata": {
         "statementLine": 590,
-        "explanationLine": 598
+        "explanationLine": 598,
+        "pastExamHistoryReference": "exam_history.json:79562b43-4d44-5e6b-84ff-b4dbc2f819f9"
       },
       "active": true
     },
@@ -8988,7 +9917,8 @@
       "sourceOrder": 144,
       "sourceMetadata": {
         "statementLine": 591,
-        "explanationLine": 599
+        "explanationLine": 599,
+        "pastExamHistoryReference": "exam_history.json:f49a09ff-0926-5549-8628-ff9c5ff81112"
       },
       "active": true
     },
@@ -9019,7 +9949,8 @@
       "sourceOrder": 145,
       "sourceMetadata": {
         "statementLine": 592,
-        "explanationLine": 600
+        "explanationLine": 600,
+        "pastExamHistoryReference": "exam_history.json:b7ebe7a9-6cac-5ffe-8d5e-ba01826effc4"
       },
       "active": true
     },
@@ -9050,7 +9981,8 @@
       "sourceOrder": 146,
       "sourceMetadata": {
         "statementLine": 593,
-        "explanationLine": 601
+        "explanationLine": 601,
+        "pastExamHistoryReference": "exam_history.json:b68b5cf1-c2fa-5dae-90b5-b436e82b5533"
       },
       "active": true
     },
@@ -9081,7 +10013,8 @@
       "sourceOrder": 147,
       "sourceMetadata": {
         "statementLine": 614,
-        "explanationLine": 622
+        "explanationLine": 622,
+        "pastExamHistoryReference": "exam_history.json:435be710-a57c-5e24-8909-2add516b8c13"
       },
       "active": true
     },
@@ -9112,7 +10045,8 @@
       "sourceOrder": 148,
       "sourceMetadata": {
         "statementLine": 615,
-        "explanationLine": 623
+        "explanationLine": 623,
+        "pastExamHistoryReference": "exam_history.json:a117e0f5-fab6-5f57-ad06-c9f01e072e9e"
       },
       "active": true
     },
@@ -9143,7 +10077,8 @@
       "sourceOrder": 149,
       "sourceMetadata": {
         "statementLine": 616,
-        "explanationLine": 624
+        "explanationLine": 624,
+        "pastExamHistoryReference": "exam_history.json:1db9cc09-2006-5512-8557-8c654f6a55df"
       },
       "active": true
     },
@@ -9174,7 +10109,8 @@
       "sourceOrder": 150,
       "sourceMetadata": {
         "statementLine": 617,
-        "explanationLine": 625
+        "explanationLine": 625,
+        "pastExamHistoryReference": "exam_history.json:03c59524-bfc8-5e41-a7e2-badf5fca7949"
       },
       "active": true
     },
@@ -9205,7 +10141,8 @@
       "sourceOrder": 151,
       "sourceMetadata": {
         "statementLine": 618,
-        "explanationLine": 626
+        "explanationLine": 626,
+        "pastExamHistoryReference": "exam_history.json:238eed94-d8e8-5f79-821a-91b00b7672b6"
       },
       "active": true
     },
@@ -9236,7 +10173,8 @@
       "sourceOrder": 152,
       "sourceMetadata": {
         "statementLine": 630,
-        "explanationLine": 637
+        "explanationLine": 637,
+        "pastExamHistoryReference": "exam_history.json:3d01840d-25b6-5c0f-aa36-dab4fdfab232"
       },
       "active": true
     },
@@ -9267,7 +10205,8 @@
       "sourceOrder": 153,
       "sourceMetadata": {
         "statementLine": 631,
-        "explanationLine": 638
+        "explanationLine": 638,
+        "pastExamHistoryReference": "exam_history.json:a83d1de8-5cee-5f21-8c3a-c707ad0df32d"
       },
       "active": true
     },
@@ -9298,7 +10237,8 @@
       "sourceOrder": 154,
       "sourceMetadata": {
         "statementLine": 632,
-        "explanationLine": 639
+        "explanationLine": 639,
+        "pastExamHistoryReference": "exam_history.json:845cd16a-a36f-5aed-8e99-75b86d02558a"
       },
       "active": true
     },
@@ -9329,7 +10269,8 @@
       "sourceOrder": 155,
       "sourceMetadata": {
         "statementLine": 633,
-        "explanationLine": 640
+        "explanationLine": 640,
+        "pastExamHistoryReference": "exam_history.json:57cfc840-df18-596f-aa14-6728d0a65c60"
       },
       "active": true
     },
@@ -9360,7 +10301,8 @@
       "sourceOrder": 156,
       "sourceMetadata": {
         "statementLine": 634,
-        "explanationLine": 641
+        "explanationLine": 641,
+        "pastExamHistoryReference": "exam_history.json:fda3a194-488c-5a8e-96b7-986ac2bb5d77"
       },
       "active": true
     },
@@ -9391,7 +10333,8 @@
       "sourceOrder": 157,
       "sourceMetadata": {
         "statementLine": 646,
-        "explanationLine": 654
+        "explanationLine": 654,
+        "pastExamHistoryReference": "exam_history.json:7b3864e9-10f9-5b31-b346-c291c95ae718"
       },
       "active": true
     },
@@ -9422,7 +10365,8 @@
       "sourceOrder": 158,
       "sourceMetadata": {
         "statementLine": 647,
-        "explanationLine": 655
+        "explanationLine": 655,
+        "pastExamHistoryReference": "exam_history.json:225303e6-b11f-5fcb-872b-cc014507ac01"
       },
       "active": true
     },
@@ -9453,7 +10397,8 @@
       "sourceOrder": 159,
       "sourceMetadata": {
         "statementLine": 648,
-        "explanationLine": 656
+        "explanationLine": 656,
+        "pastExamHistoryReference": "exam_history.json:8e70a90b-fe87-528a-8067-a7ba854f30fb"
       },
       "active": true
     },
@@ -9484,7 +10429,8 @@
       "sourceOrder": 160,
       "sourceMetadata": {
         "statementLine": 649,
-        "explanationLine": 657
+        "explanationLine": 657,
+        "pastExamHistoryReference": "exam_history.json:4b43ee73-02fe-5820-98b8-fab4509e6f35"
       },
       "active": true
     },
@@ -9515,7 +10461,8 @@
       "sourceOrder": 161,
       "sourceMetadata": {
         "statementLine": 650,
-        "explanationLine": 658
+        "explanationLine": 658,
+        "pastExamHistoryReference": "exam_history.json:2520a101-71fd-5a1e-9cae-f99224f8fcef"
       },
       "active": true
     },
@@ -9546,7 +10493,8 @@
       "sourceOrder": 162,
       "sourceMetadata": {
         "statementLine": 663,
-        "explanationLine": 671
+        "explanationLine": 671,
+        "pastExamHistoryReference": "exam_history.json:e42d664a-fef8-5cca-9c6a-b56d394eaf23"
       },
       "active": true
     },
@@ -9577,7 +10525,8 @@
       "sourceOrder": 163,
       "sourceMetadata": {
         "statementLine": 664,
-        "explanationLine": 672
+        "explanationLine": 672,
+        "pastExamHistoryReference": "exam_history.json:d7f00fc3-5d5b-56af-9edc-6735c9260c7f"
       },
       "active": true
     },
@@ -9608,7 +10557,8 @@
       "sourceOrder": 164,
       "sourceMetadata": {
         "statementLine": 665,
-        "explanationLine": 673
+        "explanationLine": 673,
+        "pastExamHistoryReference": "exam_history.json:e5c95974-50e2-51ba-b973-1e1ce033bdf6"
       },
       "active": true
     },
@@ -9639,7 +10589,8 @@
       "sourceOrder": 165,
       "sourceMetadata": {
         "statementLine": 666,
-        "explanationLine": 674
+        "explanationLine": 674,
+        "pastExamHistoryReference": "exam_history.json:e84d171f-a588-5c8f-b3ae-c753a1a83023"
       },
       "active": true
     },
@@ -9670,7 +10621,8 @@
       "sourceOrder": 166,
       "sourceMetadata": {
         "statementLine": 667,
-        "explanationLine": 675
+        "explanationLine": 675,
+        "pastExamHistoryReference": "exam_history.json:dc7f1a15-6d89-505b-9c07-709be4bd49e8"
       },
       "active": true
     },
@@ -9701,7 +10653,8 @@
       "sourceOrder": 167,
       "sourceMetadata": {
         "statementLine": 682,
-        "explanationLine": 690
+        "explanationLine": 690,
+        "pastExamHistoryReference": "exam_history.json:7647a35c-a9bc-5754-880f-76370c3389d9"
       },
       "active": true
     },
@@ -9732,7 +10685,8 @@
       "sourceOrder": 168,
       "sourceMetadata": {
         "statementLine": 683,
-        "explanationLine": 691
+        "explanationLine": 691,
+        "pastExamHistoryReference": "exam_history.json:cc1eb444-8640-54bf-9071-2d1428437702"
       },
       "active": true
     },
@@ -9763,7 +10717,8 @@
       "sourceOrder": 169,
       "sourceMetadata": {
         "statementLine": 684,
-        "explanationLine": 692
+        "explanationLine": 692,
+        "pastExamHistoryReference": "exam_history.json:2097441c-1eea-5bbc-8975-5d066ad8882a"
       },
       "active": true
     },
@@ -9794,7 +10749,8 @@
       "sourceOrder": 170,
       "sourceMetadata": {
         "statementLine": 685,
-        "explanationLine": 693
+        "explanationLine": 693,
+        "pastExamHistoryReference": "exam_history.json:1c308bae-c29e-5dc4-bfc2-176a7068c741"
       },
       "active": true
     },
@@ -9825,7 +10781,8 @@
       "sourceOrder": 171,
       "sourceMetadata": {
         "statementLine": 686,
-        "explanationLine": 694
+        "explanationLine": 694,
+        "pastExamHistoryReference": "exam_history.json:e3f336ee-e321-5a46-940b-44d5ecb51c58"
       },
       "active": true
     },
@@ -9856,7 +10813,8 @@
       "sourceOrder": 172,
       "sourceMetadata": {
         "statementLine": 698,
-        "explanationLine": 705
+        "explanationLine": 705,
+        "pastExamHistoryReference": "exam_history.json:f67778eb-a3be-5050-9337-4c843cdd0510"
       },
       "active": true
     },
@@ -9887,7 +10845,8 @@
       "sourceOrder": 173,
       "sourceMetadata": {
         "statementLine": 699,
-        "explanationLine": 706
+        "explanationLine": 706,
+        "pastExamHistoryReference": "exam_history.json:6923272b-2cd1-5603-8981-b50752a40b6f"
       },
       "active": true
     },
@@ -9918,7 +10877,8 @@
       "sourceOrder": 174,
       "sourceMetadata": {
         "statementLine": 700,
-        "explanationLine": 707
+        "explanationLine": 707,
+        "pastExamHistoryReference": "exam_history.json:1c495eeb-a6d4-5a62-8231-89a0aa09fbc4"
       },
       "active": true
     },
@@ -9949,7 +10909,8 @@
       "sourceOrder": 175,
       "sourceMetadata": {
         "statementLine": 701,
-        "explanationLine": 708
+        "explanationLine": 708,
+        "pastExamHistoryReference": "exam_history.json:5e8c23a6-699a-5492-b128-69d0a28244ff"
       },
       "active": true
     },
@@ -9980,7 +10941,8 @@
       "sourceOrder": 176,
       "sourceMetadata": {
         "statementLine": 702,
-        "explanationLine": 709
+        "explanationLine": 709,
+        "pastExamHistoryReference": "exam_history.json:d701a4e6-f8ac-5e60-83fc-92be14bd08f5"
       },
       "active": true
     },
@@ -10011,7 +10973,8 @@
       "sourceOrder": 177,
       "sourceMetadata": {
         "statementLine": 716,
-        "explanationLine": 724
+        "explanationLine": 724,
+        "pastExamHistoryReference": "exam_history.json:ed8d3e88-80d1-5e9d-9bf4-1f441fd4b5b7"
       },
       "active": true
     },
@@ -10042,7 +11005,8 @@
       "sourceOrder": 178,
       "sourceMetadata": {
         "statementLine": 717,
-        "explanationLine": 725
+        "explanationLine": 725,
+        "pastExamHistoryReference": "exam_history.json:b883048e-5202-5451-8cec-dd8901354aed"
       },
       "active": true
     },
@@ -10073,7 +11037,8 @@
       "sourceOrder": 179,
       "sourceMetadata": {
         "statementLine": 718,
-        "explanationLine": 726
+        "explanationLine": 726,
+        "pastExamHistoryReference": "exam_history.json:0dcdad78-c3c5-5c59-8257-db938d0dc33f"
       },
       "active": true
     },
@@ -10104,7 +11069,8 @@
       "sourceOrder": 180,
       "sourceMetadata": {
         "statementLine": 719,
-        "explanationLine": 727
+        "explanationLine": 727,
+        "pastExamHistoryReference": "exam_history.json:bb09e581-97f5-5785-9ca9-f3ee0622576c"
       },
       "active": true
     },
@@ -10135,7 +11101,8 @@
       "sourceOrder": 181,
       "sourceMetadata": {
         "statementLine": 720,
-        "explanationLine": 728
+        "explanationLine": 728,
+        "pastExamHistoryReference": "exam_history.json:05f381d7-4248-5f0d-b8d9-10ffd79fa5f7"
       },
       "active": true
     },
@@ -10166,7 +11133,8 @@
       "sourceOrder": 182,
       "sourceMetadata": {
         "statementLine": 737,
-        "explanationLine": 745
+        "explanationLine": 745,
+        "pastExamHistoryReference": "exam_history.json:99ccb8cc-5e2e-5dee-b802-836a46b86a83"
       },
       "active": true
     },
@@ -10197,7 +11165,8 @@
       "sourceOrder": 183,
       "sourceMetadata": {
         "statementLine": 738,
-        "explanationLine": 746
+        "explanationLine": 746,
+        "pastExamHistoryReference": "exam_history.json:6764085d-a126-5efa-a654-b43b3822dcc4"
       },
       "active": true
     },
@@ -10228,7 +11197,8 @@
       "sourceOrder": 184,
       "sourceMetadata": {
         "statementLine": 739,
-        "explanationLine": 747
+        "explanationLine": 747,
+        "pastExamHistoryReference": "exam_history.json:2b235852-e407-5e01-b930-8b92b17430ea"
       },
       "active": true
     },
@@ -10259,7 +11229,8 @@
       "sourceOrder": 185,
       "sourceMetadata": {
         "statementLine": 740,
-        "explanationLine": 748
+        "explanationLine": 748,
+        "pastExamHistoryReference": "exam_history.json:4133e3c8-2619-5c77-887c-ace0cdf08407"
       },
       "active": true
     },
@@ -10290,7 +11261,8 @@
       "sourceOrder": 186,
       "sourceMetadata": {
         "statementLine": 741,
-        "explanationLine": 749
+        "explanationLine": 749,
+        "pastExamHistoryReference": "exam_history.json:36d4dcc7-b0c2-5376-824b-d4b1bdf9ebc7"
       },
       "active": true
     },
@@ -10321,7 +11293,8 @@
       "sourceOrder": 187,
       "sourceMetadata": {
         "statementLine": 753,
-        "explanationLine": 760
+        "explanationLine": 760,
+        "pastExamHistoryReference": "exam_history.json:614256f3-8e77-533d-a5b1-aba42a3ff0cd"
       },
       "active": true
     },
@@ -10352,7 +11325,8 @@
       "sourceOrder": 188,
       "sourceMetadata": {
         "statementLine": 754,
-        "explanationLine": 761
+        "explanationLine": 761,
+        "pastExamHistoryReference": "exam_history.json:f1daf887-0fec-5cad-ab46-526b4d30e533"
       },
       "active": true
     },
@@ -10383,7 +11357,8 @@
       "sourceOrder": 189,
       "sourceMetadata": {
         "statementLine": 755,
-        "explanationLine": 762
+        "explanationLine": 762,
+        "pastExamHistoryReference": "exam_history.json:e0438ece-5a1a-52ae-af0d-33f4780fad47"
       },
       "active": true
     },
@@ -10414,7 +11389,8 @@
       "sourceOrder": 190,
       "sourceMetadata": {
         "statementLine": 756,
-        "explanationLine": 763
+        "explanationLine": 763,
+        "pastExamHistoryReference": "exam_history.json:fe6e7e44-334a-5a53-a7cb-671e0c0d9739"
       },
       "active": true
     },
@@ -10445,7 +11421,8 @@
       "sourceOrder": 191,
       "sourceMetadata": {
         "statementLine": 757,
-        "explanationLine": 764
+        "explanationLine": 764,
+        "pastExamHistoryReference": "exam_history.json:3c9046db-f18e-54cf-93f8-2d10fdfc75e4"
       },
       "active": true
     },
@@ -10475,7 +11452,8 @@
       "sourceHeading": "応用問題｜札幌市実過去問肢　停職中の取扱い",
       "sourceOrder": 192,
       "sourceMetadata": {
-        "statementLine": 524
+        "statementLine": 524,
+        "pastExamHistoryReference": "exam_history.json:b07f92ec-73dc-53df-b3ab-f002c1e8834d"
       },
       "active": true
     },

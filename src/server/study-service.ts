@@ -1,3 +1,5 @@
+import { examHistoryFor } from "@/lib/exam-history";
+import { STUDY_ITEM_COUNT } from "@/lib/study-master";
 import { Prisma, StudyMode } from "@prisma/client";
 import { prisma } from "./db";
 import { ApiError } from "./errors";
@@ -74,7 +76,7 @@ export async function getNextItem(userId:string,id:string){
   return {sessionId:id,progress:{answered,total},completed:false as const,item:{id:row.studyItem.id,subject:row.studyItem.subject,statementText:revisedStudyItem(row.studyItem).statementText,context:studyContextFor(row.studyItem.id)}};
 }
 
-export async function getSessionItems(userId:string,id:string,offset=0,limit=593){
+export async function getSessionItems(userId:string,id:string,offset=0,limit=STUDY_ITEM_COUNT){
   const session=await prisma.studySession.findFirst({
     where:{id,userId},
     select:{
@@ -172,10 +174,10 @@ export async function dashboard(userId:string){
   const [subjects,totalAttempts,studiedItems,masteredItems,relearningItems,openSessions,due]=await Promise.all([
     prisma.subject.findMany({orderBy:{sortOrder:"asc"},include:{_count:{select:{items:true}}}}),prisma.answerAttempt.count({where:{userId}}),prisma.studyItemProgress.count({where:{userId}}),prisma.studyItemProgress.count({where:{userId,masteryStatus:"MASTERED"}}),prisma.studyItemProgress.count({where:{userId,masteryStatus:"RELEARNING"}}),prisma.studySession.findMany({where:{userId,endedAt:null},orderBy:{startedAt:"desc"},include:{_count:{select:{items:true,attempts:true}}}}),prisma.studyItemProgress.count({where:{userId,nextReviewAt:{lte:now},studyItem:eligibleWhere(settings.includeSourceUncertain)}})
   ]);
-  return {exam:{date:settings.examDate?.toISOString().slice(0,10)??null,daysRemaining:settings.examDate?Math.ceil((settings.examDate.getTime()-now.getTime())/86400000):null},today:{due,new:settings.newItemsPerDay},stats:{totalAttempts,studiedItems,unstudiedItems:593-studiedItems,masteredItems,relearningItems},subjects:subjects.map(s=>({slug:s.slug,name:s.name,count:s._count.items})),openSessions:openSessions.filter(s=>s._count.attempts<s._count.items).map(s=>({id:s.id,mode:s.mode,answered:s._count.attempts,total:s._count.items}))};
+  return {exam:{date:settings.examDate?.toISOString().slice(0,10)??null,daysRemaining:settings.examDate?Math.ceil((settings.examDate.getTime()-now.getTime())/86400000):null},today:{due,new:settings.newItemsPerDay},stats:{totalAttempts,studiedItems,unstudiedItems:subjects.reduce((sum,s)=>sum+s._count.items,0)-studiedItems,masteredItems,relearningItems},subjects:subjects.map(s=>({slug:s.slug,name:s.name,count:s._count.items})),openSessions:openSessions.filter(s=>s._count.attempts<s._count.items).map(s=>({id:s.id,mode:s.mode,answered:s._count.attempts,total:s._count.items}))};
 }
 
 export async function answerLog(userId:string){
   const rows=await prisma.answerAttempt.findMany({where:{userId},orderBy:[{answeredAt:"asc"},{id:"asc"}],select:{id:true,answeredAt:true,sessionId:true,selectedJudgment:true,isCorrect:true,wasUnsure:true,responseMs:true,studyItem:{select:{id:true,sourceItemKey:true,statementText:true,correctJudgment:true,explanation:true,sourceReference:true,subject:{select:{name:true,slug:true}}}}}});
-  return {format:"examapp-answer-log-v1",exportedAt:new Date().toISOString(),count:rows.length,attempts:rows.map(a=>({attemptId:a.id,answeredAt:a.answeredAt.toISOString(),sessionId:a.sessionId,subject:a.studyItem.subject.name,subjectSlug:a.studyItem.subject.slug,sourceItemKey:a.studyItem.sourceItemKey,question:revisedStudyItem(a.studyItem).statementText,questionContext:studyContextFor(a.studyItem.id)?.questionContext??null,referenceDateLabel:studyContextFor(a.studyItem.id)?.referenceDateLabel??null,answer:a.selectedJudgment,correctAnswer:a.studyItem.correctJudgment,isCorrect:a.isCorrect,wasUnsure:a.wasUnsure,responseMs:a.responseMs,explanation:revisedStudyItem(a.studyItem).explanation,sourceReference:a.studyItem.sourceReference}))};
+  return {format:"examapp-answer-log-v1",exportedAt:new Date().toISOString(),count:rows.length,attempts:rows.map(a=>({attemptId:a.id,answeredAt:a.answeredAt.toISOString(),sessionId:a.sessionId,subject:a.studyItem.subject.name,subjectSlug:a.studyItem.subject.slug,sourceItemKey:a.studyItem.sourceItemKey,question:revisedStudyItem(a.studyItem).statementText,questionContext:studyContextFor(a.studyItem.id)?.questionContext??null,referenceDateLabel:studyContextFor(a.studyItem.id)?.referenceDateLabel??null,examHistory:examHistoryFor(a.studyItem.id),answer:a.selectedJudgment,correctAnswer:a.studyItem.correctJudgment,isCorrect:a.isCorrect,wasUnsure:a.wasUnsure,responseMs:a.responseMs,explanation:revisedStudyItem(a.studyItem).explanation,sourceReference:a.studyItem.sourceReference}))};
 }

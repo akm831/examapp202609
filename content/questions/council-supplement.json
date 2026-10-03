@@ -1,0 +1,265 @@
+[
+  {
+    "number": 1,
+    "topic": "議長・副議長",
+    "statement": "議長は、議会の同意を得て、議員の中から副議長を選任する。",
+    "correctJudgment": false,
+    "explanation": "議長・副議長とも、議会が議員の中から選挙します。",
+    "articles": [
+      "103"
+    ],
+    "pastExamRows": [
+      70
+    ]
+  },
+  {
+    "number": 2,
+    "topic": "議長・副議長",
+    "statement": "議長に事故があるとき、又は議長が欠けたときは、副議長が議長の職務を行う。",
+    "correctJudgment": true,
+    "explanation": "副議長が議長の職務を代行します。",
+    "articles": [
+      "106"
+    ],
+    "pastExamRows": [
+      73
+    ]
+  },
+  {
+    "number": 3,
+    "topic": "議長・副議長",
+    "statement": "議長は、委員会に出席することはできるが、発言することはできない。",
+    "correctJudgment": false,
+    "explanation": "議長は委員会に出席し、発言することができます。",
+    "articles": [
+      "105"
+    ],
+    "pastExamRows": [
+      71,
+      72
+    ]
+  },
+  {
+    "number": 4,
+    "topic": "議長・副議長",
+    "statement": "議長及び副議長の任期は、議員の任期による。",
+    "correctJudgment": true,
+    "explanation": "議長・副議長の任期は議員の任期によります。過去問DBにはこの任期自体を問う肢を確認できていないため、出題実績は未確認とします。",
+    "articles": [
+      "103"
+    ],
+    "pastExamRows": []
+  },
+  {
+    "number": 5,
+    "topic": "公聴会・参考人",
+    "statement": "議会は、予算その他重要な議案、請願等について公聴会を開き、利害関係を有する者や学識経験を有する者等から意見を聴くことができる。",
+    "correctJudgment": true,
+    "explanation": "真に利害関係を有する者又は学識経験を有する者等から意見を聴くことができます。",
+    "articles": [
+      "115の2"
+    ],
+    "pastExamRows": [
+      116
+    ]
+  },
+  {
+    "number": 6,
+    "topic": "公聴会・参考人",
+    "statement": "公聴会を開くことができるのは議会の本会議に限られ、委員会では開くことができない。",
+    "correctJudgment": false,
+    "explanation": "公聴会に関する規定は委員会にも準用されます。",
+    "articles": [
+      "109",
+      "115の2"
+    ],
+    "pastExamRows": [
+      116,
+      117,
+      119
+    ]
+  },
+  {
+    "number": 7,
+    "topic": "公聴会・参考人",
+    "statement": "議会は、その地方公共団体の事務に関する調査又は審査のため必要があると認めるときは、参考人の出頭を求め、その意見を聴くことができる。",
+    "correctJudgment": true,
+    "explanation": "調査・審査のために参考人から意見を聴く制度があります。",
+    "articles": [
+      "115の2"
+    ],
+    "pastExamRows": [
+      115,
+      118
+    ]
+  },
+  {
+    "number": 8,
+    "topic": "公聴会・参考人",
+    "statement": "議会が出頭を求める参考人は、その地方公共団体の住民に限られる。",
+    "correctJudgment": false,
+    "explanation": "参考人について、住民であることを条件としていません。この居住要件自体を問う過去問肢はDBで確認できていません。",
+    "articles": [
+      "115の2"
+    ],
+    "pastExamRows": []
+  },
+  {
+    "number": 9,
+    "topic": "議員の議案提出",
+    "statement": "議員は、議員定数の12分の1以上の者の賛成があれば、予算を議会に提出することができる。",
+    "correctJudgment": false,
+    "explanation": "議員の議案提出権から予算は除かれます。",
+    "articles": [
+      "112"
+    ],
+    "pastExamRows": [
+      107,
+      109
+    ]
+  },
+  {
+    "number": 10,
+    "topic": "議員の議案提出",
+    "statement": "議員が条例案を提出する場合、予算を伴わない条例案であれば、他の議員の賛成は必要ない。",
+    "correctJudgment": false,
+    "explanation": "予算を伴うか否かにかかわらず、所定の賛成を要します。",
+    "articles": [
+      "112"
+    ],
+    "pastExamRows": [
+      104
+    ]
+  },
+  {
+    "number": 11,
+    "topic": "議員の議案提出",
+    "statement": "議員が地方自治法第112条に基づいて議案を提出するには、議員定数の12分の1以上の者の賛成が必要である。",
+    "correctJudgment": true,
+    "explanation": "出席議員数ではなく議員定数を基準とします。",
+    "articles": [
+      "112"
+    ],
+    "pastExamRows": [
+      104,
+      105,
+      107,
+      139
+    ]
+  },
+  {
+    "number": 12,
+    "topic": "議員の議案提出",
+    "statement": "議員が地方自治法第112条に基づいて議案を提出するときは、文書によらなければならない。",
+    "correctJudgment": true,
+    "explanation": "議案提出は文書によらなければなりません。この提出方式自体を問う過去問肢はDBで確認できていません。",
+    "articles": [
+      "112"
+    ],
+    "pastExamRows": []
+  },
+  {
+    "number": 13,
+    "topic": "招集・会期",
+    "statement": "議員定数の4分の1以上の者は、会議に付議すべき事件を示して、長に臨時会の招集を請求することができる。",
+    "correctJudgment": true,
+    "explanation": "請求先は長です。",
+    "articles": [
+      "101"
+    ],
+    "pastExamRows": [
+      61,
+      63,
+      139
+    ]
+  },
+  {
+    "number": 14,
+    "topic": "招集・会期",
+    "statement": "議員による適法な臨時会の招集請求があったとき、長は、請求の日から10日以内に臨時会を招集しなければならない。",
+    "correctJudgment": false,
+    "explanation": "長が招集すべき期限は20日以内です。この期限自体を問う過去問肢はDBで確認できていません。",
+    "articles": [
+      "101"
+    ],
+    "pastExamRows": []
+  },
+  {
+    "number": 15,
+    "topic": "招集・会期",
+    "statement": "議会の招集は長の権限であるため、長が臨時会の招集請求に応じない場合でも、議長が招集することは一切できない。",
+    "correctJudgment": false,
+    "explanation": "長が所定の期限内に招集しない場合には、議長による招集の制度があります。DBの古い招集問題と同一論点としては数えません。",
+    "articles": [
+      "101"
+    ],
+    "pastExamRows": []
+  },
+  {
+    "number": 16,
+    "topic": "招集・会期",
+    "statement": "議会の会期及びその延長並びに開閉に関する事項は、議会が定める。",
+    "correctJudgment": true,
+    "explanation": "長が招集することと、議会が会期等を定めることを区別します。",
+    "articles": [
+      "102"
+    ],
+    "pastExamRows": [
+      66
+    ]
+  },
+  {
+    "number": 17,
+    "topic": "議決事件・予算修正・通常議決",
+    "statement": "議会は、長の予算提出権を侵さない限り、予算を増額して議決することができる。",
+    "correctJudgment": true,
+    "explanation": "増額修正が一律に禁止されているわけではありません。",
+    "articles": [
+      "97"
+    ],
+    "pastExamRows": [
+      149,
+      150
+    ]
+  },
+  {
+    "number": 18,
+    "topic": "議決事件・予算修正・通常議決",
+    "statement": "議会の議決すべき事件は法律で列挙されたものに限られ、条例で追加することはできない。",
+    "correctJudgment": false,
+    "explanation": "法定の除外事項を除き、条例で議決事件を追加できます。",
+    "articles": [
+      "96"
+    ],
+    "pastExamRows": [
+      147,
+      148
+    ]
+  },
+  {
+    "number": 19,
+    "topic": "議決事件・予算修正・通常議決",
+    "statement": "普通地方公共団体が負担付きの寄附又は贈与を受けることは、議会の議決を必要としない。",
+    "correctJudgment": false,
+    "explanation": "負担付きの寄附・贈与の受入れは議決事件です。DBでは負担付き寄附の意味を問う肢がありますが、議決の要否と同一論点としては数えません。",
+    "articles": [
+      "96"
+    ],
+    "pastExamRows": []
+  },
+  {
+    "number": 20,
+    "topic": "議決事件・予算修正・通常議決",
+    "statement": "法律に特別の定めがある場合を除き、議会の議事は出席議員の過半数で決し、可否同数のときは議長が決する。",
+    "correctJudgment": true,
+    "explanation": "通常の議決と、特別多数を必要とする議決を区別します。",
+    "articles": [
+      "116"
+    ],
+    "pastExamRows": [
+      121,
+      122,
+      123
+    ]
+  }
+]

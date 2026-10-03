@@ -12,6 +12,7 @@ from collections import Counter
 from pathlib import Path
 from study_context import enrich_context
 from shisei_rewrites import apply_shisei_rewrites
+from exam_history import add_council_questions, apply_exam_history
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "sources"
@@ -31,7 +32,7 @@ SUBJECTS = {
     "shisei": "市政知識", "labor-standards-law": "労働基準法",
     "municipal-regulations": "市例規", "domestic-affairs": "国内情勢",
 }
-EXPECTED = {"local-government-law": 146, "local-public-service-law": 192, "shisei": 110,
+EXPECTED = {"local-government-law": 166, "local-public-service-law": 192, "shisei": 110,
             "labor-standards-law": 20, "municipal-regulations": 100, "domestic-affairs": 25}
 
 
@@ -252,8 +253,13 @@ def main():
                             frozenset({2,3,7,8,10,11,12,14,15,18}), frozenset({6,8,12}))
     items += choice_subject("domestic-affairs", r"問(\d+)")
     apply_statuses(items)
+    add_council_questions(items, base_item)
     contexts = enrich_context(items, lines)
     rewrites = apply_shisei_rewrites(items, contexts)
+    apply_exam_history(items)
+    for item in items:
+        if item["questionGroup"] == "議会補完2026":
+            contexts[item["id"]] = {"questionContext":"普通地方公共団体の" + item["sourceHeading"] + "について、次の記述の正誤を判断してください。", "originLabel":"補完問題・過去問論点参考", "referenceDateLabel":"条文確認：2026-10-03", "judgmentAsOf":"2026-10-03", "sourceDocument":item["sourceDocument"], "sourceHeading":item["sourceHeading"]}
     order = Counter()
     for it in items:
         order[it["subject"]] += 1; it["sourceOrder"] = order[it["subject"]]
@@ -262,7 +268,7 @@ def main():
     (OUT / 'shisei_rewrites.json').write_text(json.dumps(rewrites, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     (OUT / "study_contexts.json").write_text(json.dumps(contexts, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (OUT / "study_items.json").write_text(json.dumps({
-        "schemaVersion": "1.0.0", "generatedFrom": "six read-only project source documents",
+        "schemaVersion": "1.0.0", "generatedFrom": "six read-only project source documents and reviewed council supplement",
         "itemCount": len(items), "items": items}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     counts = Counter(it["subject"] for it in items); statuses = Counter(it["verificationStatus"] for it in items)
     duplicates = len(items) - len({normalized(it["statement"]) for it in items})
@@ -274,10 +280,11 @@ def main():
               "normalizedStatementDuplicates": duplicates,
               "sourceItemKeyUnique": len({it["sourceItemKey"] for it in items}) == len(items)}
     (OUT / "extraction_report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (OUT / "study_master_meta.json").write_text(json.dumps({"itemCount":len(items),"bySubject":counts},ensure_ascii=False,indent=2)+"\n")
     print(json.dumps(report, ensure_ascii=False, indent=2))
-    assert len(items) == 593, len(items)
+    assert len(items) == 613, len(items)
     assert counts == Counter({SUBJECTS[k]: v for k,v in EXPECTED.items()}), counts
-    assert statuses == Counter({"CONFIRMED":565,"JUDGMENT_CONFIRMED_REASON_UNVERIFIED":10,"PAST_EXAM_ONLY":12,"SOURCE_UNCERTAIN":6}), statuses
+    assert statuses == Counter({"CONFIRMED":585,"JUDGMENT_CONFIRMED_REASON_UNVERIFIED":10,"PAST_EXAM_ONLY":12,"SOURCE_UNCERTAIN":6}), statuses
     assert report["sourceItemKeyUnique"] and duplicates == 0
     assert report["amendmentItems"] == 15 and report["timeSensitiveItems"] == 2
     assert sum(it["explanationType"] == "GROUP_SHARED" for it in items) == 50
