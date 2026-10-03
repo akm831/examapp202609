@@ -17,7 +17,7 @@ const SUBJECTS = [
 function slugFor(key: string) { return key.split(":", 1)[0]; }
 
 async function main() {
-  if (payload.schemaVersion !== "1.0.0" || payload.itemCount !== 593 || payload.items.length !== 593) throw new Error("Unsupported or incomplete study master");
+  if (payload.schemaVersion !== "1.0.0" || payload.itemCount !== payload.items.length || new Set(payload.items.map(i=>i.id)).size !== payload.itemCount) throw new Error("Unsupported or incomplete study master");
   const subjectIds = new Map<string, string>();
   for (const [slug, name, sortOrder] of SUBJECTS) {
     const subject = await prisma.subject.upsert({ where: { slug }, create: { slug, name, sortOrder }, update: { name, sortOrder } });
@@ -40,6 +40,6 @@ async function main() {
     };
     await prisma.studyItem.upsert({ where: { sourceItemKey: item.sourceItemKey }, create: { id: item.id, sourceItemKey: item.sourceItemKey, ...data }, update: data });
   }
-  console.log("Seed complete: 593 StudyItems");
+  console.log(`Seed complete: ${payload.itemCount} StudyItems`);
 }
 main().catch((error) => { console.error(error); process.exitCode = 1; }).finally(() => prisma.$disconnect());

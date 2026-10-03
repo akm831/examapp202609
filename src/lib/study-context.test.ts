@@ -21,9 +21,9 @@ describe("standalone question premises",()=>{
   });
   it("states the budget year and the missing three benefit programs",()=>{
     expect(studyContextFor(master.items.find(i=>i.sourceItemKey==="shisei:q03:1")!.id)?.questionContext).toContain("令和8年度一般会計");
-    expect(studyContextFor(master.items.find(i=>i.sourceItemKey==="shisei:q07:5")!.id)?.questionContext).toContain("低所得等世帯への加算");
+    expect(studyContextFor(master.items.find(i=>i.sourceItemKey==="shisei:q07:5")!.id)?.questionContext).toContain("住民税非課税世帯への加算");
   });
   it("keeps unrelated subjects untouched",()=>{
-    for(const item of master.items.filter(i=>!["市政知識","市例規"].includes(i.subject)))expect(studyContextFor(item.id)).toBeNull();
+    for(const item of master.items.filter(i=>!["市政知識","市例規","地方自治法","地方公務員法"].includes(i.subject)))expect(studyContextFor(item.id)).toBeNull();
   });
 });

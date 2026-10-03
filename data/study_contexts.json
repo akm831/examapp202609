@@ -1678,5 +1678,165 @@
     "judgmentAsOf": null,
     "sourceDocument": "municipal_regulations_integrated_review_text(1).md",
     "sourceHeading": "Q20 頻出数字・主体・改正注意"
+  },
+  "c161ea5c-c958-5d6f-ab36-57c3797e5561": {
+    "questionContext": "普通地方公共団体の議長・副議長について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "議長・副議長"
+  },
+  "4df3a863-89a3-5639-b220-859940c78878": {
+    "questionContext": "普通地方公共団体の議長・副議長について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "議長・副議長"
+  },
+  "08da3980-0198-566a-935c-018e3cd46f9e": {
+    "questionContext": "普通地方公共団体の議長・副議長について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "議長・副議長"
+  },
+  "d1e357a9-1cf1-57b4-9084-286379a2e852": {
+    "questionContext": "普通地方公共団体の議長・副議長について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "議長・副議長"
+  },
+  "64339682-f611-5207-b008-6f028d9f40f4": {
+    "questionContext": "普通地方公共団体の公聴会・参考人について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "公聴会・参考人"
+  },
+  "a8296f0a-2931-5eca-966c-a9453a5f5df1": {
+    "questionContext": "普通地方公共団体の公聴会・参考人について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "公聴会・参考人"
+  },
+  "31bb46cb-33f0-5de3-a35f-1d2cf808e417": {
+    "questionContext": "普通地方公共団体の公聴会・参考人について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "公聴会・参考人"
+  },
+  "9dc35fdc-2638-5f5a-bc6e-67bcac8c91ba": {
+    "questionContext": "普通地方公共団体の公聴会・参考人について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "公聴会・参考人"
+  },
+  "907a5360-8ad2-5482-a7d3-8ddda8f8ba6e": {
+    "questionContext": "普通地方公共団体の議員の議案提出について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "議員の議案提出"
+  },
+  "ef0b6a21-0d43-5ec0-aac2-f6019b692fd4": {
+    "questionContext": "普通地方公共団体の議員の議案提出について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "議員の議案提出"
+  },
+  "f8827596-9072-52b2-b80c-d84583524601": {
+    "questionContext": "普通地方公共団体の議員の議案提出について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "議員の議案提出"
+  },
+  "90803de5-4cb3-5c61-8521-3731c8fcb52a": {
+    "questionContext": "普通地方公共団体の議員の議案提出について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "議員の議案提出"
+  },
+  "7ff87025-8716-5e31-b0db-cd123b23cc42": {
+    "questionContext": "普通地方公共団体の招集・会期について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "招集・会期"
+  },
+  "b7333adb-61b1-5c25-843a-9a574d54e695": {
+    "questionContext": "普通地方公共団体の招集・会期について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "招集・会期"
+  },
+  "944e35ce-9275-57a0-9474-4008ee51ac70": {
+    "questionContext": "普通地方公共団体の招集・会期について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "招集・会期"
+  },
+  "dc016613-6456-52d5-84b2-929df4d9b28b": {
+    "questionContext": "普通地方公共団体の招集・会期について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "招集・会期"
+  },
+  "7e6125c3-9591-5056-a85d-b1a198d31cc7": {
+    "questionContext": "普通地方公共団体の議決事件・予算修正・通常議決について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "議決事件・予算修正・通常議決"
+  },
+  "94269a55-8690-5544-a2cd-c388a23530f0": {
+    "questionContext": "普通地方公共団体の議決事件・予算修正・通常議決について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "議決事件・予算修正・通常議決"
+  },
+  "5b811e4f-c7f4-5a44-a395-869358029caf": {
+    "questionContext": "普通地方公共団体の議決事件・予算修正・通常議決について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "議決事件・予算修正・通常議決"
+  },
+  "094ab00d-5aec-52ae-a409-24c8079abeb3": {
+    "questionContext": "普通地方公共団体の議決事件・予算修正・通常議決について、次の記述の正誤を判断してください。",
+    "originLabel": "補完問題・過去問論点参考",
+    "referenceDateLabel": "条文確認：2026-10-03",
+    "judgmentAsOf": "2026-10-03",
+    "sourceDocument": "council-supplement.json",
+    "sourceHeading": "議決事件・予算修正・通常議決"
   }
 }
