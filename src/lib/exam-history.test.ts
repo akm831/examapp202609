@@ -27,13 +27,24 @@ describe("past exam provenance and added questions",()=>{
       }
     }
   });
-  it("adds exactly twenty stable council IDs and accepts all 613 items",()=>{
+  it("adds exactly twenty stable council IDs and accepts all 637 items",()=>{
     const additions=master.items.filter(i=>i.questionGroup==="議会補完2026");
     expect(additions).toHaveLength(20);
     expect(additions.filter(i=>i.correctJudgment)).toHaveLength(10);
     expect(new Set(additions.map(i=>i.id)).size).toBe(20);
-    expect(createSessionSchema.safeParse({mode:"RANDOM",requestedCount:613}).success).toBe(true);
-    expect(createSessionSchema.safeParse({mode:"RANDOM",requestedCount:614}).success).toBe(false);
+    expect(createSessionSchema.safeParse({mode:"RANDOM",requestedCount:637}).success).toBe(true);
+    expect(createSessionSchema.safeParse({mode:"RANDOM",requestedCount:638}).success).toBe(false);
+  });
+  it("adds the approved public-service draft with reviewed topic evidence",()=>{
+    const additions=master.items.filter(i=>i.questionGroup==="公務員法補完2026");
+    expect(additions).toHaveLength(24);
+    expect(additions.filter(i=>i.correctJudgment)).toHaveLength(12);
+    expect(master.items.filter(i=>i.subject==="地方公務員法")).toHaveLength(216);
+    const voting=additions.find(i=>i.sourceItemNumber===8)!;
+    expect(examHistoryFor(voting.id)?.topic?.recordCount).toBe(0);
+    expect(examHistoryFor(voting.id)?.relatedArticles.recordCount).toBeGreaterThan(0);
+    const agreement=additions.find(i=>i.sourceItemNumber===13)!;
+    expect(examHistoryFor(agreement.id)?.topic?.rows.map(r=>r.row)).toEqual([471,482,488,490,492]);
   });
   it("keeps other subjects free of law DB evidence",()=>{
     for(const item of master.items.filter(i=>!["地方自治法","地方公務員法"].includes(i.subject)))expect(examHistoryFor(item.id)).toBeNull();

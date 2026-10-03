@@ -1,0 +1,793 @@
+{
+  "asOf": "2026-10-03",
+  "sourceFile": "horitsudb_2026.xlsx",
+  "sheet": "地方公務員法",
+  "dbRecords": 602,
+  "appItems": 192,
+  "scope": "DB収録肢と既存問題文・解説の論点比較。全試験範囲の網羅率は算出しない。",
+  "groups": [
+    {
+      "topic": "給与の通貨・直接・全額払い、支払時期",
+      "dbRows": [
+        165,
+        167,
+        168,
+        172,
+        173,
+        175
+      ],
+      "recordCount": 6,
+      "years": [
+        "H8",
+        "H11",
+        "H14",
+        "H18"
+      ],
+      "yearCount": 4,
+      "existingItems": [],
+      "coverage": "直接問う問題なし",
+      "priority": "高",
+      "note": "25条2項の例外を含めて補完。毎月払い・罰則は労基法等の適用確認も必要。"
+    },
+    {
+      "topic": "給与条例主義の本則と給料以外の給与への適用",
+      "dbRows": [
+        169,
+        174
+      ],
+      "recordCount": 2,
+      "years": [
+        "H8",
+        "H18"
+      ],
+      "yearCount": 2,
+      "existingItems": [
+        {
+          "id": "523d9b0f-940c-5102-a3e8-cde457187316",
+          "sourceItemKey": "local-public-service-law:標準問題7-給与-勤務条件:5",
+          "auditNumber": 49
+        },
+        {
+          "id": "38801e07-057d-5499-9343-fac8936540bb",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問肢-給与該当性の具体例:2",
+          "auditNumber": 51
+        },
+        {
+          "id": "b756fa9c-22e2-5943-9416-beab64579e7a",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問肢-給与該当性の具体例:3",
+          "auditNumber": 52
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "中",
+      "note": "被服・表彰の例外問題はあるが、本則を直接問う問題は薄い。"
+    },
+    {
+      "topic": "給料表の年1回報告と勧告の区別",
+      "dbRows": [
+        179,
+        180,
+        181,
+        182,
+        183
+      ],
+      "recordCount": 5,
+      "years": [
+        "H8",
+        "H9",
+        "H14",
+        "H22"
+      ],
+      "yearCount": 4,
+      "existingItems": [
+        {
+          "id": "12ba945c-d87a-51d2-b633-96eabed9104a",
+          "sourceItemKey": "local-public-service-law:標準問題2-平等取扱い-情勢適応:3",
+          "auditNumber": 12
+        },
+        {
+          "id": "77df1303-c691-56d5-9268-97dadad7383c",
+          "sourceItemKey": "local-public-service-law:標準問題2-平等取扱い-情勢適応:4",
+          "auditNumber": 13
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "高",
+      "note": "14条の情勢適応勧告は収録。26条の報告頻度・宛先・勧告が必須かは直接未収録。"
+    },
+    {
+      "topic": "職員団体の登録要件・構成員の例外",
+      "dbRows": [
+        452,
+        461,
+        462,
+        466
+      ],
+      "recordCount": 4,
+      "years": [
+        "H3",
+        "H5",
+        "H14",
+        "H17",
+        "R1"
+      ],
+      "yearCount": 5,
+      "existingItems": [
+        {
+          "id": "2b235852-e407-5e01-b930-8b92b17430ea",
+          "sourceItemKey": "local-public-service-law:標準問題21-職員団体:3",
+          "auditNumber": 184
+        },
+        {
+          "id": "e0438ece-5a1a-52ae-af0d-33f4780fad47",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問-r5-職員団体-在籍専従:3",
+          "auditNumber": 189
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "高",
+      "note": "申請先・団体該当性はあるが、投票要件、免職者・非職員役員の例外がない。"
+    },
+    {
+      "topic": "登録の変更届・停止・取消し",
+      "dbRows": [
+        463,
+        467,
+        468
+      ],
+      "recordCount": 3,
+      "years": [
+        "H14",
+        "H21",
+        "H23"
+      ],
+      "yearCount": 3,
+      "existingItems": [
+        {
+          "id": "2b235852-e407-5e01-b930-8b92b17430ea",
+          "sourceItemKey": "local-public-service-law:標準問題21-職員団体:3",
+          "auditNumber": 184
+        }
+      ],
+      "coverage": "直接問う問題なし",
+      "priority": "中",
+      "note": "停止期間、取消しの効力発生、変更届。法人格は別法も確認。"
+    },
+    {
+      "topic": "団体協約と書面協定の違い・履行",
+      "dbRows": [
+        471,
+        481,
+        482,
+        486,
+        487,
+        488,
+        490,
+        492
+      ],
+      "recordCount": 8,
+      "years": [
+        "H1",
+        "H3",
+        "H6",
+        "H8",
+        "H12",
+        "H23",
+        "R1"
+      ],
+      "yearCount": 7,
+      "existingItems": [
+        {
+          "id": "4133e3c8-2619-5c77-887c-ace0cdf08407",
+          "sourceItemKey": "local-public-service-law:標準問題21-職員団体:4",
+          "auditNumber": 185
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "高",
+      "note": "団体協約締結権なしはある。書面協定を結べること、締結は任意、誠意と責任による履行が未収録。"
+    },
+    {
+      "topic": "交渉担当者・役員以外の者の例外",
+      "dbRows": [
+        473,
+        478,
+        485,
+        489
+      ],
+      "recordCount": 4,
+      "years": [
+        "H4",
+        "H5",
+        "H12",
+        "H14"
+      ],
+      "yearCount": 4,
+      "existingItems": [],
+      "coverage": "直接問う問題なし",
+      "priority": "高",
+      "note": "55条5・6項の特別の事情、文書による委任証明。"
+    },
+    {
+      "topic": "予備交渉・打切り",
+      "dbRows": [
+        470,
+        479,
+        480,
+        491,
+        496,
+        501
+      ],
+      "recordCount": 6,
+      "years": [
+        "H4",
+        "H12",
+        "H14",
+        "H17",
+        "H21",
+        "H23"
+      ],
+      "yearCount": 6,
+      "existingItems": [
+        {
+          "id": "fe6e7e44-334a-5a53-a7cb-671e0c0d9739",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問-r5-職員団体-在籍専従:4",
+          "auditNumber": 190
+        }
+      ],
+      "coverage": "直接問う問題なし",
+      "priority": "高",
+      "note": "勤務時間内交渉は収録。議題・時間・場所の事前取決め、打切り「できる」が未収録。個別事例は原典確認。"
+    },
+    {
+      "topic": "交渉の当局・附帯する厚生事項",
+      "dbRows": [
+        472,
+        476
+      ],
+      "recordCount": 2,
+      "years": [
+        "H6",
+        "H8",
+        "H12"
+      ],
+      "yearCount": 3,
+      "existingItems": [
+        {
+          "id": "36d4dcc7-b0c2-5376-824b-d4b1bdf9ebc7",
+          "sourceItemKey": "local-public-service-law:標準問題21-職員団体:5",
+          "auditNumber": 186
+        },
+        {
+          "id": "fe6e7e44-334a-5a53-a7cb-671e0c0d9739",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問-r5-職員団体-在籍専従:4",
+          "auditNumber": 190
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "中",
+      "note": "管理運営事項除外はある。附帯する厚生事項、適法に管理・決定できる当局の範囲を補完。"
+    },
+    {
+      "topic": "未登録団体と交渉義務",
+      "dbRows": [
+        475,
+        493,
+        495,
+        498,
+        499
+      ],
+      "recordCount": 5,
+      "years": [
+        "H1",
+        "H4",
+        "H6",
+        "H8",
+        "R1"
+      ],
+      "yearCount": 5,
+      "existingItems": [
+        {
+          "id": "fe6e7e44-334a-5a53-a7cb-671e0c0d9739",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問-r5-職員団体-在籍専従:4",
+          "auditNumber": 190
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "中",
+      "note": "登録団体への対応義務はあるが、未登録との区別を直接問う問題なし。"
+    },
+    {
+      "topic": "在籍専従期間の上限",
+      "dbRows": [
+        502
+      ],
+      "recordCount": 1,
+      "years": [
+        "H1"
+      ],
+      "yearCount": 1,
+      "existingItems": [
+        {
+          "id": "3c9046db-f18e-54cf-93f8-2d10fdfc75e4",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問-r5-職員団体-在籍専従:5",
+          "auditNumber": 191
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "中",
+      "note": "無給・退職手当不算入はある。5年、労組専従期間の控除がない。"
+    },
+    {
+      "topic": "上位・下位の上司の命令が矛盾した場合",
+      "dbRows": [
+        280,
+        285,
+        286
+      ],
+      "recordCount": 3,
+      "years": [
+        "H1",
+        "H10",
+        "H12",
+        "H20",
+        "H25"
+      ],
+      "yearCount": 5,
+      "existingItems": [
+        {
+          "id": "9eff93bf-1b72-5a57-9ede-d7fda5c2e53d",
+          "sourceItemKey": "local-public-service-law:標準問題15-服務横断-営利企業等従事制限-頻出:2",
+          "auditNumber": 113
+        },
+        {
+          "id": "3431fbf6-75dc-566d-8081-42aad2c3579a",
+          "sourceItemKey": "local-public-service-law:行政実例補完6-法令等及び上司の職務上の命令:5",
+          "auditNumber": 121
+        }
+      ],
+      "coverage": "直接問う問題なし",
+      "priority": "高",
+      "note": "一般的な服従義務はあるが、命令の優先順位はない。解釈・行政実例の原典確認を要する。"
+    },
+    {
+      "topic": "職務命令の権限・実行可能性・重大明白な瑕疵",
+      "dbRows": [
+        281,
+        284,
+        287,
+        288,
+        292,
+        294,
+        298,
+        299
+      ],
+      "recordCount": 8,
+      "years": [
+        "H1",
+        "H2",
+        "H10",
+        "H12",
+        "H15",
+        "H23",
+        "H25"
+      ],
+      "yearCount": 7,
+      "existingItems": [
+        {
+          "id": "3271727e-4d62-5c79-be51-83f907610530",
+          "sourceItemKey": "local-public-service-law:行政実例補完6-法令等及び上司の職務上の命令:3",
+          "auditNumber": 119
+        },
+        {
+          "id": "91ea2d90-07de-5fe7-a40e-cb9b3e50cfed",
+          "sourceItemKey": "local-public-service-law:行政実例補完6-法令等及び上司の職務上の命令:4",
+          "auditNumber": 120
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "高",
+      "note": "宿日直命令など個別問題はあるが、有効要件と違法命令の一般整理がない。原典確認を要する。"
+    },
+    {
+      "topic": "職務命令の形式・口頭命令",
+      "dbRows": [
+        282,
+        295,
+        302
+      ],
+      "recordCount": 3,
+      "years": [
+        "H10",
+        "H12",
+        "H15",
+        "H23"
+      ],
+      "yearCount": 4,
+      "existingItems": [],
+      "coverage": "直接問う問題なし",
+      "priority": "中",
+      "note": "文書と口頭の関係を補完。解釈の原典確認を要する。"
+    },
+    {
+      "topic": "秘密の範囲・所管外秘密・形式的指定",
+      "dbRows": [
+        312,
+        317,
+        327,
+        331
+      ],
+      "recordCount": 4,
+      "years": [
+        "H5",
+        "H14",
+        "H18"
+      ],
+      "yearCount": 3,
+      "existingItems": [
+        {
+          "id": "f12b6b5c-f728-5069-92ba-53a704dcb45c",
+          "sourceItemKey": "local-public-service-law:標準問題14-服務-秘密保持-職務専念-政治的行為-争議行為-頻出:1",
+          "auditNumber": 98
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "高",
+      "note": "退職後守秘義務はある。秘密の実質的判断と所管外秘密は未収録。原典確認を要する。"
+    },
+    {
+      "topic": "退職者が証人になる場合の許可主体",
+      "dbRows": [
+        318,
+        325
+      ],
+      "recordCount": 2,
+      "years": [
+        "H14",
+        "H20"
+      ],
+      "yearCount": 2,
+      "existingItems": [
+        {
+          "id": "f12b6b5c-f728-5069-92ba-53a704dcb45c",
+          "sourceItemKey": "local-public-service-law:標準問題14-服務-秘密保持-職務専念-政治的行為-争議行為-頻出:1",
+          "auditNumber": 98
+        },
+        {
+          "id": "b35529be-fb63-570a-ba99-25e151682861",
+          "sourceItemKey": "local-public-service-law:標準問題14-服務-秘密保持-職務専念-政治的行為-争議行為-頻出:2",
+          "auditNumber": 99
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "中",
+      "note": "現職の許可・退職後守秘はあるが、退職した職等に係る任命権者という許可主体は未収録。"
+    },
+    {
+      "topic": "無報酬でも営利企業の役員となる場合",
+      "dbRows": [
+        413,
+        416
+      ],
+      "recordCount": 2,
+      "years": [
+        "H2",
+        "H17"
+      ],
+      "yearCount": 2,
+      "existingItems": [
+        {
+          "id": "b85665c7-1ba3-5088-8a9b-f84e468f4f34",
+          "sourceItemKey": "local-public-service-law:標準問題15-服務横断-営利企業等従事制限-頻出:4",
+          "auditNumber": 115
+        },
+        {
+          "id": "99eb0af6-d4e0-5137-9f5d-d076ed775b2d",
+          "sourceItemKey": "local-public-service-law:行政実例補完5-営利企業への従事等の制限:3",
+          "auditNumber": 124
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "高",
+      "note": "非営利生協の無報酬役員はあるが、営利企業との対比を直接問う問題はない。"
+    },
+    {
+      "topic": "兼業許可と職務専念義務免除の区別",
+      "dbRows": [
+        418,
+        426
+      ],
+      "recordCount": 2,
+      "years": [
+        "H17",
+        "H20"
+      ],
+      "yearCount": 2,
+      "existingItems": [
+        {
+          "id": "35901c80-c463-54a0-940b-8fe7a910578e",
+          "sourceItemKey": "local-public-service-law:標準問題14-服務-秘密保持-職務専念-政治的行為-争議行為-頻出:3",
+          "auditNumber": 100
+        },
+        {
+          "id": "db7d4798-2ddd-5b9a-b5ef-fc9b76c21387",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問肢-職務専念義務-政治的行為:1",
+          "auditNumber": 108
+        },
+        {
+          "id": "fd452732-1581-5c8e-8275-b3cd1105e8e8",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問肢-職務専念義務-政治的行為:2",
+          "auditNumber": 109
+        },
+        {
+          "id": "878d2f7b-9757-5dd9-bd0a-88fd7e0f4827",
+          "sourceItemKey": "local-public-service-law:行政実例補完5-営利企業への従事等の制限:1",
+          "auditNumber": 122
+        },
+        {
+          "id": "7388be35-0e9c-5fcc-9b30-b6204a4450df",
+          "sourceItemKey": "local-public-service-law:行政実例補完5-営利企業への従事等の制限:4",
+          "auditNumber": 125
+        }
+      ],
+      "coverage": "直接問う問題なし",
+      "priority": "中",
+      "note": "二つの許可は既存で別々に扱う。両者の関係を直接問う問題なし。行政実例の原典確認を要する。"
+    },
+    {
+      "topic": "条件付・臨時任用職員の不服申立ての適用除外",
+      "dbRows": [
+        132,
+        142,
+        146,
+        266,
+        267,
+        570,
+        571
+      ],
+      "recordCount": 7,
+      "years": [
+        "H4",
+        "H5",
+        "H14",
+        "H16",
+        "H18",
+        "H20"
+      ],
+      "yearCount": 6,
+      "existingItems": [
+        {
+          "id": "ba7befbe-3013-5313-a2e7-f5243d7e6d76",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問-r1-条件付採用-臨時的任用:5",
+          "auditNumber": 39
+        },
+        {
+          "id": "3d01840d-25b6-5c0f-aa36-dab4fdfab232",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問-r3-措置要求:1",
+          "auditNumber": 152
+        },
+        {
+          "id": "7b3864e9-10f9-5b31-b346-c291c95ae718",
+          "sourceItemKey": "local-public-service-law:行政実例補完2-措置要求をすることができる者:1",
+          "auditNumber": 157
+        },
+        {
+          "id": "225303e6-b11f-5fcb-872b-cc014507ac01",
+          "sourceItemKey": "local-public-service-law:行政実例補完2-措置要求をすることができる者:2",
+          "auditNumber": 158
+        },
+        {
+          "id": "2097441c-1eea-5bbc-8975-5d066ad8882a",
+          "sourceItemKey": "local-public-service-law:標準問題19-不利益処分の審査請求:3",
+          "auditNumber": 169
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "高",
+      "note": "措置要求できることは補完済み。審査請求との対比を直接問う独立問題がない。29条の2で確認。"
+    },
+    {
+      "topic": "口頭審理の公開請求",
+      "dbRows": [
+        567,
+        568,
+        593,
+        596
+      ],
+      "recordCount": 4,
+      "years": [
+        "H8",
+        "H10",
+        "H16",
+        "H20"
+      ],
+      "yearCount": 4,
+      "existingItems": [
+        {
+          "id": "a117e0f5-fab6-5f57-ad06-c9f01e072e9e",
+          "sourceItemKey": "local-public-service-law:標準問題18-措置要求:2",
+          "auditNumber": 148
+        },
+        {
+          "id": "e3f336ee-e321-5a46-940b-44d5ecb51c58",
+          "sourceItemKey": "local-public-service-law:標準問題19-不利益処分の審査請求:5",
+          "auditNumber": 171
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "高",
+      "note": "口頭審理請求はあるが、請求があれば公開という要件がない。"
+    },
+    {
+      "topic": "裁決前置・取消訴訟",
+      "dbRows": [
+        598,
+        601
+      ],
+      "recordCount": 2,
+      "years": [
+        "H4",
+        "H8"
+      ],
+      "yearCount": 2,
+      "existingItems": [
+        {
+          "id": "d701a4e6-f8ac-5e60-83fc-92be14bd08f5",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問-r2-不利益処分に関する審査請求:5",
+          "auditNumber": 176
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "高",
+      "note": "裁決後の出訴はあるが、裁決を経る必要を直接問う問題なし。"
+    },
+    {
+      "topic": "措置要求の一事不再理",
+      "dbRows": [
+        529,
+        534,
+        535,
+        536,
+        549,
+        550
+      ],
+      "recordCount": 6,
+      "years": [
+        "H7",
+        "H8",
+        "H13",
+        "H17",
+        "H23",
+        "H25"
+      ],
+      "yearCount": 6,
+      "existingItems": [],
+      "coverage": "直接問う問題なし",
+      "priority": "中",
+      "note": "措置要求の主体・対象は充実。一事不再理の解釈を原典確認して補完。"
+    },
+    {
+      "topic": "措置要求の取下げ・再要求",
+      "dbRows": [
+        516,
+        519,
+        546
+      ],
+      "recordCount": 3,
+      "years": [
+        "H3",
+        "H13",
+        "H19"
+      ],
+      "yearCount": 3,
+      "existingItems": [],
+      "coverage": "直接問う問題なし",
+      "priority": "中",
+      "note": "取下げと判定後の再要求を区別。原典確認を要する。"
+    },
+    {
+      "topic": "分限と懲戒の目的・故意過失・裁量",
+      "dbRows": [
+        195,
+        219,
+        220,
+        224,
+        255,
+        259,
+        260
+      ],
+      "recordCount": 7,
+      "years": [
+        "H3",
+        "H5",
+        "H6",
+        "H13",
+        "H14",
+        "H19"
+      ],
+      "yearCount": 6,
+      "existingItems": [
+        {
+          "id": "7ec29276-ff65-5cb0-ab3d-aadd8fd33a06",
+          "sourceItemKey": "local-public-service-law:標準問題9-分限-懲戒:1",
+          "auditNumber": 58
+        },
+        {
+          "id": "425d14d8-e9a5-5642-ba4b-bb1d490470a2",
+          "sourceItemKey": "local-public-service-law:標準問題9-分限-懲戒:3",
+          "auditNumber": 60
+        },
+        {
+          "id": "139dda98-0f28-56d7-89c4-3d0cde9e4478",
+          "sourceItemKey": "local-public-service-law:行政実例補完1-懲戒処分の相互関係等:3",
+          "auditNumber": 70
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "中",
+      "note": "種類・事由・併科は収録。制度目的と懲戒裁量の一般整理が薄い。"
+    },
+    {
+      "topic": "人事委員会の委任できない権限",
+      "dbRows": [
+        17,
+        569,
+        603
+      ],
+      "recordCount": 3,
+      "years": [
+        "H8",
+        "H15",
+        "H18"
+      ],
+      "yearCount": 3,
+      "existingItems": [
+        {
+          "id": "1e24b0a0-3d80-5d45-ad8f-84a1a01850ee",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問肢:3",
+          "auditNumber": 8
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "中",
+      "note": "試験等の委任はあるが、措置要求・裁決の委任制限がない。"
+    },
+    {
+      "topic": "欠格条項の他の法定事由",
+      "dbRows": [
+        55,
+        58,
+        59,
+        72
+      ],
+      "recordCount": 4,
+      "years": [
+        "H2",
+        "H9",
+        "H13",
+        "H16"
+      ],
+      "yearCount": 4,
+      "existingItems": [
+        {
+          "id": "8772ac10-e833-5258-96f1-405cb14565c3",
+          "sourceItemKey": "local-public-service-law:標準問題2-平等取扱い-情勢適応:2",
+          "auditNumber": 11
+        },
+        {
+          "id": "45144352-d976-58c9-9977-4174c2261b8b",
+          "sourceItemKey": "local-public-service-law:標準問題3-任用-欠格条項:2",
+          "auditNumber": 16
+        },
+        {
+          "id": "df2e1ecb-f220-53c6-b35b-90ab06366fab",
+          "sourceItemKey": "local-public-service-law:応用問題-札幌市実過去問-r3-任用-欠格等:4",
+          "auditNumber": 23
+        }
+      ],
+      "coverage": "部分収録",
+      "priority": "中",
+      "note": "拘禁刑・懲戒免職はある。委員の犯罪、暴力破壊団体の結成加入の具体的事由は薄い。"
+    }
+  ]
+}
