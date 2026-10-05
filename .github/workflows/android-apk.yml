@@ -1,0 +1,60 @@
+name: Android offline APK
+on:
+  push:
+    branches: ['main']
+    paths: ['mobile/**', 'data/**', 'src/app/globals.css', '.github/workflows/android-apk.yml']
+  pull_request:
+    paths: ['mobile/**', 'data/**', 'src/app/globals.css', '.github/workflows/android-apk.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
+          log-accepted-android-sdk-licenses: false
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+      - name: Bundle reviewed questions and textbooks
+        run: python3 mobile/build_assets.py
+      - name: Test history import, persistence and review logic
+        run: node --test mobile/web/core.test.cjs mobile/web/app.test.cjs
+      - name: Install Android SDK
+        run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
+      - name: Build installable APK
+        working-directory: mobile/android
+        run: gradle --no-daemon :app:assembleDebug :app:assembleDebugAndroidTest :app:lintDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: examapp-offline-android
+          path: mobile/android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 30
+      - name: Enable emulator acceleration
+        run: sudo chmod a+rw /dev/kvm
+      - name: Verify import confirmation on Android
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          arch: x86_64
+          target: google_apis
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
+          script: |
+            adb install -r mobile/android/app/build/outputs/apk/debug/app-debug.apk
+            adb install -r mobile/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+            adb shell am instrument -w jp.examapp.offline.test/jp.examapp.offline.ImportInstrumentation | tee import-test.log
+            python3 -c "assert 'CSV_IMPORT_TEST_OK' in open('import-test.log').read(), 'Android import regression failed'"
