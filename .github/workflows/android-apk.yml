@@ -36,10 +36,25 @@ jobs:
         run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
       - name: Build installable APK
         working-directory: mobile/android
-        run: gradle --no-daemon :app:assembleDebug :app:lintDebug
+        run: gradle --no-daemon :app:assembleDebug :app:assembleDebugAndroidTest :app:lintDebug
       - uses: actions/upload-artifact@v4
         with:
           name: examapp-offline-android
           path: mobile/android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 30
+      - name: Enable emulator acceleration
+        run: sudo chmod a+rw /dev/kvm
+      - name: Verify import confirmation on Android
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          arch: x86_64
+          target: google_apis
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
+          script: |
+            adb install -r mobile/android/app/build/outputs/apk/debug/app-debug.apk
+            adb install -r mobile/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+            adb shell am instrument -w jp.examapp.offline.test/jp.examapp.offline.ImportInstrumentation | tee import-test.log
+            python3 -c "assert 'CSV_IMPORT_TEST_OK' in open('import-test.log').read(), 'Android import regression failed'"

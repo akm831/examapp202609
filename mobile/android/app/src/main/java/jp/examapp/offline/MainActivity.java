@@ -9,6 +9,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
 import android.os.Bundle;
 import android.webkit.JavascriptInterface;
+import android.webkit.JsResult;
+import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebView;
@@ -53,6 +55,19 @@ public class MainActivity extends Activity {
         web.getSettings().setMixedContentMode(android.webkit.WebSettings.MIXED_CONTENT_NEVER_ALLOW);
         web.getSettings().setSupportMultipleWindows(false);
         web.addJavascriptInterface(new Storage(), "Android");
+        web.setWebChromeClient(new WebChromeClient() {
+            @Override public boolean onJsConfirm(WebView view, String url, String message, JsResult result) {
+                if (!url.equals(ORIGIN + "index.html") || isFinishing()) { result.cancel(); return true; }
+                new AlertDialog.Builder(MainActivity.this)
+                    .setTitle("確認")
+                    .setMessage(message)
+                    .setPositiveButton("実行", (dialog, which) -> result.confirm())
+                    .setNegativeButton("キャンセル", (dialog, which) -> result.cancel())
+                    .setOnCancelListener(dialog -> result.cancel())
+                    .show();
+                return true;
+            }
+        });
         web.setWebViewClient(new WebViewClient() {
             @Override public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest req) {
                 return !req.getUrl().toString().equals(ORIGIN + "index.html");
@@ -103,7 +118,7 @@ public class MainActivity extends Activity {
         super.onActivityResult(request,result,data);
         if (result != RESULT_OK || data == null || data.getData() == null) { if(request==EXPORT)pendingExport=null; return; }
         Uri uri = data.getData();
-        if(request==IMPORT) files.execute(() -> {
+        if(request==IMPORT) { notice("ファイルを読み込み中…"); files.execute(() -> {
             try(InputStream in=getContentResolver().openInputStream(uri);ByteArrayOutputStream out=new ByteArrayOutputStream()) {
                 byte[] buffer=new byte[8192]; int n;
                 while((n=in.read(buffer))!=-1) { if(out.size()+n>20*1024*1024)throw new Exception("too large"); out.write(buffer,0,n); }
@@ -111,6 +126,7 @@ public class MainActivity extends Activity {
                 runOnUiThread(() -> web.evaluateJavascript("window.receiveImport("+JSONObject.quote(text)+")",null));
             } catch(Exception e) { notice("ファイルを読み込めませんでした。20MB以下のCSV・JSONを選んでください。"); }
         });
+        }
         if(request==EXPORT) { final String text=pendingExport; pendingExport=null; files.execute(() -> {
             if(text==null){notice("書き出しを再実行してください。");return;}
             try(OutputStream out=getContentResolver().openOutputStream(uri,"wt")) { out.write(text.getBytes(StandardCharsets.UTF_8)); out.flush(); notice("バックアップを書き出しました。"); }
