@@ -1,7 +1,7 @@
 name: Android offline APK
 on:
   push:
-    branches: ['feat/android-offline', 'main']
+    branches: ['main']
     paths: ['mobile/**', 'data/**', 'src/app/globals.css', '.github/workflows/android-apk.yml']
   pull_request:
     paths: ['mobile/**', 'data/**', 'src/app/globals.css', '.github/workflows/android-apk.yml']
@@ -28,10 +28,10 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: '8.9'
-      - name: Test history import and review logic
-        run: node --test mobile/web/core.test.cjs
       - name: Bundle reviewed questions and textbooks
         run: python3 mobile/build_assets.py
+      - name: Test history import, persistence and review logic
+        run: node --test mobile/web/core.test.cjs mobile/web/app.test.cjs
       - name: Install Android SDK
         run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
       - name: Build installable APK
