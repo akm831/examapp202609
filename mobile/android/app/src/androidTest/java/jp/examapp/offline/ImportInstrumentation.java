@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.webkit.WebView;
 import org.json.JSONObject;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.TimeUnit;
 
 /** Exercises the real Android WebView/confirmation/SQLite path without third-party test libraries. */
 public class ImportInstrumentation extends Instrumentation {
@@ -25,8 +27,11 @@ public class ImportInstrumentation extends Instrumentation {
             runOnMainSync(() -> web = findWeb(activity.getWindow().getDecorView()));
             if (web == null) throw new AssertionError("WebView missing");
             boolean ready = false;
-            for(int i=0;i<100;i++) { Thread.sleep(100); if(hasText("スマホだけで")) { ready=true; break; } }
-            if(!ready)throw new AssertionError("App did not load");
+            for(int i=0;i<100;i++) {
+                Thread.sleep(300);
+                if("true".equals(js("Boolean(window.receiveImport && document.getElementById('app').textContent.includes('スマホだけで'))"))) { ready=true; break; }
+            }
+            if(!ready)throw new AssertionError("App did not load: "+js("document.body.innerText"));
             receive(); click("キャンセル"); Thread.sleep(500);
             if(attemptCount()!=0)throw new AssertionError("Cancel changed history");
             receive(); click("実行");
@@ -43,7 +48,11 @@ public class ImportInstrumentation extends Instrumentation {
     }
     private WebView findWeb(View v) { if(v instanceof WebView)return (WebView)v; if(v instanceof ViewGroup) { ViewGroup g=(ViewGroup)v; for(int i=0;i<g.getChildCount();i++){WebView w=findWeb(g.getChildAt(i));if(w!=null)return w;} }return null; }
     private void receive() { runOnMainSync(() -> web.evaluateJavascript("window.receiveImport("+JSONObject.quote(csv)+")",null)); }
-    private boolean hasText(String text) { AccessibilityNodeInfo root=getUiAutomation().getRootInActiveWindow(); return root!=null&&!root.findAccessibilityNodeInfosByText(text).isEmpty(); }
+    private String js(String code) throws Exception {
+        ArrayBlockingQueue<String> result = new ArrayBlockingQueue<>(1);
+        runOnMainSync(() -> web.evaluateJavascript(code, value -> result.offer(value)));
+        return result.poll(2, TimeUnit.SECONDS);
+    }
     private void click(String text) throws Exception {
         for(int i=0;i<100;i++) {
             AccessibilityNodeInfo root=getUiAutomation().getRootInActiveWindow();
